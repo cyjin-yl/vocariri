@@ -1,0 +1,253 @@
+{
+  "id": "PVOLT-C-7TIDIKc98",
+  "source_sha256": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849",
+  "script_sha256": "9d521cba2bfa804648dec6c2dd7ea02fcd96e447df9008ad611f511b07444366",
+  "generated_utc": "2026-09-27T12:44:00.921202+00:00",
+  "window_seconds": [
+    89.0,
+    101.0
+  ],
+  "minimum_selection_step_seconds": 0.5,
+  "filter": "select=between(t\\,89\\,101)*(isnan(prev_selected_t)+gte(t-prev_selected_t\\,0.5)),scale=400:-2,showinfo",
+  "pts_scope": "cached media file",
+  "evidence_state": "short_sequence_uninspected",
+  "frames": [
+    {
+      "file": "frame-001.jpg",
+      "index": 0,
+      "pts": 1093632,
+      "pts_seconds": 89.0,
+      "time_base": "1/12288",
+      "sha256": "786498c8aa33da091ad0e508ad9904f61b849187d60227da04bbf77697164aab",
+      "bytes": 24623
+    },
+    {
+      "file": "frame-002.jpg",
+      "index": 1,
+      "pts": 1099776,
+      "pts_seconds": 89.5,
+      "time_base": "1/12288",
+      "sha256": "11f0056b232c82737302fba5797da74d014fbce5540e4955e5207d03b7c98833",
+      "bytes": 24479
+    },
+    {
+      "file": "frame-003.jpg",
+      "index": 2,
+      "pts": 1105920,
+      "pts_seconds": 90.0,
+      "time_base": "1/12288",
+      "sha256": "b67b9887a7173641f53564aedf53b040c01fd5a8355489de1b427ee93afe0739",
+      "bytes": 27858
+    },
+    {
+      "file": "frame-004.jpg",
+      "index": 3,
+      "pts": 1112064,
+      "pts_seconds": 90.5,
+      "time_base": "1/12288",
+      "sha256": "c2b5ff31641ca987b9b167bf41a52d2d227af9774b4e25d9a8603ec5067473a6",
+      "bytes": 28266
+    },
+    {
+      "file": "frame-005.jpg",
+      "index": 4,
+      "pts": 1118208,
+      "pts_seconds": 91.0,
+      "time_base": "1/12288",
+      "sha256": "1b9d35dfff5723f814cc3fd5db1fb07604ef1993867b9d0e1dbe6df948b18085",
+      "bytes": 28762
+    },
+    {
+      "file": "frame-006.jpg",
+      "index": 5,
+      "pts": 1124352,
+      "pts_seconds": 91.5,
+      "time_base": "1/12288",
+      "sha256": "0965d0499e355dad55957644d6ac2faa75f4b5760af596a009bdaf7af5577cd9",
+      "bytes": 7807
+    },
+    {
+      "file": "frame-007.jpg",
+      "index": 6,
+      "pts": 1130496,
+      "pts_seconds": 92.0,
+      "time_base": "1/12288",
+      "sha256": "dcce467925542a8d385ff5d862fc7fd24ebffc11ed6faa54e1c2e5873d307d0c",
+      "bytes": 28711
+    },
+    {
+      "file": "frame-008.jpg",
+      "index": 7,
+      "pts": 1136640,
+      "pts_seconds": 92.5,
+      "time_base": "1/12288",
+      "sha256": "1732ea6603abb33e04b993517b3803b31a66fbfb20daff057e932d60ea3aead5",
+      "bytes": 29097
+    },
+    {
+      "file": "frame-009.jpg",
+      "index": 8,
+      "pts": 1142784,
+      "pts_seconds": 93.0,
+      "time_base": "1/12288",
+      "sha256": "6dee861a50435543bbf45a7694fdc3f4378f26a75701758643c588927f84eaca",
+      "bytes": 27486
+    },
+    {
+      "file": "frame-010.jpg",
+      "index": 9,
+      "pts": 1148928,
+      "pts_seconds": 93.5,
+      "time_base": "1/12288",
+      "sha256": "054c89b20587f2f3b0d536af44948b2872323a99b183421ba9519007fe8a1ab5",
+      "bytes": 26879
+    },
+    {
+      "file": "frame-011.jpg",
+      "index": 10,
+      "pts": 1155072,
+      "pts_seconds": 94.0,
+      "time_base": "1/12288",
+      "sha256": "4370e73f186b5a8a908ec59d355fbc04fe00346267d3f05e43d92c24b7454628",
+      "bytes": 26545
+    },
+    {
+      "file": "frame-012.jpg",
+      "index": 11,
+      "pts": 1161216,
+      "pts_seconds": 94.5,
+      "time_base": "1/12288",
+      "sha256": "f9412a6a06df66352ccccb04b71b242827551b8a1a746cd71483870061eecd5c",
+      "bytes": 26223
+    },
+    {
+      "file": "frame-013.jpg",
+      "index": 12,
+      "pts": 1167360,
+      "pts_seconds": 95.0,
+      "time_base": "1/12288",
+      "sha256": "e19266058d4fbe4f14da1adc45d922c263b64bd174b164baad087189c4850d75",
+      "bytes": 25389
+    },
+    {
+      "file": "frame-014.jpg",
+      "index": 13,
+      "pts": 1173504,
+      "pts_seconds": 95.5,
+      "time_base": "1/12288",
+      "sha256": "2f1eb83fc717d46da0c5dacac143afdfd32f7b352d4fac847e8bf7bf13ff9a02",
+      "bytes": 24837
+    },
+    {
+      "file": "frame-015.jpg",
+      "index": 14,
+      "pts": 1179648,
+      "pts_seconds": 96.0,
+      "time_base": "1/12288",
+      "sha256": "3cbea13a87a34d2e3178e3cbaf74ee6f2ed28d16a078bc315501b5384263729e",
+      "bytes": 24079
+    },
+    {
+      "file": "frame-016.jpg",
+      "index": 15,
+      "pts": 1185792,
+      "pts_seconds": 96.5,
+      "time_base": "1/12288",
+      "sha256": "021b999f2793599897e0f14d4ff11082258a28be842d555884755b313f2fabd9",
+      "bytes": 22193
+    },
+    {
+      "file": "frame-017.jpg",
+      "index": 16,
+      "pts": 1191936,
+      "pts_seconds": 97.0,
+      "time_base": "1/12288",
+      "sha256": "f12c0cb18b5b076d8e79222a365f29eeb1cc504313a468263a196dbcd7402167",
+      "bytes": 21072
+    },
+    {
+      "file": "frame-018.jpg",
+      "index": 17,
+      "pts": 1198080,
+      "pts_seconds": 97.5,
+      "time_base": "1/12288",
+      "sha256": "d514ab3f86d4c13b475f5052c1d9ed2ab85d6c3ddd6435d7de6df55b4c0e9741",
+      "bytes": 20593
+    },
+    {
+      "file": "frame-019.jpg",
+      "index": 18,
+      "pts": 1204224,
+      "pts_seconds": 98.0,
+      "time_base": "1/12288",
+      "sha256": "2a3f1c246c62d8fcde937a9869fc36245a10c61e39189f61727398370cf840d1",
+      "bytes": 20497
+    },
+    {
+      "file": "frame-020.jpg",
+      "index": 19,
+      "pts": 1210368,
+      "pts_seconds": 98.5,
+      "time_base": "1/12288",
+      "sha256": "50bc28e2eddaf5360b5373973c9f4e833fb1937c53f12e3ecaeee499dca71db1",
+      "bytes": 28903
+    },
+    {
+      "file": "frame-021.jpg",
+      "index": 20,
+      "pts": 1216512,
+      "pts_seconds": 99.0,
+      "time_base": "1/12288",
+      "sha256": "126a72b0bd8321ac3c68968ede953f581a06b1574788a12d4612d18726857e8b",
+      "bytes": 25667
+    },
+    {
+      "file": "frame-022.jpg",
+      "index": 21,
+      "pts": 1222656,
+      "pts_seconds": 99.5,
+      "time_base": "1/12288",
+      "sha256": "5ea03bc9353d9c65291aa3d13bf3e776cb56120625e3e2b0ab3bac4327dc0da8",
+      "bytes": 9103
+    },
+    {
+      "file": "frame-023.jpg",
+      "index": 22,
+      "pts": 1228800,
+      "pts_seconds": 100.0,
+      "time_base": "1/12288",
+      "sha256": "a7f44a41799bd846cb26756a217b3c89338590c4a81b60bb38abba6f0feb5a90",
+      "bytes": 9725
+    },
+    {
+      "file": "frame-024.jpg",
+      "index": 23,
+      "pts": 1234944,
+      "pts_seconds": 100.5,
+      "time_base": "1/12288",
+      "sha256": "a7bfadc5a9870401b01e6fc6343e6d34f17ff71c58d634f64ca141a3c68c5434",
+      "bytes": 14733
+    },
+    {
+      "file": "frame-025.jpg",
+      "index": 24,
+      "pts": 1241088,
+      "pts_seconds": 101.0,
+      "time_base": "1/12288",
+      "sha256": "280a9a0bbb9ebe1fc1bf262e59e00598d1b7938450c0772620c6e9340e62e9ad",
+      "bytes": 17735
+    }
+  ],
+  "sheets": [
+    {
+      "file": "sheet-00.jpg",
+      "bytes": 600919,
+      "sha256": "b3162fc18efcad9156027608d1e2f5758e47869098cf3cfcdae2c5171ad03a74"
+    },
+    {
+      "file": "sheet-01.jpg",
+      "bytes": 122420,
+      "sha256": "197e564724aa8545173d0a5bfa64bf29db25d236f53075b4f134f5cf04000c0e"
+    }
+  ]
+}

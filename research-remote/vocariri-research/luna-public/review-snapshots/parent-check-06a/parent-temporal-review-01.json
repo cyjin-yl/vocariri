@@ -1,0 +1,113 @@
+{
+  "reviewed_at": "2026-09-24T13:06:20.608675+00:00",
+  "reviewed_intervals": 3,
+  "native_frames": 192,
+  "accepted_production_templates": 0,
+  "reviews": [
+    {
+      "id": "TEMP-REVIEW-001",
+      "excerpt": "BV1k72LYzEmV-18",
+      "candidate_ids": [
+        "FORM-K72-002"
+      ],
+      "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+      "range": [
+        18,
+        19.967
+      ],
+      "source_fps": 30,
+      "observation": "Small centered lyric persists through about 18.30. Foreground decorative forms and outlined glyphs emerge around 18.33-18.40. The first large glyph group expands rapidly, exceeds its subsequent resting size, then contracts/repositions across about 18.43-18.77. A second group enters around 18.83 and grows below/alongside the first through about 19.0, then settles. A flower-like foreground shape expands across the words near 19.80-19.97.",
+      "correction": "Replace the ambiguous scale-or-reveal-to-static-cropped-hold description with staggered group scale overshoot/settling and a separate expanding foreground occluder. Do not infer exact easing or camera from these frames.",
+      "production_proposal": "Separate glyph-group transforms, layered outline/shadow appearance, and foreground transition matte. Preserve the previous group while the next arrives.",
+      "verdict": "conditional_support_for_candidate_with_refined_description",
+      "reviewer": "parent coordinator; independent of Luna candidate producer",
+      "evidence": {
+        "id": "BV1k72LYzEmV-18",
+        "frames": 60,
+        "sheets": 3,
+        "hash_errors": [],
+        "manifest_sha256": "30e7ed3267dda0be40d326286d9448949d3db99021925dba7447030f1367328b"
+      },
+      "reviewed_sheets": [
+        "dense-000.jpg",
+        "dense-001.jpg",
+        "dense-002.jpg"
+      ],
+      "limits": [
+        "Native decoded frame inspection only; no sound reviewed",
+        "No exact easing fit or original AE graph established",
+        "Not production-template acceptance; global distinct-form dedup remains pending"
+      ]
+    },
+    {
+      "id": "TEMP-REVIEW-002",
+      "excerpt": "BV1k72LYzEmV-70_5",
+      "candidate_ids": [
+        "FORM-K72-007"
+      ],
+      "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+      "range": [
+        70.5,
+        72.467
+      ],
+      "source_fps": 30,
+      "observation": "A centered lyric on a bright field is progressively occluded by colorful round-ended vertical bars entering from upper and lower edges around 70.73-70.97. Behind the bars, a pink framed character composition and large vertical glyphs become visible around 71.0. Bars clear progressively; glyphs move and reduce to a narrow vertical phrase around 71.70-71.87 while the illustrated frame remains.",
+      "correction": "This narrow interval supports a staggered foreground bar wipe and large-to-small vertical typography reflow. The broad candidate label rearranging text panels does not describe the observed transition adequately; review it without deleting original raw evidence.",
+      "production_proposal": "Use independent foreground occluders bridging adjacent scenes and independent text-group transforms. A whole-frame crossfade cannot express the relationship.",
+      "verdict": "candidate_needs_refinement_for_this_interval",
+      "reviewer": "parent coordinator; independent of Luna candidate producer",
+      "evidence": {
+        "id": "BV1k72LYzEmV-70_5",
+        "frames": 60,
+        "sheets": 3,
+        "hash_errors": [],
+        "manifest_sha256": "4ea797f6b5decf6e142fa86a4122df82819ca6ea8d60c2e0c01f7d43218886de"
+      },
+      "reviewed_sheets": [
+        "dense-000.jpg",
+        "dense-001.jpg",
+        "dense-002.jpg"
+      ],
+      "limits": [
+        "Native decoded frame inspection only; no sound reviewed",
+        "No exact easing fit or original AE graph established",
+        "Not production-template acceptance; global distinct-form dedup remains pending"
+      ]
+    },
+    {
+      "id": "TEMP-REVIEW-003",
+      "excerpt": "YT_UoptEaMrnok-68_5",
+      "candidate_ids": [
+        "FORM-EXP02-TEXT-016"
+      ],
+      "source_url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+      "range": [
+        68.5,
+        71.458333
+      ],
+      "source_fps": 24,
+      "observation": "A cyan instrument collage and centered white text are replaced by a right-to-left pink wipe around 69.0-69.46. A subsequent yellow wipe around 69.83-70.17 introduces a small tilted media-window graphic containing text. Brush-like elements pass behind it. Its text changes before the yellow-to-orange wipe around 70.96-71.13. Around 71.33-71.46 the window moves upward relative to the text, which is visible below it.",
+      "correction": "Retain the tilted lyric-card relationship but add full-frame wipe order, internal text change and subsequent text/window separation. The field is yellow during most of the card hold and orange later; color alone is not a separate form.",
+      "production_proposal": "Represent a text-to-window relationship that can change over time; separate background wipe, window transform, interior text and background strokes. Parenting/detaching or shared transform tracks are implementation options, not facts about the original production.",
+      "verdict": "conditional_support_for_candidate_with_refined_description",
+      "reviewer": "parent coordinator; independent of Luna candidate producer",
+      "evidence": {
+        "id": "YT_UoptEaMrnok-68_5",
+        "frames": 72,
+        "sheets": 3,
+        "hash_errors": [],
+        "manifest_sha256": "eb6c5f62295a4ab0e35f8460eff4d7ea53783a15dc7b85660f413aa14d6e406b"
+      },
+      "reviewed_sheets": [
+        "dense-000.jpg",
+        "dense-001.jpg",
+        "dense-002.jpg"
+      ],
+      "limits": [
+        "Native decoded frame inspection only; no sound reviewed",
+        "No exact easing fit or original AE graph established",
+        "Not production-template acceptance; global distinct-form dedup remains pending"
+      ]
+    }
+  ]
+}

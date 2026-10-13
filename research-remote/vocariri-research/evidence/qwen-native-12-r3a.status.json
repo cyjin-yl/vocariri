@@ -1,0 +1,39 @@
+{
+  "task": "qwen-native-12-r3a",
+  "work_order": "WORK_ORDER_QWEN_NATIVE_MUX_R3.md",
+  "state": "blocked",
+  "at": "2026-09-27T12:30:00Z",
+  "per_window": {
+    "win-a-scale": "blocked_native_mux_decode_17_of_18"
+  },
+  "failure_summary": {
+    "expected": "18-frame native-cadence clip preserving exact source integer PTS deltas (528/544 tick pattern at 1/16000), last relative pts 9072",
+    "actual": "MP4 container holds all 18 samples (stsz=18, stts sum=9072, 18 packets demuxed) but h264 decode yields 17 frames; decoded pts [0,528,1072,1600,2128,2672,3200,3744,4272,4800,5344,5872,6400,6944,7472,8000,8544]; final relative pts 9072 absent",
+    "container_observations": "stts last row (1,0) zero final duration; ctts has 17 entries for 18 samples; mdhd duration 9072 ticks equals final sample start; tkhd duration 0; demuxer applies 'Offset DTS by 1072 to make first pts zero' leaving first two demuxed dts negative (-67000/-34000 us)",
+    "isolation": "identical encode pipeline to MKV decodes 18 frames; MP4 variants (enc_time_base filter / 1/16000 / none, libx264 -bf 0) all decode 17 frames - loss is MP4-container specific",
+    "hypothesis_status": "B-frame reorder / demuxer dts-offset / short-ctts interaction is a hypothesis, not proven"
+  },
+  "outputs_now_present": [
+    "evidence/native/win-a-scale-native-r3.mp4 (candidate clip, sha256 2c350b3886619f0492119abb474a98e078ae6181e6597ffedaf270ea256fdc59, 209933 bytes; preserved byte-for-byte per stop order)",
+    "evidence/qwen-native-12-r3a-comparison.json (hashes, native PTS, build command, container tables, decode evidence, isolation, exact failed checks)",
+    "evidence/qwen-native-12-r3a.status.json (this file)",
+    "r3a_native_mux.py (R3a runner; stopped at decode-count check, exited before receipt and client validation)",
+    "r3atmp/win-a-scale/ (scratch decoded frames + spot-sheet attempts; retained)"
+  ],
+  "not_produced": [
+    "evidence/native/win-a-scale-pts-r3a.json (receipt withheld: clip fails 18-frame decode; a receipt would misrepresent the artifact)",
+    "checked-client probe/validate results (not invoked)"
+  ],
+  "preservation_record": [
+    "New MP4 preserved byte-for-byte; no overwrite, no delete",
+    "All R1/R2b artifacts untouched (exclusive creation only)",
+    "Scratch variants under /tmp (r3test.mp4, r3.mkv, r3_b0.mp4, r3_v.mp4) are outside the workspace and not part of the evidence record"
+  ],
+  "boundaries_held": [
+    "no model inference request sent; no video request client invoked (old or new)",
+    "no protected config/credential access; no route inspection beyond checked-client code",
+    "no downloads, service changes, media deletion, old-output overwrite",
+    "stop order honored: exploration halted, first MP4 byte-for-byte preserved, records written, seat paused"
+  ],
+  "next": "Await separately named R3b work order after coordinator audit (R3b may test -bf 0 and MP4 timing-table/muxer options); no inference; resume only per new explicit order."
+}

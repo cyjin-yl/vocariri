@@ -1,0 +1,18 @@
+{
+  "id": "YT_oxODHegJn8I",
+  "url": "https://www.youtube.com/watch?v=oxODHegJn8I",
+  "at": "2026-09-24T15:32:35.285878+00:00",
+  "title": "【VOCALOID】グッバイ宣言  MV　作ってみた【After Effects】",
+  "uploader": "GraphicMate",
+  "duration": 70,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 3187321,
+  "sha256": "24b202ed0bc5f164fcc2e717284531319b8aa586539429b8038ef5efb62a7bcf",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

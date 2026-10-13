@@ -1,0 +1,18 @@
+{
+  "id": "zR1hzhJVMnY",
+  "url": "https://www.youtube.com/watch?v=zR1hzhJVMnY",
+  "at": "2026-09-27T03:05:49.793018+00:00",
+  "title": "tommy. - eat your heart ft. Hatsune Miku (Lyric Video)",
+  "uploader": "tommy.",
+  "duration": 172,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 15496176,
+  "sha256": "f550ccf60ad2efebecf884359213bc3b3bd651125d7a884af7ae6363d8da8917",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

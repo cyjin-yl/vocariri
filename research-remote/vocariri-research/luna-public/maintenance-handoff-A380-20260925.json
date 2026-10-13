@@ -1,0 +1,42 @@
+{
+  "at": "2026-09-25T14:40:15.378346+00:00",
+  "reason": "Host shutdown for planned A380 installation; not completed or verified.",
+  "state": "maintenance_checkpoint",
+  "artifacts": {
+    "outputs/STATUS.json": {
+      "exists": true,
+      "bytes": 46557,
+      "json_valid": true
+    },
+    "outputs/HANDOFF.md": {
+      "exists": true,
+      "bytes": 23106
+    },
+    "flash-seat/outputs/visual-probe.json": {
+      "exists": false
+    },
+    "flash-seat/outputs/HANDOFF.md": {
+      "exists": false
+    },
+    "RESEARCH_TARGET.json": {
+      "exists": true,
+      "bytes": 1275,
+      "json_valid": true
+    }
+  },
+  "incomplete_batches": [
+    {
+      "file": "outputs/visual-batches/547d58191b2922b6.status.json",
+      "state": "blocked_review_required",
+      "attempt": 1
+    }
+  ],
+  "resume": [
+    "Verify storage and existing seats after host boot.",
+    "Inspect partial artifacts/status before any retry; preserve raw responses.",
+    "Use exact z-ai/glm-5.3-flash, no fallback; Qwen remains idle.",
+    "Visual probe is unaccepted; text captions may contaminate its blind interpretation.",
+    "Continue 500-800-form research; no template acceptance implied."
+  ],
+  "pause_requests": "Sent to interactive agents; graceful batch interrupt sent. This file does not prove every process exited."
+}

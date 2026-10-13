@@ -1,0 +1,18 @@
+{
+  "id": "YT__AIgv0EsOE4",
+  "url": "https://www.youtube.com/watch?v=_AIgv0EsOE4",
+  "at": "2026-09-24T13:14:52.678371+00:00",
+  "title": "文字pv - 神っぽいな / AviUtl",
+  "uploader": "haruki",
+  "duration": 23,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 3092956,
+  "sha256": "8a87276f37e191d7ffe2434c0e056dde55cf8eabf28882f79588677c467f7957",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

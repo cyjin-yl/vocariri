@@ -1,0 +1,54 @@
+{
+  "model": "hermes-newapi-free/z-ai/glm-5.3-flash",
+  "capability_status": "catalog advertises image input; independently unverified",
+  "files": [
+    {
+      "file": "inputs/forms.jsonl",
+      "source": "public-ledger-snapshot",
+      "sha256": "75a30c9f36f27b495b0af18655237acf0c330c19c50453baf06706ec6cda3ef0"
+    },
+    {
+      "file": "inputs/observations.jsonl",
+      "source": "public-ledger-snapshot",
+      "sha256": "abea878585b752558e80f4753a834be3fed7a384dadc698bccb67764df642ad4"
+    },
+    {
+      "file": "inputs/architecture-coverage-06.json",
+      "source": "public-ledger-snapshot",
+      "sha256": "c8a7df14a0815da9d929613c745627f5c6af75d97d99c651cac4cbbd6556f926"
+    },
+    {
+      "file": "inputs/production-requirements-06.json",
+      "source": "public-ledger-snapshot",
+      "sha256": "799f017b3d04dd91a77f75f3456f1cd67d250948299cf2ef02cc41829cd3046f"
+    },
+    {
+      "file": "inputs/control.png",
+      "source_url": null,
+      "extraction_request_label_seconds": null,
+      "time_note": "Extraction label does not itself identify unique native PTS; static evidence only.",
+      "sha256": "bafafa80058d0e66c86f2425d5c92711e016748308bf881dbd02525439a7a73f"
+    },
+    {
+      "file": "inputs/a.png",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "extraction_request_label_seconds": 116.0,
+      "time_note": "Extraction label does not itself identify unique native PTS; static evidence only.",
+      "sha256": "a98d274b990295e81f42e2c3b68d0d58004f836c2140e25a14723b952fd98f70"
+    },
+    {
+      "file": "inputs/b.png",
+      "source_url": "https://www.youtube.com/watch?v=ijaK647Qfc8",
+      "extraction_request_label_seconds": 15.25,
+      "time_note": "Extraction label does not itself identify unique native PTS; static evidence only.",
+      "sha256": "18b48279c4c929b2b9385275ef20c4c46795156237ef90b41545a86c1338d7e8"
+    },
+    {
+      "file": "inputs/c.png",
+      "source_url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+      "extraction_request_label_seconds": 1.75,
+      "time_note": "Extraction label does not itself identify unique native PTS; static evidence only.",
+      "sha256": "1ca497fd4989bb2da21cf193ba4f8cb3e8978a63125d2ca27a403364a85f7769"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "response": {
+    "id": "chatcmpl-83edb73b56279cec",
+    "object": "chat.completion",
+    "created": 1790260094,
+    "model": "[redacted model]",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "In the image, there are two primary geometric shapes positioned side by side on a plain white background:\n\n- **Left Shape**: A solid red square.\n- **Right Shape**: A solid blue circle.\n\nBelow these two shapes, centered horizontally, is the text:\n\n> **PV731**\n\nThe text is rendered in a black, sans-serif font.\n\n---\n\n**Summary of visible elements:**\n\n- **Shapes**: One red square (left), one blue circle (right)\n- **Colors**: Red, Blue, Black (for text), White (background)\n- **Text**: \u201cPV731\u201d \u2014 located below the shapes, centered\n\nThere are no other visible objects, patterns, or annotations in the image.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-1.5.0-tp2-260edd80",
+    "usage": {
+      "prompt_tokens": 218,
+      "total_tokens": 373,
+      "completion_tokens": 155,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null
+  }
+}

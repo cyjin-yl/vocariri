@@ -1,0 +1,18 @@
+{
+  "id": "YT_dywes88_Rn0",
+  "url": "https://www.youtube.com/watch?v=dywes88_Rn0",
+  "at": "2026-09-24T13:21:33.720783+00:00",
+  "title": "IMAWANOKIWA/いよわ 様【文字PV】【Aviutl】",
+  "uploader": "はるきち",
+  "duration": 57,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 9505099,
+  "sha256": "3b0be67c39f8e53ff548d5c2729fb768a166e96218d67acb0da37cbf43cb4f67",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

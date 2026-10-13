@@ -1,0 +1,15 @@
+{
+  "source_sha256": "432839e48eacc4fcaf9fd4281bb39226e859ed461f8b728d50abe3a661433d0d",
+  "sampling_fps": 4,
+  "state": "extracted_uninspected",
+  "frame_count": 16,
+  "sheets": [
+    {
+      "file": "sheet-0000.jpg",
+      "start": 0.0,
+      "end": 4.0,
+      "sha256": "e4726bbaa749c2176e63e8d5eaa0265135efee37f223ca3124b327dbbd5705c9"
+    }
+  ],
+  "note": "Review at source FPS for short impacts/glitches and cut boundaries."
+}

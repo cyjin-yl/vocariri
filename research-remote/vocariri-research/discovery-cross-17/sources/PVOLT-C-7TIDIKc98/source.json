@@ -1,0 +1,15 @@
+{
+  "id": "PVOLT-C-7TIDIKc98",
+  "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+  "at_utc": "2026-09-27T12:19:43.300287+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": null,
+  "bytes": 11322628,
+  "sha256": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849",
+  "file": "sources/PVOLT-C-7TIDIKc98/source.mp4",
+  "duration_seconds": 153,
+  "title": "DECO*27 - ボルテッカー feat. 初音ミク",
+  "uploader": "DECO*27",
+  "extractor": "Youtube",
+  "yt_dlp_version": "2026.08.19"
+}

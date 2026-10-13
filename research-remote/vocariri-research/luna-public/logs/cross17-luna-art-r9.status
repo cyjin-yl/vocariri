@@ -1,0 +1,64 @@
+{
+  "id": "R9-LUNA-CROSS17-ART-20261004",
+  "state": "completed_unreviewed",
+  "status": "completed_unreviewed",
+  "reviewed_at": "2026-10-03",
+  "work_order": {
+    "path": "WORK_ORDER_LUNA_CROSS17_ART_R9.md",
+    "expected_sha256": "bd08991a30ef8304a50487a8f4f860854fc291130fafa2c84cd683286cc7fb58",
+    "verified_sha256": "bd08991a30ef8304a50487a8f4f860854fc291130fafa2c84cd683286cc7fb58"
+  },
+  "verified_hashes": {
+    "staging_manifest": {"path": "inputs/r9-cross17/staging-manifest.json", "sha256": "056ac5372c348ad64b821e1546f33e3b4cfc271c52c128918f2ed65ee138348c", "listed_files": 244, "originals_unchanged": true, "redistribution_permitted": false},
+    "qwen_draft": {"path": "inputs/r9-cross17/qwen-unreviewed.json", "sha256": "2408647675d266e3e8e72573e3fea928d950fde400b0a4d90e764c4ddaab5e05"},
+    "source_video_sha256": {
+      "NICO-sm46137276": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87",
+      "NICO-sm46155083": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383",
+      "PVOLT-C-7TIDIKc98": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849"
+    },
+    "prior_art_records_unchanged": {
+      "outputs/art-direction-patterns-07.json": "e0a223f5644c96316f5cde1f1bb27804704547837d0ca90e2ac79707e5be18a4",
+      "outputs/art-applicability-08.json": "a73cfe046f3eb4e1217becda4cf49f9ee740f52bd8f2a5d95c18ea4afc9d8bf8",
+      "outputs/parent-art-review-07.json": "8f4b4d9095c4c375b9abd6a11791a82bd1914b4f277512d1e85f5abb21613bc1"
+    }
+  },
+  "native_windows": [
+    {"source_id": "NICO-sm46137276", "source_n": [240, 359], "pts": [360000, 538500], "time_base": "1/90000", "fps": "60/1", "seconds": [4.0, 5.9833333333]},
+    {"source_id": "NICO-sm46155083", "source_n": [870, 929], "pts": [2610000, 2787000], "time_base": "1/90000", "fps": "30/1", "seconds": [29.0, 30.9666666667]},
+    {"source_id": "PVOLT-C-7TIDIKc98", "source_n": [2160, 2207], "pts": [1105920, 1129984], "time_base": "1/12288", "fps": "24/1", "seconds": [90.0, 91.9583333333]}
+  ],
+  "events": [
+    {"source_id": "NICO-sm46137276", "event": "variable geometric phrase focus", "confidence": "sampled art states observed; exact phrase-boundary times unresolved"},
+    {"source_id": "NICO-sm46155083", "event": "inset grid with displaced glyph groups and sampled empty state", "confidence": "glyph/empty states observed; burst curve and fine text unresolved"},
+    {"source_id": "PVOLT-C-7TIDIKc98", "event": "repeated border prompt and emphasized Japanese caption over illustration", "confidence": "text/layout observed; silhouette identity, camera ownership and continuous glow unresolved"}
+  ],
+  "read_counts": {
+    "unique_native_images": 28,
+    "unique_reads": 28,
+    "rereads": 18,
+    "derived_crop_reads": 0,
+    "decode_runs": 0,
+    "image_read_calls_total": 46,
+    "pre_draft_images": 18,
+    "post_draft_followup_images": 10,
+    "pre_draft_checkpoint": "evidence/cross17-luna-art-r9/pre-draft-observations.json",
+    "pre_draft_checkpoint_sha256": "64a3810ea17e0d5a1e7c1cd7d941538e14f95fd455ac66c013c540610f591bb0"
+  },
+  "deliverables": [
+    {"path": "outputs/cross17-luna-art-r9.json", "sha256": "c5d457af9de2380d2238f8bd63a2e82d5639d29e76b5247870689ad00f708e89"},
+    {"path": "evidence/cross17-luna-art-r9/pre-draft-observations.json", "sha256": "64a3810ea17e0d5a1e7c1cd7d941538e14f95fd455ac66c013c540610f591bb0"}
+  ],
+  "increments": {"accepted_form_increment": 0, "rendered_template_increment": 0},
+  "actual_checks": [
+    "R9 work-order SHA-256 exactly matched the user-pinned digest.",
+    "Staging manifest parsed; 244 rows, originals_unchanged=true, redistribution_permitted=false.",
+    "Pre-draft observation checkpoint was saved, read back and JSON-validated before qwen-unreviewed.json was opened.",
+    "All 28 reviewed native-image SHA-256 values matched their staging-manifest entries.",
+    "The final art-review JSON parsed and assertions passed for status, three proposals, follow-up observations, zero increments and corrected PVOLT PTS."
+  ],
+  "failures_and_recoveries": [
+    "Optional local PIL display was unavailable (ModuleNotFoundError); standard original-image reads succeeded and no frame inspection was blocked.",
+    "First verbose jq selection and first composite assertion had syntax/precedence errors; simpler corrected queries succeeded. No input or protected evidence was changed."
+  ],
+  "next": "Retain all inputs. Independent review and cross-corpus deduplication are pending; only that later review may change acceptance counts. Do not clean, overwrite, publish, or claim AE/source-graph behavior."
+}

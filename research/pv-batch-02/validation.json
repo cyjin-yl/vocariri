@@ -1,0 +1,21 @@
+{
+  "generated_utc": "2026-09-24T01:54:25.581720+00:00",
+  "input": {
+    "path": "source-discovery-register.jsonl",
+    "sha256": "b127cf0c5082768a0e6818697906ab6d4034d6fca8c548501d83e46a66c36a7c",
+    "rows": 76
+  },
+  "selected": 24,
+  "unique_bvids": 24,
+  "public_pv_candidates": 15,
+  "tutorial_or_project_candidates": 9,
+  "page_hashes_attached": 5,
+  "acquisition_records_preserved": 8,
+  "source_files_hash_checked": 7,
+  "preparation_events": [
+    "An initial local copy attempt used a mistyped digest for BV13bAuzKEz3 and failed with file-not-found; the cache copy was repeated using the acquisition-ledger SHA-256. No source bytes were changed.",
+    "The first target-build attempt reversed URL/hash values in its acquisition check and aborted before writing outputs; the check logic was corrected before generation.",
+    "A second audit attempt compared a source filename to the acquisition URL and aborted before writing outputs; the audit now keeps source URL, local path, and digest in separate maps."
+  ],
+  "errors": []
+}

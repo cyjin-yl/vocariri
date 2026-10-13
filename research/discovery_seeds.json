@@ -1,0 +1,15 @@
+{
+  "status": "aesthetic_examples_and_unresolved_discovery_queries_not_video_candidates",
+  "created_utc": "2026-09-24",
+  "seeds": [
+    {"label": "命嫌", "query": "命嫌 VOCALOID PV", "identity": "intentionally unresolved"},
+    {"label": "nayuta songs", "query": "nayuta VOCALOID lyric PV", "identity": "work unspecified"},
+    {"label": "Project SEKAI", "query": "Project SEKAI VOCALOID lyric PV", "identity": "work unspecified"},
+    {"label": "MARETU", "query": "MARETU VOCALOID lyric PV", "identity": "work unspecified"},
+    {"label": "wowaka", "query": "wowaka VOCALOID lyric PV", "identity": "work unspecified"},
+    {"label": "Kanaria", "query": "Kanaria VOCALOID lyric PV", "identity": "work unspecified"},
+    {"label": "初音未来的消失 kinetic typography PV", "query": "初音ミクの消失 kinetic typography PV", "identity": "specific PV/version intentionally unresolved"}
+  ],
+  "scope_correction": "These are aesthetic examples only, not a filter or narrowed scope. Include other public motion forms, templates, tutorials, and editable project examples.",
+  "note": "No source result has been retrieved; none counts as a discovered video or metadata-only candidate."
+}

@@ -1,0 +1,26 @@
+import {chromium}from'playwright';import assert from'node:assert/strict';import{mkdir,writeFile}from'node:fs/promises';import{serve}from'../cli.mjs';
+await mkdir('test-results',{recursive:true});
+// Full Chromium is available even when the optional headless-shell download fails.
+const server=await serve(0),browser=await chromium.launch({channel:'chromium',headless:true});
+try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(`http://127.0.0.1:${server.address().port}`);await page.waitForFunction(()=>!!window.vocariri);
+ await page.locator('#demo').click();await page.locator('[data-studio=effects]').click();await page.locator('#family').selectOption('scatter');await page.locator('#scope').selectOption('all');await page.locator('#apply').click();
+ await page.locator('[data-studio=preview]').click();await page.evaluate(()=>window.vocariri.seek(1.25));await page.waitForTimeout(80);await page.screenshot({path:'test-results/editor-desktop.png',fullPage:true});
+ assert.equal(await page.evaluate(()=>window.vocariri.project.tokens.every(t=>t.preset==='scatter-soft-1-fade')),true);
+ const download=page.waitForEvent('download');await page.locator('#save').click();await(await download).saveAs('test-results/saved.json');
+ await page.locator('[data-studio=timing]').click();await page.locator('#edit-lyrics').click();await page.locator('#lyric-input').fill('一二三\nhello world');await page.locator('#commit-lyrics').click();
+ await page.locator('body').click({position:{x:10,y:10}});await page.evaluate(()=>window.vocariri.seek(1));await page.keyboard.press('BracketLeft');await page.evaluate(()=>window.vocariri.seek(2));await page.keyboard.press('BracketLeft');await page.evaluate(()=>window.vocariri.seek(2.5));await page.keyboard.press('BracketRight');await page.evaluate(()=>window.vocariri.seek(5));await page.keyboard.press('BracketLeft');
+ const timed=await page.evaluate(()=>window.vocariri.project.tokens);assert.equal(timed[0].end,2);assert.equal(timed[1].end,2.5);assert.equal(timed[2].start,5);
+ await page.keyboard.press('ArrowLeft');assert.equal(await page.evaluate(()=>window.vocariri.session.focus),2);assert.equal(await page.locator('#seek').inputValue(),'5');
+ // Synthetic local WAV proves the file/decoder/waveform path without copyrighted audio.
+ const rate=8000,seconds=8,n=rate*seconds,wav=Buffer.alloc(44+n*2);wav.write('RIFF');wav.writeUInt32LE(36+n*2,4);wav.write('WAVE',8);wav.write('fmt ',12);wav.writeUInt32LE(16,16);wav.writeUInt16LE(1,20);wav.writeUInt16LE(1,22);wav.writeUInt32LE(rate,24);wav.writeUInt32LE(rate*2,28);wav.writeUInt16LE(2,32);wav.writeUInt16LE(16,34);wav.write('data',36);wav.writeUInt32LE(n*2,40);for(let i=0;i<n;i++)wav.writeInt16LE(Math.round(Math.sin(i/rate*Math.PI*2*440)*3000),44+i*2);
+ await page.locator('[data-studio=preview]').click();await page.locator('#audio-file').setInputFiles({name:'test-tone.wav',mimeType:'audio/wav',buffer:wav});await page.waitForFunction(()=>window.vocariri.project.audioName==='test-tone.wav');await page.waitForFunction(()=>document.getElementById('status').textContent.includes('已载入'));
+ assert.equal(await page.evaluate(()=>window.vocariri.project.duration),8);await page.locator('#play').click();await page.waitForFunction(()=>Number(document.getElementById('seek').value)>0,null,{timeout:10000});await page.locator('#play').click();assert.ok(Number(await page.locator('#seek').inputValue())>0);
+ await page.evaluate(()=>{navigator.mediaDevices.getDisplayMedia=async()=>{const c=document.createElement('canvas');c.width=320;c.height=180;const ctx=c.getContext('2d');let n=0;const timer=setInterval(()=>{ctx.fillStyle=n++%2?'red':'blue';ctx.fillRect(0,0,320,180);},50);const stream=c.captureStream(12);stream.getVideoTracks()[0].addEventListener('ended',()=>clearInterval(timer));return stream;};});
+ await page.locator('#record-start').click();await page.waitForTimeout(500);await page.locator('#record-stop').click();await page.waitForFunction(()=>document.getElementById('reference-state').textContent.includes('参考片段'));
+ await page.locator('#agent-prompt').fill('让这句文字沿斜线进入，接续镜头平移。');const taskDownload=page.waitForEvent('download');await page.locator('#agent-export').click();await(await taskDownload).saveAs('test-results/reference-task.zip');
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/editor-mobile.png',fullPage:true});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ const pixels=await page.evaluate(()=>{window.vocariri.render(1.3,true);const data=document.getElementById('preview').getContext('2d').getImageData(0,0,window.vocariri.project.width,window.vocariri.project.height).data;let opaque=0,clear=0;for(let i=3;i<data.length;i+=4){if(data[i])opaque++;else clear++;}return {opaque,clear};});assert.ok(pixels.opaque>0&&pixels.clear>pixels.opaque);
+ assert.deepEqual(errors,[]);await writeFile('test-results/ui.json',JSON.stringify({passed:true,checks:['desktop','keyboard timing','explicit gap','arrow seek','project download','WAV decode','audio playback','mobile overflow','no page errors']},null,2));console.log('UI checks passed; screenshots in test-results.');
+}finally{await browser.close();await new Promise(resolve=>server.close(resolve));}

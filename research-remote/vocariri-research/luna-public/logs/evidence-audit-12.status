@@ -1,0 +1,11 @@
+{
+  "audit_id": "EVIDENCE-AUDIT-12",
+  "status": "stopped_after_429",
+  "work_order_sha256": "cc8df5cbac5d855beda1bd25bc471d316d2525e24307d8a1df613a8496b86e7f",
+  "partial_output": "outputs/evidence-audit-12.json",
+  "baseline": {"forms":57,"text_forms":42,"scene_forms":15,"active_observations":624,"observation_rows":641,"accepted_forms":0,"accepted_templates":0},
+  "failure": "17 vision-backed local image reads for YT_lp1dP49o5qY returned 429 usage_limit_reached. No image interpretations were produced, no retries/fallbacks were made, and no native frames were reviewed.",
+  "resume_point": "After input/hash/count verification; before choosing the eight audit forms or decoder/native-frame review.",
+  "resume_conditions": ["Vision quota reset or authorized native visual input", "Use current Luna model only", "Check local decoder/project-local dependency before native extraction", "Preserve all references and keep acceptance at zero"],
+  "work_order_stop_rule_followed": true
+}

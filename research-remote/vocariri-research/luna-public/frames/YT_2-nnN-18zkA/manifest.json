@@ -1,0 +1,129 @@
+{
+  "source_sha256": "929693e68335b20cf4c9f086e1181cc4bd3a039f436f5cfbd496d310da3e9709",
+  "sampling_fps": 4,
+  "state": "extracted_uninspected",
+  "frame_count": 628,
+  "sheets": [
+    {
+      "file": "sheet-0000.jpg",
+      "start": 0.0,
+      "end": 8.0,
+      "sha256": "75fbe6d5a53c2fc16a152c804f75f1f977733a5a6892771ced64a7b5d4cafd91"
+    },
+    {
+      "file": "sheet-0001.jpg",
+      "start": 8.0,
+      "end": 16.0,
+      "sha256": "a79fa25c6e141bcbc0ac5d25e4f2e8edd03d993a17384fb98a909ce826bd3116"
+    },
+    {
+      "file": "sheet-0002.jpg",
+      "start": 16.0,
+      "end": 24.0,
+      "sha256": "d02ea5396fea8dee537d19ad0e98f824fb81a970503ad3bc3e9915ddc0aee12f"
+    },
+    {
+      "file": "sheet-0003.jpg",
+      "start": 24.0,
+      "end": 32.0,
+      "sha256": "66f8fb654b6ff9f3524b49044848029a1ea2b17694146bc96954169fd9fa142f"
+    },
+    {
+      "file": "sheet-0004.jpg",
+      "start": 32.0,
+      "end": 40.0,
+      "sha256": "f72db27c900c47b4942a1d216e63d87666b95d86e4ecc0a5c5dac82a0081aed4"
+    },
+    {
+      "file": "sheet-0005.jpg",
+      "start": 40.0,
+      "end": 48.0,
+      "sha256": "67967dfe1654b1f172a511d53b659589c880a6093f7e4249979aa0dc001b20c0"
+    },
+    {
+      "file": "sheet-0006.jpg",
+      "start": 48.0,
+      "end": 56.0,
+      "sha256": "1a76fd2f95b13977f433ef09515bc233ed06602871355d0002ffc424dbb3b855"
+    },
+    {
+      "file": "sheet-0007.jpg",
+      "start": 56.0,
+      "end": 64.0,
+      "sha256": "36fae65c0034458ef5775e6da2fec3863bd9e037e2d3a508c7fdaad290acbff3"
+    },
+    {
+      "file": "sheet-0008.jpg",
+      "start": 64.0,
+      "end": 72.0,
+      "sha256": "241c5d9296f315d8215849b0dacaf7972f9b9b6d7087d84e1a8434acb75cefa7"
+    },
+    {
+      "file": "sheet-0009.jpg",
+      "start": 72.0,
+      "end": 80.0,
+      "sha256": "6339416ca4b8d69eb1e3d957aa1ab915a28eeb56e4f693899ed498603b251806"
+    },
+    {
+      "file": "sheet-0010.jpg",
+      "start": 80.0,
+      "end": 88.0,
+      "sha256": "1313645e3459ae778a6d09afc3256ddc7730190700c45d911b4adf8bde8d52bb"
+    },
+    {
+      "file": "sheet-0011.jpg",
+      "start": 88.0,
+      "end": 96.0,
+      "sha256": "b3b6b9de032ca4eedfe0e9424efd2b4fdc32faffba7b3fe0d050ccee4211e8ee"
+    },
+    {
+      "file": "sheet-0012.jpg",
+      "start": 96.0,
+      "end": 104.0,
+      "sha256": "2ecf69c42a2bc79fda40f8d5c47e00d335af63c698cf3aead51f8779d5c40167"
+    },
+    {
+      "file": "sheet-0013.jpg",
+      "start": 104.0,
+      "end": 112.0,
+      "sha256": "45bd127a61cff82f7407e8491828fb8ad2e23e1834a9b9881412e766e7e285f3"
+    },
+    {
+      "file": "sheet-0014.jpg",
+      "start": 112.0,
+      "end": 120.0,
+      "sha256": "b5215bf05f02813039bade31a18144432948eafa43f0402d0220320fc72f6587"
+    },
+    {
+      "file": "sheet-0015.jpg",
+      "start": 120.0,
+      "end": 128.0,
+      "sha256": "f8489b1f53acc4a257f5cd1ae43c95b883190c58e99f8e61ad4a8184abc671f9"
+    },
+    {
+      "file": "sheet-0016.jpg",
+      "start": 128.0,
+      "end": 136.0,
+      "sha256": "49d0625a80665b23bc22ec5480dbe5929a2cc9b6edf0ea390602972c4f9afc24"
+    },
+    {
+      "file": "sheet-0017.jpg",
+      "start": 136.0,
+      "end": 144.0,
+      "sha256": "b44fa728eb1e95e1787dd614fe974937740ad1625fcfae92c58d917720d762e7"
+    },
+    {
+      "file": "sheet-0018.jpg",
+      "start": 144.0,
+      "end": 152.0,
+      "sha256": "0e0e13c67503d52521c3feef366064c0f12fc106e847d1b236fc5965664f7268"
+    },
+    {
+      "file": "sheet-0019.jpg",
+      "start": 152.0,
+      "end": 157.0,
+      "sha256": "567a4546e070b91e7e7b801616c14dfb9deec0834c0a68dc81c45a3def63be7f"
+    }
+  ],
+  "note": "Review at source FPS for short impacts/glitches and cut boundaries."
+}

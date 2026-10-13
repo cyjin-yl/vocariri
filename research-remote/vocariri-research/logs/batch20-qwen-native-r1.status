@@ -1,0 +1,25 @@
+batch20-qwen-native-r1 status
+generated_at: 2026-10-04T00:45:07Z
+state: completed_unreviewed
+accepted_form_increment: 0
+rendered_template_increment: 0
+work_order: WORK_ORDER_QWEN_BATCH20_NATIVE_R1.md sha256=3d4743d99b732299578b3b9ca7602c609686a3cee8f1c12582ed34d748d8f102 verified
+tools: ffmpeg 7.0.2-static, python 3.11.2
+sources: 3 verified (BILI-BV1ue4y1e78R, BILI-BV1VY4y1i7LC, BILI-BV1SK411p7DA) - all mp4+json hashes OK
+actual_decode:
+  BV1ue4y1e78R: av1, yuv420p, 852x480, 30fps, tbn 1/16000, 240.49s
+  BV1VY4y1i7LC: h264, yuv420p, 852x480, 25fps, tbn 1/16000, 256.36s
+  BV1SK411p7DA: h264, yuv420p, 852x480, 29.97fps, tbn 1/16000, 46.59s
+native_windows:
+  BV1ue4y1e78R: n2100-2159, pts 1120000-1159472, 70.0-71.998s, 60 frames
+  BV1VY4y1i7LC: n500-574, pts 320000-366400, 20.0-22.9s, 75 frames
+  BV1SK411p7DA: n270-419, pts 144144-252096, 9.009-14.49s, 150 frames (90+60 ext)
+events:
+  BV1ue4y1e78R: bilingual/code glitch transition (clean shield → glitch burst EXECUTION/执行指令)
+  BV1VY4y1i7LC: lyric scrolling with highlight in player UI (孤勇者, ZH lyrics, bold/white current)
+  BV1SK411p7DA: shape-to-text morph (blobs/circles ↔ TRUST/SINCERE, bg color change per word)
+reads: 14 unique native reads, 0 rereads, 0 derived crop reads
+constructions: C1 bilingual/code glitch, C2 lyric scroll+highlight, C3 shape-to-text morph
+ae_gaps: recorded per construction (text shaping, paths/masks, alpha/blend, camera/proxy, seek/export, performance)
+provenance: BV1SK411p7DA 1-frame discrepancy at n419/n420 noted; BV1VY4y1i7LC progress bar not synced to video clock
+next: independent review and dedup of accepted-form increment 0 / rendered-template increment 0

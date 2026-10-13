@@ -1,0 +1,66 @@
+{
+  "at": "2026-09-25T12:10:19.986537+00:00",
+  "state": "hold_until_prototype_review",
+  "roots": [
+    {
+      "root": "media",
+      "exists": true,
+      "files": 157,
+      "bytes": 1451729505
+    },
+    {
+      "root": "frames",
+      "exists": true,
+      "files": 74340,
+      "bytes": 1591363157
+    },
+    {
+      "root": "materials",
+      "exists": true,
+      "files": 2352,
+      "bytes": 885961191
+    },
+    {
+      "root": "temporal",
+      "exists": true,
+      "files": 207,
+      "bytes": 30826795
+    },
+    {
+      "root": "art-input-07",
+      "exists": true,
+      "files": 43,
+      "bytes": 17295661
+    },
+    {
+      "root": "art-labeled-07",
+      "exists": true,
+      "files": 21,
+      "bytes": 11650838
+    },
+    {
+      "root": "review-snapshots",
+      "exists": true,
+      "files": 13,
+      "bytes": 5330428
+    },
+    {
+      "root": "outputs",
+      "exists": true,
+      "files": 1848,
+      "bytes": 26599888
+    },
+    {
+      "root": "sampling-audit-08",
+      "exists": true,
+      "files": 16,
+      "bytes": 67163
+    }
+  ],
+  "inventory": "inventory-08.jsonl",
+  "inventory_sha256": "f54902e236e0820d7140d9dc0ef0f8f69da20de3e93aaff939e2cc3901a1caaf",
+  "inventory_scope": "stat inventory, not full rehash; source manifests retained",
+  "automatic_deletion": false,
+  "independent_backup_verified": false,
+  "policy_sha256": "5be7c1fa6d161fa7b89ab3019b1e68633e4370b5423b9f19c2260ce8fa9d590d"
+}

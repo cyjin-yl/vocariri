@@ -1,0 +1,31 @@
+{
+  "source_selection": "research/reviews/batch19-breadth-plan-20261002-r1/selection.json",
+  "source_selection_sha256": "1148c11bd006940fd56333a3e2baac254b7f8cb5331b1a313c9f3052cc45143e",
+  "purpose": "Only two official work-level acquisitions and two no-redownload integrity checks",
+  "selected": [
+    {
+      "id": "PVOLT-HbS1T4d1P70",
+      "url": "https://www.youtube.com/watch?v=HbS1T4d1P70",
+      "title": "たびのまえ、たびのあと",
+      "paired_fallback_url": "https://www.nicovideo.jp/watch/sm43449029",
+      "music_creator": "いよわ",
+      "visual_creator": "unknown"
+    },
+    {
+      "id": "PVOLT-lIoi2r3f5fU",
+      "url": "https://www.youtube.com/watch?v=lIoi2r3f5fU",
+      "title": "ポケットのモンスター",
+      "paired_fallback_url": "https://www.nicovideo.jp/watch/sm43086737",
+      "music_creator": "ピノキオピー",
+      "visual_creator": "unknown"
+    }
+  ],
+  "reuse_ids": [
+    "YT_b0XgjrWSV7k",
+    "YT_3Jf_sabP4e0"
+  ],
+  "source_script": "research/cache/discovery-cross-18/acquire.py",
+  "source_script_sha256": "e059c70cea155c56f02ff30e115762623be0b9e48200759812a51f5ca8493d58",
+  "forms_increment": 0,
+  "templates_increment": 0
+}

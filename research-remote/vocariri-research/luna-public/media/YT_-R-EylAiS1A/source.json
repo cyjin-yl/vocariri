@@ -1,0 +1,18 @@
+{
+  "id": "YT_-R-EylAiS1A",
+  "url": "https://www.youtube.com/watch?v=-R-EylAiS1A",
+  "at": "2026-09-24T13:17:17.942181+00:00",
+  "title": "「自主制作MV」パノプティコン",
+  "uploader": "じぇいく",
+  "duration": 37,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 2680129,
+  "sha256": "61132892a1b1e33e830e30a64bf992a46844da1265bd149565c85712964fece4",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

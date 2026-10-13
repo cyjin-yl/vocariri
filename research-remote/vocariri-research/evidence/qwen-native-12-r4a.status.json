@@ -1,0 +1,45 @@
+{
+  "task": "qwen-native-12-r4a",
+  "work_order": "WORK_ORDER_QWEN_VIDEO_R4.md",
+  "state": "complete",
+  "outcome": "reviewed_control",
+  "at": "2026-09-27T13:31:00Z",
+  "accepts": {"forms": 0, "finished_templates": 0},
+  "request": {
+    "made": true,
+    "count": 1,
+    "client_record": "evidence/qwen-native-12-r4a.client.json (sha256 082b11617c7b4ad6ab29cf79d77963491d24a98cecb81487a7d6ad1df9195e2a)",
+    "raw_sse": "evidence/qwen-native-12-r4a.client.events.sse (sha256 8466b6ff5bb53dbc49a4a0e1066921620822cb14e0b951d7a8bac79b84f1b162)",
+    "state": "response_received_unreviewed",
+    "wall_time_seconds": 18.2
+  },
+  "per_window": {
+    "win-a-scale": "reviewed_control_transport_valid_visual_claims_verified_per_frame"
+  },
+  "verification_summary": {
+    "offline_pre_checks": "probe_video: 18 frames, 1/16000, pts [0..9072] exact; validate_native_receipt: pass; independent clip decode 18/18; independent source decode 18/18 at absolute source pts 2271056..2280128; 18/18 per-pair MAD 0.100-0.526 (255), max diff <= 15",
+    "capacity": "checked 2026-09-27T13:24:19Z: 1/4 running, 0 waiting, sample age 4.5s, stale=false",
+    "frames_examined": "18/18 source frames at native PTS (r4atmp/win-a/s-001..s-018)",
+    "claim_verdicts": {"supported": 6, "partially_supported": 2, "conditionally_supported": 1, "unsupported_as_stated": 1, "uncertainty_preserved": 2},
+    "key_findings": [
+      "model frame content matches source (phrases, character art, layout); input_observed=true is consistent with evidence, not proof of server-side sampling (processor_sampling_requested=false, server_sampling_verified=false)",
+      "model 0.0s '非常痛苦而' is one frame early ('而' enters 0.033s); dark drape shapes are background, not foreground occluders; old-text blur position is lower-center, not lower-right",
+      "model missed the '悲' glyph-size hierarchy and the kneeling figure pose (the latter appeared only in reasoning, not final JSON)"
+    ]
+  },
+  "outputs_now_present": [
+    "evidence/qwen-native-12-r4a.client.json",
+    "evidence/qwen-native-12-r4a.client.events.sse",
+    "evidence/qwen-native-12-r4a-comparison.json",
+    "evidence/qwen-native-12-r4a.status.json",
+    "r4atmp/win-a/ (18 source + 18 clip PNGs, spot.jpg, contact-18.jpg, zoom/full crops)"
+  ],
+  "existing_evidence": "R1/R2b/R3a/R3c artifacts byte-identical (pre-checked hashes unchanged; no writes outside exclusive R4a names)",
+  "boundaries_held": [
+    "exactly one request; no retry; no provider switch; no effort reduction",
+    "pin pathname passed only; pin/config/token/request body never opened, printed, or logged",
+    "no protected configuration inspection; no new download; no service change",
+    "shared form/corpus/template ledgers unchanged"
+  ],
+  "next": "Coordinator independently verifies source frames, request receipt, model answer and claim comparison before permitting another window. No further requests from this seat without new order."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "BV1zrbCzLEH4",
+  "url": "https://www.bilibili.com/video/BV1zrbCzLEH4/",
+  "at": "2026-09-24T01:48:09.545055+00:00",
+  "title": "【4K 60帧】初音未来的消失MV 中日双语版 p01 中文版",
+  "uploader": "飞翔的贝塔鱼",
+  "duration": 302.57,
+  "fps": 29.998,
+  "width": 1280,
+  "height": 720,
+  "extractor": "BiliBili",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 22160950,
+  "sha256": "9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

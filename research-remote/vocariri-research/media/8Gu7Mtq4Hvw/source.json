@@ -1,0 +1,18 @@
+{
+  "id": "8Gu7Mtq4Hvw",
+  "url": "https://www.youtube.com/watch?v=8Gu7Mtq4Hvw",
+  "at": "2026-09-27T03:07:53.442389+00:00",
+  "title": "Hatsune Miku - Vegetable Juice (Po Pi Po) with English lyrics",
+  "uploader": "Lamartian",
+  "duration": 105,
+  "fps": 24,
+  "width": 640,
+  "height": 480,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 6200224,
+  "sha256": "6180b14f2e318f1d96b939b3f7f0259e7d82d3b34bc7f47c968031b575843d65",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

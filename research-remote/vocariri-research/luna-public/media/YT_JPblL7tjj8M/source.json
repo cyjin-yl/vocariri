@@ -1,0 +1,18 @@
+{
+  "id": "YT_JPblL7tjj8M",
+  "url": "https://www.youtube.com/watch?v=JPblL7tjj8M",
+  "at": "2026-09-24T15:47:03.821769+00:00",
+  "title": "Motion Graphics - \"Future Dads\" music video",
+  "uploader": "Azin Asili",
+  "duration": 11,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 1508169,
+  "sha256": "48792f26461b2664a336a5bae3e112666e1dedaba7e30b06efa01c1e1e3d428e",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

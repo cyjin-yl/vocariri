@@ -1,0 +1,18 @@
+{
+  "id": "YT_-yL3l-Jyz8M",
+  "url": "https://www.youtube.com/watch?v=-yL3l-Jyz8M",
+  "at": "2026-09-24T15:44:12.395524+00:00",
+  "title": "【Motion Graphics】vividn hop",
+  "uploader": "MIS PASQ",
+  "duration": 172,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 18503670,
+  "sha256": "d904b62388e3b2dac8392d8f5c1a6e9e5f3028918b7ab14f024325a7a832313f",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

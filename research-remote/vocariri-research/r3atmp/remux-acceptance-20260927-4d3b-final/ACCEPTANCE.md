@@ -1,0 +1,23 @@
+# Independent review — Qwen native-PTS remux candidate (2026-09-27)
+
+## Status and verdict
+
+**Pass for the exact scratch MP4 and receipt as an offline transport candidate.** The 18 decoded MP4 frames preserve the original relative native PTS through the final 9072 ticks, and the deployed checked client's `probe_video` and `validate_native_receipt` pass on those exact bytes. This does not accept a PV form or template, prove server-side frame sampling, or show that Qwen observed or understood video. The formal `evidence/native/win-a-scale-native-r3b.mp4` and R3b evidence/status were absent at this review; a later formal copy needs its own byte-hash read-back.
+
+## Observed facts and independent calculations
+
+- Inputs rehashed before and after: source MP4 `9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7`; encoded MKV `8404fb7a8d61a16f0b95bcc44821d42fd110d31371e50ba6acdfc9b8f4c9429f`; candidate MP4 `810e39509b34646f2432164e843231671e3b34a6099398b8fa48fb3c30d32653`; test receipt `7dc39807c9dbeac9c8c28a3fd56e9eaa0f26a386333119d013d1d90d6e2ba352`; deployed checked-client module `b93661cd6573ab1e5a95cfd7e83544b6379e23d2dec9192691618b2d89de952b`.
+- A fresh FFmpeg 7.0.2 source scan decoded through source frame 4276. Frames 4258–4275 are 18 consecutive 1280×720 frames with source time base 1/16000, absolute PTS 2271056–2280128. The independently decoded MP4 has 18 frames at time base 1/16000 and PTS `[0,528,1072,1600,2128,2672,3200,3744,4272,4800,5344,5872,6400,6944,7472,8000,8544,9072]`, equal at every index to the source PTS minus 2271056. The MKV decode has 18 frames at time base 1/1000.
+- Every one of the 18 MP4 decoded RGB frames is byte-identical to its MKV counterpart. Each MP4 frame was also compared with its corresponding original source frame and the adjacent source frames. The expected-source per-frame PSNR spans 47.61–56.16 dB and its maximum mean absolute RGB error is 0.537/255; all individual hashes and metrics are in `review.json`. Some adjacent source frames are nearly unchanged, so visual proximity alone cannot uniquely label every frame; the consecutive source scan, order, timestamps and frame comparisons jointly support the mapping.
+- The deployed checked-client `probe_video` returned 18 frames, 1280×720, 0.6 seconds, the same exact PTS and time base. `validate_native_receipt` accepted the exact receipt, then rejected both an independently generated final-PTS +16-tick mutation and an incorrect clip-hash mutation as `native_receipt_invalid`. Route loading, streaming, and socket connection entry points were patched to raise during these calls. No inference was requested.
+- Direct inspection of decoded frames 0, 9 and 17 showed coherent grayscale text-PV images and a populated final frame. This spot inspection is not a full semantic motion annotation. All 10 non-self-referential review-manifest entries matched a fresh remote SHA-256 listing; the manifest itself hashed to `297584fea7ed7552faef912520f75e42e1bb4c50668a6f846cdcbe9572fd0859`.
+
+## Failure preserved and limits
+
+My first verifier incorrectly required exact original-source pixels and failed. The producer encoded the source selection to a CRF12 MKV before copying its stream to MP4, so lossy source-to-MKV differences are expected. That first script and its decoder traces remain intact in `remux-acceptance-20260927-4d3b/`; the corrected verifier and full per-frame evidence are in `remux-acceptance-20260927-4d3b-r2/`. Neither result is evidence of Qwen video understanding or of server-side no-resampling behavior. No protected route/config/credentials were inspected, no OMP pane was touched, and no media/model request was sent.
+
+## Cold-resume paths and next gate
+
+The source and candidate reside in the [remote host] research bind `/tank/shared/projects/vocariri-research/` (the checked container sees it as `/workspace/`). The exact candidate is `r3atmp/codex-taildiag-20260927-7e2c/remux.mp4`, and its receipt is the adjacent `remux-recheck-test-receipt.json`. This review's full JSON and decoder traces are in `r3atmp/remux-acceptance-20260927-4d3b-r2/`; spot images are in `r3atmp/remux-acceptance-20260927-4d3b-visual/`. The reviewed JSON SHA-256 is `32393082675f20bda9c6567babae59051758b3e503458f5c5d684bafc5d8d36d`.
+
+Next, the producing seat may create the formal R3b deliverables under exclusive names, retaining all failed R3a and scratch evidence. Independently read back the final formal clip/receipt hashes and rerun offline checks on those exact formal bytes before any later request decision. Do not rewrite earlier artifacts, inspect protected routing, or equate transport validation with semantic acceptance.

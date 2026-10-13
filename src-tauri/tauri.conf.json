@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Vocariri",
+  "version": "0.1.0",
+  "identifier": "org.vocariri.studio",
+  "build": {
+    "beforeDevCommand": "npm start",
+    "devUrl": "http://127.0.0.1:4173",
+    "beforeBuildCommand": "node scripts/build-web.mjs",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Vocariri",
+        "width": 1500,
+        "height": 1000,
+        "minWidth": 720,
+        "minHeight": 560,
+        "dragDropEnabled": false,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self' blob:; connect-src 'self' ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "shortDescription": "Word-timed VOCALOID lyric animation",
+    "category": "Video",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

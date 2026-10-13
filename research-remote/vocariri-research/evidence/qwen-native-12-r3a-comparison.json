@@ -1,0 +1,67 @@
+{
+  "task": "qwen-native-12-r3a",
+  "work_order": "WORK_ORDER_QWEN_NATIVE_MUX_R3.md",
+  "correction_applied": "No 533/534 assumption; each of the 18 exact integer source PTS read from source showinfo; exact rational deltas compared; audited 528/544 tick pattern confirmed, never manufactured",
+  "state": "blocked",
+  "at": "2026-09-27T12:30:00Z",
+  "decoder": "ffmpeg 7.0.2-static (imageio_ffmpeg binary at /opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2), verified in-container",
+  "hashes_frozen": {
+    "source": {"file": "media/BV1zrbCzLEH4/source.mp4", "sha256": "9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7"},
+    "old_clip_r1": {"file": "evidence/clips/win-a-scale.mp4", "sha256": "e3281dfd222c0e7d5f0d6731d5083da1bd592cdc167310d35be2a036f35fc993"},
+    "old_receipt_r2b": {"file": "evidence/native/win-a-scale-pts-r2b.json", "sha256": "46effb817307f0bebfaa3b8f9fa7f162239b40d6f4973b16a05cf301c9557bd1"},
+    "new_clip_r3a_candidate": {"file": "evidence/native/win-a-scale-native-r3.mp4", "sha256": "2c350b3886619f0492119abb474a98e078ae6181e6597ffedaf270ea256fdc59", "bytes": 209933, "preservation": "preserved byte-for-byte per stop order; not overwritten, not deleted"}
+  },
+  "source_meta": {
+    "stream": "Video: h264 (High) (avc1), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 30 tbr, 16k tbn",
+    "codec": "h264", "pix_fmt": "yuv420p", "time_base": "1/16000",
+    "note": "container metadata 'Packed by Bilibili XCoder v2.0.2' inherited from source; cosmetic only"
+  },
+  "win": {
+    "native_index_range": [4258, 4275],
+    "source_pts": [2271056, 2271584, 2272128, 2272656, 2273184, 2273728, 2274256, 2274800, 2275328, 2275856, 2276400, 2276928, 2277456, 2278000, 2278528, 2279056, 2279600, 2280128],
+    "source_deltas_ticks": [528, 544, 528, 528, 544, 528, 544, 528, 528, 544, 528, 528, 544, 528, 528, 544, 528],
+    "source_deltas_seconds": ["33/1000", "34/1000", "33/1000", "33/1000", "34/1000", "33/1000", "34/1000", "33/1000", "33/1000", "34/1000", "33/1000", "33/1000", "34/1000", "33/1000", "33/1000", "34/1000", "33/1000"],
+    "independent_reverification": "fresh full-source showinfo (9076 frames, one config-in line 1/16000, consecutive n, unique integer pts); all 18 r2b receipt pts re-matched exactly by value and consecutiveness"
+  },
+  "build": {
+    "command": ["ffmpeg", "-nostdin", "-hide_banner", "-i", "media/BV1zrbCzLEH4/source.mp4", "-map", "0:v:0", "-vf", "select='between(n,4258,4275)',setpts=PTS-STARTPTS", "-fps_mode", "passthrough", "-enc_time_base", "filter", "-video_track_timescale", "16000", "-an", "-c:v", "libx264", "-crf", "12", "-pix_fmt", "yuv420p", "-movflags", "+faststart", "evidence/native/win-a-scale-native-r3.mp4"],
+    "encoder_progress": "frame=18 (all 18 filter frames accepted and encoded)",
+    "no_fps_filter": true, "no_output_r": true
+  },
+  "new_clip_container_tables": {
+    "stsz_samples": 18,
+    "stts_rows": [[1, 528], [1, 544], [1, 528], [1, 544], [2, 528], [1, 544], [1, 528], [1, 544], [2, 528], [1, 544], [2, 528], [1, 544], [2, 528], [1, 0]],
+    "stts_sum_ticks": 9072,
+    "stts_note": "last row (1, 0): final sample duration zero; sample start times match native deltas exactly, final relative pts 9072",
+    "ctts_entries": [[1, 1072], [1, 1616], [1, 528], [1, 2672], [1, 1056], [1, 0], [1, 544], [1, 1600], [1, 544], [1, 1056], [1, 2128], [1, 544], [1, 528], [2, 1072], [1, 1056], [1, 1600], [1, 544]],
+    "ctts_note": "17 composition entries for 18 samples; 18th sample has no ctts entry",
+    "stss": [1],
+    "mdhd": {"timescale": 16000, "duration_ticks": 9072, "duration_seconds": 0.567},
+    "tkhd_duration": 0,
+    "container_duration_line": "Duration: 00:00:00.57, start: 0.000000"
+  },
+  "decode_result": {
+    "demuxed_packets": 18,
+    "decoded_frames": 17,
+    "decoded_pts_ticks": [0, 528, 1072, 1600, 2128, 2672, 3200, 3744, 4272, 4800, 5344, 5872, 6400, 6944, 7472, 8000, 8544],
+    "missing_relative_pts": 9072,
+    "demux_trace": "mov demuxer logs 'Offset DTS by 1072 to make first pts zero'; final demuxed stream dts begins -67000, -34000, 0, 33000, 67000 (AV_TIME_BASE us); sample 16 dts 467000, sample 17 dts 500000; 18 packets read",
+    "frame_type_sequence": "I P P B B P B P I B B P P P I B (17 decoded frames; first 3 frames I,P,P per showinfo iskey/type fields)"
+  },
+  "isolation": {
+    "same_pipeline_mkv": "identical encode pipeline muxed to Matroska decodes 18 frames (frame=18, time=00:00:00.60) - all 18 frames survive in MKV; loss is MP4-specific",
+    "mp4_variants_all_17": ["enc_time_base filter", "enc_time_base 1/16000", "no enc_time_base", "libx264 -bf 0"]
+  },
+  "exact_failed_checks": [
+    "r3a_native_mux.py step 3: 'new clip decoded 17 pts / 17 frames, expected 18' (showinfo integer pts count 17, image2 files 17)",
+    "secondary: IndexError in cumulative-drift loop at i=17 (consequence of 17-item list)"
+  ],
+  "checked_client": {
+    "invoked": false,
+    "reason": "blocked before receipt validation; vrc.probe_video / vrc.validate_native_receipt not run on the candidate clip"
+  },
+  "hypothesis_not_proven": "B-frame reordering / mov demuxer dts-offset interaction with the short ctts table and zero final stts duration is a hypothesis for the dropped 18th decoded frame; not proven. Per audit: treat as unestablished mechanism.",
+  "image_correspondence": "not completed (decode count failed first; per-pair MAD and spot sheet not produced)",
+  "preservation": "evidence/native/win-a-scale-native-r3.mp4 preserved byte-for-byte (sha256 2c350b3886619f0492119abb474a98e078ae6181e6597ffedaf270ea256fdc59); no R1/R2 artifact touched; scratch artifacts under /workspace/r3atmp/ retained",
+  "next": "Seperately named R3b work order after coordinator audit (may test -bf 0 and MP4 timing-table fixes); no inference until then"
+}

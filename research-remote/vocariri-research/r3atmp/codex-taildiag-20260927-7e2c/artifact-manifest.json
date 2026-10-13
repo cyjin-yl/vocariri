@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-09-27T20:53:45.280856+08:00",
+  "note": "Manifest excludes itself because recursive self-hashing is impossible.",
+  "generator": {
+    "path": "diag.py",
+    "sha256": "4a007991f730e2741d2dcbddcda7508428910c5dd94d93c3dd12ebb46c075b8a"
+  },
+  "upstream": {
+    "source_sha256": "9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7",
+    "r3a_sha256": "2c350b3886619f0492119abb474a98e078ae6181e6597ffedaf270ea256fdc59",
+    "client_module_sha256": "b93661cd6573ab1e5a95cfd7e83544b6379e23d2dec9192691618b2d89de952b"
+  },
+  "files": [
+    {
+      "path": "CHECKPOINT.md",
+      "bytes": 3091,
+      "sha256": "c17ee41d47ec74a7e8e8ad22f30bce6a3e5dfa02b19f17f23ffc7cf813f633cc"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4770,
+      "sha256": "40dc3d007372a226cfe14e19dbdf0e153d0752e267e37efb45e0bb269c3f7223"
+    },
+    {
+      "path": "diag.py",
+      "bytes": 8741,
+      "sha256": "4a007991f730e2741d2dcbddcda7508428910c5dd94d93c3dd12ebb46c075b8a"
+    },
+    {
+      "path": "offline_check.py",
+      "bytes": 1317,
+      "sha256": "6b03bc186d45efec2be1e585ea93415f2dd4672cb08d69fff86ab60a092b1c12"
+    },
+    {
+      "path": "remux-decode.stderr",
+      "bytes": 10073,
+      "sha256": "3a613b6aa6875bd9bf11aa8d5d82aee78b79bfab4038cc0deeca2bbbaebbdea1"
+    },
+    {
+      "path": "remux-decode.stdout",
+      "bytes": 168,
+      "sha256": "ce9420dea1330485b1ce13578829499c02a40a299c478d1224332be945f3e350"
+    },
+    {
+      "path": "remux-input.mkv",
+      "bytes": 209650,
+      "sha256": "8404fb7a8d61a16f0b95bcc44821d42fd110d31371e50ba6acdfc9b8f4c9429f"
+    },
+    {
+      "path": "remux-mkv-encode.stderr",
+      "bytes": 5476,
+      "sha256": "0de74becd3265c20ef53bc368a95ec66e877a097a28b17780b95b60b040c7694"
+    },
+    {
+      "path": "remux-mkv-encode.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "remux-mp4-copy.stderr",
+      "bytes": 1800,
+      "sha256": "39f98927c7e7149476a9979588d31cf502385dbe91bd09677efe2d13df08d17d"
+    },
+    {
+      "path": "remux-mp4-copy.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "remux-recheck-decode.stderr",
+      "bytes": 10073,
+      "sha256": "2cf165dbdd7dfe7143ce5a77f58fd740e222f5523bc83715804a086aa95a2570"
+    },
+    {
+      "path": "remux-recheck-decode.stdout",
+      "bytes": 168,
+      "sha256": "ce9420dea1330485b1ce13578829499c02a40a299c478d1224332be945f3e350"
+    },
+    {
+      "path": "remux-recheck-result.json",
+      "bytes": 2112,
+      "sha256": "b2a253aa2f1a02c3e0ac71f72c45e58af31b64c407c9c776478225f56dafd651"
+    },
+    {
+      "path": "remux-recheck-test-receipt.json",
+      "bytes": 392,
+      "sha256": "7dc39807c9dbeac9c8c28a3fd56e9eaa0f26a386333119d013d1d90d6e2ba352"
+    },
+    {
+      "path": "remux.mp4",
+      "bytes": 209933,
+      "sha256": "810e39509b34646f2432164e843231671e3b34a6099398b8fa48fb3c30d32653"
+    },
+    {
+      "path": "source-check.json",
+      "bytes": 1283,
+      "sha256": "41c1a3e37c903c04465d0532ca97f7b1c178384b7fdbb587ba345fc0bea65858"
+    },
+    {
+      "path": "source-scan.stderr",
+      "bytes": 10136,
+      "sha256": "c0d049d4c7a255be31e51862e312eff2c50b8e84e8b7f8c891cb090cded2c70b"
+    },
+    {
+      "path": "source-scan.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfr-decode.stderr",
+      "bytes": 9691,
+      "sha256": "9424027c3228e38a5fb77d4a422a9511d40f9f698510fa40ea1e6071fdac0a9c"
+    },
+    {
+      "path": "vfr-decode.stdout",
+      "bytes": 168,
+      "sha256": "17d9b168f50e4671d6ae58d0a6449b051c9b2b7e1b61b5248de542f4a3e03f5f"
+    },
+    {
+      "path": "vfr-encode.stderr",
+      "bytes": 5527,
+      "sha256": "2e016d6733af5c8ee5745f1952c6be886798d15574e9a36aa85836bec00ec594"
+    },
+    {
+      "path": "vfr-encode.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfr-result.json",
+      "bytes": 3839,
+      "sha256": "7fcc13d46e57ed6a8f16f381fd30452e1a48f75576bc93742966a7875aeea713"
+    },
+    {
+      "path": "vfr-test-receipt.json",
+      "bytes": 392,
+      "sha256": "80bfe575db94937140832f4b81ca2b5097922d4e9a3c822b11fd7dbd56db46a5"
+    },
+    {
+      "path": "vfr.mp4",
+      "bytes": 209933,
+      "sha256": "2c350b3886619f0492119abb474a98e078ae6181e6597ffedaf270ea256fdc59"
+    }
+  ]
+}

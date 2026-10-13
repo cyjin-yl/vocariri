@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "frame-00.png",
+      "bytes": 268556,
+      "sha256": "f55a8d4c7d7b3e5adfa1fcaed50c4ca6cb45a358c2567eb0d20fd92b289becee"
+    },
+    {
+      "path": "frame-09.png",
+      "bytes": 294364,
+      "sha256": "203b9c5ea1b9ab46eb90fac17e05b8f7e4ba16ed7e467eebbb6412316de4e930"
+    },
+    {
+      "path": "frame-17.png",
+      "bytes": 276435,
+      "sha256": "87ef607b702ac6b74cf31d6036c8c8f5d6ef9c6f642873e0f65c5978748075c0"
+    },
+    {
+      "path": "snapshots.json",
+      "bytes": 789,
+      "sha256": "3e4ec0d4de9c3302b10e8aea93c75a88b3d05be41f14fc434f837219ec6554fd"
+    },
+    {
+      "path": "snapshots.py",
+      "bytes": 2111,
+      "sha256": "4a90bb0c532d7157a8bd788a9aeee72aa64896c54a67a437844d40a07e6539a3"
+    }
+  ],
+  "self_reference": "artifact-manifest.json omitted to avoid recursive self-hashing"
+}

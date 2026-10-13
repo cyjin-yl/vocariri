@@ -1,0 +1,18 @@
+{
+  "id": "YT_N6TkZKytwI4",
+  "url": "https://www.youtube.com/watch?v=N6TkZKytwI4",
+  "at": "2026-09-24T13:18:10.272407+00:00",
+  "title": "【文字PV】スーサイドパレヱド / ユリイ・カノン【Aviutl】",
+  "uploader": "ゆば",
+  "duration": 29,
+  "fps": 12,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 7062416,
+  "sha256": "c50c3003b0c72bbc527443269cd8174d7cc9c7d8753bb191a23043f38cf8dc42",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

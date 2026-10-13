@@ -1,0 +1,15 @@
+{
+  "id": "NICO-sm46137276",
+  "url": "https://www.nicovideo.jp/watch/sm46137276",
+  "at_utc": "2026-09-27T12:42:55.791985+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": null,
+  "bytes": 4652372,
+  "sha256": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87",
+  "file": "sources/NICO-sm46137276/source.mp4",
+  "duration_seconds": 17,
+  "title": "【alightmotion/blurrr】インドア系ならトラックメイカー 文字pv",
+  "uploader": "aki11",
+  "extractor": "Niconico",
+  "yt_dlp_version": "2026.08.19"
+}

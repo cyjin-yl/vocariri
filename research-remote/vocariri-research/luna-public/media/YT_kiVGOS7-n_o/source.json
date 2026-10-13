@@ -1,0 +1,18 @@
+{
+  "id": "YT_kiVGOS7-n_o",
+  "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+  "at": "2026-09-24T15:36:27.035955+00:00",
+  "title": "Cupid - Fifty Fifty (Motion Graphic)",
+  "uploader": "wanezv",
+  "duration": 24,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 769707,
+  "sha256": "ade3322b694a1de37fa7dac48cf0f34e51d14d1b3f01595e7a9c9cd54dc21f58",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

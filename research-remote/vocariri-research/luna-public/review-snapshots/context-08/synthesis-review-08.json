@@ -1,0 +1,69 @@
+{
+  "reviewed_at": "2026-09-25T11:56:46.532032+00:00",
+  "status": "structural_links_pass_semantic_review_requires_corrections",
+  "inputs": {
+    "architecture-coverage-06.json": "9b0a53765c2049cd39750880874248fcab2629f9e4177d90cb3d5001ea4f00b8",
+    "art-direction-patterns-07.json": "e0a223f5644c96316f5cde1f1bb27804704547837d0ca90e2ac79707e5be18a4",
+    "forms.jsonl": "a053bd3ab7642f383f3b002f15da8842ea54703aadafdfaa047ff6df57841159",
+    "observations.jsonl": "6dd83ca68c3333cddade01d859cf4c469eb7542a5b29c3c840e55991dba07be7",
+    "production-requirements-06.json": "799f017b3d04dd91a77f75f3456f1cd67d250948299cf2ef02cc41829cd3046f",
+    "requirements-reconciliation-06.json": "481d2b2c5f8ff2bbe2c40ee87292882bb0cfe8caaefe0bfdfa169ade676bc230"
+  },
+  "counts": {
+    "candidate_forms": 54,
+    "covered_forms": 54,
+    "coverage_families": 13,
+    "art_patterns": 8,
+    "unresolved_checked_links": 0
+  },
+  "issues": [],
+  "semantics": [
+    {
+      "scope": "three_temporal_corrections",
+      "finding": "PR06 separates foreground bar wipe into its own requirement and preserves group overshoot and changing text/window relationship. These improve the prior descriptions; not implementation or template acceptance."
+    },
+    {
+      "scope": "coverage_family_granularity",
+      "finding": "All 54 candidate forms have group membership, but generic subsystem labels and family-level pass/fail examples do not prove every member mechanism is expressible. In particular sparse-hold family includes door/text interruption and oversized-character overlap; retain those individual constraints."
+    },
+    {
+      "scope": "ART-DIR-07-006",
+      "finding": "Directly viewed full frame labeled 74.25s has clearly serifed ECHO outlines and larger dark serif duplicate. Add serif anatomy; do not reduce it to rounded generic/block lettering. Source PTS and legacy 4fps labels require reconciliation."
+    },
+    {
+      "scope": "ART-DIR-07-004",
+      "finding": "Directly viewed 14.25s frame shows repeated composite cards with double borders, small box/icon marks, heavy Japanese text and faint offset outline echoes. Generic glyph repetition omits the card unit and motif relationships."
+    },
+    {
+      "scope": "ART-DIR-07-008",
+      "finding": "Directly viewed 188s frame supports stepped pixel lettering with pale face, warm keyline and substantial offset dark block shading over repeated character imagery. The claimed distinct upper outlined text band is not clearly supported by this frame; leave unconfirmed."
+    }
+  ],
+  "release_check": {
+    "npm_pack_dry_run_file_count": 18,
+    "reference_paths_in_package": [],
+    "media_paths_in_package": [],
+    "tracked_media_paths": [],
+    "scope": "Current npm package and Git file inventory only; no future or native installer release guarantee."
+  },
+  "retention": "Reference images and sheets remain under explicit hold until linked prototype review; no cleanup performed.",
+  "limits": [
+    "No full-corpus semantic acceptance.",
+    "Sample frames do not establish source AE construction, exact font names, continuous motion, lyric emotion or author intent.",
+    "No production template accepted."
+  ],
+  "reviewed_images": [
+    {
+      "file": "echo-74_25.png",
+      "sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+    },
+    {
+      "file": "tiles-14_25.png",
+      "sha256": "4fe14fe7c5cc371afdf16ae000c326acca5982245da3c8fbb92548068d672d27"
+    },
+    {
+      "file": "overdose-188.png",
+      "sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38"
+    }
+  ]
+}

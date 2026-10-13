@@ -1,0 +1,18 @@
+{
+  "id": "aejbTf8Y0_0",
+  "url": "https://www.youtube.com/watch?v=aejbTf8Y0_0",
+  "at": "2026-09-26T01:34:00.359526+00:00",
+  "title": "Billie Eilish - COPYCAT (Animated Lyrics)",
+  "uploader": "Maginpanic",
+  "duration": 204,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 10117648,
+  "sha256": "4f2bcf83463def86b29d9c4c5b97690d521246215ecb038e5c4453dc13818749",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

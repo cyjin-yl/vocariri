@@ -1,0 +1,37 @@
+{
+  "frozen_at": "2026-10-01T14:05:00Z",
+  "work_order": {"file": "WORK_ORDER_QWEN_OVERDOSE_NATIVE_R1.md", "sha256": "c51f0924958044e7780f5cb9e8271a31c5a97c5f35ce4acfcad517b142bfc597", "verified": true},
+  "tools": {
+    "ffmpeg": "7.0.2-static (/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2; no ffprobe; framehash filter ABSENT in this build - verified via -filters; per-frame raw-yuv420p MD5 used as substitution, same as R5a/batch18)",
+    "python": "3.11.2 (/opt/pv-tools/bin/python)",
+    "PIL": "12.3.0",
+    "imageio_ffmpeg": "0.6.0"
+  },
+  "source": {
+    "file": "luna-public/media/YT_BnkhBwzBqlQ/source.mp4",
+    "sha256": "e0507f7a86b862679fb54036ff30c557fd51e8a7c08a60bc452d088a9c4a40ac",
+    "bytes": 27088524,
+    "rehash_verified": true,
+    "url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ"
+  },
+  "sidecar": {
+    "file": "luna-public/media/YT_BnkhBwzBqlQ/source.json",
+    "bytes": 573,
+    "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+    "uploader": "Aiobahn",
+    "claims": {"duration": 223, "fps": 30, "width": 960, "height": 720, "license": null, "state": "downloaded_uninspected", "yt_dlp_version": "2026.08.19"}
+  },
+  "decoder_metadata": {
+    "duration": "00:03:42.80 (222.80 s)",
+    "video": "av1 (libdav1d) Main, yuv420p(tv, bt709), 960x720, 30 fps, 30 tbr, tbn 1/15360",
+    "audio": "opus 48000 Hz stereo fltp 125 kb/s"
+  },
+  "metadata_vs_decoder": [
+    "sidecar duration 223 s (truncated/rounded) vs decoder 222.80 s",
+    "sidecar 960x720 30fps matches decoder stream facts",
+    "title/uploader are metadata claims, not inspected content"
+  ],
+  "frame_byte_rule": "complete yuv420p frame = W*H*3/2 from actual dimensions; 960x720 -> 1036800 bytes/frame (coincidentally equal to the value that was WRONG for the 1280x720 R5a source; here it is correct for 960x720)",
+  "labeled_screening_regions_seconds": [20, 68, 116, 188],
+  "sibling_files": "directory contains only source.json + source.mp4; no prior art/applicability files present at luna-public/media/YT_BnkhBwzBqlQ/ (order says they 'may be consulted' - none exist to consult)"
+}

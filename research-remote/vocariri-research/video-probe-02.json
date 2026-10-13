@@ -1,0 +1,11 @@
+{
+  "source_id": "BV1k72LYzEmV",
+  "source_start_seconds": 32.0,
+  "clip_sha256": "14119d54b3b09df86f21353c01946c8f63cd70d7db82c1f3db6f3e6eb601b5fe",
+  "clip_bytes": 281596,
+  "model": "[redacted model]",
+  "input_mode": "video_url_data_mp4",
+  "at": "2026-09-24T02:25:59.792414+00:00",
+  "state": "aborted_duplicate_killed",
+  "note": "Duplicate probe started before parent's no-duplicate instruction; process killed before response. No visual evidence from this record."
+}

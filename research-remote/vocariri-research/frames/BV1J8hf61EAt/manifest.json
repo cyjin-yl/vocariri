@@ -1,0 +1,141 @@
+{
+  "source_sha256": "99e15a0cf0ccf1e65972c2adba94c2236625811764b366e7a217e0ffa27369e0",
+  "sampling_fps": 4,
+  "state": "extracted_uninspected",
+  "frame_count": 695,
+  "sheets": [
+    {
+      "file": "sheet-0000.jpg",
+      "start": 0.0,
+      "end": 8.0,
+      "sha256": "fe91f7fcece0958546126c96172b4725916b97ce4bd09159b88de60cbfc52721"
+    },
+    {
+      "file": "sheet-0001.jpg",
+      "start": 8.0,
+      "end": 16.0,
+      "sha256": "9f4137ec592bf70647bfd4d6ac96056fc5dacab892019d71e6dffbafd8585844"
+    },
+    {
+      "file": "sheet-0002.jpg",
+      "start": 16.0,
+      "end": 24.0,
+      "sha256": "b9e6ab599b40d494c40882fd9cd684d0cbb5ecb42ed80856b7e2b218ac477c59"
+    },
+    {
+      "file": "sheet-0003.jpg",
+      "start": 24.0,
+      "end": 32.0,
+      "sha256": "ae6dade85ff153dcf7f217389278d7d9873ea96bfa72bf6d01015289a17a9591"
+    },
+    {
+      "file": "sheet-0004.jpg",
+      "start": 32.0,
+      "end": 40.0,
+      "sha256": "e2dc543fa1c4435677533e33f4706946f8d4e50645ec3e3f49af54d5d9ad59de"
+    },
+    {
+      "file": "sheet-0005.jpg",
+      "start": 40.0,
+      "end": 48.0,
+      "sha256": "157ec169e7bd28e121dea54ed93dfb023bd412b0d10487e96ca7a8ee35d7412e"
+    },
+    {
+      "file": "sheet-0006.jpg",
+      "start": 48.0,
+      "end": 56.0,
+      "sha256": "74eda7253406529f51d3ec079d0b448d972352732bb3c7cfe21e6184be4983cd"
+    },
+    {
+      "file": "sheet-0007.jpg",
+      "start": 56.0,
+      "end": 64.0,
+      "sha256": "8a398f0a45f986fae6440d43fd092475f7ba906211d90a91d679af065389fa39"
+    },
+    {
+      "file": "sheet-0008.jpg",
+      "start": 64.0,
+      "end": 72.0,
+      "sha256": "6e80fecf08feede7f3593684fec2a9787c7883354c4c7ea186ac8b85b459cc4e"
+    },
+    {
+      "file": "sheet-0009.jpg",
+      "start": 72.0,
+      "end": 80.0,
+      "sha256": "5d0560f7edd1f992b06f99224df4d8e4f00f17f3f81aa1691ca0d9b7025a20f3"
+    },
+    {
+      "file": "sheet-0010.jpg",
+      "start": 80.0,
+      "end": 88.0,
+      "sha256": "f12d76a72da92d8602cb562b825df25f52115034ad3d8c8d5d13806cb1a4252e"
+    },
+    {
+      "file": "sheet-0011.jpg",
+      "start": 88.0,
+      "end": 96.0,
+      "sha256": "fa745d2bc21130e318f3ccea4e872dba4140c9627dc06d6775572b4a1d3833a7"
+    },
+    {
+      "file": "sheet-0012.jpg",
+      "start": 96.0,
+      "end": 104.0,
+      "sha256": "18325726214bdc5f731556b92876c6d28cf79dfc521ba06a8ea12a8716f3c614"
+    },
+    {
+      "file": "sheet-0013.jpg",
+      "start": 104.0,
+      "end": 112.0,
+      "sha256": "4e2c7d8075517d91c801813c696277151a2f761c0eadce433d4f5e20ffb19d91"
+    },
+    {
+      "file": "sheet-0014.jpg",
+      "start": 112.0,
+      "end": 120.0,
+      "sha256": "a11f30244492e5bc8d6306401e2224bed13919c086b9e5fa887998b0d9c6680a"
+    },
+    {
+      "file": "sheet-0015.jpg",
+      "start": 120.0,
+      "end": 128.0,
+      "sha256": "5578ba54b90c7e030095e9dd5c841c0916498e9f350383c3cc0421613584a0dc"
+    },
+    {
+      "file": "sheet-0016.jpg",
+      "start": 128.0,
+      "end": 136.0,
+      "sha256": "2a646e070f46cdf50a2ff01b8fe6e8ed5af9007b06be4525d5bb7f22b06ed236"
+    },
+    {
+      "file": "sheet-0017.jpg",
+      "start": 136.0,
+      "end": 144.0,
+      "sha256": "02a8ed58d1f292ca5d63350f45bde6313e26ad86b47d2b461fc1c9009f12fa34"
+    },
+    {
+      "file": "sheet-0018.jpg",
+      "start": 144.0,
+      "end": 152.0,
+      "sha256": "46c1b945ffc817e7a8edb93260a0c7898175589e7cfc29c65a3c775e4beb7ece"
+    },
+    {
+      "file": "sheet-0019.jpg",
+      "start": 152.0,
+      "end": 160.0,
+      "sha256": "0ab9cc14beb33a38efd8e226b3f0c90008d3654a445ec6d8928a019892ccecef"
+    },
+    {
+      "file": "sheet-0020.jpg",
+      "start": 160.0,
+      "end": 168.0,
+      "sha256": "34b5e99e9e584e6d86609d84fda95767790d500137ebd507937b1a5fd07d02d1"
+    },
+    {
+      "file": "sheet-0021.jpg",
+      "start": 168.0,
+      "end": 173.653,
+      "sha256": "588afffd52c2c17de30179680192e89b3e6a0c5f2576cb407f96f6c6b20f77c8"
+    }
+  ],
+  "note": "Review at source FPS for short impacts/glitches and cut boundaries."
+}

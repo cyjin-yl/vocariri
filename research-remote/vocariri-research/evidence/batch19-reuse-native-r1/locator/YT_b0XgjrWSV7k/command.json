@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+    "-hide_banner",
+    "-nostdin",
+    "-threads",
+    "2",
+    "-copyts",
+    "-protocol_whitelist",
+    "file,pipe",
+    "-i",
+    "/workspace/luna-public/media/YT_b0XgjrWSV7k/source.mp4",
+    "-vf",
+    "select='between(n,0,750)*not(mod(n,30))',showinfo,scale=640:-2",
+    "-frames:v",
+    "26",
+    "-fps_mode",
+    "passthrough",
+    "-an",
+    "-threads",
+    "2",
+    "/workspace/evidence/batch19-reuse-native-r1/locator/YT_b0XgjrWSV7k/locator-%03d.png"
+  ],
+  "timeout_seconds": 180,
+  "offline": true,
+  "model_request_made": false
+}

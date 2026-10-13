@@ -1,0 +1,33 @@
+Input #0, matroska,webm, from '/workspace/r3atmp/codex-taildiag-20260927-7e2c/remux-input.mkv':
+  Metadata:
+    DESCRIPTION     : Packed by Bilibili XCoder v2.0.2
+    MAJOR_BRAND     : isom
+    MINOR_VERSION   : 512
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    ENCODER         : Lavf61.1.100
+  Duration: 00:00:00.57, start: 0.000000, bitrate: 2958 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 1k tbn (default)
+      Metadata:
+        HANDLER_NAME    : Bento4 Video Handler
+        VENDOR_ID       : [0][0][0][0]
+        ENCODER         : Lavc61.3.100 libx264
+        DURATION        : 00:00:00.567000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp4, to '/workspace/r3atmp/codex-taildiag-20260927-7e2c/remux.mp4':
+  Metadata:
+    DESCRIPTION     : Packed by Bilibili XCoder v2.0.2
+    MAJOR_BRAND     : isom
+    MINOR_VERSION   : 512
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 30 tbr, 16k tbn (default)
+      Metadata:
+        HANDLER_NAME    : Bento4 Video Handler
+        VENDOR_ID       : [0][0][0][0]
+        ENCODER         : Lavc61.3.100 libx264
+        DURATION        : 00:00:00.567000000
+[vost#0:0/copy @ 0x2b0db700] Non-monotonic DTS; previous: -1072, current: -1072; changing to -1071. This may result in incorrect timestamps in the output file.
+[mp4 @ 0x2b0dc880] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x2b0dc4c0] video:204KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.610083%
+size=     205KiB time=00:00:00.50 bitrate=3358.9kbits/s speed= 634x    

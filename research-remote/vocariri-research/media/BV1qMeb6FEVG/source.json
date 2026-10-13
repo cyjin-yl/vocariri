@@ -1,0 +1,18 @@
+{
+  "id": "BV1qMeb6FEVG",
+  "url": "https://www.bilibili.com/video/BV1qMeb6FEVG/",
+  "at": "2026-09-25T19:23:19.349439+00:00",
+  "title": "【中文字幕】周末/しゅうまつ 初音ミク・雨衣【カイネ】",
+  "uploader": "一个无聊的念",
+  "duration": 116.0,
+  "fps": 30.0,
+  "width": 1280,
+  "height": 720,
+  "extractor": "BiliBili",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 6652696,
+  "sha256": "29418940ae2e4863b5ba0c160c84ea329c5cafb58d883f0894b7b1480cad441d",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

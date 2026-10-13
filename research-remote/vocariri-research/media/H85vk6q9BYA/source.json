@@ -1,0 +1,18 @@
+{
+  "id": "H85vk6q9BYA",
+  "url": "https://www.youtube.com/watch?v=H85vk6q9BYA",
+  "at": "2026-09-26T01:40:33.787423+00:00",
+  "title": "The Weeknd - Blinding Lights (Animated Kinetic Typography Lyric Video)",
+  "uploader": "Martin Strategist",
+  "duration": 200,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 21869011,
+  "sha256": "5d0e69ecf99a253fb3ee97819722adfe89fcbeff483a898b72f45ae9049849d3",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

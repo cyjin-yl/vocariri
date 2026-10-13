@@ -1,0 +1,18 @@
+{
+  "id": "YT_BnkhBwzBqlQ",
+  "url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+  "at": "2026-09-25T02:29:13.733446+00:00",
+  "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+  "uploader": "Aiobahn",
+  "duration": 223,
+  "fps": 30,
+  "width": 960,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 27088524,
+  "sha256": "e0507f7a86b862679fb54036ff30c557fd51e8a7c08a60bc452d088a9c4a40ac",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

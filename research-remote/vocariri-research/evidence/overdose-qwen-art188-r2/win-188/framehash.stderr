@@ -1,0 +1,32 @@
+-vsync is deprecated. Use -fps_mode
+Passing a number to -vsync is deprecated, use a string argument as described in the manual.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'luna-public/media/YT_BnkhBwzBqlQ/source.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomav01iso2mp41
+    encoder         : Lavf61.1.100
+  Duration: 00:03:42.80, start: 0.000000, bitrate: 972 kb/s
+  Stream #0:0[0x1](und): Video: av1 (libdav1d) (Main) (av01 / 0x31307661), yuv420p(tv, bt709), 960x720, 840 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : ISO Media file produced by Google Inc.
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 125 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (av1 (libdav1d) -> rawvideo (native))
+Output #0, framehash, to 'evidence/overdose-qwen-art188-r2/win-188/framehash.md5':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomav01iso2mp41
+    encoder         : Lavf61.1.100
+  Stream #0:0(und): Video: rawvideo (I420 / 0x30323449), yuv420p(tv, bt709, progressive), 960x720 [SAR 1:1 DAR 4:3], q=2-31, 127401984 kb/s, 15360 tbn (default)
+      Metadata:
+        handler_name    : ISO Media file produced by Google Inc.
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.3.100 rawvideo
+frame=    6 fps=0.2 q=-0.0 size=       1KiB time=00:00:00.23 bitrate=  21.2kbits/s speed=0.0095x    frame=   51 fps=2.0 q=-0.0 size=       4KiB time=00:00:01.66 bitrate=  20.2kbits/s speed=0.0665x    frame=   51 fps=2.0 q=-0.0 size=       4KiB time=00:00:01.66 bitrate=  20.2kbits/s speed=0.0652x    frame=   51 fps=2.0 q=-0.0 size=       4KiB time=00:00:01.66 bitrate=  20.2kbits/s speed=0.0639x    frame=   51 fps=1.9 q=-0.0 size=       4KiB time=00:00:01.66 bitrate=  20.2kbits/s speed=0.0627x    frame=   51 fps=1.9 q=-0.0 size=       4KiB time=00:00:01.66 bitrate=  20.2kbits/s speed=0.0616x    frame=   51 fps=1.8 q=-0.0 size=       4KiB time=00:00:01.66 bitrate=  20.2kbits/s speed=0.0605x    frame=   51 fps=1.8 q=-0.0 size=       4KiB time=00:00:01.66 bitrate=  20.2kbits/s speed=0.0594x    frame=   51 fps=1.8 q=-0.0 size=       4KiB time=00:00:01.66 bitrate=  20.2kbits/s speed=0.0583x    [out#0/framehash @ 0x32610600] video:60750KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   60 fps=2.1 q=-0.0 Lsize=       5KiB time=00:00:01.96 bitrate=  20.4kbits/s speed=0.0678x    

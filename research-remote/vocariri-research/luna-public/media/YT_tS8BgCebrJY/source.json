@@ -1,0 +1,18 @@
+{
+  "id": "YT_tS8BgCebrJY",
+  "url": "https://www.youtube.com/watch?v=tS8BgCebrJY",
+  "at": "2026-09-24T15:33:08.847618+00:00",
+  "title": "アイディスマイル 文字PV [AE]",
+  "uploader": "Palf / Ojima Kaito",
+  "duration": 6,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 731996,
+  "sha256": "20ea8c58e44bd09117159f55707ad9e609a592051db253c26db713de9fcc85f3",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "BILI-BV1ue4y1e78R",
+  "url": "https://www.bilibili.com/video/BV1ue4y1e78R/",
+  "at_utc": "2026-10-03T21:30:14.978195+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": 200,
+  "bytes": 10994572,
+  "sha256": "d463ca0eb65c755dbbdeb53592ede57fe479a995ea8af70cc015520bc364100c",
+  "file": "sources/BILI-BV1ue4y1e78R/source.mp4",
+  "duration_seconds": 240.488,
+  "title": "（转载自用/中英字幕）world.execute(me);(同人PV)",
+  "uploader": "账号已注销",
+  "extractor": "BiliBili",
+  "yt_dlp_version": "2026.08.19",
+  "video_dimensions": [
+    852,
+    480
+  ],
+  "final_media_probe_duration_seconds": 240.49,
+  "final_media_probe_audio_codec": "aac",
+  "selected_request_handler": "UrllibRH",
+  "cookie_authentication_state": "disabled",
+  "blocked_redirects": 0
+}

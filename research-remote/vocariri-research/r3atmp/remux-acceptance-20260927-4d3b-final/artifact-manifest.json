@@ -1,0 +1,15 @@
+{
+  "generated_date": "2026-09-27",
+  "generated_by": "independent acceptance review, with verify.py SHA-256 fe49c1921c435d6b7d916389d073c627e14370fc8a0329fb63d65e9ab9161711",
+  "upstream_review_json_sha256": "32393082675f20bda9c6567babae59051758b3e503458f5c5d684bafc5d8d36d",
+  "upstream_review_manifest_sha256": "297584fea7ed7552faef912520f75e42e1bb4c50668a6f846cdcbe9572fd0859",
+  "visual_snapshot_manifest_sha256": "102649987d56fa2ea44e4afca07b57ecdd48f1f841af4529c20810a5999be711",
+  "files": [
+    {
+      "path": "ACCEPTANCE.md",
+      "bytes": 4670,
+      "sha256": "b8764ee79eef621fd7e38a604ed74fca046e918602f4a2efa8f106d5cd1f3c00"
+    }
+  ],
+  "self_reference": "artifact-manifest.json is omitted to avoid recursive self-hashing"
+}

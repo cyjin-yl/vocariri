@@ -1,0 +1,98 @@
+{
+  "at": "2026-09-25T12:29:32.170895+00:00",
+  "status": "eight_conditional_records_reviewed_with_corrections",
+  "original_artifact_sha256": "a73cfe046f3eb4e1217becda4cf49f9ee740f52bd8f2a5d95c18ea4afc9d8bf8",
+  "reference_check": {
+    "total": 26,
+    "wrong_raw_vs_parsed_paths": 4,
+    "missing_paths": 0,
+    "wrong_source_batch": 1,
+    "correction": "Correct raw-response paths and use labeled batch 2e3abfd4805d8fba0884 for the 116/124/132s record."
+  },
+  "time_correction": {
+    "source_id": "YT_t-VhP8PHI80",
+    "source_sha256": "b83c5f3e785cffe1830589e2736e18f7682a8badb83e3cd6e97b2ef2db67b650",
+    "legacy_jpeg": {
+      "file": "frames/YT_t-VhP8PHI80/f-000298.jpg",
+      "grid_label_seconds": 74.25,
+      "matching_native_pts_seconds": 74.3743,
+      "evidence": "sampling-audit-08/result.json"
+    },
+    "separate_png": {
+      "sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7",
+      "extraction_receipt_pts_seconds": 74.2742,
+      "identical_native_frames": [
+        {
+          "source_pts": 2227225,
+          "time_base": "1/30000",
+          "seconds": 74.24083333333333,
+          "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        },
+        {
+          "source_pts": 2228226,
+          "time_base": "1/30000",
+          "seconds": 74.2742,
+          "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        },
+        {
+          "source_pts": 2229227,
+          "time_base": "1/30000",
+          "seconds": 74.30756666666667,
+          "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        },
+        {
+          "source_pts": 2230228,
+          "time_base": "1/30000",
+          "seconds": 74.34093333333334,
+          "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        }
+      ],
+      "evidence": "sampling-audit-09/png-time-reconciliation/result.json",
+      "unique_pts_from_image_hash": false
+    },
+    "correction": "Do not attach the JPEG mapping to the PNG or infer a unique PTS from identical pixels."
+  },
+  "static_findings": [
+    {
+      "pattern": "ART-DIR-07-002",
+      "file": "YT_BnkhBwzBqlQ-68.00.png",
+      "observed": "Large luminous fragmented forms flank the central dark character; chromatic channel-like fringes, stepped blocks, saturated pink smaller text, dark rounded screen border and fine screen texture coexist. Static fragmentation is directly visible; temporal glitch is not established by one frame.",
+      "architecture": "Represent multi-pass glyph treatments, grouping, texture, crop and subject overlap independently; permit deliberate character/text competition.",
+      "applicability": "Could contrast inviting small text with visual disturbance, if new lyrics and scene support that relation; static appearance alone does not establish the original song mood.",
+      "sha256": "a51909c83dabaac17bdcd7f980fe312a09c22cddc34ddedd7585ab9e59a773c1",
+      "scope": "direct static visual review only"
+    },
+    {
+      "pattern": "ART-DIR-07-003",
+      "file": "YT_BnkhBwzBqlQ-116.00.png",
+      "observed": "Huge black Mincho-like headline with strong thick/thin contrast and pointed/triangular terminals crosses the character. Much smaller text sits above left/right and below, organized with thin horizontal rules. Bright sunset contrasts with near-black typography. This is several levels of typographic hierarchy, not one heavy text band. Exact font identity remains unknown.",
+      "architecture": "Independent glyph/phrase scale and font metrics, rule primitives anchored to groups, multiple baselines, and explicit overlap intent. Central words can intentionally obscure a subject; protected regions must be user/Agent authored rather than unconditional.",
+      "applicability": "Could emphasize a charged core word while preserving qualifiers in small surrounding text. Test qualifier dwell/readability so dramatic emphasis does not reverse sentence meaning.",
+      "sha256": "a98d274b990295e81f42e2c3b68d0d58004f836c2140e25a14723b952fd98f70",
+      "scope": "direct static visual review only"
+    },
+    {
+      "pattern": "ART-DIR-07-005",
+      "file": "YT_ijaK647Qfc8-15.25.png",
+      "observed": "Two large white outlined kanji are separated by a smaller tilted kana cluster; coral field has sparse outlined circular marks and faint texture. Visual vertical order must not automatically become linguistic reading order.",
+      "architecture": "Keep stable lyric token/reading order independent of glyph group position, orientation, size and reveal order.",
+      "applicability": "Works for deliberate word construction and playful grouping when the phrase remains recoverable; not a generic three-item list. Test reading recovery, especially when replacing Japanese with Latin words or other scripts.",
+      "sha256": "18b48279c4c929b2b9385275ef20c4c46795156237ef90b41545a86c1338d7e8",
+      "scope": "direct static visual review only"
+    },
+    {
+      "pattern": "ART-DIR-07-007",
+      "file": "YT_kiVGOS7-n_o-1.75.png",
+      "observed": "Blue uppercase sans-serif text straddles a dark perspective door. Pale floor, a long blue/white diagonal projected region, and grain-like shading around the base support the spatial composition. One image does not establish the door animation or a true 3D scene.",
+      "architecture": "Compound object relationships include divider, projected light/shadow shapes, texture and text; a 2D/2.5D reconstruction is a proposal, not source implementation evidence.",
+      "applicability": "Spatial interruption may support a chosen threshold metaphor, but it can also be neutral word/object play; retain both readings.",
+      "sha256": "1ca497fd4989bb2da21cf193ba4f8cb3e8978a63125d2ca27a403364a85f7769",
+      "scope": "direct static visual review only"
+    }
+  ],
+  "limits": [
+    "All eight contain conditional use/avoid/alternative interpretations; recommendations have not been validated against complete original lyrics and soundtrack.",
+    "Still-frame review is not motion/template acceptance.",
+    "This checkpoint adds no accepted production template."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "YT_vSiDs0se6Ss",
+  "url": "https://www.youtube.com/watch?v=vSiDs0se6Ss",
+  "at": "2026-09-24T13:20:15.519398+00:00",
+  "title": "【文字PV】まにまに / r-906【Aviutl】",
+  "uploader": "ゆば",
+  "duration": 269,
+  "fps": 15,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 20010032,
+  "sha256": "2a7c8333de0b2f710a6341c2f63f70e4007475570c84a4be2f0a67cd5e9201f8",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

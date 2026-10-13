@@ -1,0 +1,183 @@
+{
+  "task": "batch18-qwen-r1",
+  "work_order": {"file": "WORK_ORDER_QWEN_BATCH18_R1.md", "sha256": "3db6c80a5cf8e78e2bbf921f060aef72c9064d29b9f20ad596ba150edb66a039", "verified": true},
+  "state": "completed_unreviewed",
+  "at": "2026-10-01T13:36:00Z",
+  "increments": {"forms": 0, "finished_templates": 0},
+  "inference_made": false,
+  "frame_size_rule": "complete yuv420p frame bytes = W*H*3/2 from actual dimensions; all three sources are 854x480 -> 614880 bytes/frame; raw decode byte counts exactly matched frame_count*614880 for all three windows; the 1280x720=1382400 figure does not apply to these files and the old R5a 1036800-byte blocks were the documented wrong-contiguous-block class",
+  "tools": {"ffmpeg": "7.0.2-static", "python": "3.11.2", "PIL": "12.3.0", "imageio_ffmpeg": "0.6.0"},
+  "sources": [
+    {
+      "id": "NICO-sm45786816",
+      "file": "discovery-cross-18/sources/NICO-sm45786816/source.mp4",
+      "sha256": "4b4b2ab4346dd09a2a2127e1cd0b003a526ebf54e974db7604cf228b95802559",
+      "bytes": 8445617,
+      "title_claim": "【文字pv】アンノウン・マザーグース wowaka【きょるんず】 (community text-PV, uploader きょるんず; metadata claim, not verified against audio)",
+      "stream": "h264 Main yuv420p bt709 progressive 854x480 SAR 1:1 30fps tbn 1/90000; aac LC 44100 stereo; 39.33 s",
+      "sparse_index": "24 scaled 427x240 frames, select not(mod(n,50)), screening only (sparse/sheet-w1.png + w1-n0001..0024)",
+      "window": {
+        "n_range": [300, 400],
+        "count": 101,
+        "time_seconds": "10.000-13.333",
+        "pts_90k": [900000, 1200000],
+        "pts_delta_ticks": [3000],
+        "selection_reason": "highest text-action density found in sparse index: camera pan across a circle/crescent composition, hard cuts between two alternating mincho/gothic text compositions, and a deep continuous zoom through layered glyph+shape compositions; covers entry/hold/exit of multiple shots"
+      },
+      "decode": {"evidence_dir": "evidence/batch18-qwen-r1/NICO-sm45786816/", "window_json": "window.json (101 frame entries: source_n, md5 of complete 614880-byte yuv420p frame, pts_90k, pts_time, png path)", "showinfo_log": "showinfo-window.log", "pngs": "native-n0001..native-n0100 (full 854x480)", "motion_profile": "motion-profile.json (per-frame grayscale mean diff)", "identity_check": "native-n0001.png MD5-identical to isolated eq(n,300) extraction"},
+      "full_res_reads": [
+        {"n": 300, "file": "native-n0001.png", "pts_90k": 900000},
+        {"n": 306, "file": "native-n0007.png", "pts_90k": 918000},
+        {"n": 313, "file": "native-n0014.png", "pts_90k": 939000},
+        {"n": 321, "file": "native-n0022.png", "pts_90k": 960000},
+        {"n": 331, "file": "native-n0032.png", "pts_90k": 987000},
+        {"n": 346, "file": "native-n0047.png", "pts_90k": 1026000},
+        {"n": 355, "file": "native-n0056.png", "pts_90k": 1035000},
+        {"n": 370, "file": "native-n0071.png", "pts_90k": 1071000},
+        {"n": 385, "file": "native-n0086.png", "pts_90k": 1101000},
+        {"n": 399, "file": "native-n0100.png", "pts_90k": 1197000}
+      ],
+      "observations": {
+        "scene_structure": "5-6 hard shots in 101 frames. Verified cut spikes (frame-diff >45): n327 (117.1), n354 (46.5), n357 (46.0), n389 (62.6). Content-inferred cut between n314-n320 (diff <5; content changes from 'dare' circle scene at n313 to mincho line at n321; both white-dominant so diff stays small).",
+        "shot_1_n300_n326": "large white circle containing black gothic 'dare' (who), black crescent shape, small black circle with white spiral motif; gradient white background; continuous camera pan right, ease-out (per-frame diff 17.0 decaying to 4.3 over n301-n320); circle exits left of frame by n313",
+        "shot_2_n327_n353": "diagonal mincho-serif line reading '...mo shiranai' (part of 'dare mo mo shiranai' - does not know anyone); slow continuous zoom (diff 10-19); dark tapered triangle bottom-left",
+        "shot_3_n354_n356": "3-frame mincho close-up of '...mo shiranai' (jump-cut tighter)",
+        "shot_4_n357_n388": "deep zoom through layered composition: mincho text ('kono', 'sono omoi'), large black heart shape containing white 'oi' (thought) glyph in negative space, two tapered black/gray spikes, grid/lattice element; zoom accelerates to diff 73.4 at n370 then decays",
+        "shot_5_n389_n400": "heart mass + spike + small 'kono' text; continuing decaying zoom",
+        "design_features_observed": "two typefaces: heavy gothic (circle glyph) with triangular/wedge terminals and thick uniform strokes; mincho serif (text lines) with thin horizontals, thick verticals, wedge terminals; black solid fills, no outlines; subtle red/cyan chromatic-aberration fringing on all glyph edges; high-contrast black-on-white/gradient; geometric motifs (circle, crescent, spiral, heart, spike, grid) interlocked with text; negative-space glyph (white 'oi' carved in black heart); diagonal text baseline",
+        "lyric_fragments_visible": "dare / mo shiranai / kono / sono omoi (who / does not know / this / that feeling); full lyric line and audio unverified"
+      },
+      "implementation_alternatives": "layer-based 2D camera pan/zoom over static compositions (standard 2D camera); heart-with-glyph = glyph-masked shape (negative space via mask/luminance key); spikes = tapered polygons with gradient fill; chromatic aberration = per-channel RGB offset; cut-alternation = repeated motif shot cycling. Scale/swap vs true camera motion not distinguishable from decoded frames.",
+      "design": {
+        "art_design": "brutalist black-on-white typography: heavy gothic display glyph in circle + mincho serif lines, geometric motif interlock, diagonal baselines, deep-zoom reveal, chromatic fringing as texture",
+        "conditional_lyric_emotion_fit": "PROPOSAL: the alienation/unknownness reading ('does not know anyone') fits the brutal high-contrast zoom treatment and the heart-'thought' motif; conditional on the song being the title-claimed Unknown Mother Goose and on audio, both unverified here",
+        "unsuitable_uses": "small/low-resolution display (mincho wedge terminals crush below ~24px cap height); long reading durations (camera motion competes with reading); contexts needing calm/stability (rapid 1-3 s shots)",
+        "reading_speed_accessibility": "fast shot turnover (~2-20 frames per shot); mincho lines legible at 854x480 but zoomed close-ups exceed comfortable reading time; white-on-gradient reduces contrast at shot edges",
+        "neighboring_shot_transitions": "observed neighbors (sparse index): before - 'i-ka-na'/ellipse scenes; after - 'ai mo', '...tatsu', 'atashi no subete ni ai', 'no imi wa aru', then 3D low-poly heart; the motif cut-alternation (same composition re-shot tighter) is the native transition grammar; deep zoom-out can hand off to next composition",
+        "two_dimensional_alternatives": "static layered composition + 2D camera; glyph-masked heart; tapered-polygon spikes; channel-offset aberration"
+      },
+      "dedup": {
+        "vs_deco_ki_r5a": "possibly_distinct - shared surface: heavy black Japanese display glyphs on light background, wedge terminals, large-glyph-plus-line hierarchy; distinct mechanisms: multi-shot cut-alternation + continuous camera pan/zoom + geometric motif interlock vs single-shot scale-pop entries + character illustration + flat cyan background",
+        "vs_win_a_scale_r4a": "possibly_distinct - both diagonal text on light background, but different typeface (mincho serif vs Song serif), scene structure (5+ hard shots vs single shot with character art), no character illustration in W1 window",
+        "vs_win_b_bar_win_c_stagger_r2b": "possibly_distinct - no reviewed content description overlaps W1 mechanisms; win-b-bar/win-c-stagger are name-only in retained artifacts (BV1zrbCzLEH4, transport-verified only)"
+      }
+    },
+    {
+      "id": "NICO-sm45669453",
+      "file": "discovery-cross-18/sources/NICO-sm45669453/source.mp4",
+      "sha256": "7197c80fcb0d32e322354d37810adea78617974c7d6707f0a57c9417cda95946",
+      "bytes": 4062204,
+      "title_claim": "【文字pv】ラグトレイン / 稲葉曇様【Aviutl】 (community text-PV, AviUtl tool claim in title, uploader とくめー; tool claim not evidence)",
+      "stream": "h264 Main yuv420p bt709 progressive 854x480 SAR 1:1 24fps tbn 1/90000; aac LC 44100 stereo; 16.83 s",
+      "sparse_index": "24 scaled 427x240 frames, select not(mod(n,17)), screening only (sparse/sheet-w2.png + w2-n0001..0024)",
+      "window": {
+        "n_range": [85, 136],
+        "count": 52,
+        "time_seconds": "3.542-5.667",
+        "pts_90k": [318750, 510000],
+        "pts_delta_ticks": [3750],
+        "selection_reason": "continuous rigid rotation of a letterbox band from horizontal to vertical with an in-band text switch and redaction bar - the richest bounded motion+text-action window in the excerpt"
+      },
+      "decode": {"evidence_dir": "evidence/batch18-qwen-r1/NICO-sm45669453/", "window_json": "window.json (52 frame entries)", "showinfo_log": "showinfo-window.log", "pngs": "native-n0001..native-n0052 (full 854x480)", "motion_profile": "motion-profile.json", "identity_check": "native-n0001.png MD5-identical to isolated eq(n,85) extraction"},
+      "full_res_reads": [
+        {"n": 85, "file": "native-n0001.png", "pts_90k": 318750},
+        {"n": 95, "file": "native-n0011.png", "pts_90k": 356250},
+        {"n": 105, "file": "native-n0021.png", "pts_90k": 393750},
+        {"n": 115, "file": "native-n0031.png", "pts_90k": 431250},
+        {"n": 125, "file": "native-n0041.png", "pts_90k": 468750},
+        {"n": 136, "file": "native-n0052.png", "pts_90k": 510000}
+      ],
+      "observations": {
+        "scene_structure": "single continuous shot, no cuts (per-frame diff never exceeds 3.7 except the rotation sweep).",
+        "band": "horizontal letterbox band (~45% frame height) of light gray/white with thin blue lines top and bottom, dark gray above/below; band is the text stage",
+        "text_phase_1_n85_n103": "small black clean gothic 'iki o->' (breath + right arrow), centered, near-static (mean diff 0.66, max 1.06); arrow slightly extends; text drifts a few px right",
+        "text_switch_n104": "hard in-band swap to 'sute[bar]te' (discard) at n104 (diff 3.66) with a solid black parallelogram redaction bar over the middle glyph",
+        "rotation_n114_n136": "entire band rotates rigidly from ~0 deg to ~90 deg (vertical) over 23 frames (~0.96 s at 24fps); speed non-uniform - per-frame diff climbs 23.4 (n114) to peak 58.6 (n121) then decays to 2.1 (n126); at n136 the band is vertical and glyphs are partially cropped ('hi', 'wa' fragments)",
+        "design_features_observed": "single typeface: clean modern gothic, thin uniform strokes, minimal/flat terminals, no wedge serifs; subtle red/blue chromatic fringing on glyphs; redaction bar = solid black parallelogram, front layer over text; letterbox band as framed stage; blue accent lines; high key white/gray palette",
+        "lyric_fragments_visible": "iki o (breath) / sute te (discard); full lyric line and audio unverified"
+      },
+      "implementation_alternatives": "rigid rotation of a grouped band layer (rotation keyframes, ease in-out); redaction bar = black parallelogram on layer in front of text; in-band text swap = layer visibility cut at n104; band = rounded/straight rectangle with stroke lines. Mechanism (single rotated group vs re-rendered frames) not distinguishable from decoded output.",
+      "design": {
+        "art_design": "minimal letterbox-band typography: small clean gothic text staged in a framed band, redaction-bar erasure motif, continuous rigid rotation as the motion identity",
+        "conditional_lyric_emotion_fit": "PROPOSAL: 'breath -> discard' with an erasure bar fits a let-go/erase reading; the rotation-into-vertical reads as release/tilt; conditional on the Lagtrain audio context, unverified",
+        "unsuitable_uses": "low-resolution display (band text ~20-30 px cap height at 854x480); readability-critical moments (text is legible only in the slow rotation segments n114-n119 and n126+, peak rotation n120-n122 is motion-dominant); contexts avoiding erasure/censor connotations",
+        "reading_speed_accessibility": "small text, single line - moderate reading speed when static; rotation window ~0.96 s is below comfortable reading time for the full phrase",
+        "neighboring_shot_transitions": "observed neighbors (sparse index): before - scattered small 'a/i/ta' glyphs; after - small 'sute' with curved motion trails, diamond-outline + curved-path text sequence, diagonal 'kaku-eki-tei-sha' (local train) band, circle + curved 'kaku-eki-tei-sha' text; the band rotation hands off naturally to the curved/rotated text scenes (continuity of rotation)",
+        "two_dimensional_alternatives": "grouped band layer with rotation keyframes; front-layer redaction parallelogram; visibility-cut text swap"
+      },
+      "dedup": {
+        "vs_all_prior": "possibly_distinct - no retained reviewed mechanism includes letterbox band framing, redaction-bar erasure, or continuous rigid band rotation; win-b-bar is name-only in retained artifacts (no content description), so its 'bar' is not claimed to overlap the redaction bar"
+      }
+    },
+    {
+      "id": "NICO-sm46320139",
+      "file": "discovery-cross-18/sources/NICO-sm46320139/source.mp4",
+      "sha256": "92f173f7bc7fbf524e75204c97b92b8aaaea1ff8787d39f1f477b218ec2571a4",
+      "bytes": 4481247,
+      "title_claim": "【文字PV?】ライアーダンサー文字だけ再現してみた (text-only reconstruction claim of Liar Dancer, uploader さいほうへいき; reconstruction status from title only - original not retained, so no originality claim made)",
+      "stream": "h264 Main yuv420p bt709 progressive 854x480 SAR 1:1 30fps tbn 1/90000; aac LC 48000 stereo; 23.10 s",
+      "sparse_index": "24 scaled 427x240 frames, select not(mod(n,29)), screening only (sparse/sheet-w3.png + w3-n0001..0024)",
+      "window": {
+        "n_range": [250, 300],
+        "count": 51,
+        "time_seconds": "8.333-10.000",
+        "pts_90k": [750000, 900000],
+        "pts_delta_ticks": [3000],
+        "selection_reason": "bounded text-action: single-line marquee hold followed by a 5-6 frame slide-in entry of a second line, then static two-line hold - a clean entry/hold case with no camera motion to confound"
+      },
+      "decode": {"evidence_dir": "evidence/batch18-qwen-r1/NICO-sm46320139/", "window_json": "window.json (51 frame entries)", "showinfo_log": "showinfo-window.log", "pngs": "native-n0001..native-n0051 (full 854x480)", "motion_profile": "motion-profile.json", "identity_check": "native-n0001.png MD5-identical to isolated eq(n,250) extraction"},
+      "full_res_reads": [
+        {"n": 250, "file": "native-n0001.png", "pts_90k": 750000},
+        {"n": 258, "file": "native-n0009.png", "pts_90k": 774000},
+        {"n": 268, "file": "native-n0019.png", "pts_90k": 804000},
+        {"n": 278, "file": "native-n0029.png", "pts_90k": 834000},
+        {"n": 288, "file": "native-n0039.png", "pts_90k": 864000},
+        {"n": 298, "file": "native-n0049.png", "pts_90k": 894000},
+        {"n": 288, "file": "native-n0039.png (re-read, single)", "pts_90k": 864000, "note": "correction: first batch read of this frame was misattributed; single re-read confirms two lines present, matching motion profile (no exit spike at n287-288)"}
+      ],
+      "observations": {
+        "scene_structure": "single static scene, no cuts, no camera motion (per-frame diff <=0.036 outside the entry event).",
+        "layout": "flat purple background (~#7b5ea7); two coral/salmon (~#f2545b) lines: small line 'chūmi ga nani mono naku tte mo' (even if there is no substance) upper-left, large line 'mirai wa aru no sa' (the future is out there) lower, left-aligned; line 2 is ~2.5x the cap height of line 1",
+        "motion": "line 1 static n250-n270; line 2 enters at n271 (frame diff 14.8) with a 5-6 frame settle (n273/n275/n276 ~10.8 each) then static n277-n300; entry reads as a short slide/settle, direction not resolvable from the sampled frames (recorded as unknown)",
+        "design_features_observed": "single typeface: heavy gothic with rounded/flat terminals, uniform thick strokes, no serifs; flat two-color palette (purple field, coral text), no gradients, no fringing, no outlines; left- aligned two-line hierarchy with strong size contrast; large negative space right of line 1",
+        "lyric_fragments_visible": "chūmi ga nani mono naku tte mo / mirai wa aru no sa; full lyric line and audio unverified"
+      },
+      "implementation_alternatives": "static two-line text layout; entry = 5-6 frame position/scale settle keyframes; flat-color background layer. Mechanism (slide vs pop vs fade not resolvable at the settle resolution) recorded as unknown.",
+      "design": {
+        "art_design": "flat two-color marquee typography: rounded heavy gothic, size-contrasted two-line left-aligned layout, single slide-in entry, static hold",
+        "conditional_lyric_emotion_fit": "PROPOSAL: the hopeful clause ('the future is out there') is the large line - the design promotes optimism over the concessive small line; fits an upbeat/defiant vocal; conditional on the Liar Dancer audio context, unverified",
+        "unsuitable_uses": "accessibility-critical display (coral-on-purple is moderate contrast, not high); contexts needing gravitas (rounded heavy gothic + flat playful palette reads light); small displays (small line drops below comfortable reading size first)",
+        "reading_speed_accessibility": "static layout - fast reading when static; the 0.2 s entry settle is the only motion; small line legible at 854x480",
+        "neighboring_shot_transitions": "observed neighbors (sparse index): before - 'sunao de' + large '라이어라이어ダンサー' (Liar Liar Dancer) stacked kanji; after - 'kizuitta' + 'ame ame ame' coral stacked, then 'no no no / hi hi hi' stacked lines; hard cut within the same purple/coral palette is the native transition grammar",
+        "two_dimensional_alternatives": "static layout + short settle keyframes; flat color layers"
+      },
+      "dedup": {
+        "vs_all_prior": "possibly_distinct - no retained reviewed mechanism includes flat two-color marquee layout, rounded heavy gothic, or two-line size-contrast hierarchy; W1/W2 in this batch are also distinct from W3 (different palette, typeface, and motion)"
+      }
+    }
+  ],
+  "read_counts": {
+    "sparse_sheets_read": 6,
+    "sparse_sheet_note": "first batch of 3 sheet reads misattributed scene content across files (result-order confusion at 1.63x downscale); superseded by individual re-reads of each sheet plus hash-bound full-resolution window frames; contradiction preserved in contradictions_and_corrections",
+    "window_montages_read": 3,
+    "full_res_native_reads": 23,
+    "full_res_single_re_reads": 1,
+    "isolated_frame_hash_checks": 3,
+    "montage_reads_screening_only": true
+  },
+  "contradictions_and_corrections": [
+    "Contradiction 1 (sparse-sheet attribution): first 3-sheet batch read attributed 'white maroon chūmi marquee' and 'purple 라이アー scenes' to NICO-sm45786816 at n=300-400. Correction: individual sheet re-reads + hash-bound full-res window frames show NICO-sm45786816 n300-400 is the black-on-white dare/mincho/heart composition; the purple/coral marquee and 라이アー scenes belong to NICO-sm46320139. Cause: multi-image batch result ordering at reduced scale. Both readings preserved; full-resolution hash-bound frames are authoritative.",
+    "Contradiction 2 (W3 n288 line count): first batch read suggested one line at n288; motion profile shows no change spike at n287-288; single re-read of native-n0039.png confirms two lines present at n288. Batch read misattributed; correction recorded.",
+    "Correction 3 (frame sizes): per R4-20261001 correction, complete yuv420p frame bytes computed from actual dimensions (854x480 -> 614880); raw decode totals exactly matched for all 204 frames; the 1280x720=1382400 rule does not apply to these 854x480 sources and R5a's 1036800-byte blocks remain the documented wrong class.",
+    "Correction 4 (decode method): raw decode without -vsync 0 duplicated frames (401 vs 101 for W1); -vsync 0 required and applied; showinfo 'n' is the post-select counter, 'pts' is the true source PTS in 1/90000."
+  ],
+  "dedup_limits": "Dedup compares observed mechanisms (scene structure, typeface anatomy, motion, palette) against retained reviewed mechanism descriptions (deco-ki R5a; win-a-scale R4a; win-b-bar/win-c-stagger R2b name-only, transport-verified). Distinctness is never inferred from song/platform IDs. Reconstruction (sm46320139) cannot support originality claims: its original is not retained, so comparison with the original is outstanding. All three verdicts are possibly_distinct pending independent review.",
+  "boundaries_held": [
+    "no model/video request; no inference; offline only",
+    "no new download; sources unmodified (all three SHA-256 re-verified before analysis)",
+    "no other seats/services/config changes; no Computer Use",
+    "evidence written exclusively under evidence/batch18-qwen-r1/; outputs/status exclusive-created; prior R4a/R5a/R3c/R3a evidence untouched",
+    "sparse/scaled frames used for screening only; all motion claims grounded in consecutive native-frame decode + full-resolution reads"
+  ],
+  "next_gate": "Independent seat review: (a) verify the 204 decoded frames vs window.json hashes and the 23 full-resolution reads; (b) verify the three dedup verdicts against the retained mechanism descriptions; (c) confirm the contradiction/correction records; (d) for sm46320139, compare against the retained original Liar Dancer PV before any originality claim. Only then may forms/templates be counted."
+}

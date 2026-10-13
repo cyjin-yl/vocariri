@@ -1,0 +1,129 @@
+{
+  "checkpoint": "independent_native_observations_before_draft",
+  "review_date": "2026-10-03",
+  "work_order": {
+    "path": "WORK_ORDER_LUNA_CROSS17_ART_R9.md",
+    "sha256": "bd08991a30ef8304a50487a8f4f860854fc291130fafa2c84cd683286cc7fb58",
+    "verified": true
+  },
+  "staging_manifest": {
+    "path": "inputs/r9-cross17/staging-manifest.json",
+    "sha256": "056ac5372c348ad64b821e1546f33e3b4cfc271c52c128918f2ed65ee138348c",
+    "captured_at_utc": "2026-10-03T23:20:42.509682+00:00",
+    "listed_files": 244,
+    "originals_unchanged": true,
+    "redistribution_permitted": false,
+    "scope_note": "Public source/native/draft byte-copy inventory only; not source-motion, art, or form acceptance."
+  },
+  "draft_review_gate": {
+    "qwen_unreviewed_path": "inputs/r9-cross17/qwen-unreviewed.json",
+    "opened_before_this_checkpoint": false,
+    "comparison_status": "not_started",
+    "independent_notes_saved_first": true
+  },
+  "sampling_and_read_log": {
+    "native_read_tool": "functions.read on one original image path per call",
+    "unique_native_pngs_inspected": 18,
+    "unique_reads": 18,
+    "rereads": 18,
+    "derived_crop_reads": 0,
+    "decode_runs": 0,
+    "read_calls_total": 36,
+    "call_scopes": [
+      "First pass: 18 separate functions.read calls in a parallel tool invocation; each call named exactly one native PNG.",
+      "Second pass: 18 separate functions.read calls, one per already-read PNG, to inspect each image individually; no re-decode or derived crop."
+    ],
+    "pts_rule": "Use integer source-stream PTS and showinfo time_base. The output filename index is one-based; showinfo n is the post-select counter, starting at zero, not source frame n. The source frame ordinals below are bound by the selected source-window start plus the consecutive frame step and corroborated by PTS/rate."
+  },
+  "sources": [
+    {
+      "source_id": "NICO-sm46137276",
+      "url": "https://www.nicovideo.jp/watch/sm46137276",
+      "source_title_metadata": "【alightmotion/blurrr】インドア系ならトラックメイカー 文字pv",
+      "uploader_metadata": "aki11",
+      "source_video_sha256": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87",
+      "source_json_sha256": "ea60eb77c88e02f6c802728f86e6a4ff14516f7b2bd8a11eaf39131f0cee6686",
+      "format": {"codec": "h264", "width": 854, "height": 480, "fps": "60/1", "time_base": "1/90000", "pix_fmt": "yuv420p"},
+      "window_mapping": {"source_frames": "n240-n359", "source_pts_start": 360000, "source_pts_step": 1500, "source_pts_end": 538500, "time_seconds_start": 4.0, "time_seconds_end": 5.9833333333, "native_output_mapping": "native-n0001 maps to source n240; native output i maps to source n(239+i), PTS 360000+1500*(i-1)."},
+      "image_reads": [
+        {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0001.png", "source_frame_n": 240, "showinfo_postselect_n": 0, "pts": 360000, "time_base": "1/90000", "sha256": "6d00109d92ef29ddfee9add669e7d6eaf8ff7040fe9f67fe56f232913df2d165", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0002.png", "source_frame_n": 241, "showinfo_postselect_n": 1, "pts": 361500, "time_base": "1/90000", "sha256": "286c5f0e281bec9262ebbfb58c7bed2b78633b41534a33ec824f8b08140d6d4b", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0060.png", "source_frame_n": 299, "showinfo_postselect_n": 59, "pts": 448500, "time_base": "1/90000", "sha256": "acbfd313c464f955969df44e89ee391c1b568d7c7857a7b65d912cd4f4713824", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0061.png", "source_frame_n": 300, "showinfo_postselect_n": 60, "pts": 450000, "time_base": "1/90000", "sha256": "de86c2c90b7ef3b7ee335219396326b4c15ee06afad3987773ef4d4d7de9b89b", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0119.png", "source_frame_n": 358, "showinfo_postselect_n": 118, "pts": 537000, "time_base": "1/90000", "sha256": "06decc844333646d039b78db1ac224ff1d54f8c9fb4bc976ce53d963db4ebb81", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0120.png", "source_frame_n": 359, "showinfo_postselect_n": 119, "pts": 538500, "time_base": "1/90000", "sha256": "9fdb5e3310817541fc16210e6e602181baf3bb3f7943e56cd161ace171f39065", "unique_reads": 1, "rereads": 1}
+      ],
+      "preliminary_pixel_observation": {
+        "status": "independently observed before Qwen draft access",
+        "evidence_id": "C17R9-OBS-01",
+        "observation": "The selected 854x480 frames are text/graphic-first, not character footage: a pale near-white field carries cyan horizontal bands, thin cyan rules/diagonals, circular/arc geometry and corner-like framing marks. At source n240-241 a short Japanese line sits centered within the light band; exact letter identity is tentative from this raster and is not used as a transcript. At n299-300 the center switches to much larger saturated cyan-blue Japanese forms with a darker edge/offset; a short string appears to read 「あいつ」, while nearby small Roman/secondary text is too small to assert. At n358-359, large blue Japanese glyphs are slanted/cropped by the frame and remain unreadable as a complete phrase. Broad composition is clean and sparse, with text occupying the focal center and no photographic/character subject. A small lower-right branding mark is present and treated as watermark/tool branding, not timed lyric. No source font, editable vector, or effect graph can be identified from rendered pixels.",
+        "before_during_after": "The six inspected samples cover the beginning, a middle adjacent pair, and the last adjacent pair in the two-second window. n240/241 share the centered line; n299/300 share a centered heavy blue line; n358/359 show a different enlarged, cropped/angled glyph arrangement. These are sampled states only, not a continuous transition curve or claim about every intervening frame.",
+        "limits": ["Source title's software names are metadata, not proof of layer structure or authorship graph.", "The image watermark is not lyric content.", "Exact small text and complete late-window phrase are unresolved.", "No audio, full lyric, beat, or author intent was inspected."]
+      }
+    },
+    {
+      "source_id": "NICO-sm46155083",
+      "url": "https://www.nicovideo.jp/watch/sm46155083",
+      "source_title_metadata": "【Scratchで】個々々々々々人【文字PV】",
+      "uploader_metadata": "SINSK",
+      "source_video_sha256": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383",
+      "source_json_sha256": "41876c3eef8f9ef1b56e1cb86efe36cc6cfba40ea6578b33636d466b7a124a6d",
+      "format": {"codec": "h264", "width": 144, "height": 256, "fps": "30/1", "time_base": "1/90000", "pix_fmt": "yuv420p"},
+      "window_mapping": {"source_frames": "n870-n929", "source_pts_start": 2610000, "source_pts_step": 3000, "source_pts_end": 2787000, "time_seconds_start": 29.0, "time_seconds_end": 30.9666666667, "native_output_mapping": "native-n0001 maps to source n870; native output i maps to source n(869+i), PTS 2610000+3000*(i-1)."},
+      "image_reads": [
+        {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0001.png", "source_frame_n": 870, "showinfo_postselect_n": 0, "pts": 2610000, "time_base": "1/90000", "sha256": "397750c27c80f3738e109e70d9306dbc5cd8b19cd795490b6fadce469d0592bf", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0002.png", "source_frame_n": 871, "showinfo_postselect_n": 1, "pts": 2613000, "time_base": "1/90000", "sha256": "5a5de26bd34215fcfcfde584894a177dc65db3b3b6874e3fe6d1ae30c9eca1a2", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0030.png", "source_frame_n": 899, "showinfo_postselect_n": 29, "pts": 2697000, "time_base": "1/90000", "sha256": "144344867924018e2ca42a8123c5735552e73a85115dd28bc02e1c5b4ef4c261", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0031.png", "source_frame_n": 900, "showinfo_postselect_n": 30, "pts": 2700000, "time_base": "1/90000", "sha256": "138eb151238011a0148f57e3e908601d74051bf9b7eaa249c023cd92c79ab612", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0059.png", "source_frame_n": 928, "showinfo_postselect_n": 58, "pts": 2784000, "time_base": "1/90000", "sha256": "4aa33ff85e509eb8ccd2f9bd2be837be2b5146cb4500e8432e3ed4d108633207", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0060.png", "source_frame_n": 929, "showinfo_postselect_n": 59, "pts": 2787000, "time_base": "1/90000", "sha256": "421e31970e4d6c9eaf4d4d4d49c54855911718af26fdfc5933e3da001bd134ca", "unique_reads": 1, "rereads": 1}
+      ],
+      "preliminary_pixel_observation": {
+        "status": "independently observed before Qwen draft access",
+        "evidence_id": "C17R9-OBS-02",
+        "observation": "The acquired 144x256 portrait frames show a narrow white/light canvas with thin gray grid lines, a large central Japanese display-glyph arrangement, and small text-like strips near the top and bottom. The main glyphs are dark, irregular/angled and layered with small cyan and magenta/red offset edges or blocks, giving a chromatic misregistration impression. The composition is dense relative to the narrow canvas; some main strokes are cropped or overlap the grid. At n870-871, the tiny top/bottom lines cannot be reliably read. At n899-900 and n928-929, the same general grid/title field remains, with visible changes in glyph arrangement/edge offsets; the fine text remains below reliable transcription at 144x256. The fixed strips might be credits, source-title labels, lyric, or interface-like decoration; rendered frames alone do not establish which. No unmistakable editor chrome/cursor can be confirmed, so the grid is recorded as visible composition, not asserted as actual Scratch UI.",
+        "before_during_after": "Beginning pair n870/871, interior pair n899/900, and closing pair n928/929 were individually inspected. They establish a persistent grid-and-display-type composition at those times only; they do not establish exact hold lengths, motion paths, transition timing, or uninterrupted texture phase.",
+        "limits": ["The acquired 144x256 rendition is too small for confident glyph anatomy, counter shape, exact Japanese transcription, or source-master font claims.", "Title metadata names Scratch, but does not prove that the visible grid is a tutorial/editor UI or that Scratch authored the render.", "Small top/bottom text is unclassified and mostly unreadable.", "No audio, full lyric, beat, or author intent was inspected."]
+      }
+    },
+    {
+      "source_id": "PVOLT-C-7TIDIKc98",
+      "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+      "source_title_metadata": "DECO*27 - ボルテッカー feat. 初音ミク",
+      "uploader_metadata": "DECO*27",
+      "source_video_sha256": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849",
+      "source_json_sha256": "2e7a8b1d5be2a7f3e4edb29944ba3f9e824aebd58bd0c48bd61221952f3a1c17",
+      "format": {"codec": "av1", "width": 854, "height": 480, "fps": "24/1", "time_base": "1/12288", "pix_fmt": "yuv420p"},
+      "window_mapping": {"source_frames": "n2160-n2207", "source_pts_start": 1105920, "source_pts_step": 512, "source_pts_end": 1129984, "time_seconds_start": 90.0, "time_seconds_end": 91.9583333333, "native_output_mapping": "native-n0001 maps to source n2160; native output i maps to source n(2159+i), PTS 1105920+512*(i-1)."},
+      "image_reads": [
+        {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0001.png", "source_frame_n": 2160, "showinfo_postselect_n": 0, "pts": 1105920, "time_base": "1/12288", "sha256": "d691e8778e2f31978181e6009a0ed303d18492fa1dc8d34793d8d0d34863cb81", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0002.png", "source_frame_n": 2161, "showinfo_postselect_n": 1, "pts": 1106432, "time_base": "1/12288", "sha256": "41dbff608c82d944d9127fb3eea1df442f6d254663ff334e8cb28f914dd1b2ab", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0024.png", "source_frame_n": 2183, "showinfo_postselect_n": 23, "pts": 1117696, "time_base": "1/12288", "sha256": "ef11b36c58e996231b3e4a54c7613f6cc24fdce52c7591835d641910d216c55d", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0025.png", "source_frame_n": 2184, "showinfo_postselect_n": 24, "pts": 1118208, "time_base": "1/12288", "sha256": "399584d6dc09153951873b44c85653cafda45e021d583383659c12c01f43597e", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0047.png", "source_frame_n": 2206, "showinfo_postselect_n": 46, "pts": 1129472, "time_base": "1/12288", "sha256": "6373b14db19ae92163434112d17f3f4f9965a42e6e4837ee0ee6f9146aabc001", "unique_reads": 1, "rereads": 1},
+        {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0048.png", "source_frame_n": 2207, "showinfo_postselect_n": 47, "pts": 1129984, "time_base": "1/12288", "sha256": "286476238fdb07793d054922049981131ea83c355ab8dedec9f79a1680295c75", "unique_reads": 1, "rereads": 1}
+      ],
+      "preliminary_pixel_observation": {
+        "status": "independently observed before Qwen draft access",
+        "evidence_id": "C17R9-OBS-03",
+        "readable_timed_text": ["ちゃんと覚悟しといてよ？", "ARE YOU READY? (repeated along the frame border)"],
+        "observation": "A rounded-rectangle lime-green panel with dark-blue repeated uppercase 'ARE YOU READY?' text acts as a framing border inside a pale graph-paper-like outer field; small colored corner marks sit outside it. Inside is a compact night-sky illustration: dark navy sky, gray clouds, a large angular yellow lightning bolt, green scalloped vegetation and two black foreground silhouettes with pointed appendages and yellow star-like eyes (identity not inferred). The main Japanese line sits across the upper-middle of the illustration. Most kana are pale pink with a thick dark navy/purple edge or offset; the central kanji 覚悟 is much larger, yellow, and has a dark blue offset/extruded edge. The repeated English phrase is visually integrated as a border, not established as software UI. The main phrase remains legible in all six selected samples. Adjacent middle frames n2183-2184 retain the same general placement; near the closing pair n2206-2207 a localized bright yellow-white lightning-like flare is visible behind/near the central characters. This small sampled change does not establish a continuous glow/noise phase or global effect.",
+        "before_during_after": "Opening pair n2160/2161, middle pair n2183/2184 and closing pair n2206/2207 were read. The phrase and border persist at those samples, while some scene/light details vary. No full transition, camera path, or beat relation is established.",
+        "limits": ["Japanese phrase is visible text in the sampled render; its relationship to exact sung timing/audio was not tested.", "The black figures are described only by visible silhouette features; no rabbit, character-model, or MMD identification.", "The filename/title/uploader do not prove an edit graph or identify software layers.", "Whole lyrics, audio, beat, author intent, typeface identity and font license were not inspected."]
+      }
+    }
+  ],
+  "tool_failures_before_draft": [
+    {
+      "attempt": "Optional local PIL display of an already inspected original image",
+      "result": "ModuleNotFoundError: No module named 'PIL'",
+      "impact": "None; the normal functions.read image path was used for original frame inspection. No source or image-read request was blocked."
+    },
+    {
+      "attempt": "An overcomplicated jq hash-selection query",
+      "result": "jq parse error: expected closing parenthesis",
+      "impact": "None; simplified jq selection returned all 18 requested manifest hash rows, which matched sha256sum outputs. No input was changed."
+    }
+  ],
+  "next_step": "Only after this saved observation checkpoint is read back: open qwen-unreviewed.json, compare each claim against the independently logged native evidence, then write the proposed editable2D/art-applicability record and final status/manifest."
+}

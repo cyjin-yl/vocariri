@@ -1,0 +1,18 @@
+{
+  "id": "YT_x9J9Jnrg2ow",
+  "url": "https://www.youtube.com/watch?v=x9J9Jnrg2ow",
+  "at": "2026-09-25T01:23:55.725672+00:00",
+  "title": "アフターエフェクトで手書き文字",
+  "uploader": "Narumovie",
+  "duration": 5,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 50853,
+  "sha256": "db0fa1ee38162719fa3f7d554767dff3ab502c65acb37ef12d06a750ab8e2437",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

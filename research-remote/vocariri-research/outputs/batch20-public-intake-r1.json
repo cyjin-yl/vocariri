@@ -1,0 +1,185 @@
+{
+  "id": "batch20-public-intake-r1",
+  "round": "batch20-public-intake-r1",
+  "status": "partial",
+  "accepted_form_increment": 0,
+  "rendered_template_increment": 0,
+  "generated_at": "2026-10-03T21:35:30Z",
+  "work_order": {
+    "file": "WORK_ORDER_QWEN_BATCH20_PUBLIC_INTAKE_R1.md",
+    "sha256": "8d65de45db50d946d45201449b652f75453f893a02cce4ba6f98ec60c8a9c8f5",
+    "verified": true
+  },
+  "tools": {
+    "python": "3.11.2",
+    "yt_dlp": "2026.08.19",
+    "ffmpeg": "7.0.2-static",
+    "acquisition_script": "discovery-cross-20/acquire-r1.py",
+    "helper_source": "discovery-cross-19/acquire-r2.py (copied, ROOT/ITEMS/tracker-name adapted)"
+  },
+  "registry_check": {
+    "method": "grep -r for all 4 IDs across *.json/*.jsonl/*.md in /workspace",
+    "existing_matches": {
+      "NICO-sm45243352": "discovery-cross-18/candidate-comparison.json (metadata only, not acquired)",
+      "BILI-BV1ue4y1e78R": "none",
+      "BILI-BV1VY4y1i7LC": "none",
+      "BILI-BV1SK411p7DA": "none"
+    },
+    "conclusion": "All 4 are new acquisitions; no existing source bytes to reuse"
+  },
+  "sources": {
+    "BILI-BV1ue4y1e78R": {
+      "id": "BILI-BV1ue4y1e78R",
+      "url": "https://www.bilibili.com/video/BV1ue4y1e78R/",
+      "at_utc": "2026-10-03T21:30:14.978195+00:00",
+      "state": "downloaded_uninspected",
+      "http_status": 200,
+      "bytes": 10994572,
+      "sha256": "d463ca0eb65c755dbbdeb53592ede57fe479a995ea8af70cc015520bc364100c",
+      "file": "sources/BILI-BV1ue4y1e78R/source.mp4",
+      "duration_seconds": 240.488,
+      "title": "（转载自用/中英字幕）world.execute(me);(同人PV)",
+      "uploader": "账号已注销",
+      "extractor": "BiliBili",
+      "yt_dlp_version": "2026.08.19",
+      "video_dimensions": [
+        852,
+        480
+      ],
+      "final_media_probe_duration_seconds": 240.49,
+      "final_media_probe_audio_codec": "aac",
+      "selected_request_handler": "UrllibRH",
+      "cookie_authentication_state": "disabled",
+      "blocked_redirects": 0,
+      "platform": "bilibili",
+      "result": "downloaded_uninspected",
+      "title_note": "同人PV (fan PV) for world.execute(me);; uploader 账号已注销 (account deleted); 中英字幕 (Chinese/English subtitles)",
+      "screening_questions": [
+        "multilingual hierarchy: 中英字幕 implies dual-language caption layers",
+        "UI narrative/highlight/overlap: 同人PV suggests fan-made text animation",
+        "true shape/stroke morph vs change/scale/mask: unknown until viewed",
+        "high-density lettering: unknown until viewed"
+      ]
+    },
+    "BILI-BV1VY4y1i7LC": {
+      "id": "BILI-BV1VY4y1i7LC",
+      "url": "https://www.bilibili.com/video/BV1VY4y1i7LC/",
+      "at_utc": "2026-10-03T21:30:56.907710+00:00",
+      "state": "downloaded_uninspected",
+      "http_status": 200,
+      "bytes": 33650512,
+      "sha256": "c145937c13c20f427b957100a2a0a5afcf118c5a6fd32fda4847dd7c1b7ca1c2",
+      "file": "sources/BILI-BV1VY4y1i7LC/source.mp4",
+      "duration_seconds": 256.362,
+      "title": "AE制作孤勇者音乐播放器滚动放大高亮歌词字幕",
+      "uploader": "墨言雪__",
+      "extractor": "BiliBili",
+      "yt_dlp_version": "2026.08.19",
+      "video_dimensions": [
+        852,
+        480
+      ],
+      "final_media_probe_duration_seconds": 256.36,
+      "final_media_probe_audio_codec": "aac",
+      "selected_request_handler": "UrllibRH",
+      "cookie_authentication_state": "disabled",
+      "blocked_redirects": 0,
+      "platform": "bilibili",
+      "result": "downloaded_uninspected",
+      "title_note": "AE制作孤勇者音乐播放器滚动放大高亮歌词字幕 (AE-made Gu Yong Zhe music player scrolling zoom highlight lyric subtitles); uploader 墨言雪__",
+      "screening_questions": [
+        "multilingual hierarchy: Chinese-only title",
+        "UI narrative/highlight/overlap: 滚动放大高亮 (scrolling zoom highlight) implies dynamic text motion",
+        "true shape/stroke morph vs change/scale/mask: 放大 (zoom) suggests scale, not morph",
+        "high-density lettering: 歌词字幕 (lyric subtitles) implies dense text"
+      ]
+    },
+    "BILI-BV1SK411p7DA": {
+      "id": "BILI-BV1SK411p7DA",
+      "url": "https://www.bilibili.com/video/BV1SK411p7DA/",
+      "at_utc": "2026-10-03T21:31:23.401963+00:00",
+      "state": "downloaded_uninspected",
+      "http_status": 200,
+      "bytes": 2638689,
+      "sha256": "97de4bc5abf7bb209a3ba1e2d2213882e1fbdcead5c59a37d89fa81907a4eaf9",
+      "file": "sources/BILI-BV1SK411p7DA/source.mp4",
+      "duration_seconds": 46.591,
+      "title": "文字变化向——AE动画",
+      "uploader": "SEVENNINE祈九",
+      "extractor": "BiliBili",
+      "yt_dlp_version": "2026.08.19",
+      "video_dimensions": [
+        852,
+        480
+      ],
+      "final_media_probe_duration_seconds": 46.59,
+      "final_media_probe_audio_codec": "aac",
+      "selected_request_handler": "UrllibRH",
+      "cookie_authentication_state": "disabled",
+      "blocked_redirects": 0,
+      "platform": "bilibili",
+      "result": "downloaded_uninspected",
+      "title_note": "文字变化向——AE动画 (text change direction — AE animation); uploader SEVENNINE祈九; 46.6s short clip",
+      "screening_questions": [
+        "multilingual hierarchy: Chinese-only title",
+        "UI narrative/highlight/overlap: 文字变化 (text change) implies text transformation",
+        "true shape/stroke morph vs change/scale/mask: 变化 (change) is ambiguous — could be morph, swap, or mask reveal",
+        "high-density lettering: unknown until viewed; 46s duration suggests focused demo"
+      ]
+    },
+    "NICO-sm45243352": {
+      "id": "NICO-sm45243352",
+      "url": "https://www.nicovideo.jp/watch/sm45243352",
+      "state": "failed",
+      "http_status": 403,
+      "error_class": "DownloadError",
+      "reason": "Failed to download m3u8 information: HTTP Error 403: Forbidden",
+      "partial_files": [],
+      "at_utc": "2026-10-03T21:31:56.514664+00:00",
+      "platform": "niconico",
+      "result": "failed_403",
+      "title_note": "From cross-18 candidate-comparison: identity モノクロセンス (monochrome sense); not acquired",
+      "screening_questions": [
+        "multilingual hierarchy: Japanese title",
+        "UI narrative/highlight/overlap: モノクロセンス suggests monochrome aesthetic",
+        "true shape/stroke morph vs change/scale/mask: unknown",
+        "high-density lettering: unknown"
+      ],
+      "failure_class": "bot_403",
+      "retry": "not attempted per work order (no retries)"
+    }
+  },
+  "summary": {
+    "total_leads": 4,
+    "downloaded": 3,
+    "failed": 1,
+    "failed_ids": [
+      "NICO-sm45243352"
+    ],
+    "failed_reason": "HTTP 403 Forbidden on m3u8 download (bot detection)",
+    "total_bytes_downloaded": 47283773,
+    "all_dimensions_480p": true,
+    "all_have_audio": true,
+    "all_cookies_disabled": true,
+    "all_no_redirects": true
+  },
+  "network_requests": {
+    "total_lines": 71,
+    "file": "discovery-cross-20/network-requests.jsonl",
+    "all_signed_urls_redacted": true
+  },
+  "acquisition_ledger": {
+    "file": "discovery-cross-20/acquisition.jsonl",
+    "total_lines": 8,
+    "states": [
+      "attempting",
+      "downloaded_uninspected",
+      "attempting",
+      "downloaded_uninspected",
+      "attempting",
+      "downloaded_uninspected",
+      "attempting",
+      "failed"
+    ]
+  }
+}

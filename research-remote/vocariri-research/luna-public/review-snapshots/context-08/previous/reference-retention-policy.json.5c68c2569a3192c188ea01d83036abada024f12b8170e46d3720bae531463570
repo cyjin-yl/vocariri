@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "authority": "Owner instruction in private task, 2026-09-25",
+  "default_state": "hold_until_prototype_review",
+  "local_protected_roots": ["research/cache", "research/sources", "research/reference-archive"],
+  "remote_project_relative_protected_roots": ["media", "frames", "materials", "temporal", "art-input-07", "art-labeled-07", "review-snapshots", "outputs"],
+  "protected_kinds": ["source_media", "native_frames", "captioned_frames", "contact_sheets", "time_mappings", "source_metadata", "raw_model_responses", "review_evidence"],
+  "cleanup_candidate_requires": ["linked_editable_prototype_exists", "prototype_render_exists", "similar_art_design_review_passed", "source_and_license_provenance_recorded", "remaining_references_and_recovery_checked"],
+  "automatic_deletion": false,
+  "missing_prototype_link": "retain",
+  "active_reference": "retain",
+  "release_policy": {"reference_media": "exclude_from_public_repository_packages_examples_and_documentation_images", "original_design_rules_and_implementations": "eligible_after_review", "third_party_assets_and_fonts": "require_separate_redistribution_basis"},
+  "backup_claim": "Policy is a retention hold, not proof of an independent backup or full integrity audit."
+}

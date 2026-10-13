@@ -1,0 +1,18 @@
+{
+  "id": "YT_tI_wn9J-MMA",
+  "url": "https://www.youtube.com/watch?v=tI_wn9J-MMA",
+  "at": "2026-09-24T15:41:12.374352+00:00",
+  "title": "Umineko motion graphics 8 HQ ver2.0 [English sub, no lyrics 1080]",
+  "uploader": "coldkgon",
+  "duration": 320,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 59758855,
+  "sha256": "50e5481da478b5699b0e4d15b740dcc94831f92af053e3f2a842653093ef5ecc",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

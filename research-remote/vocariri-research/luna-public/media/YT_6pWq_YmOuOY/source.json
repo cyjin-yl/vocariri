@@ -1,0 +1,18 @@
+{
+  "id": "YT_6pWq_YmOuOY",
+  "url": "https://www.youtube.com/watch?v=6pWq_YmOuOY",
+  "at": "2026-09-24T06:16:56.918186+00:00",
+  "title": "YOASOBI - Idol (Lyrics)",
+  "uploader": "Tee",
+  "duration": 257,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 18125862,
+  "sha256": "f8df1bccd6602650b5bd5f37e1e3d8f222a3bfb4a5697d18e613a51b84c79cd4",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

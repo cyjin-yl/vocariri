@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "response": {
+    "id": "chatcmpl-9230202d74552845",
+    "object": "chat.completion",
+    "created": 1790220775,
+    "model": "[redacted model]",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Based on the image provided, here is a description of the visible shapes, colors, and text:\n\n**Shapes:**\n- The dominant shape is a **scalloped border**, which forms a continuous, repeating pattern along the top edge of the image.\n- Each scallop is a **semicircular or fan-shaped** element with a decorative, lace-like cutout design.\n- The overall composition is a **horizontal strip** that repeats this scalloped motif across its length.\n\n**Colors:**\n- The primary color is **silver** or **light gray**, giving the impression of metallic foil or embossed paper.\n- There are subtle variations in tone due to lighting and shadows within the intricate cutouts, creating highlights and darker recesses that enhance the three-dimensional effect.\n- The background behind the scallops appears to be a very light, almost white or off-white surface, though it\u2019s mostly obscured by the dense pattern.\n\n**Text:**\n- There",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "length",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-1.5.0-tp2-260edd80",
+    "usage": {
+      "prompt_tokens": 218,
+      "total_tokens": 418,
+      "completion_tokens": 200,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null
+  }
+}

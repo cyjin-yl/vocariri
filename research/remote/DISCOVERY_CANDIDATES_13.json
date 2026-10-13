@@ -1,0 +1,750 @@
+{
+  "purpose": "visual-review candidates; not accepted forms or templates",
+  "selected_count": 30,
+  "selection_basis": "Four immutable Bilibili public-search responses and offline exact-ID dedup against video_discovery.jsonl plus synthesis-08; no video frame was inspected in this task.",
+  "platform_coverage_limit": "All selected new works are Bilibili search-result leads. Bing direct results ignored site restrictions; Google gave a redirect interstitial; DuckDuckGo gave a challenge. No cross-platform new-work claim is supported here.",
+  "other_request_outcomes": [
+    {
+      "url": "https://www.bing.com/search?q=VOCALOID+kinetic+typography+music+video+site%3Ayoutube.com%2Fwatch",
+      "status": 302,
+      "error": "http_error",
+      "redirect_to": "https://cn.bing.com/search?q=VOCALOID+kinetic+typography+music+video+site%3Ayoutube.com%2Fwatch"
+    },
+    {
+      "url": "https://www.bing.com/search?q=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+site%3Anicovideo.jp%2Fwatch",
+      "status": 302,
+      "error": "http_error",
+      "redirect_to": "https://cn.bing.com/search?q=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+site%3Anicovideo.jp%2Fwatch"
+    },
+    {
+      "url": "https://cn.bing.com/search?q=VOCALOID+kinetic+typography+music+video+site%3Ayoutube.com%2Fwatch",
+      "status": 200,
+      "error": "none",
+      "redirect_to": null
+    },
+    {
+      "url": "https://cn.bing.com/search?q=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+site%3Anicovideo.jp%2Fwatch",
+      "status": 200,
+      "error": "none",
+      "redirect_to": null
+    },
+    {
+      "url": "https://www.google.com/search?q=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+site%3Ayoutube.com%2Fwatch",
+      "status": 200,
+      "error": "none",
+      "redirect_to": null
+    },
+    {
+      "url": "https://html.duckduckgo.com/html/?q=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+site%3Anicovideo.jp%2Fwatch",
+      "status": 202,
+      "error": "none",
+      "redirect_to": null
+    }
+  ],
+  "accepted_forms": 0,
+  "accepted_templates": 0,
+  "candidates": [
+    {
+      "video_url": "https://www.bilibili.com/video/BV1rN41197tC/",
+      "title_in_search_result": "wowaka - 裏表ラバーズ 【文字PV】",
+      "uploader_in_search_result": "百合咲奈奈",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "文字PV title; inspect mirrored phrasing, density and rapid character/line changes in an older wowaka song edit.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1LthR6hErg/",
+      "title_in_search_result": "【中文字幕】リブラ・フロイライン/天秤少女 feat.初音ミク【DYES IWASAKI × ど～ぱみん】",
+      "uploader_in_search_result": "キャラメル布丁",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "translated_music_video_lead",
+      "why_worth_visual_validation": "Chinese-subtitle title on a Japanese collaboration; inspect bilingual hierarchy, any overlaid lyrics and whether text is designed or merely subtitled.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        },
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        },
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=VOCALOID+%E6%AD%8C%E8%AF%8D+PV+%E6%96%87%E5%AD%97+%E9%81%AE%E6%8C%A1",
+          "retrieved_utc": "2026-09-27T06:10:44.532510+00:00",
+          "sha256": "8f4cb2d8530d7f0eb447392f67638bf3ec6628588949369135cc68c806a3130b",
+          "cache_file": "research/cache/discovery-13/501d99a2b7ca4a559de98b66fee86bd2.response"
+        },
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=vocaloid+%E6%96%87%E5%AD%97PV+%E5%83%8F%E7%B4%A0+%E5%AD%97%E4%BD%93",
+          "retrieved_utc": "2026-09-27T06:10:45.818882+00:00",
+          "sha256": "777eae7a2c49ca3a03b46719f729c5587dffcfc7751871e134112beca8c92743",
+          "cache_file": "research/cache/discovery-13/8da22ec1c3d440c086eb6725ec96727f.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1mPVn6MEdm/",
+      "title_in_search_result": "【文字pv/新人练习】医学 文字pv（有点份",
+      "uploader_in_search_result": "Leysea",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_practice",
+      "why_worth_visual_validation": "Practice labelled 文字PV; inspect body-letter anatomy and whether a novice construction reveals reusable layout primitives.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1oic6eeEPt/",
+      "title_in_search_result": "【文字PV】8番出口",
+      "uploader_in_search_result": "猫老四Meows",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Title explicitly 文字PV for 8番出口; inspect spatial wayfinding typography and visual occlusion, if present.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        },
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1NH4y1s7wS/",
+      "title_in_search_result": "【文字PV配布】酔いどれ知らず | 歌词排版",
+      "uploader_in_search_result": "鱿鱼孑",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "distribution_claim_pv",
+      "why_worth_visual_validation": "Title claims 文字PV配布 and lyric layout; inspect the rendered result and whether an editable artifact is publicly and lawfully available.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1wStRz1Eip/",
+      "title_in_search_result": "【官方投稿】ウルトラトレーラー（超预告篇）／重音テトSV",
+      "uploader_in_search_result": "マサラダ",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "official_claim_music_video",
+      "why_worth_visual_validation": "Uploader/title claim official 重音テトSV post; inspect trailer-like temporal text and graphic-to-lyric handoff, without assuming it contains text motion.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        },
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1kg3B6gEhT/",
+      "title_in_search_result": "uminonioi『4文字』",
+      "uploader_in_search_result": "百合咲奈奈",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "music_typography_lead",
+      "why_worth_visual_validation": "Work titled 4文字; inspect whether four-character typography drives timing and arrangement or the title is incidental.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1VKQ6BAEK5/",
+      "title_in_search_result": "IMAWANOKIWA/文字PV(搬运)",
+      "uploader_in_search_result": "p0is0N_sAKc",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "repost_claim_typography_pv",
+      "why_worth_visual_validation": "Title claims IMAWANOKIWA/文字PV and repost; inspect text-image staging and trace original creator/version before using it as independent occurrence.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1hFab6mEj4/",
+      "title_in_search_result": "【jizura字面】心做し-文字动画PV",
+      "uploader_in_search_result": "yimiO3O",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "tool_demo_typography_pv",
+      "why_worth_visual_validation": "Title names jizura and a 心做し文字动画PV; compare observable output grammar with editor/tool limitations rather than count as a new form.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        },
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1Ct421K7se/",
+      "title_in_search_result": "【文字PV】 帝国少女 / R Sound Design様",
+      "uploader_in_search_result": "虚惘幻音",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Explicit 文字PV of 帝国少女; inspect fine type pairing, stagger and compositional continuity if visual evidence becomes available.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1gctBz5EPJ/",
+      "title_in_search_result": "CherryPop チェリーポップ 官方开源素材 背景 字幕 动画 手书素材",
+      "uploader_in_search_result": "星野露米娅",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "asset_pack_claim",
+      "why_worth_visual_validation": "Title claims CherryPop open background/subtitle/animation assets; verify actual public provenance and study editable lettering layers separately from a rendered PV.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1qZ42127gy/",
+      "title_in_search_result": "【文字PV】転生林檎",
+      "uploader_in_search_result": "虚惘幻音",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Explicit 文字PV of 転生林檎; inspect text grouping, repetition and transformation, if visible, without assuming the song's original PV.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1SHEn6WEVd/",
+      "title_in_search_result": "【官方投稿】カンケーガール（关系少女）／重音テト",
+      "uploader_in_search_result": "マサラダ",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "official_claim_music_video",
+      "why_worth_visual_validation": "Title/uploader claim official 重音テト post; inspect whether native visual type, character imagery or both organize the lyric sequence.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1a5KpeWEkC/",
+      "title_in_search_result": "[文字PV练习]ゴー・トゥ・大都会",
+      "uploader_in_search_result": "零葉杉",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_practice",
+      "why_worth_visual_validation": "Practice for ゴー・トゥ・大都会; inspect aggressive type collage and phrase-scale pacing as hypotheses.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E3%83%9C%E3%82%AB%E3%83%AD+%E6%96%87%E5%AD%97PV+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3",
+          "retrieved_utc": "2026-09-27T06:10:42.086927+00:00",
+          "sha256": "6617691760e2468e74802a0680227aa641b85058e39239fe02d9e73bee97a370",
+          "cache_file": "research/cache/discovery-13/d5ffe5c8afbf489dbcb7b7516cffbb23.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1LBYN6tEFq/",
+      "title_in_search_result": "PV中常见的文字效果展示与制作方法概览#1",
+      "uploader_in_search_result": "骞雪quq",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "tutorial",
+      "why_worth_visual_validation": "Title promises common PV lettering effects and construction methods; inspect demonstrated forms and distinguish technique from finished PV occurrence.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1CCsAeqEYM/",
+      "title_in_search_result": "【イガク 医学/文字pv练习】",
+      "uploader_in_search_result": "Hearvul",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_practice",
+      "why_worth_visual_validation": "イガク/文字pv practice; inspect a second novice implementation for style variance without equating song identity to form identity.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        },
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=vocaloid+%E6%96%87%E5%AD%97PV+%E5%83%8F%E7%B4%A0+%E5%AD%97%E4%BD%93",
+          "retrieved_utc": "2026-09-27T06:10:45.818882+00:00",
+          "sha256": "777eae7a2c49ca3a03b46719f729c5587dffcfc7751871e134112beca8c92743",
+          "cache_file": "research/cache/discovery-13/8da22ec1c3d440c086eb6725ec96727f.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1j64y1z7xL/",
+      "title_in_search_result": "【文字PV】 ルマ",
+      "uploader_in_search_result": "儚鬱",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Explicit 文字PV of ルマ; inspect typographic distortion, callout geometry and word-to-scene relation if shown.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1vPW6zLEw3/",
+      "title_in_search_result": "文字PV -> ピノキオピー - 愛属性｜After Effects 2019",
+      "uploader_in_search_result": "小貓xLittleCat",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Title gives ピノキオピー 愛属性 and After Effects 2019; inspect timeline-era construction, font design and editability claims separately.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1ze411Z7kH/",
+      "title_in_search_result": "二次創作PV　ロータスイーター　文字PV",
+      "uploader_in_search_result": "こんにちは-73",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_secondary_pv",
+      "why_worth_visual_validation": "Title calls it a secondary 文字PV for ロータスイーター; trace source authorship and inspect handwritten versus typeset lettering if visible.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1yk4y1g7sa/",
+      "title_in_search_result": "【文字PV练习】妄想感傷代償連盟",
+      "uploader_in_search_result": "虚子kyonko",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_practice",
+      "why_worth_visual_validation": "Practice of 妄想感傷代償連盟; inspect lyric-unit staggering and contrast between quiet and dense passages as open questions.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1PD4y1K7bU/",
+      "title_in_search_result": "【Aviutl】文字PV - エゴロック",
+      "uploader_in_search_result": "岚锋Vrek",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "tool_demo_typography_pv",
+      "why_worth_visual_validation": "AviUtl 文字PV for エゴロック; compare same task's reusable mechanisms across a non-AE implementation.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1GqV369E2a/",
+      "title_in_search_result": "[文字PV] ECHO",
+      "uploader_in_search_result": "有名氏_YesName",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Title is [文字PV] ECHO; inspect English word segmentation and typography timing, without asserting the rendered language.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=%E8%A1%93%E5%8A%9B%E5%8F%A3+%E6%96%87%E5%AD%97PV+%E8%8A%B1%E5%AD%97",
+          "retrieved_utc": "2026-09-27T06:10:43.394313+00:00",
+          "sha256": "3ad9e01c5c3e0b09014f2c65eb43ab7d9d0265e3cdfae82d21c7299f721836e2",
+          "cache_file": "research/cache/discovery-13/bed6697c4bf442bb80f19ffce2159303.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1nPTT6uEqu/",
+      "title_in_search_result": "[自制文字MV完整版（终于做完了）]求与影",
+      "uploader_in_search_result": "NTRZU",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "original_text_mv_claim",
+      "why_worth_visual_validation": "Title claims a complete self-made text MV 求与影; inspect Chinese character timing and whether scenic layers also carry the lyric.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=VOCALOID+%E6%AD%8C%E8%AF%8D+PV+%E6%96%87%E5%AD%97+%E9%81%AE%E6%8C%A1",
+          "retrieved_utc": "2026-09-27T06:10:44.532510+00:00",
+          "sha256": "8f4cb2d8530d7f0eb447392f67638bf3ec6628588949369135cc68c806a3130b",
+          "cache_file": "research/cache/discovery-13/501d99a2b7ca4a559de98b66fee86bd2.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1ut411w7Bo/",
+      "title_in_search_result": "【仿制】《初音未来的消失》中文化文字动画PV+手绘动画融和版",
+      "uploader_in_search_result": "Skr_ZERO子",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_remake",
+      "why_worth_visual_validation": "Title claims a Chinese-language remake blending typography and hand-drawn animation for 初音未来的消失; compare version identity with existing bilingual candidate before counting.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=VOCALOID+%E6%AD%8C%E8%AF%8D+PV+%E6%96%87%E5%AD%97+%E9%81%AE%E6%8C%A1",
+          "retrieved_utc": "2026-09-27T06:10:44.532510+00:00",
+          "sha256": "8f4cb2d8530d7f0eb447392f67638bf3ec6628588949369135cc68c806a3130b",
+          "cache_file": "research/cache/discovery-13/501d99a2b7ca4a559de98b66fee86bd2.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1GP411h7rZ/",
+      "title_in_search_result": "【文字PV练习】バグ",
+      "uploader_in_search_result": "肉酱意面树莓果冻派",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_practice",
+      "why_worth_visual_validation": "文字PV practice for バグ; inspect error/glitch motif and lettering legibility rather than equate a glitch label with observed motion.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=vocaloid+%E6%96%87%E5%AD%97PV+%E5%83%8F%E7%B4%A0+%E5%AD%97%E4%BD%93",
+          "retrieved_utc": "2026-09-27T06:10:45.818882+00:00",
+          "sha256": "777eae7a2c49ca3a03b46719f729c5587dffcfc7751871e134112beca8c92743",
+          "cache_file": "research/cache/discovery-13/8da22ec1c3d440c086eb6725ec96727f.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1tKhR61E9B/",
+      "title_in_search_result": "【AM文字PV】像素方块的硬核才是王道😡🥴你的卡通画风根本没技巧🙄😒",
+      "uploader_in_search_result": "-南极冰融化-",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Title explicitly advertises pixel-block 文字PV in Alight Motion; inspect bitmap font rasterization and spatially grouped entrances if actually present.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=vocaloid+%E6%96%87%E5%AD%97PV+%E5%83%8F%E7%B4%A0+%E5%AD%97%E4%BD%93",
+          "retrieved_utc": "2026-09-27T06:10:45.818882+00:00",
+          "sha256": "777eae7a2c49ca3a03b46719f729c5587dffcfc7751871e134112beca8c92743",
+          "cache_file": "research/cache/discovery-13/8da22ec1c3d440c086eb6725ec96727f.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1bF6SYtE5c/",
+      "title_in_search_result": "【文字PV】 異星にいこうね",
+      "uploader_in_search_result": "厘子厘子子",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Explicit 文字PV of 異星にいこうね; inspect soft/uneasy lettering anatomy and its actual relation to the song before any emotion recommendation.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=vocaloid+%E6%96%87%E5%AD%97PV+%E5%83%8F%E7%B4%A0+%E5%AD%97%E4%BD%93",
+          "retrieved_utc": "2026-09-27T06:10:45.818882+00:00",
+          "sha256": "777eae7a2c49ca3a03b46719f729c5587dffcfc7751871e134112beca8c92743",
+          "cache_file": "research/cache/discovery-13/8da22ec1c3d440c086eb6725ec96727f.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1GwsoeKEi3/",
+      "title_in_search_result": "【免费分享】DATEN ROUTE 原作模板以及如何使用",
+      "uploader_in_search_result": "如见春台",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "template_claim",
+      "why_worth_visual_validation": "Title claims DATEN ROUTE original template and use instructions; verify public rights and inspect project construction only if freely accessible.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=vocaloid+%E6%96%87%E5%AD%97PV+%E5%83%8F%E7%B4%A0+%E5%AD%97%E4%BD%93",
+          "retrieved_utc": "2026-09-27T06:10:45.818882+00:00",
+          "sha256": "777eae7a2c49ca3a03b46719f729c5587dffcfc7751871e134112beca8c92743",
+          "cache_file": "research/cache/discovery-13/8da22ec1c3d440c086eb6725ec96727f.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1Sx411F7AZ/",
+      "title_in_search_result": "【文字PV】充滿嫉妒的一人捉迷藏",
+      "uploader_in_search_result": "KETKebdo",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Chinese-title 文字PV for 嫉妒一人捉迷藏; inspect traditional-character styling and cross-era design variation if confirmed.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=vocaloid+%E6%96%87%E5%AD%97PV+%E5%83%8F%E7%B4%A0+%E5%AD%97%E4%BD%93",
+          "retrieved_utc": "2026-09-27T06:10:45.818882+00:00",
+          "sha256": "777eae7a2c49ca3a03b46719f729c5587dffcfc7751871e134112beca8c92743",
+          "cache_file": "research/cache/discovery-13/8da22ec1c3d440c086eb6725ec96727f.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    },
+    {
+      "video_url": "https://www.bilibili.com/video/BV1n5urz4Edv/",
+      "title_in_search_result": "【文字PV】お返事まだカナ💦❓️おじさん構文😁❗️",
+      "uploader_in_search_result": "虚惘幻音",
+      "underlying_creator_or_original_version": "unknown",
+      "source_kind": "fan_typography_pv",
+      "why_worth_visual_validation": "Explicit 文字PV with modern messaging-style Japanese title; inspect emote/punctuation art lettering and comedic emotional fit if confirmed.",
+      "evidence_level": "public_search_result_metadata_only; video_unwatched; motion_unknown",
+      "evidence": [
+        {
+          "search_url": "https://search.bilibili.com/all?keyword=vocaloid+%E6%96%87%E5%AD%97PV+%E5%83%8F%E7%B4%A0+%E5%AD%97%E4%BD%93",
+          "retrieved_utc": "2026-09-27T06:10:45.818882+00:00",
+          "sha256": "777eae7a2c49ca3a03b46719f729c5587dffcfc7751871e134112beca8c92743",
+          "cache_file": "research/cache/discovery-13/8da22ec1c3d440c086eb6725ec96727f.response"
+        }
+      ],
+      "cross_source_dedup_status": {
+        "exact_bvid": "absent_from_existing_76_discovery_and_synthesis_08_source_ids",
+        "same_work_or_same_edit_cross_platform": "unknown; needs human/source visual and provenance check",
+        "accepted_distinct_form_increment": 0
+      }
+    }
+  ]
+}

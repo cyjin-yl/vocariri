@@ -1,0 +1,18 @@
+{
+  "id": "YT_lp1dP49o5qY",
+  "url": "https://www.youtube.com/watch?v=lp1dP49o5qY",
+  "at": "2026-09-24T10:19:01.025197+00:00",
+  "title": "【MMD】 SnowMix♪ -Game Ver- (Motion Public DL)",
+  "uploader": "Durles",
+  "duration": 135,
+  "fps": 60,
+  "width": 1276,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 46179805,
+  "sha256": "a14c551126588de1f3e86e4c926943268c34a0a23bf7c3c9eb18be9a5a014f9d",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

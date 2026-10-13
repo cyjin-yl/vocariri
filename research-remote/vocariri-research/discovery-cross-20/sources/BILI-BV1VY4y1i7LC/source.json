@@ -1,0 +1,24 @@
+{
+  "id": "BILI-BV1VY4y1i7LC",
+  "url": "https://www.bilibili.com/video/BV1VY4y1i7LC/",
+  "at_utc": "2026-10-03T21:30:56.907710+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": 200,
+  "bytes": 33650512,
+  "sha256": "c145937c13c20f427b957100a2a0a5afcf118c5a6fd32fda4847dd7c1b7ca1c2",
+  "file": "sources/BILI-BV1VY4y1i7LC/source.mp4",
+  "duration_seconds": 256.362,
+  "title": "AE制作孤勇者音乐播放器滚动放大高亮歌词字幕",
+  "uploader": "墨言雪__",
+  "extractor": "BiliBili",
+  "yt_dlp_version": "2026.08.19",
+  "video_dimensions": [
+    852,
+    480
+  ],
+  "final_media_probe_duration_seconds": 256.36,
+  "final_media_probe_audio_codec": "aac",
+  "selected_request_handler": "UrllibRH",
+  "cookie_authentication_state": "disabled",
+  "blocked_redirects": 0
+}

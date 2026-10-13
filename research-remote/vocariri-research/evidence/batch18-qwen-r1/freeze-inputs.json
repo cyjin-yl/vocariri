@@ -1,0 +1,41 @@
+{
+  "frozen_at": "2026-10-01T14:12:00Z",
+  "work_order": {"file": "WORK_ORDER_QWEN_BATCH18_R1.md", "sha256": "3db6c80a5cf8e78e2bbf921f060aef72c9064d29b9f20ad596ba150edb66a039", "verified": true},
+  "tools": {
+    "ffmpeg": "7.0.2-static (/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2; no ffprobe, no framehash filter)",
+    "python": "3.11.2 (/opt/pv-tools/bin/python)",
+    "PIL": "12.3.0",
+    "imageio_ffmpeg": "0.6.0"
+  },
+  "frame_byte_rule": "complete yuv420p frame = W*H*3/2 computed from actual dimensions; these sources are 854x480 -> 614880 bytes/frame (the 1280x720=1382400 figure does not apply to these files; old R5a 1036800-byte blocks were the documented error class)",
+  "sources": [
+    {
+      "id": "NICO-sm45786816",
+      "file": "discovery-cross-18/sources/NICO-sm45786816/source.mp4",
+      "sha256": "4b4b2ab4346dd09a2a2127e1cd0b003a526ebf54e974db7604cf228b95802559",
+      "bytes": 8445617,
+      "sidecar": "discovery-cross-18/sources/NICO-sm45786816/source.json (579 bytes, state downloaded_uninspected, yt_dlp 2026.08.19, title '【文字pv】アンノウン・マザーグース wowaka【きょるんず】', uploader きょるんず)",
+      "decoder": "video h264 Main yuv420p bt709 progressive 854x480 SAR 1:1 30fps tbn 1/90000; audio aac LC 44100 stereo; duration 39.33s",
+      "metadata_vs_decoder": "sidecar duration_seconds 39 (truncated) vs decoder 39.33s; all other fields consistent"
+    },
+    {
+      "id": "NICO-sm45669453",
+      "file": "discovery-cross-18/sources/NICO-sm45669453/source.mp4",
+      "sha256": "7197c80fcb0d32e322354d37810adea78617974c7d6707f0a57c9417cda95946",
+      "bytes": 4062204,
+      "sidecar": "discovery-cross-18/sources/NICO-sm45669453/source.json (557 bytes, state downloaded_uninspected, yt_dlp 2026.08.19, title '【文字pv】ラグトレイン / 稲葉曇様【Aviutl】', uploader とくめー)",
+      "decoder": "video h264 Main yuv420p bt709 progressive 854x480 SAR 1:1 24fps tbn 1/90000; audio aac LC 44100 stereo; duration 16.83s",
+      "metadata_vs_decoder": "sidecar duration_seconds 16 (truncated) vs decoder 16.83s; all other fields consistent"
+    },
+    {
+      "id": "NICO-sm46320139",
+      "file": "discovery-cross-18/sources/NICO-sm46320139/source.mp4",
+      "sha256": "92f173f7bc7fbf524e75204c97b92b8aaaea1ff8787d39f1f477b218ec2571a4",
+      "bytes": 4481247,
+      "sidecar": "discovery-cross-18/sources/NICO-sm46320139/source.json (576 bytes, state downloaded_uninspected, yt_dlp 2026.08.19, title '【文字PV?】ライアーダンサー文字だけ再現してみた', uploader さいほうへいき)",
+      "decoder": "video h264 Main yuv420p bt709 progressive 854x480 SAR 1:1 30fps tbn 1/90000; audio aac LC 48000 stereo; duration 23.10s",
+      "metadata_vs_decoder": "sidecar duration_seconds 23 (truncated) vs decoder 23.10s; all other fields consistent"
+    }
+  ],
+  "note": "selection.json (batch18) lists a fourth lead PVOLT-njKdvdYQ-xE with no source.json/source.mp4 on disk (Project Voltage attempt failed); per order it is NOT in scope for this R1 native-frame task. Its acquisition/network ledger stays intact, unmodified."
+}

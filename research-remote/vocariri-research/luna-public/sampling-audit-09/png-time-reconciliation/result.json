@@ -1,0 +1,215 @@
+{
+  "artifact_sha256": "a73cfe046f3eb4e1217becda4cf49f9ee740f52bd8f2a5d95c18ea4afc9d8bf8",
+  "reference_checks": [
+    {
+      "pattern": "ART-OVERDOSE-07-001",
+      "file": "art-input-07/YT_BnkhBwzBqlQ-20.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "ee1f8c0d613a5bba22bfc1823629d445232f57b9a2c67fd664e554369337a730"
+    },
+    {
+      "pattern": "ART-OVERDOSE-07-001",
+      "file": "art-labeled-07/YT_BnkhBwzBqlQ-20.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "0ee03a75c9c67f3b2744299cc85c798b5bf65fb2cf4fbcb34cf5a9a2ee4570cc"
+    },
+    {
+      "pattern": "ART-OVERDOSE-07-001",
+      "file": "outputs/art-direction-patterns-07.json#ART-OVERDOSE-07-001",
+      "exists": true,
+      "hash_matches": null,
+      "actual_sha256": "e0a223f5644c96316f5cde1f1bb27804704547837d0ca90e2ac79707e5be18a4"
+    },
+    {
+      "pattern": "ART-DIR-07-002",
+      "file": "art-input-07/YT_BnkhBwzBqlQ-68.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "a51909c83dabaac17bdcd7f980fe312a09c22cddc34ddedd7585ab9e59a773c1"
+    },
+    {
+      "pattern": "ART-DIR-07-002",
+      "file": "art-input-07/YT_BnkhBwzBqlQ-76.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "73c8423778b3c9352098e8b8b8ea564a997584ac8fc1ad98a5e2ece943623d01"
+    },
+    {
+      "pattern": "ART-DIR-07-002",
+      "file": "outputs/art-batches-07/171b4d4a9109f372585d.json",
+      "exists": true,
+      "hash_matches": false,
+      "actual_sha256": "fa8ed3107136d486b08bab3fd1409a886c3fffa8b72b7b328feaa3968ba0702b"
+    },
+    {
+      "pattern": "ART-DIR-07-003",
+      "file": "art-input-07/YT_BnkhBwzBqlQ-116.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "a98d274b990295e81f42e2c3b68d0d58004f836c2140e25a14723b952fd98f70"
+    },
+    {
+      "pattern": "ART-DIR-07-003",
+      "file": "art-input-07/YT_BnkhBwzBqlQ-124.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "d1374de11f92e8b8d5351defac1771005a010fd1b01164c9f69f9a14f7bd77f8"
+    },
+    {
+      "pattern": "ART-DIR-07-003",
+      "file": "art-input-07/YT_BnkhBwzBqlQ-132.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "0b2c4f3d91caaa3ad850f01ff2b583c097944ab599ec46e9d81703787aea8f06"
+    },
+    {
+      "pattern": "ART-DIR-07-003",
+      "file": "outputs/art-batches-07/171b4d4a9109f372585d.json",
+      "exists": true,
+      "hash_matches": false,
+      "actual_sha256": "fa8ed3107136d486b08bab3fd1409a886c3fffa8b72b7b328feaa3968ba0702b"
+    },
+    {
+      "pattern": "ART-DIR-07-004",
+      "file": "art-input-07/YT_ijaK647Qfc8-14.25.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "4fe14fe7c5cc371afdf16ae000c326acca5982245da3c8fbb92548068d672d27"
+    },
+    {
+      "pattern": "ART-DIR-07-004",
+      "file": "review-snapshots/context-08/tiles-14_25.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "4fe14fe7c5cc371afdf16ae000c326acca5982245da3c8fbb92548068d672d27"
+    },
+    {
+      "pattern": "ART-DIR-07-004",
+      "file": "outputs/art-direction-patterns-07.json#ART-DIR-07-004",
+      "exists": true,
+      "hash_matches": null,
+      "actual_sha256": "e0a223f5644c96316f5cde1f1bb27804704547837d0ca90e2ac79707e5be18a4"
+    },
+    {
+      "pattern": "ART-DIR-07-005",
+      "file": "art-input-07/YT_ijaK647Qfc8-15.25.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "18b48279c4c929b2b9385275ef20c4c46795156237ef90b41545a86c1338d7e8"
+    },
+    {
+      "pattern": "ART-DIR-07-005",
+      "file": "outputs/art-batches-07/5edaf3b598e0be359b6d.json",
+      "exists": true,
+      "hash_matches": false,
+      "actual_sha256": "7451d6dcc038b27c5a9669ad263d9dc7ccb32f162ea9a54d01ca045a359d64f4"
+    },
+    {
+      "pattern": "ART-DIR-07-006",
+      "file": "art-input-07/YT_t-VhP8PHI80-74.25.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+    },
+    {
+      "pattern": "ART-DIR-07-006",
+      "file": "review-snapshots/context-08/echo-74_25.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+    },
+    {
+      "pattern": "ART-DIR-07-006",
+      "file": "outputs/art-direction-patterns-07.json#ART-DIR-07-006",
+      "exists": true,
+      "hash_matches": null,
+      "actual_sha256": "e0a223f5644c96316f5cde1f1bb27804704547837d0ca90e2ac79707e5be18a4"
+    },
+    {
+      "pattern": "ART-DIR-07-006",
+      "file": "review-snapshots/context-08/retention-and-sampling.json#sampling_audit",
+      "exists": true,
+      "hash_matches": null,
+      "actual_sha256": "eb772f5824ae801cd69d08e3788375165fc75eeb23e0d79b4fcb759b821e42a8"
+    },
+    {
+      "pattern": "ART-DIR-07-007",
+      "file": "art-input-07/YT_kiVGOS7-n_o-1.25.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "a2ebe0747928f0f33d5f7f2c00cbb2a8a1a8a2737c0e95fc2954ae3bc913ba14"
+    },
+    {
+      "pattern": "ART-DIR-07-007",
+      "file": "art-input-07/YT_kiVGOS7-n_o-1.75.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "1ca497fd4989bb2da21cf193ba4f8cb3e8978a63125d2ca27a403364a85f7769"
+    },
+    {
+      "pattern": "ART-DIR-07-007",
+      "file": "art-input-07/YT_kiVGOS7-n_o-3.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "17bce07baef55ab9972f0ee383885fe692f71e79f4784a1ca9c7ab0d45915d26"
+    },
+    {
+      "pattern": "ART-DIR-07-007",
+      "file": "outputs/art-batches-07/7a5035ed46de285bb63f.json",
+      "exists": true,
+      "hash_matches": false,
+      "actual_sha256": "a4e76eb87cdd0c689927fce027aa6eeb199b8c81e98b6d65a5c9a64003fa5e18"
+    },
+    {
+      "pattern": "ART-DIR-07-008",
+      "file": "art-input-07/YT_BnkhBwzBqlQ-188.00.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38"
+    },
+    {
+      "pattern": "ART-DIR-07-008",
+      "file": "review-snapshots/context-08/overdose-188.png",
+      "exists": true,
+      "hash_matches": true,
+      "actual_sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38"
+    },
+    {
+      "pattern": "ART-DIR-07-008",
+      "file": "outputs/art-direction-patterns-07.json#ART-DIR-07-008",
+      "exists": true,
+      "hash_matches": null,
+      "actual_sha256": "e0a223f5644c96316f5cde1f1bb27804704547837d0ca90e2ac79707e5be18a4"
+    }
+  ],
+  "png_target_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7",
+  "png_pixel_matches": [
+    {
+      "source_pts": 2227225,
+      "time_base": "1/30000",
+      "seconds": 74.24083333333333,
+      "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+    },
+    {
+      "source_pts": 2228226,
+      "time_base": "1/30000",
+      "seconds": 74.2742,
+      "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+    },
+    {
+      "source_pts": 2229227,
+      "time_base": "1/30000",
+      "seconds": 74.30756666666667,
+      "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+    },
+    {
+      "source_pts": 2230228,
+      "time_base": "1/30000",
+      "seconds": 74.34093333333334,
+      "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+    }
+  ],
+  "legacy_jpeg_mapping_is_separate": true
+}

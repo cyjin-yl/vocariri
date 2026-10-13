@@ -1,0 +1,63 @@
+{
+  "audit_id": "TEXT-TRIAGE-12",
+  "status": "completed_text_only_triage_visual_review_pending",
+  "work_order_sha256": "b7e8845f007c6958711781b3a7006ea82c9011f4742139a8c6fcfd7c2a8566b5",
+  "output_file": "outputs/text-triage-12.json",
+  "baseline_counts": {
+    "candidate_forms": 57,
+    "text_forms": 42,
+    "scene_forms": 15,
+    "active_observations": 624,
+    "observation_ledger_rows": 641,
+    "independently_accepted_forms": 0,
+    "accepted_templates": 0
+  },
+  "completed_pair_count": 12,
+  "pairs_target": 12,
+  "completed_pairs": [
+    "PAIR-01",
+    "PAIR-02",
+    "PAIR-03",
+    "PAIR-04",
+    "PAIR-05",
+    "PAIR-06",
+    "PAIR-07",
+    "PAIR-08",
+    "PAIR-09",
+    "PAIR-10",
+    "PAIR-11",
+    "PAIR-12"
+  ],
+  "next_pair_id": "PAIR-04",
+  "mechanism_families_covered": 3,
+  "image_video_reads_this_task": 0,
+  "qwen_requests_submitted": 0,
+  "shared_ledgers_modified": false,
+  "accepted_form_increment": 0,
+  "accepted_template_increment": 0,
+  "quota_note": "A prior visual audit stopped on 429; this triage is text-only and makes no visual claims.",
+  "exact_next_step": "Construct PAIR-04 through PAIR-12 from existing text form/observation records, preserving unknown native PTS/time_base and no-audio status.",
+  "selected_unique_form_count": 21,
+  "mechanism_families": 12,
+  "mechanism_family_names": [
+    "angled phrase groups and scattered glyph fragments",
+    "centered title hold, overlay and fade exit",
+    "central interruption and letter assembly",
+    "circular glyph grouping and adjacent curved rule",
+    "geometric mask and text reflow",
+    "glyph-group scale and foreground occlusion",
+    "large-word scaling versus contraction-to-point",
+    "modular lyric cards and technical interface panels",
+    "object-anchored text and interface panels",
+    "outlined scale sequence and interrupted persistent wordmark",
+    "side typography and tilted text-window separation",
+    "vertical overlay and character-overlap type"
+  ],
+  "relation_counts": {
+    "possibly_distinct": 8,
+    "unknown": 3,
+    "possible_duplicate": 1
+  },
+  "exact_next_visual_gate": "After quota/native access resumes, review ranked windows in native cadence, beginning with pairs 01, 03, 06, 07, 08 and 12. Capture per-frame source PTS/time_base where available, before/during/after windows, and audio/timed lyrics only if separately authorized. Do not send Qwen requests; the Qwen seat owns its queue.",
+  "stop_point": "Text-only pair triage complete; native/visual review remains pending under the existing 429/ffprobe constraints."
+}

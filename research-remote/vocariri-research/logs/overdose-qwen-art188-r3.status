@@ -1,0 +1,15 @@
+overdose-qwen-art188-r3 status
+generated_at: 2026-10-02T14:57:02Z
+state: completed_unreviewed
+accepted_form_increment: 0
+rendered_template_increment: 0
+work_order: WORK_ORDER_QWEN_OVERDOSE_ART188_R3.md sha256=03b2465b16a8fbfbdd6989cfc0ff77b18da624dcfef0956e1e9ac95a66b187e9 verified
+source: luna-public/media/YT_BnkhBwzBqlQ/source.mp4 sha256=e0507f7a86b862679fb54036ff30c557fd51e8a7c08a60bc452d088a9c4a40ac rehash_verified
+r2_reuse: 60 native PNGs (n5610-n5669, pts 2872320-2902528, 1/15360) from evidence/overdose-qwen-art188-r2/win-188/ - no re-extraction
+reads: 60 unique native reads, 0 rereads, 0 derived crop reads
+findings: shot A (glitch dance row + ANGEL text, n5610-n5664) -> explicit cut -> shot B (inverted purple-head character + tiled collage, n5665-n5669)
+text: ANGEL (5 caps, pixel/block font, ~40% frame width, centered); per-frame discrete color cycle; per-frame opacity on/off (absent n5650-n5652); jitter; outline; ladder stripes; drop shadow (n5624); glow; RGB split
+constructions: C1 mirrored figure row, C2 ANGEL text, C3 global glitch pass, C4 tiled collage background, C5 inverted character, C6 heart layer
+continuity: text/scene explicit cut A->B; glitch pass continuous across cut; no camera movement
+ae_gaps: editable text/shaping, masks/materials, effects/alpha/color, camera/coordinate, runtime parity all untested; no native/baking/proxy assumed
+next: independent review and dedup of accepted-form increment 0 / rendered-template increment 0

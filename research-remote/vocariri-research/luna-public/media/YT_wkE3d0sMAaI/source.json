@@ -1,0 +1,18 @@
+{
+  "id": "YT_wkE3d0sMAaI",
+  "url": "https://www.youtube.com/watch?v=wkE3d0sMAaI",
+  "at": "2026-09-24T13:15:24.012309+00:00",
+  "title": "【文字PV】パノプティコン【限界映像大会＃92】",
+  "uploader": "TERUNO-てるの",
+  "duration": 32,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 4810235,
+  "sha256": "1a0577e87f20b6c02648a0fdf5236194ed2e8529b57e0fd819a267a6d0a487fa",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

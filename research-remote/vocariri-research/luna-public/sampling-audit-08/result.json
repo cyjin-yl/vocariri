@@ -1,0 +1,25 @@
+{
+  "source_sha256": "b83c5f3e785cffe1830589e2736e18f7682a8badb83e3cd6e97b2ef2db67b650",
+  "legacy_frame": "frames/YT_t-VhP8PHI80/f-000298.jpg",
+  "legacy_grid_label_seconds": 74.25,
+  "exact_jpeg_hash_matches_native_pts": [
+    74.3743
+  ],
+  "native_times": [
+    74.107367,
+    74.140733,
+    74.1741,
+    74.207467,
+    74.240833,
+    74.2742,
+    74.307567,
+    74.340933,
+    74.3743,
+    74.407667,
+    74.441033,
+    74.4744,
+    74.507767,
+    74.541133
+  ],
+  "method": "Full source decode, select native timestamps before scale, no fps filter; compare exact JPEG bytes using same scale/quality."
+}

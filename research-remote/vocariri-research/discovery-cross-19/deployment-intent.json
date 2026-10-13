@@ -1,0 +1,12 @@
+{
+  "state": "exclusive_batch_copy_attempting",
+  "at_utc": "2026-10-02T12:40:13.305916+00:00",
+  "preflight_at": "2026-10-02T12:28:46.686741+00:00",
+  "ids": [
+    "PVOLT-HbS1T4d1P70",
+    "PVOLT-lIoi2r3f5fU"
+  ],
+  "credential_state": "none",
+  "model_request_made": false,
+  "source_paths_preserved": true
+}

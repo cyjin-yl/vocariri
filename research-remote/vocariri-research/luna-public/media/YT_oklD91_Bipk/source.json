@@ -1,0 +1,18 @@
+{
+  "id": "YT_oklD91_Bipk",
+  "url": "https://www.youtube.com/watch?v=oklD91_Bipk",
+  "at": "2026-09-25T01:21:28.859981+00:00",
+  "title": "手書き文字動画",
+  "uploader": "muuchan",
+  "duration": 9,
+  "fps": 30,
+  "width": 960,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 547401,
+  "sha256": "266a67155ff499ed333ab0baf9670a311eebd514765bab8fecb23cdbb93bba1b",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

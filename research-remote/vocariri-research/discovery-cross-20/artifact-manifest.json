@@ -1,0 +1,94 @@
+{
+  "id": "batch20-public-intake-r1-artifact-manifest",
+  "generated_at": "2026-10-03T21:38:13Z",
+  "self_excluding": true,
+  "new_files": {
+    "discovery-cross-20/acquire-r1.py": {
+      "sha256": "1b019535f2b388b2ccf70f8d74bfca5c3fa0c18867516a6371afcc6d1dcbe2ce",
+      "bytes": 13178
+    },
+    "discovery-cross-20/acquisition.jsonl": {
+      "sha256": "941785af27ead0392746d6e51d1ffa2cf94604729a57918a493aa3270ff048f4",
+      "bytes": 4376
+    },
+    "discovery-cross-20/network-requests.jsonl": {
+      "sha256": "7364ccb96cb386af74c0b4c87508ad05277aa438e038813f4faed95f91546e88",
+      "bytes": 18950
+    },
+    "discovery-cross-20/sources/BILI-BV1SK411p7DA/source.json": {
+      "sha256": "a4674775af43caefd01af82c896c57819092c0c61c2bb34513befd61d9757ed4",
+      "bytes": 762
+    },
+    "discovery-cross-20/sources/BILI-BV1SK411p7DA/source.mp4": {
+      "sha256": "97de4bc5abf7bb209a3ba1e2d2213882e1fbdcead5c59a37d89fa81907a4eaf9",
+      "bytes": 2638689
+    },
+    "discovery-cross-20/sources/BILI-BV1VY4y1i7LC/source.json": {
+      "sha256": "71a5156350ae21762790e532b690fc5176dff83c88d9e71d9acd40e0713fc2d9",
+      "bytes": 794
+    },
+    "discovery-cross-20/sources/BILI-BV1VY4y1i7LC/source.mp4": {
+      "sha256": "c145937c13c20f427b957100a2a0a5afcf118c5a6fd32fda4847dd7c1b7ca1c2",
+      "bytes": 33650512
+    },
+    "discovery-cross-20/sources/BILI-BV1ue4y1e78R/source.json": {
+      "sha256": "760b606d912672e12e8291702ab933f5d26815b1a81dabd774d756583e5fa14d",
+      "bytes": 795
+    },
+    "discovery-cross-20/sources/BILI-BV1ue4y1e78R/source.mp4": {
+      "sha256": "d463ca0eb65c755dbbdeb53592ede57fe479a995ea8af70cc015520bc364100c",
+      "bytes": 10994572
+    }
+  },
+  "referenced_immutable_inputs": {
+    "WORK_ORDER_QWEN_BATCH20_PUBLIC_INTAKE_R1.md": {
+      "sha256": "8d65de45db50d946d45201449b652f75453f893a02cce4ba6f98ec60c8a9c8f5",
+      "bytes": 5753
+    },
+    "discovery-cross-19/acquire-r2.py": {
+      "sha256": "ed6f488b51c2088787a7b85b81602af6ed3453f3d42cc10f02d0f2b192bb2614",
+      "bytes": 13143
+    },
+    "discovery-cross-18/candidate-comparison.json": {
+      "sha256": "c60030695a74cfaf9d7fd6d04449fb3ca7568d2beb28e06a4d2a28d09d2d709f",
+      "bytes": 22716
+    }
+  },
+  "outputs": {
+    "outputs/batch20-public-intake-r1.json": {
+      "sha256": "9c50e20e81e7d36ad0c7dc934a2618de9482d4b48cbc63d1fecac9496eb1f159",
+      "bytes": 7416
+    },
+    "logs/batch20-public-intake-r1.status": {
+      "sha256": "dbe84023a8eb90bda104eaab2fae73d1c37e7a8e7f41fbcff82ee6fe356074db",
+      "bytes": 1308
+    }
+  },
+  "actual_checks": {
+    "work_order_sha256": "verified",
+    "registry_check": "all 4 IDs checked; 3 new, 1 metadata-only in cross-18",
+    "tools_verified": "python 3.11.2, yt-dlp 2026.08.19, ffmpeg 7.0.2-static",
+    "acquisitions": "3/4 downloaded, 1/4 failed (403)",
+    "source_json_written": "3/3 (for downloaded sources)",
+    "media_probe": "all 3 probed with imageio_ffmpeg; dimensions 852x480, audio aac",
+    "cookies": "all disabled; no browser/profile/netrc/login state",
+    "redirects": "0 blocked across all 4 attempts",
+    "signed_urls": "all redacted in network-requests.jsonl"
+  },
+  "failures": [
+    {
+      "id": "NICO-sm45243352",
+      "reason": "HTTP 403 Forbidden on m3u8 download",
+      "class": "bot_403",
+      "partials": [],
+      "retry": "not attempted per work order"
+    }
+  ],
+  "notes": [
+    "No new downloads beyond the 4 leads",
+    "No API/service changes, no Computer Use, no AE launch, no publication",
+    "All 3 BILI sources are 852x480 (not exactly 854x480) — bilibili encoding quirk",
+    "NICO-sm45243352 403 is consistent with prior niconico bot detection patterns",
+    "ART188 and cross17 evidence remain immutable"
+  ]
+}

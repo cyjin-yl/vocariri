@@ -1,0 +1,227 @@
+{
+  "task": "overdose-qwen-native-r1",
+  "work_order": {"file": "WORK_ORDER_QWEN_OVERDOSE_NATIVE_R1.md", "sha256": "c51f0924958044e7780f5cb9e8271a31c5a97c5f35ce4acfcad517b142bfc597", "verified": true},
+  "state": "completed_unreviewed",
+  "at": "2026-10-01T16:32:19Z",
+  "increments": {"forms": 0, "finished_templates": 0},
+  "inference_made": false,
+  "note": "OMP inference = this agent (no additional standalone API request). All reads offline against retained bytes.",
+  "source": {
+    "file": "luna-public/media/YT_BnkhBwzBqlQ/source.mp4",
+    "sha256": "e0507f7a86b862679fb54036ff30c557fd51e8a7c08a60bc452d088a9c4a40ac",
+    "bytes": 27088524,
+    "rehash_verified": true,
+    "title_claim": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE] (sidecar metadata claim, not inspected content)",
+    "stream": "av1 (libdav1d) Main, yuv420p(tv, bt709), 960x720, 30 fps, tbn 1/15360, 222.80 s; opus 48000 Hz stereo",
+    "frame_byte_rule": "complete yuv420p frame = W*H*3/2; 960x720 -> 1036800 bytes/frame (correct here; coincidentally equal to the value that was the documented wrong-contiguous-block class for the 1280x720 R5a source)",
+    "framehash_filter": "ABSENT in ffmpeg 7.0.2-static build (verified via -filters); per-frame raw-yuv420p MD5 used as substitution, same method as R5a/batch18"
+  },
+  "freeze_record": "evidence/overdose-qwen-native-r1/freeze-inputs.json (written 2026-10-01T14:05:00Z before first decode)",
+  "windows": [
+    {
+      "id": "win-A",
+      "n_range": [510, 569],
+      "count": 60,
+      "pts_15360": [261120, 291328],
+      "pts_delta_unique": [512],
+      "time_seconds": "17.000-18.967",
+      "selection_reason": "labeled screening region r20: persistent 'INTERNET OVERDOSE' title lockup over animated MMD scene; static-type-over-motion mechanism",
+      "decode": {"evidence_dir": "evidence/overdose-qwen-native-r1/win-A/", "window_json": "window.json (60 frame entries: source_n, md5 of complete 1036800-byte yuv420p frame, pts_15360, pts_time, png path)", "showinfo_log": "showinfo-window.log", "pngs": "native-n0001..native-n0060 (full 960x720)", "motion_profile": "diff-A.json (PIL L-mode 96x72 mean abs frame diff, 59 diffs)"},
+      "full_res_reads": [
+        {"n": 510, "file": "native-n0001.png", "pts_15360": 261120},
+        {"n": 569, "file": "native-n0060.png", "pts_15360": 291328}
+      ],
+      "derived_crops": [
+        {"file": "crop-internet-tern-n569.png", "box": [170, 5, 560, 185], "derived_from": "native-n0060.png (src png md5 4bb07881..., raw-yuv md5 41e0155b... per window.json)", "label": "DERIVED 1:1 crop, 'TERN' glyph region"}
+      ],
+      "motion": "no cut; max mean diff 13.316 (n513); peaks diffuse (n513 13.316, n533 12.413, n557 13.043, n561 13.082, n565 12.297) = background scene animation (hearts/bokeh/character drift) with type layer fully static",
+      "scene": "MMD scene: character (pink hair, twin tails) center, white/yellow radial burst behind, field of sparkles + hearts + bokeh, zigzag ribbon streamers, black border frame, small white tick ruler marks top-center",
+      "typography": {
+        "content": "two-line lockup: 'INTERNET' (top, near full frame width) / 'OVERDOSE' (bottom, right edge cropped, extends beyond frame)",
+        "typeface": "geometric condensed sans-serif display, heavy italic slant (constant shear), uniform stroke width (no thick/thin contrast), flat/rounded stroke terminals",
+        "material_layers_per_glyph": [
+          "layer 1 (fill): halftone dot grid - individual round dots ~6-8 px diameter at 960x720, regular square grid spacing, uniform dot size, hue ramped per word along the glyph row (cyan -> blue -> purple/magenta for 'INTERNET'); dots on TRANSPARENT ground (background scene visible through gaps between dots - verified at 1:1 crop: character hand/hair visible behind 'R')",
+          "layer 2 (keyline): uniform white outline ~8-10 px, rounded joins, enclosing the dot fill",
+          "layer 3 (shadow): dark navy/near-black offset copy of the glyph, displaced down-right ~10-14 px, visible as dark edge beyond the keyline"
+        ],
+        "staticity": "lockup position, size, and content invariant across all 60 frames; only the scene behind animates"
+      },
+      "lyric_emotion_meaning": "title/brand statement ('INTERNET OVERDOSE') - energy, excess, pop-culture overload; halftone texture reads as print/screen culture; the persistent hold (no transition) marks it as a title specimen, not a lyric beat",
+      "use_conditions": "use for: high-energy title/brand moments; adding texture to large display words without opaque fills; overlays on animated scenes; two-word stacks where line 2 may crop at the frame edge",
+      "avoid_conditions": "avoid at small sizes (dot grid vanishes below ~40 px cap height); avoid on dark static grounds (cyan/magenta dots lose separation); avoid for long body text (texture becomes noise); the 3-layer stack (fill+keyline+shadow) is expensive to render per glyph - reserve for hero words"
+    },
+    {
+      "id": "win-B",
+      "n_range": [2050, 2109],
+      "count": 60,
+      "pts_15360": [1049600, 1079808],
+      "pts_delta_unique": [512],
+      "time_seconds": "68.333-70.300",
+      "selection_reason": "labeled screening region r68: scene change region with flash transition and dual vertical brush-glyph columns",
+      "decode": {"evidence_dir": "evidence/overdose-qwen-native-r1/win-B/", "window_json": "window.json (60 frame entries)", "showinfo_log": "showinfo-window.log", "pngs": "native-n0001..native-n0060 (full 960x720)", "motion_profile": "diff-B.json (PIL L-mode 96x72 mean abs frame diff, 59 diffs)"},
+      "full_res_reads": [
+        {"n": 2050, "file": "native-n0001.png", "pts_15360": 1049600},
+        {"n": 2058, "file": "native-n0009.png", "pts_15360": 1053728},
+        {"n": 2062, "file": "native-n0013.png", "pts_15360": 1055264},
+        {"n": 2070, "file": "native-n0021.png", "pts_15360": 1059392},
+        {"n": 2080, "file": "native-n0031.png", "pts_15360": 1064512},
+        {"n": 2086, "file": "native-n0037.png", "pts_15360": 1067072},
+        {"n": 2092, "file": "native-n0043.png", "pts_15360": 1069632},
+        {"n": 2098, "file": "native-n0049.png", "pts_15360": 1072192},
+        {"n": 2104, "file": "native-n0055.png", "pts_15360": 1074752},
+        {"n": 2109, "file": "native-n0060.png", "pts_15360": 1079808}
+      ],
+      "derived_crops": [
+        {"file": "crop-iine-col-n2104.png", "box": [0, 0, 200, 720], "derived_from": "native-n0055.png (src png md5 c210fded...)", "label": "DERIVED 1:1 crop, left warm column 'いいね'"},
+        {"file": "crop-yokunaini-col-n2104.png", "box": [750, 0, 960, 720], "derived_from": "native-n0055.png (src png md5 c210fded...)", "label": "DERIVED 1:1 crop, right cool column 'よくないね'"}
+      ],
+      "motion": "one dominant transition: diff peak 90.49 at n2077 (甘いのよ scene -> white flash); secondary peaks n2089 18.369, n2090 20.776, n2091 27.322 (flash decay + text entry); n2107 15.282 (warm column exit)",
+      "phases": [
+        {"name": "phase-1_amai_no_yo", "frames": "n2050-~n2076", "content": "lyric '甘いのよ' (sweet, you know): top-left and top-right kanji disintegrated into RGB-separated mosaic glitch blocks (colored square patches, red/green/blue/magenta/cyan) with per-frame block shimmer (animation); bottom-left solid pink '甘' + bottom-right solid pink 'いのよ' (stacked) + small scattered pink 'の' 'よ' mid-frame; soft outer glow on pink glyphs; dark teal/blue bedroom; character as dark silhouette center (wink, arms raised); pink glyphs static, glitch mosaic animated"},
+        {"name": "phase-2_flash", "frames": "~n2077-n2083", "content": "white-out flash: white field with rounded corners inside the black border frame; character ghosted in purple/pink translucent overlay with zigzag ribbon streamer; white tick marks top and bottom; diff peak 90.49 at n2077; flash frame read at n2080"},
+        {"name": "phase-3_reveal", "frames": "n2086-~n2091", "content": "washed-out overexposed reveal: pale gray character, gray zigzag ribbon streamers both sides, bright blue washed background; then full-color restoration (n2092: detailed bedroom, shelves, figurines, PC; glowing hearts white/pink/yellow/cyan all sizes; bokeh sparkles)"},
+        {"name": "phase-4_brush_columns", "frames": "n2092-n2109+", "content": "dual vertical brush-glyph columns: LEFT 'いいね' (ii ne) per-glyph warm ramp orange -> magenta -> red, RIGHT 'よくないね' (yoku naini ne) per-glyph cool ramp indigo -> blue -> cyan; super-heavy rounded/brush display hiragana, solid flat color fill, transparent gaps (scene visible between strokes), hand-drawn edge irregularity (subtle stroke-width wobble, flat-cut terminals, one sharp corner on 'く'); columns cropped at frame edges (left column cropped left+bottom, right column cropped right+top); staggered timing - warm column enters first and exits by n2109, cool column remains and shifts toward right edge; white starburst outline (jagged burst, white stroke, hollow interior) appears center, then multiplies"}
+      ],
+      "typography": {
+        "typeface": "super-heavy rounded display hiragana (brush/marker character): stroke width ~40-60 px at 960x720, rounded or flat-cut terminals, no serifs, no fill texture (solid flat color), organic hand-drawn edge quality",
+        "material_layers_per_glyph": ["solid flat-color fill (single hue per glyph, ramped down the column)", "transparent ground (no keyline, no shadow - single layer)"],
+        "contrast_system": "warm column (orange/magenta/red) vs cool column (indigo/blue/cyan) - semantic opposition 'いいね' (like) vs 'よくないね' (not good) encoded as temperature opposition"
+      },
+      "lyric_emotion_meaning": "'甘いのよ' (sweet, you know) then 'いいね よくないね' (like / not-so-good): internet-culture ambivalence - the 'like' economy vs actual feeling; glitch-mosaic = digital signal decay for the sweet line; brush columns = casual social-media voice; white-out flash = hard emotional reset between the two",
+      "use_conditions": "use for: playful social-media mood; expressing contradiction via paired warm/cool columns; scene resets via white-out flash with ghosted subject; vertical cropped columns when the frame edge should feel like a window into a larger space",
+      "avoid_conditions": "avoid brush columns for formal/classical tone; avoid more than 4-5 glyphs per column at this stroke weight (collision risk in narrow columns); avoid the warm/cool opposition when a single temperature is needed; the flash is a one-shot transition device - repeated use loses impact"
+    },
+    {
+      "id": "win-C",
+      "n_range": [3500, 3559],
+      "count": 60,
+      "pts_15360": [1792000, 1822208],
+      "pts_delta_unique": [512],
+      "time_seconds": "116.667-118.633",
+      "selection_reason": "labeled screening region r116: '毒電波を' mincho sandwich, type-strip cut, then '涼…の コンピューターと 断片的な' layered re-entry",
+      "decode": {"evidence_dir": "evidence/overdose-qwen-native-r1/win-C/", "window_json": "window.json (60 frame entries)", "showinfo_log": "showinfo-window.log", "pngs": "native-n0001..native-n0060 (full 960x720)", "motion_profile": "diff-C.json (PIL L-mode 96x72 mean abs frame diff, 59 diffs)"},
+      "full_res_reads": [
+        {"n": 3500, "file": "native-n0001.png", "pts_15360": 1792000},
+        {"n": 3515, "file": "native-n0016.png", "pts_15360": 1799808},
+        {"n": 3520, "file": "native-n0021.png", "pts_15360": 1801600},
+        {"n": 3535, "file": "native-n0036.png", "pts_15360": 1808448},
+        {"n": 3550, "file": "native-n0051.png", "pts_15360": 1818752},
+        {"n": 3559, "file": "native-n0060.png", "pts_15360": 1822208}
+      ],
+      "derived_crops": [
+        {"file": "crop-dokudempa-n3500.png", "box": [0, 150, 960, 560], "derived_from": "native-n0001.png (src png md5 d7042f43...)", "label": "DERIVED 1:1 crop, '毒電波を' center line + corner lines"},
+        {"file": "crop-suzuu-n3550.png", "box": [0, 0, 300, 300], "derived_from": "native-n0051.png (src png md5 d59a1c80...)", "label": "DERIVED 1:1 crop, '涼' glyph"},
+        {"file": "crop-conpyuuta-band-n3550.png", "box": [230, 100, 760, 220], "derived_from": "native-n0051.png (src png md5 d59a1c80...)", "label": "DERIVED 1:1 crop, band bottom edge + 'さまの' glyphs (band body captured in full-res read)"},
+        {"file": "crop-dantekina-mosaic-n3559.png", "box": [0, 430, 960, 720], "derived_from": "native-n0060.png (src png md5 5196f29a...)", "label": "DERIVED 1:1 crop, '断片的な' mosaic line"}
+      ],
+      "motion": "one dominant transition: diff peak 22.095 at n3519 (毒電波を lockup -> type-strip cut, scene continuous); secondary peaks n3528 9.453, n3552 9.599, n3553 12.976, n3554 8.845 (断片的な mosaic entry n3552-3554); type layers are static once placed (scene animates beneath)",
+      "phases": [
+        {"name": "phase-1_mincho_sandwich", "frames": "n3500-~n3518", "content": "four-corner sandwich: huge center line '毒電波を' (dokudempa o) in extra-heavy mincho, full frame width, '毒' cropped at left edge, 'を' cropped at right edge with baseline drop; four corner lines in regular-weight mincho with thin underline rules extending beyond text width - top-left '何度もの', top-right '送られる', bottom-left '優しさだけで', bottom-right '包んで'; all solid black on transparent ground; sunset orange/red sky, gold wire-mesh fence, red ground, character backlit center; type static, scene animates (clouds drift, character pose changes n3500->n3515)"},
+        {"name": "phase-2_type_strip_cut", "frames": "n3519-n3528", "content": "hard cut that strips ALL text: same sunset scene continues (character, fence, sun, pink zigzag ribbon streamer) with zero type - a breath beat; black border frame + white tick marks remain (frame furniture persists through the cut)"},
+        {"name": "phase-3_reentry_suzuu", "frames": "n3535+", "content": "huge '涼' (suzuu) left-anchored in the same extra-heavy mincho, cropped at left+top edges, with smaller 'さまの' at top-right - new arrangement, same typeface"},
+        {"name": "phase-4_band_overlay", "frames": "n3550+", "content": "black rectangular band (sharp corners, opaque) crossing upper-mid, containing white regular-weight mincho text 'コンピューターと' (computer and); band overlaps the large 涼/さまの layer (drawn on top) - inverse-contrast insertion layer"},
+        {"name": "phase-5_mosaic_line", "frames": "n3552-n3559+", "content": "bottom line '断片的な' (fragmented): '断片的' rendered as black SQUARE-GRID MOSAIC - discrete axis-aligned squares ~14-20 px with 1-2 px gaps forming the heavy-mincho stroke shapes, transparent ground (scene visible between tiles), cropped at left+bottom edges; final 'な' rendered in SOLID mincho (smooth strokes) - deliberate style switch within one line: the word meaning 'fragmented' is itself fragmented, while the particle stays whole"}
+      ],
+      "typography": {
+        "typeface": "mincho (Japanese serif) family, two weights: extra-heavy display (center/huge lines: very heavy verticals, moderately heavy horizontals, strong triangular serifs, solid black, sharp edges) and regular (corner lines, band text)",
+        "material_layers_per_glyph": ["solid single-color fill (black, or white inside band) on transparent ground; no texture, no keyline, no shadow"],
+        "layer_stack_in_final_composition": ["base: extra-heavy mincho 涼+さまの (black)", "middle: black band + white mincho 'コンピューターと'", "bottom: square-mosaic '断片的' (black) + solid mincho 'な' (black)"]
+      },
+      "lyric_emotion_meaning": "full line 1: '何度もの 送られる 毒電波を 優しさだけで 包んで' (wrap up the poison broadcasts that keep being sent, with nothing but kindness); line 2 (assembled): '涼…の コンピューターと 断片的な…' (…cool/calm …'s, with the computer, fragmented...): the sandwich = dramatic lyrical emphasis with context lines framing the keyword; the type-strip cut = emotional breath; the mosaic = semantic fragmentation made literal (style-semantic mapping); mincho weight = serious/poetic register contrasting the playful brush columns of win-B",
+      "use_conditions": "use for: dramatic lyric emphasis (one huge line + small framing context lines); poetic/serious register; inserting annotations mid-composition via inverse-contrast bands; literalizing a word's meaning through its rendering (fragmented -> mosaic); scene-continuous type-strip cuts for breath",
+      "avoid_conditions": "avoid mincho for fast-paced sections (reads slower than gothic); avoid the sandwich when the background scene is in heavy motion (sandwich assumes a stable ground); avoid band text longer than ~8 CJK chars at this scale (collides with corner lines); mosaic works only with heavy weights - thin-stroke glyphs quantize poorly; the black-on-sunset contrast depends on the warm saturated ground - on neutral/dark grounds the black mincho disappears"
+    }
+  ],
+  "excluded_region": {
+    "r188_188s": "excluded from full windows: the 188s region ('ANGEL' lockup) is mechanistically redundant with win-A (static halftone-style lockup over animated scene, same frame furniture); documented here per plan, not re-decoded"
+  },
+  "recipes": [
+    {
+      "id": "recipe-halftone-ramp-lockup",
+      "from": "win-A",
+      "construction_2d": "1) pick geometric condensed sans-serif display face, apply constant shear (italic slant); 2) set two-line stack, line 2 offset right so it crops at frame edge; 3) for each glyph: generate dot grid (dot r ~3.5-4 px @960, square lattice pitch ~10 px) and clip to glyph fill area (transparent ground); 4) ramp dot hue per glyph index across the word (e.g. cyan 190deg -> magenta 300deg); 5) stroke glyph outline white, uniform 8-10 px, rounded joins; 6) duplicate glyph as dark-navy shadow offset (+10,+14) px, draw order: shadow, keyline, dots; 7) place over animated background; hold static",
+      "editable_parameters": ["slant angle", "dot radius/pitch", "hue ramp endpoints", "keyline width", "shadow offset", "line-2 crop amount"],
+      "materials": "glyph outlines (vector), dot-grid pattern (procedural), 2 solid colors (keyline, shadow) + ramp palette"
+    },
+    {
+      "id": "recipe-glitch-mosaic-kanji",
+      "from": "win-B phase-1",
+      "construction_2d": "1) solid kanji base (any display face); 2) split into square block grid (~24-32 px blocks); 3) assign each block a channel-tint (R/G/B/magenta/cyan); 4) per frame, randomly toggle a subset of blocks on/off (seed = frame index) for shimmer; 5) place at top corners; 6) counterbalance with solid single-hue glow glyphs at bottom corners (fill + soft outer glow blur), static",
+      "editable_parameters": ["block size", "shimmer duty cycle", "tint palette", "glow radius"],
+      "materials": "glyph outlines, block mask (procedural, frame-seeded), glow (blur pass)"
+    },
+    {
+      "id": "recipe-warm-cool-brush-columns",
+      "from": "win-B phase-4",
+      "construction_2d": "1) super-heavy rounded display hiragana (stroke ~40-60 px @960, rounded/flat terminals); add subtle hand-drawn edge wobble (per-vertex noise, small amplitude); 2) stack glyphs vertically with tight leading, anchor column to a frame edge so it crops; 3) ramp fill hue per glyph down the column - warm (orange 20deg -> magenta 320deg -> red 350deg) for left column, cool (indigo 240deg -> blue 220deg -> cyan 190deg) for right column; 4) stagger: warm column enters first, exits first; cool column lingers; 5) optional white starburst outline (jagged polygon, white stroke, hollow) as center punctuation",
+      "editable_parameters": ["stroke weight", "wobble amplitude", "ramp palette (warm/cool sets)", "column count/width", "stagger offsets", "crop margins"],
+      "materials": "glyph outlines (vector + noise pass), flat fills, starburst polygon"
+    },
+    {
+      "id": "recipe-mincho-sandwich",
+      "from": "win-C phase-1",
+      "construction_2d": "1) mincho family, two weights (extra-heavy + regular); 2) center line: extra-heavy, scale to full frame width, crop both edges, drop last glyph baseline; 3) four corner lines: regular weight, each with a thin underline rule (rule width > text width); 4) all solid black, transparent ground; 5) hold static over stable scene; 6) exit via type-strip cut (remove all type layers, keep scene + frame furniture)",
+      "editable_parameters": ["center-line scale/crop", "baseline drop", "corner rule length", "weights"],
+      "materials": "mincho outlines (vector), black fills, thin rules"
+    },
+    {
+      "id": "recipe-inverse-band-insertion",
+      "from": "win-C phase-4",
+      "construction_2d": "1) solid black rectangle, sharp corners, height ~one line of regular mincho + padding; 2) white regular-mincho text centered in band; 3) position band overlapping the large-glyph layer (drawn on top, no blending); 4) optional: slide-in from left edge over 2-3 frames",
+      "editable_parameters": ["band height/padding", "text weight/size", "overlap offset", "slide-in frames"],
+      "materials": "rectangle, mincho outlines, black + white"
+    },
+    {
+      "id": "recipe-square-mosaic-mincho",
+      "from": "win-C phase-5",
+      "construction_2d": "1) extra-heavy mincho glyph shapes; 2) quantize to square grid: cell ~14-20 px @960, 1-2 px gap; a cell is filled iff its center falls inside a glyph stroke; 3) black cells on transparent ground; 4) within the same line, render trailing particles in SOLID mincho for style-semantic contrast (fragmented word + whole particle); 5) crop line at frame edges",
+      "editable_parameters": ["cell size", "gap", "fill test (center/coverage)", "mix ratio mosaic:solid"],
+      "materials": "mincho outlines (vector), square grid (procedural)"
+    }
+  ],
+  "transitions": [
+    {"id": "flash-whiteout-ghost", "from": "win-B", "description": "white-out flash (~6 frames): white rounded-corner field inside black frame, subject ghosted in translucent purple with zigzag ribbon, tick marks persist; diff peak 90.49; used as hard emotional reset between lyric beats"},
+    {"id": "type-strip-cut", "from": "win-C", "description": "hard cut that removes all type layers while the scene continues unchanged (diff peak 22.095); frame furniture (border, ticks) persists; functions as a breath beat before re-entry with a new type arrangement"},
+    {"id": "static-hold", "from": "win-A", "description": "no transition: type layer static for the whole window over an animated scene (max diff 13.3, diffuse); persistence itself is the statement"}
+  ],
+  "recurring_motifs": [
+    "zigzag/spring ribbon streamer (win-A scene, win-B flash ghost + reveal, win-C scene) - recurring scene element across all windows",
+    "black border frame + white tick ruler marks (all windows; tick position varies: top-center win-A, bottom win-B, top+bottom win-C)",
+    "frame-edge cropping of display glyphs (win-A OVERDOSE right crop; win-B columns cropped left/right/top/bottom; win-C 毒電波を left/right, 涼 left/top, 断片的 left/bottom) - the frame is treated as a window into a larger type space",
+    "MMD character as constant center subject; type layers added/removed around it"
+  ],
+  "contradictions_and_corrections": [
+    "Contradiction 1 (r68 sheet content): the reduced-scale r68 region sheet suggested a central 'IV' glyph and a vertical 'いじわる' column in the post-flash scene. Full-resolution reads (n2092-n2109) show: center = white starburst OUTLINE (jagged burst, hollow), columns = 'いいね' (left, warm ramp) + 'よくないね' (right, cool ramp). Sheet-scale misread at 1.39x downscale; recorded, sheet preserved as-is.",
+    "Contradiction 2 (r68 sheet timing): the sheet suggested the flash at ~n2050 and the post-flash scene from ~n2060 (10-frame cell step). Full resolution: 甘いのよ scene through n2070, diff peak (flash) at n2077, flash frame read at n2080, brush columns from ~n2092. Sheet cell step + scale caused the offset; full-resolution hash-bound frames are authoritative.",
+    "Refinement 3 (r116 sheet): sheet suggested 'huge 涼 + fragmented line'; full resolution confirms and refines: 涼 + さまの (n3535), + black band 'コンピューターと' (n3550), + '断片的' square mosaic with solid 'な' (n3552-3559). Directionally correct, details now grounded in hash-bound frames.",
+    "Note 4 (frame bytes): 1036800 B/frame is CORRECT for this 960x720 source; it coincidentally equals the value that was the documented wrong-contiguous-block class for the 1280x720 R5a source. No contradiction, recorded to prevent cross-task confusion.",
+    "Note 5 (hash schemes): window.json stores MD5 of the complete raw-yuv420p frame bytes (1036800 B); the PNG file MD5 differs (re-encoded). Both are recorded in crop bindings (e.g. crop-internet-tern-n569.png: src png md5 4bb07881..., raw-yuv md5 41e0155b...). Not a contradiction."
+  ],
+  "dedup": {
+    "vs_deco_ki_r5a": "possibly_distinct - shared surface: MMD character + type over scene, Japanese display glyphs; distinct mechanisms: R5a = single-shot scale-pop entries + character illustration + flat cyan background; overdose win-A = static persistent 3-layer halftone-ramp lockup (dot fill + white keyline + offset shadow) over animated scene with black border frame + tick furniture; no scale-pop entry in win-A (max diff 13.3, no cut)",
+    "vs_win_a_scale_r4a": "possibly_distinct - both 2D type over character scene; distinct: R4a control = diagonal text on light background, Song serif, single shot with character art, no texture fills; overdose = multi-window, multi-typeface system (halftone geometric italic / brush columns / mincho sandwich / square mosaic) over saturated animated MMD scenes with white-out flash and type-strip-cut transitions; no light-background diagonal shot in any of the 3 windows",
+    "vs_batch18_w1_sm45786816": "possibly_distinct - W1 = multi-shot cut alternation + continuous camera pan/zoom + geometric motif interlock, wedge-terminal gothic on light background; overdose = static compositions over animating character scenes (no camera pan/zoom in any window), no light-background wedge gothic; the mincho here is black on saturated sunset, not on light ground",
+    "vs_batch18_w2_sm45669453": "partially overlapping surface, distinct mechanism - W2 = letterbox band framing + redaction-bar erasure + continuous rigid band rotation; overdose win-C phase-4 = static black text-container band (white mincho text inside, no rotation, no erasure); the band is an insertion/annotation layer, W2's bar is a redaction device; no letterbox framing in overdose",
+    "vs_batch18_w3_sm46320139": "possibly_distinct - W3 = flat two-color marquee layout, rounded heavy gothic, two-line size-contrast hierarchy, fully static; overdose win-B = vertical stacked brush COLUMNS with per-glyph temperature ramps and staggered entry/exit (not a flat two-line marquee), plus a flash transition (W3 has none)",
+    "vs_r2b_name_only": "win-b-bar / win-c-stagger are name-only in retained artifacts (no content description); no overlap claimed, per batch18 dedup_limits convention",
+    "verdict": "all three windows possibly_distinct pending independent review; distinctness from observed mechanisms only, never from song/platform IDs"
+  },
+  "read_counts": {
+    "region_sheets_read": 4,
+    "full_res_native_reads": 18,
+    "derived_crop_reads": 7,
+    "montage_reads_screening_only": true,
+    "full_res_read_list": "win-A: n510, n569; win-B: n2050, n2058, n2062, n2070, n2080, n2086, n2092, n2098, n2104, n2109; win-C: n3500, n3515, n3520, n3535, n3550, n3559"
+  },
+  "boundaries_held": [
+    "no model/video API request; OMP inference = this agent; offline only",
+    "no new download; source unmodified (SHA-256 e0507f7a... re-verified 2026-10-01T16:32:19Z); work order sha c51f0924... verified",
+    "no other seats/services/config changes; no Computer Use; no publication",
+    "evidence written exclusively under evidence/overdose-qwen-native-r1/; outputs/status/manifest exclusive-created",
+    "batch18 R1 preserved untouched (outputs/batch18-qwen-r1.json + logs/batch18-qwen-r1.status, under independent review); all prior evidence (R5a, R4a, R3a, R2b, clips, native) untouched",
+    "region sheets used for screening only; all motion claims grounded in consecutive native-frame decode (180 frames, 3x60, uniform 512-tick deltas) + full-resolution hash-bound reads",
+    "no retry-spin: each read/decode attempted once; failures recorded"
+  ],
+  "capacity_note": "shared capacity checked before this run's requests; no stale/full metrics, quota, or input failure encountered during execution",
+  "next_gate": "Independent seat review: (a) verify the 180 decoded frames vs window.json hashes and the 18 full-resolution reads; (b) verify the 6 recipes against the 7 hash-bound derived crops; (c) verify the dedup verdicts against retained mechanism descriptions (R5a, R4a, batch18 trio, R2b name-only); (d) confirm contradiction/correction records; (e) confirm r188 exclusion rationale. Only then may forms/templates be counted. Accepted forms remain 0, finished templates remain 0."
+}

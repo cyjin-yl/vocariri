@@ -1,0 +1,15 @@
+{
+  "id": "NICO-sm46155083",
+  "url": "https://www.nicovideo.jp/watch/sm46155083",
+  "at_utc": "2026-09-27T12:30:09.076891+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": null,
+  "bytes": 1672193,
+  "sha256": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383",
+  "file": "sources/NICO-sm46155083/source.mp4",
+  "duration_seconds": 46,
+  "title": "【Scratchで】個々々々々々人【文字PV】",
+  "uploader": "SINSK",
+  "extractor": "Niconico",
+  "yt_dlp_version": "2026.08.19"
+}

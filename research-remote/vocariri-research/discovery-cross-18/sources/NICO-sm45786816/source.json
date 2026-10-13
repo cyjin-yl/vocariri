@@ -1,0 +1,16 @@
+{
+  "id": "NICO-sm45786816",
+  "url": "https://www.nicovideo.jp/watch/sm45786816",
+  "at_utc": "2026-10-01T07:13:56.378838+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": null,
+  "bytes": 8445617,
+  "sha256": "4b4b2ab4346dd09a2a2127e1cd0b003a526ebf54e974db7604cf228b95802559",
+  "file": "sources/NICO-sm45786816/source.mp4",
+  "duration_seconds": 39,
+  "title": "【文字pv】アンノウン・マザーグース wowaka【きょるんず】",
+  "uploader": "きょるんず",
+  "extractor": "Niconico",
+  "yt_dlp_version": "2026.08.19",
+  "blocked_redirects": 0
+}

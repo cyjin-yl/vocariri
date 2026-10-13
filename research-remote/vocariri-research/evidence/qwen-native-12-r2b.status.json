@@ -1,0 +1,46 @@
+{
+  "task": "qwen-native-12-r2b",
+  "work_order": "WORK_ORDER_QWEN_PTS_R2.md",
+  "amendments": ["FFMPEG_NATIVE_PTS_AMENDMENT.md", "FFMPEG_NATIVE_PTS_AMENDMENT_2.md"],
+  "state": "complete_offline_no_inference",
+  "at": "2026-09-27T10:05:00Z",
+  "per_window": {
+    "win-a-scale": "verified",
+    "win-b-bar": "verified",
+    "win-c-stagger": "verified"
+  },
+  "verification_summary": {
+    "source_frames_total": 9076,
+    "source_time_base": "1/16000",
+    "time_base_cross_checks": "showinfo 'config in time_base: 1/16000' == stream '16k tbn' == all 9076 integer pts/pts_time pairs (tolerance 2ms); exactly one config-in line; consecutive n indices 0..9075; unique integer pts",
+    "mapping": "all 72 R1 frozen frame pts_time values matched exactly one native frame within a 1/60s half-step; mapped source indices consecutive per window",
+    "frame_counts": {"win-a-scale": [18, 18, 18], "win-b-bar": [36, 36, 36], "win-c-stagger": [18, 18, 18]},
+    "counts_note": "[source, clip, expected] per window; no dropped/duplicated/reordered frames detected",
+    "quantitative": "grayscale per-pair MAD win-a 0.105-0.578, win-b 0.011-0.080, win-c 0.127-0.534 (255 scale); max per-pair MAD below 3x adjacent-source-frame baseline in every pair; clip is lossy libx264 crf12 so pixel identity was not expected",
+    "visual_spot_check": "9 side-by-side pairs (first/mid/last per window) inspected: src and clip columns visually identical in content, layout and glyph state; no misalignment"
+  },
+  "outputs_now_present": [
+    "evidence/qwen-native-12.inputs.json (R1, unchanged)",
+    "evidence/qwen-native-12.status.json (R1, unchanged)",
+    "evidence/qwen-native-12-r2-preflight.json (R2 preflight from corrected runner attempt 2; preserved byte-for-byte)",
+    "evidence/qwen-native-12-r2b-comparison.json (r2b: commands, hashes, mapping, per-frame stats, bounded decoder evidence)",
+    "evidence/native/win-a-scale-pts-r2b.json (R2b receipt)",
+    "evidence/native/win-b-bar-pts-r2b.json (R2b receipt)",
+    "evidence/native/win-c-stagger-pts-r2b.json (R2b receipt)",
+    "r2btmp/<win>/{src,clip}/ decoded frame PNGs + spot.jpg (temporary comparison artifacts, retained)"
+  ],
+  "failure_and_preservation_record": [
+    "One OMP tool-socket interruption occurred during the first R2 attempt; no R2 outputs existed at coordinator read-back (confirmed by this seat's listing before r2b).",
+    "Old runner r2_pts_receipt.py failures (preserved, not rerun): attempt 1 - parsed 'ffmpeg -version' from stderr (IndexError); attempt 2 - assumed per-line time_base in showinfo frame lines (ffmpeg 7.0.2 does not print it there) -> UNPARSED SHOWINFO LINE; attempt 3 - searched '-i' stderr for 'Time base:' (absent; only '16k tbn') -> NO STREAM TIME BASE.",
+    "Preservation lapse (per amendment 2 item 1): attempt 3's invocation deleted and recreated evidence/qwen-native-12-r2-preflight.json before failing; the current file is retained byte-for-byte and r2b read it without recreating. Recorded here as the lapse.",
+    "R1 dense-sheet time labels (dense/BV1zrbCzLEH4/*.jpg) do not match source PTS; preserved, not used for timecoding."
+  ],
+  "decoder": "ffmpeg 7.0.2-static (imageio_ffmpeg binary at /opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2), verified in-container",
+  "boundaries_held": [
+    "no model inference request sent; no video request client invoked (old or new)",
+    "no protected config/credential access",
+    "no R1/R2 artifact overwritten (exclusive creation for all r2b outputs)",
+    "no downloads, service changes, media deletion"
+  ],
+  "next": "Coordinator independently inspects receipts (evidence/native/*-pts-r2b.json), comparison report, and the client/route before any inference; resume inference only per a new explicit order with fresh capacity <=3/4 and waiting=0."
+}

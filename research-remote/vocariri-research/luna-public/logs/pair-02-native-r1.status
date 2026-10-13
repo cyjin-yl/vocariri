@@ -1,0 +1,82 @@
+{
+  "review_id": "PAIR-02-NATIVE-R1",
+  "status": "completed_bounded_native_comparison_unaccepted",
+  "work_order": "WORK_ORDER_LUNA_PAIR02_R1.md",
+  "pair_id": "PAIR-02",
+  "output_file": "outputs/pair-02-native-r1.json",
+  "output_sha256": "1e8e63f4af624fd7cf320699a1dd535b2104324c473d5556ecf0428225564bb4",
+  "inputs": {
+    "triage_v3_sha256": "c2818fd262d18ade6c976b684b1335739f38caa00c6afcc015d2df5e1ead275d",
+    "K72_source_sha256": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+    "ECHO_source_sha256": "b83c5f3e785cffe1830589e2736e18f7682a8badb83e3cd6e97b2ef2db67b650",
+    "ECHO_metadata_sha256": "af0f70a01d46d9e134b0bbc9c6c470724256e66a24faae23a3aacf9e6bafbf07"
+  },
+  "preservation": {
+    "PAIR01_file_hashes_before_review": {
+      "outputs/pair-01-native-r1.json": "8482dd8f57b56b0dc20955361a8c3b91e1cb6ea7d566453e277a41dde4a724a2",
+      "logs/pair-01-native-r1.status": "eca5daead2df29dec6aae2f275e68d648517332be110ecb3cc51e8d2ac0c3a84",
+      "outputs/pair-01-native-r2.json": "0ebf95a341630ecd9e6911ce049e45d59841230bd852c30e444b097d765ec963",
+      "logs/pair-01-native-r2.status": "47761c8805e06a0f797be23a708adc222eeec631252bcf81cce3f8ac8af24813",
+      "outputs/text-triage-12-v3.json": "c2818fd262d18ade6c976b684b1335739f38caa00c6afcc015d2df5e1ead275d",
+      "temporal-input/BV1k72LYzEmV/source.mp4": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+      "media/YT_t-VhP8PHI80/source.mp4": "b83c5f3e785cffe1830589e2736e18f7682a8badb83e3cd6e97b2ef2db67b650",
+      "media/YT_t-VhP8PHI80/source.json": "af0f70a01d46d9e134b0bbc9c6c470724256e66a24faae23a3aacf9e6bafbf07"
+    },
+    "triage_version_hashes_before_review": {
+      "outputs/text-triage-12.json": "ce1c4fae8eb3450308935cfa52cbde061a828c67c02d980ed45a3c305933a2b3",
+      "outputs/text-triage-12-v2.json": "381ab3abf16957cbbc990076ad8aae3aa773c3e00d9a1ccccf51074f02f57a8c",
+      "outputs/text-triage-12-v3.json": "c2818fd262d18ade6c976b684b1335739f38caa00c6afcc015d2df5e1ead275d"
+    },
+    "source_files_modified": false,
+    "triage_versions_modified": false
+  },
+  "decoder": {
+    "binary": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+    "version": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+    "windows": [
+      {
+        "source": "temporal-input/BV1k72LYzEmV/source.mp4",
+        "time_base": "1/16000",
+        "frame_rate": "30/1",
+        "first_pts": 1171200,
+        "first_pts_time": "73.2",
+        "last_pts": 1187200,
+        "last_pts_time": "74.2",
+        "frames": 31,
+        "frame_sha256_count": 31,
+        "showinfo_return_code": 0
+      },
+      {
+        "source": "media/YT_t-VhP8PHI80/source.mp4",
+        "time_base": "1/30000",
+        "frame_rate": "30000/1001",
+        "first_pts": 2190188,
+        "first_pts_time": "73.006267",
+        "last_pts": 2219217,
+        "last_pts_time": "73.9739",
+        "frames": 30,
+        "frame_sha256_count": 30,
+        "showinfo_return_code": 0
+      }
+    ]
+  },
+  "visual_access": {
+    "successful_native_image_reads": 19,
+    "unique_consecutive_frames": 61,
+    "native_429": false,
+    "invalid_path_invocation": {
+      "count": 1,
+      "attempted_path": "/tmp/pair02-native-r1-5qj.../k72/frames-01.png",
+      "exact_error": "Path not found. The emitted temporary path was then resolved and read successfully; no media/decoder/visual service failure resulted."
+    }
+  },
+  "relation": "possibly_distinct",
+  "relation_confidence": "moderate; different motion mechanisms are visible, but each one-second sample omits wider context",
+  "candidate_label_findings": "The 73.2–74.2 K72 interval supports the frame-filling label. The 73.0–74.0 ECHO interval supports a temporary line/edge-on reduction but not the recorded final disappearance; no replacement interval was selected. The PAIR-01 discrepancy concerned a different K72 interval and remains preserved.",
+  "acceptance_increment": {
+    "forms": 0,
+    "templates": 0
+  },
+  "shared_ledgers_modified": false,
+  "next_independent_acceptance_gate": "Independent coordinator verifies both sources, the bounded PTS/frame evidence and the candidate-label discrepancy before deciding whether to accept either form. This review itself adds zero accepted forms/templates."
+}

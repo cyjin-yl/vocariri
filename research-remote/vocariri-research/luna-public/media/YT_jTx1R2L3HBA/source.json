@@ -1,0 +1,18 @@
+{
+  "id": "YT_jTx1R2L3HBA",
+  "url": "https://www.youtube.com/watch?v=jTx1R2L3HBA",
+  "at": "2026-09-25T01:24:02.092050+00:00",
+  "title": "アニメーション筆",
+  "uploader": "nine field",
+  "duration": 71,
+  "fps": 30,
+  "width": 854,
+  "height": 470,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 5409576,
+  "sha256": "c3d992d144ca75e87ae3c33c6e6c8d66141a31fafc868b8164f2df9db7f127e5",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

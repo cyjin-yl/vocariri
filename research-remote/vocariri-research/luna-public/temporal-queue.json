@@ -1,0 +1,32 @@
+[
+  {
+    "id": "BV1k72LYzEmV-18",
+    "media": "temporal-input/BV1k72LYzEmV/source.mp4",
+    "source_id": "BV1k72LYzEmV",
+    "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+    "source_sha256": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+    "start": 18,
+    "duration": 2,
+    "source_fps": 30.0
+  },
+  {
+    "id": "BV1k72LYzEmV-70_5",
+    "media": "temporal-input/BV1k72LYzEmV/source.mp4",
+    "source_id": "BV1k72LYzEmV",
+    "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+    "source_sha256": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+    "start": 70.5,
+    "duration": 2,
+    "source_fps": 30.0
+  },
+  {
+    "id": "YT_UoptEaMrnok-68_5",
+    "media": "temporal-input/YT_UoptEaMrnok/source.mp4",
+    "source_id": "YT_UoptEaMrnok",
+    "source_url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+    "source_sha256": "cc9484b9100469aebaf12c23197d5380fb8479d8ecdc8293af02652db471db35",
+    "start": 68.5,
+    "duration": 3,
+    "source_fps": 24
+  }
+]

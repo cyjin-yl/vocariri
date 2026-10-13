@@ -1,0 +1,101 @@
+{
+  "task": "qwen-native-12-r4a",
+  "work_order": "WORK_ORDER_QWEN_VIDEO_R4.md",
+  "outcome": "reviewed_control",
+  "at": "2026-09-27T13:30:00Z",
+  "note": "Control only: validates transport and frame-level correspondence. Accepts zero forms and zero finished templates. Model text is untrusted research data.",
+  "frozen_inputs": {
+    "source": {"file": "media/BV1zrbCzLEH4/source.mp4", "sha256": "9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7"},
+    "clip": {"file": "evidence/native/win-a-scale-native-r3c.mp4", "sha256": "810e39509b34646f2432164e843231671e3b34a6099398b8fa48fb3c30d32653", "bytes": 209933},
+    "receipt": {"file": "evidence/native/win-a-scale-pts-r3c.json", "sha256": "7dc39807c9dbeac9c8c28a3fd56e9eaa0f26a386333119d013d1d90d6e2ba352"},
+    "checked_client": {"file": "checked-client-20260927/remote/video_request_checked.py", "sha256": "b93661cd6573ab1e5a95cfd7e83544b6379e23d2dec9192691618b2d89de952b"},
+    "acceptance_review": {"file": "r3atmp/remux-acceptance-20260927-4d3b-final/ACCEPTANCE.md", "sha256": "b8764ee79eef621fd7e38a604ed74fca046e918602f4a2efa8f106d5cd1f3c00"}
+  },
+  "outputs": {
+    "client_record": {"file": "evidence/qwen-native-12-r4a.client.json", "sha256": "082b11617c7b4ad6ab29cf79d77963491d24a98cecb81487a7d6ad1df9195e2a"},
+    "raw_sse": {"file": "evidence/qwen-native-12-r4a.client.events.sse", "sha256": "8466b6ff5bb53dbc49a4a0e1066921620822cb14e0b951d7a8bac79b84f1b162", "bytes": 75485},
+    "review_frames_dir": "r4atmp/win-a/ (18 source PNGs s-001..s-018, 18 clip PNGs c-001..c-018, spot.jpg, contact-18.jpg, zoom/full crops)",
+    "spot_sheet": {"file": "r4atmp/win-a/spot.jpg", "sha256": "2125f8ec9f5f56e7a49d2947791e8347a5ffb2447aeb46c4321816fdab1370d4"},
+    "contact_sheet": {"file": "r4atmp/win-a/contact-18.jpg", "sha256": "740b80afd7217213fffc9b8c4fb7bb868e2b279c3e0ee436e7ca75bcffae8d55"}
+  },
+  "offline_pre_checks": {
+    "probe_video": {"decoded_frames": 18, "time_base": "1/16000", "pts": [0, 528, 1072, 1600, 2128, 2672, 3200, 3744, 4272, 4800, 5344, 5872, 6400, 6944, 7472, 8000, 8544, 9072], "dimensions": [1280, 720], "duration_seconds": 0.6},
+    "validate_native_receipt": "pass (receipt_sha256 7dc39807..., source_pts 2271056..2280128, cadence relative_pts_within_quantization_and_index_bounds)",
+    "independent_clip_decode": "18 frames, integer pts identical to probe list",
+    "independent_source_decode": "absolute n-select without seek; 18 frames; absolute source pts 2271056,2271584,...,2280128 (matches receipt); note: an -ss 141.441 -copyts variant produced doubled/shifted pts and was rejected as a decode method",
+    "image_correspondence": "18/18 per-pair grayscale MAD 0.100-0.526 (255 scale), max diff <= 15, pct_pixels_gt8 < 0.02%; visual spot check (frames 1/10/18) identical in content, layout, glyph state"
+  },
+  "capacity_check": {
+    "endpoint": "https://[remote host].icefish-exponential.ts.net:8446/status.json",
+    "checked_at": "2026-09-27T13:24:19Z",
+    "engine": {"available": true, "stale": false, "sample_age_seconds": 4.51, "slots": {"capacity": 4, "running": 1.0, "waiting": 0.0}},
+    "decision": "proceed (1/4 <= 3/4, waiting 0, metrics fresh)"
+  },
+  "request": {
+    "command": "/opt/pv-tools/bin/python checked-client-20260927/remote/video_request_checked.py evidence/native/win-a-scale-native-r3c.mp4 evidence/qwen-native-12-r4a.client.json --source-id BV1zrbCzLEH4 --start 141.941 --native-pts-receipt evidence/native/win-a-scale-pts-r3c.json --route-pin ~/.config/vocariri-route/qwen-video-pin-20260927.json --workspace /workspace --fresh-cache",
+    "wall_time_seconds": 18.2,
+    "state": "response_received_unreviewed",
+    "model": "[redacted model]",
+    "input_mode": "video",
+    "enable_thinking": true,
+    "reasoning_effort": "xhigh",
+    "request_output_limit": null,
+    "processor_sampling_requested": false,
+    "server_sampling_verified": false,
+    "pin": "passed by pathname only; never opened, printed, or logged"
+  },
+  "frame_timeline_reviewed": {
+    "cadence": "native, 1/16000; per-frame offset seconds [0.000, 0.033, 0.067, 0.100, 0.133, 0.167, 0.200, 0.233, 0.267, 0.300, 0.333, 0.367, 0.400, 0.433, 0.467, 0.500, 0.533, 0.567]",
+    "frames_examined": 18,
+    "frames_examined_of_window": "18/18 source frames at native PTS (r4atmp/win-a/s-001..s-018, absolute source n 4258..4275)",
+    "per_frame_state": {
+      "f1_0.000s_4258": "text '非常痛苦' (4 chars, serif black, slanted up-right); soft-focus dark drape shapes background; no '而'",
+      "f2_0.033s_4259": "'而' appended",
+      "f3_0.067s_4260": "no '悲' yet (contact-sheet compression suggested partial entry; full resolution disproves)",
+      "f4_0.100s_4261": "'悲' fully visible, rendered ~2x larger than other glyphs, upper-right end",
+      "f5_0.133s_4262": "'伤' appended; phrase '非常痛苦而悲伤' complete from f6",
+      "f6_0.167s_4263": "phrase complete, stable",
+      "f7_0.200s_4264": "phrase complete, stable",
+      "f8_0.233s_4265": "line-art twin-tailed girl (Miku-like) face fades in, left, behind text",
+      "f9_0.267s_4266": "face clearer; text starting to move",
+      "f10_0.300s_4267": "face fully visible; text group motion-blurred, sliding down-right",
+      "f11_0.333s_4268": "text heavily blurred; kneeling/seated figure visible right",
+      "f12_0.367s_4269": "text near-total blur; figure prominent",
+      "f13_0.400s_4270": "old text faint blur lower-left, occluding character face; kneeling figure right",
+      "f14_0.433s_4271": "old text faint; figure center-right",
+      "f15_0.467s_4272": "'记忆中' appears upper-left (slightly soft); old text blurred lower-center",
+      "f16_0.500s_4273": "'记忆中' sharp upper-left; old text blurred lower-center",
+      "f17_0.533s_4274": "'记忆中' sharp; old text blurred lower-center",
+      "f18_0.567s_4275": "'记忆中' sharp upper-left; old text ('悲伤' remnant) blurred lower-center; figure left; soft dark bar right"
+    }
+  },
+  "claim_verification": [
+    {"claim": "0.0s: text group '非常痛苦而' visible, slanted upwards", "verdict": "partially_supported", "evidence": "f1 (0.0s, src 4258) shows only '非常痛苦' (4 chars); '而' enters at f2 (0.033s, src 4259); slant supported", "frames": [1, 2]},
+    {"claim": "0.0s: dark vertical shapes act as foreground occluders", "verdict": "unsupported_as_stated", "evidence": "dark soft-focus drape shapes are background layers; sharp black text is the foreground (f1-f7); layering direction inverted", "frames": [1, 2, 7]},
+    {"claim": "0.1s-0.2s: '悲' and '伤' enter sequentially completing '非常痛苦而悲伤'", "verdict": "supported", "evidence": "'悲' absent at f3 (0.067s), fully visible f4 (0.1s); '伤' at f5 (0.133s); complete f6 (0.167s)", "frames": [3, 4, 5, 6]},
+    {"claim": "0.3s: faded line-art anime character (VOCALOID) appears behind text on left", "verdict": "supported", "evidence": "face fades in from f8 (0.233s), fully visible f10 (0.3s); behind text, left of frame; twin-tailed Miku-like", "frames": [8, 9, 10]},
+    {"claim": "0.4s-0.5s: main text group blurs significantly; new text '记忆中' enters sharp on left", "verdict": "supported", "evidence": "blur spans f10-f14 (0.3-0.433s, onset earlier than claimed); '记忆中' appears f15 (0.467s), sharp f16 (0.5s)", "frames": [10, 13, 15, 16]},
+    {"claim": "0.6s: '记忆中' holds focus while previous text remains blurred in the lower right", "verdict": "partially_supported", "evidence": "f18 (0.567s): '记忆中' sharp upper-left supported; old text blur is lower-center, not lower-right", "frames": [16, 17, 18]},
+    {"claim": "Serif-style (Song/Ming) Chinese characters, solid black fill, high contrast", "verdict": "supported", "evidence": "all frames; clear Song/Ming serifs, solid black, light background", "frames": [1, 16]},
+    {"claim": "initial phrase enters via character-by-character stagger from left to right", "verdict": "conditionally_supported", "evidence": "within window: '而' (f2), '悲' (f4), '伤' (f5) append sequentially at the right end; first 4 chars already present at window start, their entry not observed", "frames": [1, 2, 4, 5]},
+    {"claim": "diagonal layout for the initial text", "verdict": "supported", "evidence": "f1-f14; baseline slants up-right", "frames": [1, 7, 13]},
+    {"claim": "character artwork acts as a midground/background layer", "verdict": "supported", "evidence": "character behind text f8-f18; text (incl. blur) occludes character f10-f13", "frames": [10, 13, 16]},
+    {"claim": "uncertainty: blur nature (camera vs DoF vs motion blur)", "verdict": "uncertainty_preserved", "evidence": "blur smears follow the moving text (f10-f14) while background shapes stay nearly fixed - consistent with a text-driven motion/transition effect; camera motion not visible; mechanism not determinable from window", "frames": [10, 11, 13]},
+    {"claim": "uncertainty: scale change indeterminate", "verdict": "uncertainty_preserved_with_counter_evidence", "evidence": "visible glyph-size hierarchy: '悲' ~2x other glyphs (f4-f7); receding line shrinks to a small lower-center smear (f14-f18). Scale hierarchy is observable; full motion vector not resolvable", "frames": [4, 7, 14, 18]}
+  ],
+  "model_omissions": [
+    "glyph-size hierarchy ('悲' ~2x larger than sibling glyphs, f4-f7)",
+    "kneeling/seated character pose on the right (f11-f14; mentioned in reasoning, absent from final JSON)",
+    "background soft-focus dark drape/figure shapes (f1-f7, f18 right bar)"
+  ],
+  "temporal_fidelity_note": "model reasoning buckets 18 frames into 0.0-0.6s 0.1s steps; native cadence is 0.033s. Frame-boundary claims (0.0s, 0.1s, 0.3s, 0.6s) are approximate; per-frame verification above uses native PTS offsets.",
+  "lyric_audio_emotional_fit": "unknown (silent clip; no audio in input; no beat claims made)",
+  "form_family": "not assigned - control admits zero forms; window shows staggered character append + diagonal Song lyric line + soft-focus character art + blur line transition, pending dedicated form review",
+  "boundaries_held": [
+    "one request only; no retries; pin passed by pathname only, never opened/logged",
+    "no protected config inspection; no provider switch; no effort reduction; do_sample_frames=false respected",
+    "existing evidence untouched; R4a outputs exclusively named",
+    "shared form/corpus/template ledgers unchanged"
+  ],
+  "next_independent_gate": "Coordinator verifies: source frames, request receipt (qwen-native-12-r4a.client.json sha 082b1161...), model answer, and this claim comparison before permitting another window"
+}

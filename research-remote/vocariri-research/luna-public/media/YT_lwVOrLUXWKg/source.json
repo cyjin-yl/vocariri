@@ -1,0 +1,18 @@
+{
+  "id": "YT_lwVOrLUXWKg",
+  "url": "https://www.youtube.com/watch?v=lwVOrLUXWKg",
+  "at": "2026-09-24T15:34:56.912557+00:00",
+  "title": "マーシャルマキシマイザー【オリジナルMV】作ってみた　： After effects",
+  "uploader": "かたなは",
+  "duration": 35,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 6514054,
+  "sha256": "74a09fcb2f06db364874ed7d890f3fba2f5aec7f451f7c05845cb73186e113b1",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

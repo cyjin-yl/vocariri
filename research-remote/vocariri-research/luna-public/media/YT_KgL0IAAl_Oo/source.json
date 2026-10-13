@@ -1,0 +1,18 @@
+{
+  "id": "YT_KgL0IAAl_Oo",
+  "url": "https://www.youtube.com/watch?v=KgL0IAAl_Oo",
+  "at": "2026-09-24T13:15:38.946857+00:00",
+  "title": "ダーリンダンス / かいりきベア　【文字PV・モーショングラフィックス】",
+  "uploader": "さふ",
+  "duration": 29,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 4811229,
+  "sha256": "258e5b8bc503ff2aac4b68dcbe83c2855460f244ec89b467f7282e3be5151804",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

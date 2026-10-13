@@ -1,0 +1,18 @@
+{
+  "id": "YT_G_NYcAeTmOs",
+  "url": "https://www.youtube.com/watch?v=G_NYcAeTmOs",
+  "at": "2026-09-24T15:48:24.216968+00:00",
+  "title": "√Bestmadsofalltime ▪ Alice (Motion Graphics)",
+  "uploader": "TheBestMADsOfAllTime",
+  "duration": 106,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 19878937,
+  "sha256": "157dfeb7d98187500ce38931f7f8c1f9c242cab0e50848b0b613a428b65eb12a",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

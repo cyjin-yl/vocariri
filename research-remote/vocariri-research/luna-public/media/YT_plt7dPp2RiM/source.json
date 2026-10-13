@@ -1,0 +1,18 @@
+{
+  "id": "YT_plt7dPp2RiM",
+  "url": "https://www.youtube.com/watch?v=plt7dPp2RiM",
+  "at": "2026-09-25T01:25:21.560408+00:00",
+  "title": "After Effectsを使った手書き風アニメーション",
+  "uploader": "もう -動画編集者-",
+  "duration": 4,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 35974,
+  "sha256": "432839e48eacc4fcaf9fd4281bb39226e859ed461f8b728d50abe3a661433d0d",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

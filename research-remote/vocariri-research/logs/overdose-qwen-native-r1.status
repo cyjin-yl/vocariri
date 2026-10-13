@@ -1,0 +1,19 @@
+task: overdose-qwen-native-r1
+work_order: WORK_ORDER_QWEN_OVERDOSE_NATIVE_R1.md sha256 c51f0924958044e7780f5cb9e8271a31c5a97c5f35ce4acfcad517b142bfc597 VERIFIED
+source: luna-public/media/YT_BnkhBwzBqlQ/source.mp4 sha256 e0507f7a86b862679fb54036ff30c557fd51e8a7c08a60bc452d088a9c4a40ac VERIFIED (27088524 B)
+state: completed_unreviewed
+at: 2026-10-01T16:32:19Z
+accepted_forms: 0
+finished_templates: 0
+inference: OMP inference = this agent; no additional standalone API request
+windows: win-A n510-569 (17.000-18.967s), win-B n2050-2109 (68.333-70.300s), win-C n3500-3559 (116.667-118.633s); r188 excluded (mechanism redundant with win-A, documented)
+decodes: 180 native frames (3x60, uniform 512-tick PTS deltas) + 180 diff frames; framehash filter ABSENT -> raw-yuv MD5 (1036800 B/frame, correct for 960x720)
+reads: 4 region sheets (screening) + 18 full-res native reads + 7 derived 1:1 crop reads; one PNG per tool call, source/path/n/PTS bound
+motion: win-A no cut (max diff 13.316, diffuse); win-B flash cut peak 90.49 @ n2077; win-C type-strip cut peak 22.095 @ n3519
+recipes: 6 (halftone-ramp-lockup, glitch-mosaic-kanji, warm-cool-brush-columns, mincho-sandwich, inverse-band-insertion, square-mosaic-mincho) - all original 2D editable constructions
+contradictions: 2 sheet-scale misreads (r68 'IV'/'いじわる' -> starburst outline / 'いいね'+'よくないね'; r68 flash timing n2050 -> n2077) + 3 notes; all preserved, sheets untouched
+dedup: all 3 windows possibly_distinct vs deco-ki R5a / win-a-scale R4a / batch18 trio (W1 pan-zoom, W2 redaction-bar, W3 two-color marquee) / R2b name-only; verdicts pending independent review
+preservation: batch18 R1 (outputs/batch18-qwen-r1.json, logs/batch18-qwen-r1.status) untouched and under independent review; all prior evidence untouched
+boundaries: no downloads, no API/services, no Computer Use, no publication, no rewrites of prior evidence, no retry-spin
+failures: none unrecorded (PIL/numpy env hiccups resolved with /opt/pv-tools/bin/python3; ffmpeg exit 251 resolved by mkdir -p of diff dirs; both recorded here)
+next_gate: independent seat review per outputs/overdose-qwen-native-r1.json#next_gate

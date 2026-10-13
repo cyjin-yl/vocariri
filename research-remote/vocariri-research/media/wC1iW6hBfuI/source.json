@@ -1,0 +1,18 @@
+{
+  "id": "wC1iW6hBfuI",
+  "url": "https://www.youtube.com/watch?v=wC1iW6hBfuI",
+  "at": "2026-09-27T03:04:09.983031+00:00",
+  "title": "[VOCALOID] Hatsune Miku Rolling Girl [Japanese Romanji English Lyrics]",
+  "uploader": "Voca-Lyrics",
+  "duration": 210,
+  "fps": 30,
+  "width": 854,
+  "height": 480,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 5835529,
+  "sha256": "cac609935c4c704cf6ff098c4524074c04e53beaba20f090f0092bd48c04e596",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

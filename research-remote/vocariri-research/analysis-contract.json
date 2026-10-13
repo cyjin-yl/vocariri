@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "target_observations_min": 3000,
+  "target_observations_max": 5000,
+  "unit": "A source-located temporal composition or inspectable animation template. Repeated occurrences share a form family; numeric variations are not distinct forms.",
+  "required_fields": [
+    "sample_id",
+    "source_id",
+    "start_seconds",
+    "end_seconds",
+    "evidence_files",
+    "evidence_level",
+    "description",
+    "typography",
+    "layout",
+    "layers",
+    "temporal_phases",
+    "entry",
+    "exit",
+    "camera",
+    "lyric_relationship",
+    "form_family",
+    "unknowns"
+  ],
+  "evidence_levels": [
+    "screened_contact_sheet",
+    "native_fps_frames_inspected",
+    "continuous_motion_inspected",
+    "template_source_inspected",
+    "reviewed"
+  ],
+  "rules": [
+    "No visual claims by a text-only model. Flash processes existing textual annotations only.",
+    "4 fps contact sheets screen intervals; rapid glitch/impacts need source-frame-rate inspection.",
+    "A repeated chorus occurrence is an observation, not an automatically distinct form.",
+    "Do not infer lyrics, emotional intent, AE implementation, licensing or musical synchronization from still frames alone.",
+    "Source and template discoveries do not satisfy the investigation count.",
+    "Every visual annotation identifies model, actual viewed frames and timestamp interval.",
+    "Retain rejected and uncertain observations; no deletion to inflate acceptance.",
+    "Synthesis must distinguish observed design from proposed reusable implementation."
+  ],
+  "analysis_axes": [
+    "glyph form/weight/outline",
+    "readability/exposure",
+    "horizontal/vertical/mixed typesetting",
+    "scale hierarchy",
+    "negative space",
+    "mask/reveal/occlusion",
+    "multi-line overlap",
+    "symbol and graphic interaction",
+    "texture/collage",
+    "displacement/glitch",
+    "camera and shot boundary",
+    "subject/background safe areas",
+    "motion rhythm",
+    "entry/hold/exit",
+    "continuity/cut",
+    "cross-phrase motifs"
+  ],
+  "status": "Protocol only; no completed analysis implied"
+}

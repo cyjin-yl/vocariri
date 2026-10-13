@@ -1,0 +1,18 @@
+{
+  "id": "YT_eu3yoLa3dgs",
+  "url": "https://www.youtube.com/watch?v=eu3yoLa3dgs",
+  "at": "2026-09-24T06:15:43.288511+00:00",
+  "title": "傀儡のうつつ / 初音ミク",
+  "uploader": "獅子志司",
+  "duration": 193,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 19728901,
+  "sha256": "741e108235d9d7ff8fba60316a31bd4e31a49c1cb34fbbbd5d5e88fe46fafaff",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

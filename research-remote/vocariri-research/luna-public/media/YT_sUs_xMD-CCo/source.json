@@ -1,0 +1,18 @@
+{
+  "id": "YT_sUs_xMD-CCo",
+  "url": "https://www.youtube.com/watch?v=sUs_xMD-CCo",
+  "at": "2026-09-24T13:24:49.733337+00:00",
+  "title": "AfterEffectsで文字PV･ボカロMV 動画師のテクニック集",
+  "uploader": "ティップスマッシュ / TipSmash【図解で学ぶAfterEffectsのTips】",
+  "duration": 264,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 52993189,
+  "sha256": "55f2eb5cd5c208a15e5878eef6057ef1cba5e121c5afd0e13205a135b1a4749b",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

@@ -1,0 +1,54 @@
+{
+  "purpose": "Four diverse public text-PV media leads for bounded visual screening, not accepted forms or templates",
+  "dedup_evidence": "remote-index.json checked 139 source.json records plus 159 shared acquisition, 138 discovery and 14 batch-17 acquisition rows; compare_candidates.py normalized work titles and exact platform URL IDs",
+  "selected": [
+    {
+      "id": "PVOLT-njKdvdYQ-xE",
+      "url": "https://www.youtube.com/watch?v=njKdvdYQ-xE",
+      "title": "ファサード・クエスチョン",
+      "source_kind": "official Project Voltage MV; creator catalog says サツキ",
+      "metadata_evidence": "official catalog and paired Nico sm44813793 title page cached HTTP 200 in batch 15; playback untested",
+      "exact_prior_id_or_url_hit": false,
+      "normalized_title_nearest_score": 0.316,
+      "paired_nico_fallback_url": "https://www.nicovideo.jp/watch/sm44813793",
+      "reason": "official visual style distinct by work identity from batch 17; edition sameness unknown"
+    },
+    {
+      "id": "NICO-sm45786816",
+      "url": "https://www.nicovideo.jp/watch/sm45786816",
+      "title": "【文字pv】アンノウン・マザーグース wowaka【きょるんず】",
+      "source_kind": "community text-PV of a VOCALOID work by title",
+      "metadata_evidence": "snapshot and direct title page cached HTTP 200 in batch 16; playback untested",
+      "exact_prior_id_or_url_hit": false,
+      "normalized_title_nearest_score": 0.279,
+      "reason": "community treatment of a known VOCALOID song, with no exact work-title collision in current remote media titles"
+    },
+    {
+      "id": "NICO-sm45669453",
+      "url": "https://www.nicovideo.jp/watch/sm45669453",
+      "title": "【文字pv】ラグトレイン / 稲葉曇様【Aviutl】",
+      "source_kind": "community text-PV with AviUtl tool claim in title",
+      "metadata_evidence": "snapshot and direct title page cached HTTP 200 in batch 16; playback untested",
+      "exact_prior_id_or_url_hit": false,
+      "normalized_title_nearest_score": 0.194,
+      "reason": "tool-specific workflow lead; title is not evidence of an editable project"
+    },
+    {
+      "id": "NICO-sm46320139",
+      "url": "https://www.nicovideo.jp/watch/sm46320139",
+      "title": "【文字PV?】ライアーダンサー文字だけ再現してみた",
+      "source_kind": "text-only reconstruction claim in community title",
+      "metadata_evidence": "snapshot and direct title page cached HTTP 200 in batch 16; playback untested",
+      "exact_prior_id_or_url_hit": false,
+      "normalized_title_nearest_score": 0.375,
+      "reason": "text-only arrangement may reveal typography independent of character illustration; actual source and vocal-synth identity unknown"
+    }
+  ],
+  "limits": [
+    "A low normalized title score cannot exclude a translated or alternate-edition repost.",
+    "No media, thumbnail, audio, project file or motion has been inspected for these four IDs.",
+    "The paired official Nico URL is a separate fallback edition, not presumed identical."
+  ],
+  "accepted_forms": 0,
+  "accepted_templates": 0
+}

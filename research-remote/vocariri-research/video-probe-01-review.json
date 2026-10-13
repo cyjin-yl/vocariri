@@ -1,0 +1,8 @@
+{
+  "probe": "video-probe-01.json",
+  "decision": "reject_visual_mismatch",
+  "evidence": "frames/BV1k72LYzEmV/sheet-0004.jpg",
+  "actual": "Pink pastel field, stacked colored chat cards, later large white-outlined vertical Japanese glyphs",
+  "response": "White field with blue rosettes morphing into a V, no readable text",
+  "scope": "Transport/inference path failed validation; no conclusion that the model itself lacks video capability"
+}

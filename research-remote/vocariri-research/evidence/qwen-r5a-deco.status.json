@@ -1,0 +1,46 @@
+{
+  "task": "qwen-r5a-deco",
+  "work_order": "WORK_ORDER_QWEN_DECO_R5A.md",
+  "state": "offline_passing",
+  "at": "2026-09-27T14:06:00Z",
+  "accepts": {"forms": 0, "finished_templates": 0},
+  "inference_made": false,
+  "source": {"file": "media/BV1J8hf61EAt/source.mp4", "sha256": "99e15a0cf0ccf1e65972c2adba94c2236625811764b366e7a217e0ffa27369e0", "bytes": 10115798, "sidecar_sha256": "86f529d7c817d7e34d72a3a9915a91919c894d26ec2f35604f4184aeaf4adea7"},
+  "window": {
+    "id": "deco-ki",
+    "n_range": [519, 554],
+    "count": 36,
+    "duration_seconds": 1.1667,
+    "time_seconds": "17.300..18.467",
+    "source_pts": "276800..295467 (1/16000)",
+    "deltas_ticks": "533/534 alternating",
+    "in_window_text_changes": 2,
+    "change_frames": ["n525 (17.467s): 'な' appears", "n540 (18.200s): 'く'+'て' appear"],
+    "same_glyph_size_trajectory": "気 grows ~60%->full size n519->n523, static position, holds to n554, exit begins n555 (outside window)"
+  },
+  "outputs_now_present": [
+    "evidence/native/deco-ki-r5a-mid.mp4 (CRF12 intermediate, sha256 9e2594a1a196bd001e753097e2a918117e3eb3ab3e66ab29261752e46ea25b38)",
+    "evidence/native/deco-ki-native-r5a.mp4 (final stream-copy remux, sha256 c719e9bba2606ff9f1780614926546ea89e217f64b3bf8781ed2f47c2c72028f)",
+    "evidence/native/deco-ki-pts-r5a.json (native-PTS receipt, R3c schema)",
+    "evidence/qwen-r5a-deco-window.json (observations, hashes, commands, frame-grounded claims, failed attempts, prompt proposal)",
+    "evidence/qwen-r5a-deco.status.json (this file)",
+    "r5atmp/ (screen/, candA/, candB/, window/ decoded frames + hashes, clipdec/, failed-mkv/ preserved)"
+  ],
+  "verification_summary": {
+    "decode": "36/36 consecutive original frames; exact integer source PTS, time base 1/16000, 1280x720, av1 source; 36 raw-yuv420p MD5s recorded",
+    "clip": "decodes to exactly 36 frames; clip integer pts == source relative pts at every index; first/middle/last MAD 0.34/0.36/0.40 (255), max diff <= 15; lossy CRF12, no pixel-equality claim",
+    "offline_validator": "unmodified checked client (sha b93661cd...) probe_video + validate_native_receipt PASS on exact final bytes + receipt",
+    "negative_controls": "last source_pts +16 ticks -> rejected; zeroed clip_sha256 -> rejected; real receipt unaltered",
+    "low_res_mislabel": "200px sheet read mislabeled the large glyph as 'また'; full-resolution read corrects it to '気' - full resolution treated as authoritative"
+  },
+  "failed_attempts_preserved": [
+    "MKV intermediate: ms-quantized timestamps collapse the 533/534-tick native cadence (measured 0,33,67,... ms grid) - matroska muxer has no timebase AVOptions in ffmpeg 7.0.2-static; preserved at r5atmp/failed-mkv/ with decode evidence. MP4 intermediate substituted (exact 1/16000 preserved), documented in window record.",
+    "framehash filter absent in this ffmpeg build; raw-yuv MD5 used instead"
+  ],
+  "boundaries_held": [
+    "no model video/image request; no route pin; no gateway call; no provider/config inspection",
+    "only 0-45 s examined for window selection; no full-song review; no other source",
+    "no download, external contact, service change, source deletion or overwrite; all R4a and earlier evidence byte-identical (exclusive R5a names only)"
+  ],
+  "next": "Separate seat independently inspects native frames, clip decode/PTS, negative control and art claims (paths in qwen-r5a-deco-window.json next_independent_review). Only a separately ordered inference request may follow."
+}

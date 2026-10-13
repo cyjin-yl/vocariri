@@ -1,0 +1,10 @@
+{"state": "offline_auxiliary_phase_started", "phase": "locator", "process": "python + FFmpeg offline tool, not a model agent", "model_request_made": false, "at_utc": "2026-10-02T14:26:18.429610+00:00"}
+{"state": "locator_decode_started", "id": "YT_b0XgjrWSV7k", "selection_source_n": "0..750 inclusive, multiples of 30", "expected_count": 26, "at_utc": "2026-10-02T14:26:19.670260+00:00"}
+{"state": "locator_finished_unviewed", "count": 26, "source_unchanged": true, "at_utc": "2026-10-02T14:26:21.626652+00:00"}
+{"state": "locator_phase_finished", "model_request_made": false, "formsAcceptedIncrement": 0, "templatesAcceptedIncrement": 0, "at_utc": "2026-10-02T14:26:21.639026+00:00"}
+{"state": "offline_auxiliary_phase_started", "phase": "native", "process": "python + FFmpeg offline tool, not a model agent", "model_request_made": false, "at_utc": "2026-10-02T14:42:36.584547+00:00"}
+{"state": "native_decode_attempting", "id": "YT_b0XgjrWSV7k", "source_n_start": 408, "source_n_end_inclusive": 467, "requested_maximum_seconds": 2, "at_utc": "2026-10-02T14:42:36.983472+00:00"}
+{"state": "native_decode_failed", "id": "YT_b0XgjrWSV7k", "failure_class": "AssertionError", "partial_files_retained": true, "at_utc": "2026-10-02T14:42:37.559317+00:00"}
+{"state": "native_decode_attempting", "id": "YT_3Jf_sabP4e0", "source_n_start": 6030, "source_n_end_inclusive": 6089, "requested_maximum_seconds": 2, "at_utc": "2026-10-02T14:42:37.559486+00:00"}
+{"state": "native_decode_failed", "id": "YT_3Jf_sabP4e0", "failure_class": "AssertionError", "partial_files_retained": true, "at_utc": "2026-10-02T14:42:38.104350+00:00"}
+{"state": "native_phase_finished", "failed_sources": ["YT_b0XgjrWSV7k", "YT_3Jf_sabP4e0"], "model_request_made": false, "formsAcceptedIncrement": 0, "templatesAcceptedIncrement": 0, "at_utc": "2026-10-02T14:42:38.104454+00:00"}

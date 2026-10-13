@@ -1,0 +1,81 @@
+{
+  "source_sha256": "a27be29e7bbf4567bbfbeb3a1e0d7203673a6ef9bd4e3c3de67f4957ef3fbfed",
+  "sampling_fps": 4,
+  "state": "extracted_uninspected",
+  "frame_count": 361,
+  "sheets": [
+    {
+      "file": "sheet-0000.jpg",
+      "start": 0.0,
+      "end": 8.0,
+      "sha256": "5e5b5adad499aad38f64b15c3a43d8276e849fecc12e4d2899b825f5264ecef7"
+    },
+    {
+      "file": "sheet-0001.jpg",
+      "start": 8.0,
+      "end": 16.0,
+      "sha256": "c9684729b3788094c8dcdefef52a6b46285b0664144ff2cd191bc58c71c3aea7"
+    },
+    {
+      "file": "sheet-0002.jpg",
+      "start": 16.0,
+      "end": 24.0,
+      "sha256": "7ae53efc723492b1dbff75f1867030bbbbe6be4ace44e0161018979e0b5ab46b"
+    },
+    {
+      "file": "sheet-0003.jpg",
+      "start": 24.0,
+      "end": 32.0,
+      "sha256": "f266bbf6b0b4b4604e711c2ebbf4e17616aba14b51b009be2c57ae7279390958"
+    },
+    {
+      "file": "sheet-0004.jpg",
+      "start": 32.0,
+      "end": 40.0,
+      "sha256": "0384c4110d0126fa48bbef73137225766a2604ba8d6186d5ac0c410dd8c116ff"
+    },
+    {
+      "file": "sheet-0005.jpg",
+      "start": 40.0,
+      "end": 48.0,
+      "sha256": "8e3ab1bd4352c5e93648dbce483d6eb370726926bfa5e2bfdaf45d0254877f4f"
+    },
+    {
+      "file": "sheet-0006.jpg",
+      "start": 48.0,
+      "end": 56.0,
+      "sha256": "76474467a50f724b279eec9270b33f9950332efc5dcc5dc5eed35483f7631357"
+    },
+    {
+      "file": "sheet-0007.jpg",
+      "start": 56.0,
+      "end": 64.0,
+      "sha256": "2d473fa289635d6819a723662ec9ee5ad817b217ea5f1802d57fab56e7181988"
+    },
+    {
+      "file": "sheet-0008.jpg",
+      "start": 64.0,
+      "end": 72.0,
+      "sha256": "3bf48fe685d6757a8ee09ced1aaa1586d64d2f90d64600b7faef1c1c053e891b"
+    },
+    {
+      "file": "sheet-0009.jpg",
+      "start": 72.0,
+      "end": 80.0,
+      "sha256": "65c38f98971497145d3f61b6169ec02b466f8fc25c7b491f1975a77f1b4eb02c"
+    },
+    {
+      "file": "sheet-0010.jpg",
+      "start": 80.0,
+      "end": 88.0,
+      "sha256": "55781a6feec904ac899251a139281d18a61655b6af6acf871511db70cc571810"
+    },
+    {
+      "file": "sheet-0011.jpg",
+      "start": 88.0,
+      "end": 90,
+      "sha256": "914828479e03ac9eb6a4a8d0716a192cd925060cfa08e1964229d0181c536636"
+    }
+  ],
+  "note": "Review at source FPS for short impacts/glitches and cut boundaries."
+}

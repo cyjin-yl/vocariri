@@ -1,0 +1,18 @@
+{
+  "id": "YT_t-VhP8PHI80",
+  "url": "https://www.youtube.com/watch?v=t-VhP8PHI80",
+  "at": "2026-09-24T15:32:15.800866+00:00",
+  "title": "【VOCALOID】ECHO  MV　作ってみた【After Effects】",
+  "uploader": "GraphicMate",
+  "duration": 82,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 14817652,
+  "sha256": "b83c5f3e785cffe1830589e2736e18f7682a8badb83e3cd6e97b2ef2db67b650",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

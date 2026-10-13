@@ -1,0 +1,25 @@
+{
+  "clip_sha256": "810e39509b34646f2432164e843231671e3b34a6099398b8fa48fb3c30d32653",
+  "decoder": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+  "images": [
+    {
+      "frame": 0,
+      "file": "frame-00.png",
+      "bytes": 268556,
+      "sha256": "f55a8d4c7d7b3e5adfa1fcaed50c4ca6cb45a358c2567eb0d20fd92b289becee"
+    },
+    {
+      "frame": 9,
+      "file": "frame-09.png",
+      "bytes": 294364,
+      "sha256": "203b9c5ea1b9ab46eb90fac17e05b8f7e4ba16ed7e467eebbb6412316de4e930"
+    },
+    {
+      "frame": 17,
+      "file": "frame-17.png",
+      "bytes": 276435,
+      "sha256": "87ef607b702ac6b74cf31d6036c8c8f5d6ef9c6f642873e0f65c5978748075c0"
+    }
+  ],
+  "purpose": "Visual spot-check only; not model video understanding."
+}

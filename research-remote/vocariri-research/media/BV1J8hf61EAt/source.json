@@ -1,0 +1,18 @@
+{
+  "id": "BV1J8hf61EAt",
+  "url": "https://www.bilibili.com/video/BV1J8hf61EAt/",
+  "at": "2026-09-25T19:22:51.840787+00:00",
+  "title": "DECO*27 - 状態異常彼女 feat. 初音ミク",
+  "uploader": "翰翰酱ovo",
+  "duration": 173.653,
+  "fps": 30.0,
+  "width": 1280,
+  "height": 720,
+  "extractor": "BiliBili",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 10115798,
+  "sha256": "99e15a0cf0ccf1e65972c2adba94c2236625811764b366e7a217e0ffa27369e0",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

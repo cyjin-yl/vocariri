@@ -1,0 +1,18 @@
+{
+  "id": "BV1EW411q7cP",
+  "url": "https://www.bilibili.com/video/BV1EW411q7cP/",
+  "at": "2026-09-25T19:20:16.249197+00:00",
+  "title": "【初音ミク】血痕记念日【黒澤まどか】",
+  "uploader": "Hanaeko",
+  "duration": 184.684,
+  "fps": null,
+  "width": null,
+  "height": 360,
+  "extractor": "BiliBili",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 8505559,
+  "sha256": "ed44c3b01608b0f0832bfd549eb891f719cbe8d8d274cf4a11960ab18df64a4b",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

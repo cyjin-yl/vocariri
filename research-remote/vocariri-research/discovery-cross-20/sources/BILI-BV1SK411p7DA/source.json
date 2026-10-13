@@ -1,0 +1,24 @@
+{
+  "id": "BILI-BV1SK411p7DA",
+  "url": "https://www.bilibili.com/video/BV1SK411p7DA/",
+  "at_utc": "2026-10-03T21:31:23.401963+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": 200,
+  "bytes": 2638689,
+  "sha256": "97de4bc5abf7bb209a3ba1e2d2213882e1fbdcead5c59a37d89fa81907a4eaf9",
+  "file": "sources/BILI-BV1SK411p7DA/source.mp4",
+  "duration_seconds": 46.591,
+  "title": "文字变化向——AE动画",
+  "uploader": "SEVENNINE祈九",
+  "extractor": "BiliBili",
+  "yt_dlp_version": "2026.08.19",
+  "video_dimensions": [
+    852,
+    480
+  ],
+  "final_media_probe_duration_seconds": 46.59,
+  "final_media_probe_audio_codec": "aac",
+  "selected_request_handler": "UrllibRH",
+  "cookie_authentication_state": "disabled",
+  "blocked_redirects": 0
+}

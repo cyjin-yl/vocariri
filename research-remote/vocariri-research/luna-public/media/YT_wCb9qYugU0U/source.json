@@ -1,0 +1,18 @@
+{
+  "id": "YT_wCb9qYugU0U",
+  "url": "https://www.youtube.com/watch?v=wCb9qYugU0U",
+  "at": "2026-09-25T01:24:08.745048+00:00",
+  "title": "SPIRIT",
+  "uploader": "のんびり　まーくん",
+  "duration": 19,
+  "fps": 30,
+  "width": 640,
+  "height": 360,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 398290,
+  "sha256": "7a22de95517d7cc80f3245e17cc66c39845e650582aa1347e1a9541c6d23168d",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

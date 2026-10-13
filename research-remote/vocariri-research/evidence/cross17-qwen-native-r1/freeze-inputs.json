@@ -1,0 +1,260 @@
+{
+  "frozen_at": "2026-10-03T19:24:20Z",
+  "round": "cross17-qwen-native-r1",
+  "work_order": {
+    "file": "WORK_ORDER_QWEN_CROSS17_NATIVE_R1.md",
+    "sha256": "8b5612d8fdb39f8f1f3eac8a9a82e55f84cc964913768a2844f8c171ef4b905b",
+    "expected_sha256": "8b5612d8fdb39f8f1f3eac8a9a82e55f84cc964913768a2844f8c171ef4b905b",
+    "verified": true
+  },
+  "sources": {
+    "NICO-sm46137276": {
+      "mp4": {
+        "file": "discovery-cross-17/sources/NICO-sm46137276/source.mp4",
+        "sha256": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87",
+        "bytes": 4652372,
+        "verified": true
+      },
+      "json": {
+        "file": "discovery-cross-17/sources/NICO-sm46137276/source.json",
+        "sha256": "ea60eb77c88e02f6c802728f86e6a4ff14516f7b2bd8a11eaf39131f0cee6686",
+        "bytes": 544,
+        "verified": true
+      },
+      "fps": 60,
+      "tbn": "1/90000",
+      "w": 854,
+      "h": 480
+    },
+    "NICO-sm46155083": {
+      "mp4": {
+        "file": "discovery-cross-17/sources/NICO-sm46155083/source.mp4",
+        "sha256": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383",
+        "bytes": 1672193,
+        "verified": true
+      },
+      "json": {
+        "file": "discovery-cross-17/sources/NICO-sm46155083/source.json",
+        "sha256": "41876c3eef8f9ef1b56e1cb86efe36cc6cfba40ea6578b33636d466b7a124a6d",
+        "bytes": 516,
+        "verified": true
+      },
+      "fps": 30,
+      "tbn": "1/90000",
+      "w": 144,
+      "h": 256
+    },
+    "PVOLT-C-7TIDIKc98": {
+      "mp4": {
+        "file": "discovery-cross-17/sources/PVOLT-C-7TIDIKc98/source.mp4",
+        "sha256": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849",
+        "bytes": 11322628,
+        "verified": true
+      },
+      "json": {
+        "file": "discovery-cross-17/sources/PVOLT-C-7TIDIKc98/source.json",
+        "sha256": "2e7a8b1d5be2a7f3e4edb29944ba3f9e824aebd58bd0c48bd61221952f3a1c17",
+        "bytes": 521,
+        "verified": true
+      },
+      "fps": 24,
+      "tbn": "1/12288",
+      "w": 854,
+      "h": 480
+    }
+  },
+  "locator_evidence": {
+    "discovery-cross-17/derived/NICO-sm46155083/ffmpeg-log.txt": {
+      "sha256": "53c7496ccf37ccd9be2d881ee88a5acc77ed32fcf5d28abe40f5bb8f01f34b9a",
+      "bytes": 6220
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-001.jpg": {
+      "sha256": "59221d6d9b4aa958649483607ab94f2e96e2fa19172317fcede76876b8eab270",
+      "bytes": 13707
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-002.jpg": {
+      "sha256": "32e875d08bc203054e3c1930f1ddd7a8ed55905cdc5e9a2e52a29e372c9018c0",
+      "bytes": 29580
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-003.jpg": {
+      "sha256": "84cc3dfde8a6ced856b733750e682ac1af8744d4831f97f82dd4ca80e6ac0539",
+      "bytes": 19031
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-004.jpg": {
+      "sha256": "c940938dc46734f31dbcb0447660d34d8fdac43df9b56f0574bad03817b2ebf0",
+      "bytes": 23419
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-005.jpg": {
+      "sha256": "4861808eeb5f0b591b0d7e2bd719934939afb97cb554fc42a177e8020405d398",
+      "bytes": 29162
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-006.jpg": {
+      "sha256": "b598da51967fb485594de00d92c22d6ebdcb9f1b7c56f25719da94adc794c714",
+      "bytes": 26850
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-007.jpg": {
+      "sha256": "001e4ca9fa77e6ca351157eb2d80c3cac74c11acfcc10ce1b88804ae084769d7",
+      "bytes": 23542
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-008.jpg": {
+      "sha256": "da2c6e3ac73ea7e7b0992cd215465abe47340233b8b3f94db5fb3fd0a081d6e1",
+      "bytes": 21078
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-009.jpg": {
+      "sha256": "64e28fe4c51dc55742eceb653847b63d4b48d3002af1ae9fcef884d3ce5b44cd",
+      "bytes": 23783
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frame-010.jpg": {
+      "sha256": "2a2148bd185cb56fb8238e3dc416ee3bdb583abfb9c621fa1f75755b8ff65902",
+      "bytes": 19961
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/frames.json": {
+      "sha256": "72c547e404abd81746017c60743344aeb149267e1f0af6a028fa25b14de2ca85",
+      "bytes": 3816
+    },
+    "discovery-cross-17/derived/NICO-sm46155083/sheet-00.jpg": {
+      "sha256": "4dcec9006897c46c7fe65f0ac697c9c6a36abfdb1f9b6e6fde423a47f81f95d1",
+      "bytes": 366759
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/ffmpeg-log.txt": {
+      "sha256": "7e3a286f5d04a0948879fffa625010a4bb7532887ecac99d809ab58a9456b6f9",
+      "bytes": 12684
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-001.jpg": {
+      "sha256": "530e6fddd5fcae60f2c19cb6e8d08715383b61664784faab0dfc4c57cac774ed",
+      "bytes": 1813
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-002.jpg": {
+      "sha256": "9bf6b404c2ccee9c1b808e700d672e56f048586b9beff509a427e412357033be",
+      "bytes": 28706
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-003.jpg": {
+      "sha256": "fc1d4a82394b58707ce6bb6968c9dc384aa8737573d89689541a9aadbadce21c",
+      "bytes": 33682
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-004.jpg": {
+      "sha256": "e2c1b432e48af70b962eafad794a5a219c23c33bc2fdeb3e5abc5762b99b796d",
+      "bytes": 44695
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-005.jpg": {
+      "sha256": "102fcc4a18d0eac63626332d101e77f41ec28c1901b882ae401af76a23a2047f",
+      "bytes": 34639
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-006.jpg": {
+      "sha256": "41e7d46ed65c258000f274581df580fb3765d67caa1024fab5b090f69d4d108a",
+      "bytes": 23158
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-007.jpg": {
+      "sha256": "8fdcfe75ce115c1646e41e034c1cb1ac3f7e223d7ec1b66703d3219335604be6",
+      "bytes": 38030
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-008.jpg": {
+      "sha256": "0f47b6a19717eeb50d4b25d3054e0d21678b21d0b41268cc20f221ea7e3697eb",
+      "bytes": 14519
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-009.jpg": {
+      "sha256": "68339426f8947c8044cb52cefac4e4e0f2b2c80695a640b1608063d4b3c1d582",
+      "bytes": 51244
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-010.jpg": {
+      "sha256": "46b531807f85f5b888d4628688bfc39059a7846f4ff9615fd6254bf710a7b75a",
+      "bytes": 41684
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-011.jpg": {
+      "sha256": "27f183afa378ea254155b9d2cdbc95d2f2a4411f9a3c53f835e6b610bdc5cb88",
+      "bytes": 34806
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-012.jpg": {
+      "sha256": "9e8b957e5f5602265a1f24728696ef9bd551d48c6c43c2925af6b0c9b4b21807",
+      "bytes": 33545
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-013.jpg": {
+      "sha256": "d27c9509bcf59b9f179a3cee8a2c54aed28897614e309b5db448a2dde3c0d5e0",
+      "bytes": 40733
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-014.jpg": {
+      "sha256": "c4cb9369c8c14311f0851383bdc6e58a5a905660740f7aef8eb30a22bc0ea48d",
+      "bytes": 36974
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-015.jpg": {
+      "sha256": "61dc3e91c0695fdbd7a201702ee526007e176660ec07731970923486c9b402f3",
+      "bytes": 26187
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-016.jpg": {
+      "sha256": "3487d0365442266d39d40a23c824750e927b7981ab7b81de59258c2fc82e63d4",
+      "bytes": 30743
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-017.jpg": {
+      "sha256": "3b0d955a25a37a3131ac98cb194983ea1f08fcf7480e7ba5db2598e83ea3d403",
+      "bytes": 8219
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-018.jpg": {
+      "sha256": "3e090e385562d0f80bc07b07ae9823c2f6f343e4a56114a19a084dbb0a4e9492",
+      "bytes": 31336
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-019.jpg": {
+      "sha256": "c61f982ff32620babdf90dc6bf6f37f933227e090e9620bf6792705085ef8dcc",
+      "bytes": 35877
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-020.jpg": {
+      "sha256": "7b915c1d212c133efc1191127578c6bc6bff74471be0924d156b01435f296cf9",
+      "bytes": 34769
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-021.jpg": {
+      "sha256": "146494751be232c7a4ed94df12e53d67c6fb8f0f3cca1db17fea8d2c59467b4f",
+      "bytes": 39205
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frame-022.jpg": {
+      "sha256": "b63d8db42b7f039c5b414141cb323db910774ecf22f5ecea1500de65b3bebaab",
+      "bytes": 35614
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/frames.json": {
+      "sha256": "90df6dbf84939632cf868deaa221f1d07389b8cb6d923a8af30060d5d904bdc6",
+      "bytes": 7491
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/sheet-00.jpg": {
+      "sha256": "983988879db3d99d9bd7e652c2d0e7616e7bc91059a22bea689253afb24f89b4",
+      "bytes": 462692
+    },
+    "discovery-cross-17/derived/PVOLT-C-7TIDIKc98/sheet-01.jpg": {
+      "sha256": "b5f85603825ed19ccbece16c7d0f16b4ff92f7e8b017646a8c0dc0f08ff9d7d6",
+      "bytes": 391826
+    },
+    "discovery-cross-17/derived/NICO-sm46137276/ffmpeg-log.txt": {
+      "sha256": "29f7917fbe1c0bc1cce55d8e3d2012b40e9cb2f878f1c12aea0a2ec17b7c5ee5",
+      "bytes": 3961
+    },
+    "discovery-cross-17/derived/NICO-sm46137276/frame-001.jpg": {
+      "sha256": "25035462cf57edb69ccb57ef686d78e3a4bca071df70fcd299fa703880230c19",
+      "bytes": 2646
+    },
+    "discovery-cross-17/derived/NICO-sm46137276/frame-002.jpg": {
+      "sha256": "027bbd8f9560f72ca09c4c309c4f4288eb6221c472a37aa47a1b1f450003c5fd",
+      "bytes": 9259
+    },
+    "discovery-cross-17/derived/NICO-sm46137276/frame-003.jpg": {
+      "sha256": "d682fbb5ebd994b957ef89cae74da4b12ef5234b7108e7bb07427d38ec50c2ce",
+      "bytes": 10783
+    },
+    "discovery-cross-17/derived/NICO-sm46137276/frame-004.jpg": {
+      "sha256": "8095f4046e133278d598b2ad16e86626c42d8d586fa638291fadecdeb5d88433",
+      "bytes": 4240
+    },
+    "discovery-cross-17/derived/NICO-sm46137276/frames.json": {
+      "sha256": "be711c022c69e0d5d25016b65c730b93c870580cccf15fa8ac3d917d0914c9c6",
+      "bytes": 2065
+    },
+    "discovery-cross-17/derived/NICO-sm46137276/sheet-00.jpg": {
+      "sha256": "fc0da762ce548b01a8385b0dc3b8530ccc706c0228a4ce1babc8b10a77ce8bd8",
+      "bytes": 60429
+    }
+  },
+  "tools": {
+    "ffmpeg_binary": {
+      "path": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+      "sha256": "e7e7fb30477f717e6f55f9180a70386c62677ef8a4d4d1a5d948f4098aa3eb99",
+      "version": "7.0.2-static"
+    }
+  },
+  "locator_file_count": 46
+}

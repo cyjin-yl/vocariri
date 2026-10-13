@@ -1,0 +1,38 @@
+{
+  "checked_unix": 1790261863.6677544,
+  "status": "recovered_after_restart_root_cause_unresolved",
+  "runner": "V2",
+  "mtp_speculative_tokens": 4,
+  "max_num_seqs": 4,
+  "max_model_len": 262144,
+  "code_patches": 0,
+  "temporary_override_removed": true,
+  "original_launcher_sha256": "36092542ebaaefd16a805d859613edfd1c563be394a833c2a4fa72888d0df480",
+  "unit": "MainPID=9815\nExecStart={ path=/bin/bash ; argv[]=/bin/bash /tank/shared/projects/1Cat-vLLM/scripts/vm101-serve.sh ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }\nActiveState=active\nSubState=running\n",
+  "metrics": [
+    "vllm:spec_decode_num_drafts_total{engine=\"0\",model_name=\"[redacted model]\"} 1648.0",
+    "vllm:spec_decode_num_accepted_tokens_total{engine=\"0\",model_name=\"[redacted model]\"} 5267.0",
+    "vllm:num_requests_running{engine=\"0\",model_name=\"[redacted model]\"} 0.0",
+    "vllm:num_requests_waiting{engine=\"0\",model_name=\"[redacted model]\"} 0.0"
+  ],
+  "error_markers_since_ready": {
+    "OutOfMemoryError": 0,
+    "EngineDeadError": 0,
+    "Traceback (most recent call last)": 0
+  },
+  "soak_cases": 160,
+  "soak_replays": 12,
+  "soak_label_shape_word_checks_passed": 172,
+  "observed_running_peak": 4,
+  "video_codecs_passed": [
+    "mp4v",
+    "h264"
+  ],
+  "limitations": [
+    "Root cause not established",
+    "Simple synthetic controls do not prove all real videos or long-lived workloads",
+    "Old vision failure preceded later OOM; no causal link proven",
+    "First video answer truncated at max_tokens; complete retest passed",
+    "No NewAPI end-to-end retest this maintenance window"
+  ]
+}

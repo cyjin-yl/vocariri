@@ -1,0 +1,21 @@
+{
+  "experiment": "geometry-focused-exploratory",
+  "reference": "research/reviews/temporal-01.json",
+  "baseline": "Previously preserved original-prompt responses, default 8 requested frames",
+  "max_tokens": 1200,
+  "temperature": 0,
+  "structured_prompt": "You are inspecting typography motion, not describing scene content. Ignore lyrics, character identities, art style and decorative meaning. Track geometric shapes through the entire clip, including the last frames. Use neutral IDs for each text group and foreground object. For each tracked element compare its FIRST visible state, LARGEST visible state, and FINAL visible state: relative width/height, center position, overlap order, and visibility. If size grows then shrinks, say so; if it does not, do not invent it. Compare letters within a group: do they arrive together or at different times? Does an earlier group remain while another arrives? For any shape that covers text, follow its leading and trailing edges to determine the actual travel direction; do not infer direction from the orientation of the shape. Distinguish full-object scaling, clipping, translation, occlusion and alpha fading using visible edge changes. Do not assume a scene cut merely because two sampled frames differ. Return only a concise table: element ID | first-to-largest-to-final size and position | relationship to other elements | observable evidence | uncertainty. Add at most three temporal events after the table. Do not transcribe any text, invent exact timestamps, infer a camera without common motion, or give software implementation. Hypotheses must be labeled, not narrated as observations.",
+  "variants": [
+    {
+      "id": "geometry-32",
+      "prompt": "structured",
+      "num_frames": 32
+    }
+  ],
+  "limits": [
+    "Requested frame count is not proof of actual model-visible frame count.",
+    "Inspect sampling implementation and token counts before interpreting comparisons.",
+    "Three clips are diagnostic cases, not an estimate of corpus-wide quality.",
+    "Score against frozen reference observations; preserve truncation and failures."
+  ]
+}

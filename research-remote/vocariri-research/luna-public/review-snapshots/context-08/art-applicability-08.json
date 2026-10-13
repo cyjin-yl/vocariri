@@ -1,0 +1,218 @@
+{
+  "created_at": "2026-09-25T12:01:32.413681+00:00",
+  "scope": "Four independently inspected static design references; applicability is conditional and original audio/lyrics remain unreviewed.",
+  "records": [
+    {
+      "id": "USE-08-DOTTED-TITLE",
+      "art_pattern": "ART-OVERDOSE-07-001",
+      "evidence": "art-direction-07.json",
+      "visual_basis": "Forward-slanted angular title bands, dotted saturated fills, thick light outlines and central-character overlap.",
+      "lyric_functions": [
+        "short declaration",
+        "repeated hook",
+        "direct address",
+        "name or identity emphasis"
+      ],
+      "image_conditions": [
+        "central subject with recognizable silhouette",
+        "room for cropped top/bottom type bands",
+        "busy background can be reduced in contrast behind title"
+      ],
+      "possible_meanings": [
+        {
+          "reading": "exuberant display and heightened attention",
+          "basis": "extreme scale, saturated pattern and assertive directional letterforms"
+        },
+        {
+          "reading": "excess or ironic cheerfulness",
+          "basis": "the same dense treatment can conflict deliberately with restrained or negative lyrics; requires contextual intention, not inferred original meaning"
+        }
+      ],
+      "music_conditions": [
+        "high-energy arrival or emphatic hold if verified in the new song",
+        "avoid assigning exact beat positions from this still"
+      ],
+      "use_when": "A short lyric or title can carry the moment through a few recognizable letter silhouettes while the performer remains central.",
+      "avoid_when": [
+        "long sentences requiring precise reading",
+        "quiet literal narration unless deliberate contrast is intended",
+        "subject position changes unpredictably without a protected region"
+      ],
+      "variation_changes_meaning": "More cropping, stronger pattern and shorter dwell increase visual pressure; a larger clear gap and longer hold make the same vocabulary more welcoming. These are design hypotheses to test.",
+      "neighboring_shots": "A quieter preceding layout can make the title arrival legible. Retain a chosen motif or color relationship into the next shot; continuous camera or shape motion needs separate boundary checks.",
+      "validation_example": "Replace the short Latin title with a short Han phrase and a longer phrase. Check exposed glyph structure, subject visibility and small-screen reading; do not assume identical spacing works.",
+      "source_context": {
+        "kind": "conditional_creative_recommendation",
+        "original_lyrics_reviewed": false,
+        "original_audio_reviewed": false,
+        "original_song_section": null,
+        "author_intent": null,
+        "context_limit": "Visual interpretation and proposed usage, not a claim about original lyric meaning, beat synchronization or author intent."
+      },
+      "status": "coordinator_design_recommendation_not_validated_audience_response",
+      "override_policy": "External authors may revise every condition; these are interpretable recommendations, not a closed effect selector."
+    },
+    {
+      "id": "USE-08-SERIF-ECHO",
+      "art_pattern": "ART-DIR-07-006",
+      "evidence": "synthesis-review-08.json",
+      "visual_basis": "Smaller light outlined serif word over a much larger dark serif duplicate, both on black.",
+      "lyric_functions": [
+        "repetition",
+        "lingering final word",
+        "remembered or quoted phrase",
+        "inner voice or self-comparison"
+      ],
+      "image_conditions": [
+        "low-detail field",
+        "sufficient value separation between duplicate and primary outline",
+        "adequate size for serif/counter recognition"
+      ],
+      "possible_meanings": [
+        {
+          "reading": "resonance, afterimage or remembered presence",
+          "basis": "one word appears at two scales and visibility levels"
+        },
+        {
+          "reading": "distance or solemn emphasis",
+          "basis": "restrained palette, empty space and serif structure"
+        },
+        {
+          "reading": "ominous doubling",
+          "basis": "a large dark duplicate can feel intrusive when paired with tense lyrical/visual context"
+        }
+      ],
+      "music_conditions": [
+        "held note or pause after a short phrase",
+        "may serve a quiet or tense passage; not automatically a sad-song effect"
+      ],
+      "use_when": "The text itself should remain a focal object and the second layer has a semantic reason to repeat it.",
+      "avoid_when": [
+        "rapid dense syllables that leave no time to read outlines",
+        "busy footage with similar gray edges",
+        "default duplication on every line without narrative function"
+      ],
+      "variation_changes_meaning": "Distance, scale ratio, outline weight and duplicate contrast change whether the second layer feels like an echo, a shadow or an equal second voice.",
+      "neighboring_shots": "Preserve the readable foreground word through entry; a subsequent line/point exit is a separate motion proposal requiring native-frame evidence.",
+      "validation_example": "Use a single held word, then a multiword sentence. Check whether serif details remain readable and whether the duplicate actually supports the intended semantic role.",
+      "source_context": {
+        "kind": "conditional_creative_recommendation",
+        "original_lyrics_reviewed": false,
+        "original_audio_reviewed": false,
+        "original_song_section": null,
+        "author_intent": null,
+        "context_limit": "Visual interpretation and proposed usage, not a claim about original lyric meaning, beat synchronization or author intent."
+      },
+      "status": "coordinator_design_recommendation_not_validated_audience_response",
+      "override_policy": "External authors may revise every condition; these are interpretable recommendations, not a closed effect selector."
+    },
+    {
+      "id": "USE-08-REPEATED-CARDS",
+      "art_pattern": "ART-DIR-07-004",
+      "evidence": "synthesis-review-08.json",
+      "visual_basis": "Repeated slanted composite cards containing heavy Japanese letters, double borders, small box icons and faint offset outlines.",
+      "lyric_functions": [
+        "repeated insistence",
+        "enumeration",
+        "call-and-response fragments",
+        "social or information saturation",
+        "rhythmic short phrase"
+      ],
+      "image_conditions": [
+        "can temporarily fill the frame",
+        "foreground subject absent or explicitly protected",
+        "panel borders remain distinct from letter outlines"
+      ],
+      "possible_meanings": [
+        {
+          "reading": "insistence, pressure or information overload",
+          "basis": "repetition removes empty space and makes one message ubiquitous"
+        },
+        {
+          "reading": "playful graphic rhythm",
+          "basis": "orderly card repetition and a bright palette can suggest comic or pop design rather than pressure"
+        }
+      ],
+      "music_conditions": [
+        "repeated short vocal rhythm or designed visual escalation",
+        "sparse release afterward can contrast with density; source beat relation remains unknown"
+      ],
+      "use_when": "Repetition is meaningful to the lyric or sequence and a brief loss of spaciousness is intentional.",
+      "avoid_when": [
+        "nuanced unique lines that must all be read",
+        "dense character footage without compositing separation",
+        "long continuous use that erases contrast between song sections"
+      ],
+      "variation_changes_meaning": "Regular spacing and aligned borders suggest order; varied scale, occlusion and irregular replacement create tension. Palette alone does not determine emotion.",
+      "neighboring_shots": "Transition to a sparse group can create release. If the words differ, model it as replacement/cut or a specified correspondence, not an assumed morph of identical glyphs.",
+      "validation_example": "Compare one repeated hook with a paragraph of unique lyrics. Confirm the former can function as a texture without losing its semantic anchor and the latter is not forced into an unreadable wall.",
+      "source_context": {
+        "kind": "conditional_creative_recommendation",
+        "original_lyrics_reviewed": false,
+        "original_audio_reviewed": false,
+        "original_song_section": null,
+        "author_intent": null,
+        "context_limit": "Visual interpretation and proposed usage, not a claim about original lyric meaning, beat synchronization or author intent."
+      },
+      "status": "coordinator_design_recommendation_not_validated_audience_response",
+      "override_policy": "External authors may revise every condition; these are interpretable recommendations, not a closed effect selector."
+    },
+    {
+      "id": "USE-08-PIXEL-DECLARATION",
+      "art_pattern": "ART-DIR-07-008",
+      "evidence": "synthesis-review-08.json",
+      "visual_basis": "Large stepped pixel letter faces with bright fill, warm keyline and a dark offset block-shadow appearance over duplicated character imagery.",
+      "lyric_functions": [
+        "announcement",
+        "identity label",
+        "prompt or response",
+        "short slogan",
+        "deliberately artificial or mediated voice"
+      ],
+      "image_conditions": [
+        "pixel-step scale survives delivery size",
+        "letter face and shadow separate from background highlights",
+        "digital or interface motifs can support the association but are not mandatory"
+      ],
+      "possible_meanings": [
+        {
+          "reading": "digital mediation, retro-game or interface address",
+          "basis": "visible stepped construction and block shading resemble low-resolution display conventions"
+        },
+        {
+          "reading": "celebratory declaration",
+          "basis": "bright face, large size and dimensional separation assert a focal headline"
+        },
+        {
+          "reading": "ironic or unsettling praise",
+          "basis": "cheerful display vocabulary against contradictory lyric/image context can create dissonance; must be chosen deliberately"
+        }
+      ],
+      "music_conditions": [
+        "short emphatic statement or an intentional refrain identity",
+        "not a generic choice for every energetic line"
+      ],
+      "use_when": "A compact phrase benefits from being treated as a displayed message or graphic identity.",
+      "avoid_when": [
+        "subtle intimate narration unless the mediated contrast is wanted",
+        "small low-resolution output where separate pixel steps blur together",
+        "several competing equally bright headline layers"
+      ],
+      "variation_changes_meaning": "Regular pixel modules and stable shadow suggest a coherent display; broken registration or unstable repetition can produce instability, but must not sacrifice the key message unintentionally.",
+      "neighboring_shots": "Carry a pixel unit, keyline or UI motif between shots instead of requiring all objects to share a camera. Avoid making all neighboring text equally dominant.",
+      "validation_example": "Render a short word and a mixed-script phrase at target and reduced sizes. Inspect step rhythm, shadow offset, counters and visual hierarchy without reusing original artwork.",
+      "source_context": {
+        "kind": "conditional_creative_recommendation",
+        "original_lyrics_reviewed": false,
+        "original_audio_reviewed": false,
+        "original_song_section": null,
+        "author_intent": null,
+        "context_limit": "Visual interpretation and proposed usage, not a claim about original lyric meaning, beat synchronization or author intent."
+      },
+      "status": "coordinator_design_recommendation_not_validated_audience_response",
+      "override_policy": "External authors may revise every condition; these are interpretable recommendations, not a closed effect selector."
+    }
+  ],
+  "next_validation": "Evaluate against actual timed lyrics, audio structure and scene assets in original prototypes; preserve reference images until prototype review.",
+  "accepted_templates": 0
+}

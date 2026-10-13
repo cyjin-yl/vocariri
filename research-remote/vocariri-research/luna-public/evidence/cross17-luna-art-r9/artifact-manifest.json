@@ -1,0 +1,89 @@
+{
+  "id": "R9-LUNA-CROSS17-ART-20261004",
+  "created_at": "2026-10-03",
+  "self_exclusion": {
+    "path": "evidence/cross17-luna-art-r9/artifact-manifest.json",
+    "excluded_from_new_files": true,
+    "reason": "Manifest does not hash itself."
+  },
+  "state": "completed_unreviewed",
+  "increments": {"accepted_form_increment": 0, "rendered_template_increment": 0},
+  "new_files": [
+    {"path": "outputs/cross17-luna-art-r9.json", "bytes": 47311, "sha256": "c5d457af9de2380d2238f8bd63a2e82d5639d29e76b5247870689ad00f708e89"},
+    {"path": "logs/cross17-luna-art-r9.status", "bytes": 4600, "sha256": "d940b0e43ea9e8c8da9e2013c5c148f86190bd90f01d9863a2527d1b45080c25"},
+    {"path": "evidence/cross17-luna-art-r9/pre-draft-observations.json", "bytes": 16593, "sha256": "64a3810ea17e0d5a1e7c1cd7d941538e14f95fd455ac66c013c540610f591bb0"}
+  ],
+  "referenced_immutable_inputs": [
+    {"path": "WORK_ORDER_LUNA_CROSS17_ART_R9.md", "sha256": "bd08991a30ef8304a50487a8f4f860854fc291130fafa2c84cd683286cc7fb58", "role": "user-pinned task order"},
+    {"path": "WORK_ORDER.md", "sha256": "c3bfda940180939a61b8321c951c2841cf0b75160c6316e8cb50f6d0f7ae88e5", "role": "mandatory workspace scope"},
+    {"path": "WORK_ORDER_REFERENCE_CONTEXT_08.md", "sha256": "4a1a4a1a3d10adaf002c9e2babbc71f755cb54eedc857c810260fe8830357e5d", "role": "reference retention and expressive applicability"},
+    {"path": "reference-retention-policy.json", "sha256": "c501248f95cf4a9702824f6782e24de18e8542c059dde33e29b07dde06fd727c", "role": "protected reference policy"},
+    {"path": "RESEARCH_TARGET.json", "sha256": "428e964561683244a234b2bafe435b2baa0c52fe52c716c4d1fea8e2a6f8e779", "role": "current corpus and template targets"},
+    {"path": "inputs/r9-cross17/staging-manifest.json", "sha256": "056ac5372c348ad64b821e1546f33e3b4cfc271c52c128918f2ed65ee138348c", "role": "244 retained input fingerprints and redistribution status"},
+    {"path": "inputs/r9-cross17/qwen-unreviewed.json", "sha256": "2408647675d266e3e8e72573e3fea928d950fde400b0a4d90e764c4ddaab5e05", "role": "untrusted draft read only after independent observation checkpoint"},
+    {"path": "inputs/r9-cross17/sources/NICO-sm46137276/source.mp4", "sha256": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87", "role": "retained public source media"},
+    {"path": "inputs/r9-cross17/sources/NICO-sm46137276/source.json", "sha256": "ea60eb77c88e02f6c802728f86e6a4ff14516f7b2bd8a11eaf39131f0cee6686", "role": "retained public source metadata"},
+    {"path": "inputs/r9-cross17/sources/NICO-sm46155083/source.mp4", "sha256": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383", "role": "retained public source media"},
+    {"path": "inputs/r9-cross17/sources/NICO-sm46155083/source.json", "sha256": "41876c3eef8f9ef1b56e1cb86efe36cc6cfba40ea6578b33636d466b7a124a6d", "role": "retained public source metadata"},
+    {"path": "inputs/r9-cross17/sources/PVOLT-C-7TIDIKc98/source.mp4", "sha256": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849", "role": "retained public source media"},
+    {"path": "inputs/r9-cross17/sources/PVOLT-C-7TIDIKc98/source.json", "sha256": "2e7a8b1d5be2a7f3e4edb29944ba3f9e824aebd58bd0c48bd61221952f3a1c17", "role": "retained public source metadata"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/showinfo.log", "sha256": "2160793cde8f38d8d4fae9f250cf1d9a26e76bf18d93299205654c9046842b84", "role": "source PTS and time_base evidence"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/showinfo.log", "sha256": "ebb5796bc3d9a3abff50237f4d7ebe8bbd8e3dc21056bf116efe1e9829f2d1f2", "role": "source PTS and time_base evidence"},
+    {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/showinfo.log", "sha256": "544ea3e8a25bbae42051b29807ab57e2aa92113cac0d8fcd6fdda4d5581c6fda", "role": "source PTS and time_base evidence"},
+    {"path": "outputs/art-direction-patterns-07.json", "sha256": "e0a223f5644c96316f5cde1f1bb27804704547837d0ca90e2ac79707e5be18a4", "role": "prior art patterns; unchanged"},
+    {"path": "outputs/art-applicability-08.json", "sha256": "a73cfe046f3eb4e1217becda4cf49f9ee740f52bd8f2a5d95c18ea4afc9d8bf8", "role": "prior expressive applicability; unchanged"},
+    {"path": "outputs/parent-art-review-07.json", "sha256": "8f4b4d9095c4c375b9abd6a11791a82bd1914b4f277512d1e85f5abb21613bc1", "role": "prior parent review; unchanged"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0001.png", "sha256": "6d00109d92ef29ddfee9add669e7d6eaf8ff7040fe9f67fe56f232913df2d165", "role": "independently inspected original native image; PTS 360000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0002.png", "sha256": "286c5f0e281bec9262ebbfb58c7bed2b78633b41534a33ec824f8b08140d6d4b", "role": "independently inspected original native image; PTS 361500"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0060.png", "sha256": "acbfd313c464f955969df44e89ee391c1b568d7c7857a7b65d912cd4f4713824", "role": "independently inspected original native image; PTS 448500"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0061.png", "sha256": "de86c2c90b7ef3b7ee335219396326b4c15ee06afad3987773ef4d4d7de9b89b", "role": "independently inspected original native image; PTS 450000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0119.png", "sha256": "06decc844333646d039b78db1ac224ff1d54f8c9fb4bc976ce53d963db4ebb81", "role": "independently inspected original native image; PTS 537000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0120.png", "sha256": "9fdb5e3310817541fc16210e6e602181baf3bb3f7943e56cd161ace171f39065", "role": "independently inspected original native image; PTS 538500"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0001.png", "sha256": "397750c27c80f3738e109e70d9306dbc5cd8b19cd795490b6fadce469d0592bf", "role": "independently inspected original native image; PTS 2610000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0002.png", "sha256": "5a5de26bd34215fcfcfde584894a177dc65db3b3b6874e3fe6d1ae30c9eca1a2", "role": "independently inspected original native image; PTS 2613000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0030.png", "sha256": "144344867924018e2ca42a8123c5735552e73a85115dd28bc02e1c5b4ef4c261", "role": "independently inspected original native image; PTS 2697000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0031.png", "sha256": "138eb151238011a0148f57e3e908601d74051bf9b7eaa249c023cd92c79ab612", "role": "independently inspected original native image; PTS 2700000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0059.png", "sha256": "4aa33ff85e509eb8ccd2f9bd2be837be2b5146cb4500e8432e3ed4d108633207", "role": "independently inspected original native image; PTS 2784000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0060.png", "sha256": "421e31970e4d6c9eaf4d4d4d49c54855911718af26fdfc5933e3da001bd134ca", "role": "independently inspected original native image; PTS 2787000"},
+    {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0001.png", "sha256": "d691e8778e2f31978181e6009a0ed303d18492fa1dc8d34793d8d0d34863cb81", "role": "independently inspected original native image; PTS 1105920"},
+    {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0002.png", "sha256": "41dbff608c82d944d9127fb3eea1df442f6d254663ff334e8cb28f914dd1b2ab", "role": "independently inspected original native image; PTS 1106432"},
+    {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0024.png", "sha256": "ef11b36c58e996231b3e4a54c7613f6cc24fdce52c7591835d641910d216c55d", "role": "independently inspected original native image; PTS 1117696"},
+    {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0025.png", "sha256": "399584d6dc09153951873b44c85653cafda45e021d583383659c12c01f43597e", "role": "independently inspected original native image; PTS 1118208"},
+    {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0047.png", "sha256": "6373b14db19ae92163434112d17f3f4f9965a42e6e4837ee0ee6f9146aabc001", "role": "independently inspected original native image; PTS 1129472"},
+    {"path": "inputs/r9-cross17/native/PVOLT-C-7TIDIKc98/native-n0048.png", "sha256": "286476238fdb07793d054922049981131ea83c355ab8dedec9f79a1680295c75", "role": "independently inspected original native image; PTS 1129984"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0017.png", "sha256": "600c808c63cde1f70f33845d61dd45ef07a232ee768815766453ddabd1b2006d", "role": "follow-up original frame source n256; PTS 384000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0018.png", "sha256": "cdfd412d5f50cf96c2a5ca185a9599af629404d23330b5f64c1eb2cdd236a140", "role": "follow-up immediate neighbor source n257; PTS 385500"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0031.png", "sha256": "0a49ff030ed84dcda2aa738b5dd7da9958e433ce225cf691a3d102a8d4174c63", "role": "follow-up original frame source n270; PTS 405000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0032.png", "sha256": "0223d6598eb58f1ba225c0d26075009dc1747c7f74f7381fd714f7556f741f7d", "role": "follow-up immediate neighbor source n271; PTS 406500"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0091.png", "sha256": "7349a2e9ed87388d382e9153217a1ce4cefbe67c9b2303b3d30300c6113a8106", "role": "follow-up original frame source n330; PTS 495000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46137276/native-n0092.png", "sha256": "11315608c6ee72f184856872cc89e5ba915a72bff07912a09968d6e31c7b9a49", "role": "follow-up immediate neighbor source n331; PTS 496500"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0016.png", "sha256": "8c474832190f5f448fb8c63aff9ac7b814b89176d71e848dc42bb9771662638d", "role": "follow-up original frame source n885; PTS 2655000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0017.png", "sha256": "821533c92eeb14be8b4301f3c64dad31caefddddea106c76dc3ebad961694d3b", "role": "follow-up immediate neighbor source n886; PTS 2658000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0046.png", "sha256": "5bf7c2445e9ed9a3f82105e3deae1ad444325f06d19a283bde276d591b559957", "role": "follow-up original frame source n915; PTS 2745000"},
+    {"path": "inputs/r9-cross17/native/NICO-sm46155083/native-n0047.png", "sha256": "f351abb88859fc8f5f7e9002843ce3c62142da52c3677b0bd7f381220baa1dba", "role": "follow-up immediate neighbor source n916; PTS 2748000"}
+  ],
+  "outputs": [
+    "outputs/cross17-luna-art-r9.json",
+    "logs/cross17-luna-art-r9.status",
+    "evidence/cross17-luna-art-r9/pre-draft-observations.json"
+  ],
+  "actual_checks": [
+    {"check": "pinned_work_order_hash", "result": "passed", "evidence": "bd08991a30ef8304a50487a8f4f860854fc291130fafa2c84cd683286cc7fb58"},
+    {"check": "staging_manifest_integrity_inventory", "result": "parsed; 244 listed entries; originals unchanged flag true; redistribution false"},
+    {"check": "pre_draft_ordering", "result": "passed; pre-draft JSON saved/read/validated before Qwen draft access"},
+    {"check": "native_png_hashes", "result": "passed for all 28 selected original images against staging-manifest rows"},
+    {"check": "source_pts_mapping", "result": "passed from showinfo integer PTS/time_base; PVOLT source n2184 corrected to PTS 1118208 / 12288 = 91.0s"},
+    {"check": "final_output_json", "result": "passed; completed_unreviewed, three candidate art proposals, zero increments"},
+    {"check": "retention_and_scope", "result": "passed; no source, sidecar, prior art record, or Qwen draft overwritten or deleted; no publication or AE run"}
+  ],
+  "failures": [
+    {"attempt": "Optional local PIL display", "result": "ModuleNotFoundError: No module named PIL", "resolution": "Standard image reads of the original native files succeeded; no art review was blocked."},
+    {"attempt": "Initial verbose jq hash query and first composite JSON assertion", "result": "Parse/precedence mistakes in the check commands", "resolution": "Simpler manifest selectors and a parenthesized final jq assertion passed; no input was modified."}
+  ],
+  "notes": [
+    "The independent observation checkpoint is immutable and intentionally precedes draft review. Post-draft amendments are in the final output; the checkpoint was not rewritten.",
+    "The Qwen draft is retained and adjudicated as untrusted evidence. Agreement does not imply authoring graph, font identity, source license, beat alignment, or template acceptance.",
+    "All source media and native images remain protected internal art references. This manifest is a retention/audit record, not a cleanup or redistribution grant.",
+    "Art proposals, motion forms, architecture records, accepted forms, and rendered templates remain separately counted."
+  ]
+}

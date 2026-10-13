@@ -1,0 +1,18 @@
+{
+  "id": "ax5bndrPga4",
+  "url": "https://www.youtube.com/watch?v=ax5bndrPga4",
+  "at": "2026-09-27T02:51:26.972560+00:00",
+  "title": "Apple Business Essential Ads ( Alight Motion )",
+  "uploader": "Onyx Studio®",
+  "duration": 26,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 854830,
+  "sha256": "d65772980144140dc9b4ab1280fefb2b7e87e4d3802e133cde6dc8922213e7d5",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

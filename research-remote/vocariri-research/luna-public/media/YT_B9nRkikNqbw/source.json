@@ -1,0 +1,18 @@
+{
+  "id": "YT_B9nRkikNqbw",
+  "url": "https://www.youtube.com/watch?v=B9nRkikNqbw",
+  "at": "2026-09-24T10:16:52.614322+00:00",
+  "title": "[MMD] SAWTOWNE - Confessions of a Rotten Girl / ft. Hatsune Miku [Official Motion DL]",
+  "uploader": "Nikisa San",
+  "duration": 230,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 58679267,
+  "sha256": "4a05def8891f08d962ef5c830352ea7d247b664e62f83f9d5b633f375769018c",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

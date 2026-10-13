@@ -1,0 +1,18 @@
+{
+  "id": "YT_KlTNKOnfXFk",
+  "url": "https://www.youtube.com/watch?v=KlTNKOnfXFk",
+  "at": "2026-09-24T15:46:06.325373+00:00",
+  "title": "Static ft. Hatsune Miku",
+  "uploader": "FLAVOR FOLEY",
+  "duration": 244,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 24782806,
+  "sha256": "5f0c4fa343129ed767c8bb03b535dfc7a0f21bff8f0a762de655f56c2bdba074",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

@@ -1,0 +1,603 @@
+{
+  "title": "Expansion 05 production requirements",
+  "scope": "Source-linked, testable reconstruction requirements derived from current candidate forms; not product acceptance or implementation instructions to modify software.",
+  "evidence_limits": [
+    "Still/contact-sheet intervals constrain only the visible samples.",
+    "Do not infer audio beat alignment, intermediate frames, exact easing, camera-versus-object motion, or original AE construction unless separately documented.",
+    "Scene features and typography remain separate form domains.",
+    "No requirement converts a candidate into an independently accepted form."
+  ],
+  "candidate_forms_in_file": 53,
+  "production_acceptance_count": 0,
+  "requirements": [
+    {
+      "requirement_id": "PR05-01",
+      "form_id": "FORM-K72-002",
+      "form_domain": "text",
+      "source_status": "candidate",
+      "label": "Oversized outlined type scaling or revealing into cropped hold",
+      "evidence": [
+        {
+          "observation_id": "PV-K72-OBS-0003",
+          "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV",
+          "sheet_files": [
+            "materials/BV1k72LYzEmV/sheet-0002.jpg"
+          ],
+          "source_time_range": [
+            16,
+            19.75
+          ],
+          "time_uncertainty": "Approximate; sample labels 0.25-second spacing; scale/reveal transition is bounded between samples."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Separate glyph group and background; adjustable scale/position; explicit frame-bound crop.",
+        "overlapping_visual_instances": "Keep the initial small line and later oversized glyph treatment independently editable.",
+        "time_model": "No timing to audio; expose entry/hold/exit as local keyframes, optionally map a selected source-time interval.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Do not claim original interpolation/easing from sampled stills.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "A small line over the pastel collage is followed by white-outlined type extending past one edge, while text remains crisp and background unchanged."
+    },
+    {
+      "requirement_id": "PR05-02",
+      "form_id": "FORM-K72-004",
+      "form_domain": "text",
+      "source_status": "candidate",
+      "label": "Outlined display type traversing/cropping across character art",
+      "evidence": [
+        {
+          "observation_id": "PV-K72-OBS-0008",
+          "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV",
+          "sheet_files": [
+            "materials/BV1k72LYzEmV/sheet-0005.jpg"
+          ],
+          "source_time_range": [
+            44.75,
+            46.75
+          ],
+          "time_uncertainty": "Approximate; samples are spaced about 0.25 seconds apart."
+        },
+        {
+          "observation_id": "PV-K72-OBS-0010",
+          "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV",
+          "sheet_files": [
+            "materials/BV1k72LYzEmV/sheet-0006.jpg"
+          ],
+          "source_time_range": [
+            51,
+            53.75
+          ],
+          "time_uncertainty": "Approximate; samples are spaced about 0.25 seconds apart."
+        },
+        {
+          "observation_id": "PV-K72-OBS-0016",
+          "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV",
+          "sheet_files": [
+            "materials/BV1k72LYzEmV/sheet-0009.jpg",
+            "materials/BV1k72LYzEmV/sheet-0010.jpg"
+          ],
+          "source_time_range": [
+            77.0,
+            80.5
+          ],
+          "time_uncertainty": "Approximate; the sampled sequence crosses a sheet boundary and exact transition points are unclear."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Independent type group, character image/footage, and graphic background; layer-order control; optional track matte only if needed by an implementation.",
+        "overlapping_visual_instances": "Overlap must preserve deliberate foreground text while retaining the character beneath; text and character cannot be flattened together.",
+        "time_model": "Local entry/hold/replacement markers; any source-time mapping remains explicit and independent of composition time.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Source supports overlap and cropping, not exact depth, camera move, or original mask construction.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "A large outlined word crosses a close-up character, remains edge-cropped, then changes to a block treatment without moving the character layer."
+    },
+    {
+      "requirement_id": "PR05-03",
+      "form_id": "FORM-K72-007",
+      "form_domain": "text",
+      "source_status": "temporal-review-needed",
+      "label": "Rearranging text panels and modular lyric cards",
+      "evidence": [
+        {
+          "observation_id": "PV-K72-OBS-0009",
+          "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV",
+          "sheet_files": [
+            "materials/BV1k72LYzEmV/sheet-0006.jpg"
+          ],
+          "source_time_range": [
+            48,
+            50.75
+          ],
+          "time_uncertainty": "Approximate; samples are spaced about 0.25 seconds apart."
+        },
+        {
+          "observation_id": "PV-K72-OBS-0013",
+          "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV",
+          "sheet_files": [
+            "materials/BV1k72LYzEmV/sheet-0008.jpg"
+          ],
+          "source_time_range": [
+            68.0,
+            70.5
+          ],
+          "time_uncertainty": "Approximate; sample labels are spaced 0.25 seconds apart."
+        },
+        {
+          "observation_id": "PV-K72-OBS-0023",
+          "source_url": "https://www.bilibili.com/video/BV1k72LYzEmV",
+          "sheet_files": [
+            "materials/BV1k72LYzEmV/sheet-0020.jpg"
+          ],
+          "source_time_range": [
+            161.5,
+            164.0
+          ],
+          "time_uncertainty": "Approximate; labels indicate 0.25-second samples. Static contact-sheet stills do not show intermediate movement."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Each lyric panel/glyph group separately editable; anchor points and safe-frame positions; stable character/background groups.",
+        "overlapping_visual_instances": "Panels may overlap; preserve per-instance stacking and visibility rather than treating arrangement as one text layer.",
+        "time_model": "Use local transitions between defined compositions; global scene time is a mapping layer, not a guessed audio beat.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "A later temporal review challenges a specific staggered-bar wipe/reflow interpretation; do not encode that ordering as established.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "Render one panel layout and the alternate modular layout with readable text and no unintended clipping; keep challenged wipe disabled until interval-specific evidence is attached."
+    },
+    {
+      "requirement_id": "PR05-04",
+      "form_id": "FORM-EXP02-TEXT-006",
+      "form_domain": "text",
+      "source_status": "candidate",
+      "label": "Letterform assembly followed by dispersal",
+      "evidence": [
+        {
+          "observation_id": "OBS-EXP02-5af8a27dc1f3347f-003",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0002.jpg",
+            "materials/YT_l5fBaLAj1ds/sheet-0003.jpg"
+          ],
+          "source_time_range": [
+            24.25,
+            28.75
+          ],
+          "time_uncertainty": "Approximate contact-sheet labels; intervening trajectories and exact transition timing are unknown."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Per-letter editable text/shape instances with source order and grouping; background and corner bands separate.",
+        "overlapping_visual_instances": "Allow fragments to occupy overlapping positions and converge into one readable central wordmark; retain individual glyph controls.",
+        "time_model": "Relative local offsets for assemble/hold/disperse, independent of song time.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Still evidence supports partial/scattered letters resolving and separating; exact trajectories/easing remain unknown.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "At a held middle state, the same individual glyph instances form the readable two-line wordmark; at exit they visibly separate."
+    },
+    {
+      "requirement_id": "PR05-05",
+      "form_id": "FORM-EXP02-TEXT-008",
+      "form_domain": "text",
+      "source_status": "candidate",
+      "label": "Diagonal line or ribbon reveal into oversized title",
+      "evidence": [
+        {
+          "observation_id": "OBS-EXP02-4d9e2538be572737-002",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0004.jpg"
+          ],
+          "source_time_range": "approximately 36.5–38.25",
+          "time_uncertainty": "Approximate; labels indicate roughly 36.5–38.25 seconds."
+        },
+        {
+          "observation_id": "OBS-EXP02-4d9e2538be572737-003",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0004.jpg",
+            "materials/YT_l5fBaLAj1ds/sheet-0005.jpg"
+          ],
+          "source_time_range": "approximately 38.5–41.25",
+          "time_uncertainty": "Approximate; visible labels span the end of sheet 0004 and start of sheet 0005."
+        },
+        {
+          "observation_id": "OBS-EXP02-8de438321c319ede-001",
+          "source_url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+          "sheet_files": [
+            "materials/YT_UoptEaMrnok/sheet-0008.jpg"
+          ],
+          "source_time_range": [
+            68.0,
+            70.0
+          ],
+          "time_uncertainty": "Approximate; transition is sampled at roughly 0.25-second intervals."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Editable banner shape, main title, subtitle strip, grayscale background/portrait, and later title card as distinct layers.",
+        "overlapping_visual_instances": "Foreground bar must overlap/cross the image; preserve separate subject/title visibility and transform controls.",
+        "time_model": "Local reveal/hold/exit keyframes; source range mapping explicit, no beat inference.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Observed line-to-title progression and later hold do not reveal source compositing or precise mask path; avoid hard-coding them.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "A thin diagonal line resolves into a colored title bar across the still portrait, with legible white title and smaller subtitle on top."
+    },
+    {
+      "requirement_id": "PR05-06",
+      "form_id": "FORM-EXP02-TEXT-009",
+      "form_domain": "text",
+      "source_status": "candidate",
+      "label": "Temporary lower-third call-to-action and social footer",
+      "evidence": [
+        {
+          "observation_id": "OBS-EXP02-f3c1fe75079e049f-001",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0008.jpg"
+          ],
+          "source_time_range": [
+            64.75,
+            69.5
+          ],
+          "time_uncertainty": "Approximate from visible sample labels; entry and exit may fall between sampled frames."
+        },
+        {
+          "observation_id": "OBS-EXP02-f3c1fe75079e049f-002",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0009.jpg"
+          ],
+          "source_time_range": [
+            72.75,
+            78.25
+          ],
+          "time_uncertainty": "Approximate sample-based interval; the strip is not present at the beginning of the sheet and is absent in later samples."
+        },
+        {
+          "observation_id": "OBS-EXP02-7f5d1f1d4fc58e4b-001",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0034.jpg",
+            "materials/YT_l5fBaLAj1ds/sheet-0035.jpg"
+          ],
+          "source_time_range": [
+            275,
+            280
+          ],
+          "time_uncertainty": "Approximate; samples are spaced at 0.25 seconds and the beginning/end of the footer transition may fall between samples."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Wordmark/card, banner strip, call-to-action text, and optional icons as separate editable objects.",
+        "overlapping_visual_instances": "Overlay occupies low frame while centered wordmark remains visible above; preserve independent display intervals.",
+        "time_model": "Local visibility interval nested within a longer scene hold; source seconds are evidence labels, not music-beat cues.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Do not generalize tutorial footage into a lyric-PV form; requirement applies only to independently reviewed graphic overlay evidence.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "Show the unchanged centered wordmark while the thin lower strip appears and later disappears; no change to upper composition."
+    },
+    {
+      "requirement_id": "PR05-07",
+      "form_id": "FORM-EXP02-TEXT-010",
+      "form_domain": "text",
+      "source_status": "candidate",
+      "label": "Fragmented wordmark or logo pieces resolving to a complete mark",
+      "evidence": [
+        {
+          "observation_id": "OBS-EXP02-c2eed4aa40cb0064-001",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0016.jpg",
+            "materials/YT_l5fBaLAj1ds/sheet-0017.jpg"
+          ],
+          "source_time_range": "approximately 134.00–137.00",
+          "time_uncertainty": "Low for the labeled samples; the exact transitions between samples and any intermediate animation are unknown."
+        },
+        {
+          "observation_id": "OBS-EXP02-5694234facb5bf42-000",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0037.jpg",
+            "materials/YT_l5fBaLAj1ds/sheet-0038.jpg",
+            "materials/YT_l5fBaLAj1ds/sheet-0039.jpg"
+          ],
+          "source_time_range": [
+            296,
+            320
+          ],
+          "time_uncertainty": "Approximate; visible sample labels progress in roughly 0.25-second increments."
+        },
+        {
+          "observation_id": "OBS-EXP02-b23d14146c244ee5-000",
+          "source_url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+          "sheet_files": [
+            "materials/YT_l5fBaLAj1ds/sheet-0049.jpg",
+            "materials/YT_l5fBaLAj1ds/sheet-0050.jpg",
+            "materials/YT_l5fBaLAj1ds/sheet-0051.jpg"
+          ],
+          "source_time_range": [
+            392,
+            416
+          ],
+          "time_uncertainty": "Approximate; samples appear spaced at 0.25-second intervals."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Wordmark glyph/shape fragments and accent as editable components; fixed background separate.",
+        "overlapping_visual_instances": "Partial visibility must be controllable per component with stacking/matte choices; no flattening before reveal.",
+        "time_model": "Short local on/off/reveal state sequence; global-time mapping explicit.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Frames show mark complete, partially hidden/revealed, then complete; cause (occlusion, masks, or animation) is not resolved.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "At least one intermediate screenshot visibly omits/obscures components while the final screenshot restores the same centered mark."
+    },
+    {
+      "requirement_id": "PR05-08",
+      "form_id": "FORM-EXP02-TEXT-004",
+      "form_domain": "text",
+      "source_status": "candidate",
+      "label": "Persistent vertical lyric columns alongside changing character imagery",
+      "evidence": [
+        {
+          "observation_id": "OBS-EXP02-2a68dfec95cb0b30-000",
+          "source_url": "https://www.youtube.com/watch?v=eu3yoLa3dgs",
+          "sheet_files": [
+            "materials/YT_eu3yoLa3dgs/sheet-0002.jpg"
+          ],
+          "source_time_range": [
+            16.0,
+            19.5
+          ],
+          "time_uncertainty": "Approximate from visible sample labels at 0.25s intervals; exact transition timing is uncertain by at least one sample."
+        },
+        {
+          "observation_id": "OBS-EXP02-931a20a739125e4a-002",
+          "source_url": "https://www.youtube.com/watch?v=eu3yoLa3dgs",
+          "sheet_files": [
+            "materials/YT_eu3yoLa3dgs/sheet-0001.jpg"
+          ],
+          "source_time_range": "approximately 8.50–15.75",
+          "time_uncertainty": "Visible labels are spaced about 0.25 seconds apart. The onset and exact behavior of the text between samples are uncertain."
+        },
+        {
+          "observation_id": "OBS-EXP02-8de438321c319ede-000",
+          "source_url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+          "sheet_files": [
+            "materials/YT_UoptEaMrnok/sheet-0008.jpg"
+          ],
+          "source_time_range": [
+            64.0,
+            68.0
+          ],
+          "time_uncertainty": "Approximate; contact-sheet samples are about 0.25 seconds apart."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "A persistent vertical type object separate from changing scene clips/panels; orientation, anchor, and edge offset editable.",
+        "overlapping_visual_instances": "Keep vertical copy legible at the edge while images change; track its visibility independently of each scene instance.",
+        "time_model": "Persistent-layer span and per-scene source intervals independent; no audio synchronization claim.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Source evidence does not establish font identity, copy timing beyond sampled ranges, or camera locking.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "Change the scene image twice while the same vertical lyric remains fixed and fully within its safe margin."
+    },
+    {
+      "requirement_id": "PR05-09",
+      "form_id": "FORM-H7411-005",
+      "form_domain": "scene_feature",
+      "source_status": "temporal-review-needed",
+      "label": "Layered illustrated landscape followed by title hold",
+      "evidence": [
+        {
+          "observation_id": "PV-H7411-OBS-0005",
+          "source_url": "https://www.bilibili.com/video/BV1H7411T73W",
+          "sheet_files": [
+            "materials/BV1H7411T73W/sheet-0002.jpg"
+          ],
+          "source_time_range": [
+            20,
+            24
+          ],
+          "time_uncertainty": "Approximate; sheet samples are labeled at 0.25-second intervals."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Landscape layers, character, title, and smaller text separate; source art can remain a replaceable asset.",
+        "overlapping_visual_instances": "Title foreground can overlap layered landscape without baking title into art; character scale/location independently adjustable.",
+        "time_model": "Local title cue follows landscape establishment; map only to visually verified source interval.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Contact sheet establishes landscape and title hold, not exact entrance easing, camera path, or source assets.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "A wide small-character landscape resolves to a frame with multicolored outlined title and smaller text above; the title is readable and the landscape remains separately movable."
+    },
+    {
+      "requirement_id": "PR05-10",
+      "form_id": "FORM-H7411-006",
+      "form_domain": "scene_feature",
+      "source_status": "candidate",
+      "label": "3D character dance with variable framing across pastel graphic scenes",
+      "evidence": [
+        {
+          "observation_id": "PV-H7411-OBS-0008",
+          "source_url": "https://www.bilibili.com/video/BV1H7411T73W",
+          "sheet_files": [
+            "materials/BV1H7411T73W/sheet-0009.jpg",
+            "materials/BV1H7411T73W/sheet-0010.jpg",
+            "materials/BV1H7411T73W/sheet-0011.jpg"
+          ],
+          "source_time_range": [
+            72,
+            95.75
+          ],
+          "time_uncertainty": "Approximate; samples labeled every 0.25 s; pose, cut, and camera changes may occur between samples."
+        },
+        {
+          "observation_id": "PV-H7411-OBS-0009",
+          "source_url": "https://www.bilibili.com/video/BV1H7411T73W",
+          "sheet_files": [
+            "materials/BV1H7411T73W/sheet-0012.jpg",
+            "materials/BV1H7411T73W/sheet-0013.jpg",
+            "materials/BV1H7411T73W/sheet-0014.jpg"
+          ],
+          "source_time_range": [
+            96,
+            119.75
+          ],
+          "time_uncertainty": "Approximate; labels spaced about 0.25 s; bright transition only bounded approximately."
+        },
+        {
+          "observation_id": "PV-H7411-OBS-0012",
+          "source_url": "https://www.bilibili.com/video/BV1H7411T73W",
+          "sheet_files": [
+            "materials/BV1H7411T73W/sheet-0007.jpg"
+          ],
+          "source_time_range": [
+            57,
+            63.75
+          ],
+          "time_uncertainty": "Approximate; labels span about 57.0–63.75 seconds at 0.25-second samples."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Character render/footage as distinct subject; pastel field and simple shape accents separately editable when recreating.",
+        "overlapping_visual_instances": "Subject scale and shot composition independently controllable; preserve foreground/background separation if using a 2.5D reconstruction.",
+        "time_model": "Scene-local shot/framing changes separate from composition-global time; no presumed choreography/beat marks.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Observed source appears 3D; sheets do not prove original camera rig, renderer, or whether shot changes are camera vs object motion.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "Use one wide and one close framing over a stable pastel field; the character remains intact and transitions do not flatten with graphic layers."
+    },
+    {
+      "requirement_id": "PR05-11",
+      "form_id": "FORM-EXP02-SCENE-002",
+      "form_domain": "scene_feature",
+      "source_status": "candidate",
+      "label": "Screen-within-screen character performance and device framing",
+      "evidence": [
+        {
+          "observation_id": "OBS-EXP02-1041f3470a6218fb-002",
+          "source_url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+          "sheet_files": [
+            "materials/YT_UoptEaMrnok/sheet-0017.jpg",
+            "materials/YT_UoptEaMrnok/sheet-0018.jpg"
+          ],
+          "source_time_range": [
+            143.5,
+            146.75
+          ],
+          "time_uncertainty": "Approximate; labels show samples at quarter-second intervals."
+        },
+        {
+          "observation_id": "OBS-EXP02-1041f3470a6218fb-004",
+          "source_url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+          "sheet_files": [
+            "materials/YT_UoptEaMrnok/sheet-0018.jpg",
+            "materials/YT_UoptEaMrnok/sheet-0019.jpg"
+          ],
+          "source_time_range": [
+            150.75,
+            153.75
+          ],
+          "time_uncertainty": "Approximate; samples are labeled at quarter-second increments."
+        },
+        {
+          "observation_id": "OBS-EXP02-3e80247aa14d8227-000",
+          "source_url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+          "sheet_files": [
+            "materials/YT_UoptEaMrnok/sheet-0014.jpg",
+            "materials/YT_UoptEaMrnok/sheet-0015.jpg"
+          ],
+          "source_time_range": [
+            112,
+            122.75
+          ],
+          "time_uncertainty": "Approximate; contact-sheet samples are spaced about 0.25 seconds apart, so transitions and intermediate motion are not resolved."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Display/frame, character plus desk/chair, changing screen panels, outer side fields, and narrow vertical text strip independently represented.",
+        "overlapping_visual_instances": "Nested screen content and outer device frame require separate overlapping visual instances; vertical text must remain on the frame edge.",
+        "time_model": "Inner-screen scene time can advance while the outer composition holds; map source interval explicitly.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Still frames show a monitor-like frame and changing panels; no exact device footage, 3D rig, or screen replacement/matte technique established.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "Hold the outer monitor geometry and side strip constant while changing only the inner character/display panel; confirm no spill beyond frame."
+    },
+    {
+      "requirement_id": "PR05-12",
+      "form_id": "FORM-EXP02-SCENE-004",
+      "form_domain": "scene_feature",
+      "source_status": "temporal-review-needed",
+      "label": "Flat disk, directional bar, and skyline scene with crop/cut changes",
+      "evidence": [
+        {
+          "observation_id": "OBS-EXP02-50363f363fc14f21-000",
+          "source_url": "https://www.youtube.com/watch?v=uvWHJQhi18g",
+          "sheet_files": [
+            "materials/YT_uvWHJQhi18g/sheet-0058.jpg",
+            "materials/YT_uvWHJQhi18g/sheet-0059.jpg",
+            "materials/YT_uvWHJQhi18g/sheet-0060.jpg"
+          ],
+          "source_time_range": [
+            464,
+            488
+          ],
+          "time_uncertainty": "Approximate; contact-sheet labels show samples at 0.25-second intervals. The change to the dark checker-like preview occurs around 482 seconds."
+        },
+        {
+          "observation_id": "OBS-EXP02-8c7b1cea489b9e0f-000",
+          "source_url": "https://www.youtube.com/watch?v=uvWHJQhi18g",
+          "sheet_files": [
+            "materials/YT_uvWHJQhi18g/sheet-0052.jpg"
+          ],
+          "source_time_range": "416.00–420.00",
+          "time_uncertainty": "Approximate; visible sample labels advance in 0.25-second steps."
+        },
+        {
+          "observation_id": "OBS-EXP02-8c7b1cea489b9e0f-001",
+          "source_url": "https://www.youtube.com/watch?v=uvWHJQhi18g",
+          "sheet_files": [
+            "materials/YT_uvWHJQhi18g/sheet-0052.jpg",
+            "materials/YT_uvWHJQhi18g/sheet-0053.jpg"
+          ],
+          "source_time_range": "420.00–425.50",
+          "time_uncertainty": "Approximate; visible labels suggest quarter-second samples. The precise cut and color-change times are uncertain."
+        }
+      ],
+      "observed_technique": "Only the referenced contact-sheet observations and their stated uncertainty; no original project, interpolation curve, or AE graph is asserted.",
+      "proposed_implementation": {
+        "editable_objects": "Disk, pointer-like element, skyline silhouette, and pale/dark fields as separate replaceable graphics.",
+        "overlapping_visual_instances": "Keep disk/pointer relationship and skyline legible through sampled crop/background changes.",
+        "time_model": "Define local state changes before mapping to source-global range; do not assert pointer motion path from stills.",
+        "asset_and_mask_dependencies": "Use replaceable image/shape/text inputs. A mask or matte is optional implementation machinery unless separately validated by playback; do not treat inferred layer setup as observed.",
+        "continuity_constraints": "Layer separability and checker-like appearance are uncertain; this is a cautious rebuild requirement, not a claim about source construction.",
+        "after_effects_capability_boundary": "Requirements proposal only, not an AE project. Native text/shape layers, masks, precomps, and 3D cameras may be used where needed; no source AE graph recovery or AE visual parity is claimed."
+      },
+      "minimal_visual_acceptance_example": "Show a pale minimal state with orange disk and horizontal pointer plus skyline, then a sampled dark/checker-like state without inventing additional text."
+    }
+  ]
+}

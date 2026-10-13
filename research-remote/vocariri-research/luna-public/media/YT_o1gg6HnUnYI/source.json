@@ -1,0 +1,18 @@
+{
+  "id": "YT_o1gg6HnUnYI",
+  "url": "https://www.youtube.com/watch?v=o1gg6HnUnYI",
+  "at": "2026-09-25T01:31:55.584604+00:00",
+  "title": "Move Any Object or Text Along Path In Alight Motion - Beginner Tutorial",
+  "uploader": "Spidy Tuts",
+  "duration": 168,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 7071794,
+  "sha256": "66290201c062e810368419bac279f96c4fe415ffcc28f75cb1a8228196ba9ba1",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

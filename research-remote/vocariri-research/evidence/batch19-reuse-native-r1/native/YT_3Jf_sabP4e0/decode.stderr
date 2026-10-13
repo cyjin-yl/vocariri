@@ -1,0 +1,33 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/workspace/luna-public/media/YT_3Jf_sabP4e0/source.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Duration: 00:07:53.46, start: 0.000000, bitrate: 336 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 215 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : ISO Media file produced by Google Inc.
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 113 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 (h264) -> select:default
+  split -> Stream #0:0 (png)
+  split -> Stream #1:0 (rawvideo)
+The filters 'Parsed_split_2' and 'format' do not have a common format and automatic conversion is disabled.
+[fc#0 @ 0x443ac100] Error reinitializing filters!
+[fc#0 @ 0x443ac100] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x443ac100] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/png @ 0x443b3000] Could not open encoder before EOF
+[vost#0:0/png @ 0x443b3000] Task finished with error code: -22 (Invalid argument)
+[vost#1:0/rawvideo @ 0x44403700] Could not open encoder before EOF
+[vost#1:0/rawvideo @ 0x44403700] Task finished with error code: -22 (Invalid argument)
+[vost#1:0/rawvideo @ 0x44403700] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/png @ 0x443b3000] Terminating thread with return code -22 (Invalid argument)
+[out#0/image2 @ 0x443b66c0] Nothing was written into output file, because at least one of its streams received no packets.
+[out#1/framehash @ 0x443b3c80] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lq=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!

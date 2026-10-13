@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "method": "first_source_frame_in_occupied_bucket",
+  "requested_sampling_fps": 4,
+  "source_sha256": "c12f1a8f5dfb033ff39d460e0b9476dccc1bbaba7582a4b283094048b35e6a71",
+  "time_base": "1/1000",
+  "timestamp_domain": "source_video_pts_preserved_with_copyts",
+  "playback_origin_seconds": null,
+  "origin_note": "Source PTS is not automatically the audio/editor clock. Resolve stream/container start offsets before synchronization.",
+  "frames": [
+    {
+      "file": "f-000001.jpg",
+      "source_pts": 0,
+      "source_pts_seconds": 0.0,
+      "source_bucket": 0,
+      "sha256": "8ebc71ba3fd9d39c85e41069906c9daf73554d67f44c11ed16f3d89f986cd5ab"
+    },
+    {
+      "file": "f-000002.jpg",
+      "source_pts": 267,
+      "source_pts_seconds": 0.267,
+      "source_bucket": 1,
+      "sha256": "95789744421efe1e08e8888f613c762635a9ee4344e59b7ddccd9c2124b94923"
+    },
+    {
+      "file": "f-000003.jpg",
+      "source_pts": 501,
+      "source_pts_seconds": 0.501,
+      "source_bucket": 2,
+      "sha256": "8e5545472db3e793ee9d785108a21a2f29b887e8881228cdd2692b57f99ce715"
+    },
+    {
+      "file": "f-000004.jpg",
+      "source_pts": 767,
+      "source_pts_seconds": 0.767,
+      "source_bucket": 3,
+      "sha256": "6ac49d0df74279f0aaddc68dce36a731b60eb73be9b83e4c3bcea7bfda01051a"
+    }
+  ]
+}

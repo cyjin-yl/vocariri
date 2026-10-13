@@ -1,0 +1,18 @@
+{
+  "id": "Hl2M5Ozz3uk",
+  "url": "https://www.youtube.com/watch?v=Hl2M5Ozz3uk",
+  "at": "2026-09-26T01:32:42.289033+00:00",
+  "title": "New Way Out [♪ Lemon Demon Kinetic Typography Music Video ♪]",
+  "uploader": "Viva Reverie",
+  "duration": 249,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 39969496,
+  "sha256": "cf60a520a0ab56606f0bfd0cb700dd5e05e338217be5af19db6d392bfbaba13c",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

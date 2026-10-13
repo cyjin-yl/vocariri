@@ -1,0 +1,437 @@
+{
+  "created_at": "2026-10-02T13:41:56.291826+00:00",
+  "source": {
+    "id": "YT_b0XgjrWSV7k",
+    "file": "luna-public/media/YT_b0XgjrWSV7k/source.mp4",
+    "bytes": 34515185,
+    "sha256": "7667f999dc1f4e8f9fedc1f5ae1e24e311a336f4d421cf02aa4a3138cf2ee958",
+    "sidecar_sha256": "af0e9ccdf3cabebf2c31b962d981aab9c939332f5c04296fc2059a9e3fb75d95"
+  },
+  "duration_seconds": 700.46,
+  "nominal_fps_for_grid_only": 30.0,
+  "selection": "select='not(mod(n,526))',showinfo,scale=640:-2",
+  "command": [
+    "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+    "-hide_banner",
+    "-nostdin",
+    "-threads",
+    "2",
+    "-i",
+    "/workspace/luna-public/media/YT_b0XgjrWSV7k/source.mp4",
+    "-vf",
+    "select='not(mod(n,526))',showinfo,scale=640:-2",
+    "-frames:v",
+    "40",
+    "-fps_mode",
+    "passthrough",
+    "-an",
+    "/workspace/evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-%03d.png"
+  ],
+  "timebase": "1/15360",
+  "count": 40,
+  "frames": [
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-001.png",
+      "source_n": 0,
+      "source_pts": 0,
+      "timebase": "1/15360",
+      "showinfo_seconds": 0.0,
+      "bytes": 220565,
+      "sha256": "1e5f5345ae4a66132d92a4c2a72cce471496358b1023c5895bc6693ecbf1ccdc",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-002.png",
+      "source_n": 526,
+      "source_pts": 269312,
+      "timebase": "1/15360",
+      "showinfo_seconds": 17.533333,
+      "bytes": 396636,
+      "sha256": "cab8a29cc66768d7a3081d49d6d6a510b64ca8315eb65d0ca7c1770d0845e01e",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-003.png",
+      "source_n": 1052,
+      "source_pts": 538624,
+      "timebase": "1/15360",
+      "showinfo_seconds": 35.066667,
+      "bytes": 391854,
+      "sha256": "ac4ab46a6ba85de19a0993d492b23154f4e465c620bf4f8be7caa65c205bc3fb",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-004.png",
+      "source_n": 1578,
+      "source_pts": 807936,
+      "timebase": "1/15360",
+      "showinfo_seconds": 52.6,
+      "bytes": 350147,
+      "sha256": "db3fc6c7f473f32feedee0f3ec871c5267004d42743fbd290b7298cf99b9961b",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-005.png",
+      "source_n": 2104,
+      "source_pts": 1077248,
+      "timebase": "1/15360",
+      "showinfo_seconds": 70.133333,
+      "bytes": 57612,
+      "sha256": "51755c57b44e9f13ca6e883fbb235691c30beffd8ef729cbd6aef6ba916407b3",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-006.png",
+      "source_n": 2630,
+      "source_pts": 1346560,
+      "timebase": "1/15360",
+      "showinfo_seconds": 87.666667,
+      "bytes": 52831,
+      "sha256": "f9f42586c18f8851ed14646046cf879502fe4a5aff6eeb6f78976fc7dce7512c",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-007.png",
+      "source_n": 3156,
+      "source_pts": 1615872,
+      "timebase": "1/15360",
+      "showinfo_seconds": 105.2,
+      "bytes": 83197,
+      "sha256": "978865b41536a5e7b8ad3dc428858cf7952fe4b89e64282a2ce261f97f07c4e5",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-008.png",
+      "source_n": 3682,
+      "source_pts": 1885184,
+      "timebase": "1/15360",
+      "showinfo_seconds": 122.733333,
+      "bytes": 52385,
+      "sha256": "0e66ffeab09b34aef31e0e690c88ab38801a6ef272f837e690f5e626450344d1",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-009.png",
+      "source_n": 4208,
+      "source_pts": 2154496,
+      "timebase": "1/15360",
+      "showinfo_seconds": 140.266667,
+      "bytes": 62390,
+      "sha256": "259b6589205371f96d36f145f7b8313aa726db885cca35b4923fa96ecd4c5910",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-010.png",
+      "source_n": 4734,
+      "source_pts": 2423808,
+      "timebase": "1/15360",
+      "showinfo_seconds": 157.8,
+      "bytes": 91368,
+      "sha256": "bd54068ab325421c63ce1c3176742acac772f28b2a90c517fc1666d0f34a536b",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-011.png",
+      "source_n": 5260,
+      "source_pts": 2693120,
+      "timebase": "1/15360",
+      "showinfo_seconds": 175.333333,
+      "bytes": 70616,
+      "sha256": "a7b111532530f8aa13f6d4a14f2037e4e258d3d138bc70c4fff9f9c9cdca9023",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-012.png",
+      "source_n": 5786,
+      "source_pts": 2962432,
+      "timebase": "1/15360",
+      "showinfo_seconds": 192.866667,
+      "bytes": 63667,
+      "sha256": "9ba3271c5620707268c9079000e053603c363d499524c0f8ff7827e472d0e45e",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-013.png",
+      "source_n": 6312,
+      "source_pts": 3231744,
+      "timebase": "1/15360",
+      "showinfo_seconds": 210.4,
+      "bytes": 58226,
+      "sha256": "9d41f652c1de59068b5bc8de76cb94a594f2fe6fa39c44d4e908aa58e00e501e",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-014.png",
+      "source_n": 6838,
+      "source_pts": 3501056,
+      "timebase": "1/15360",
+      "showinfo_seconds": 227.933333,
+      "bytes": 59723,
+      "sha256": "58ef084ab5004e6fbeaf9363d6e8f03c08ddcd976373dd747f2bb88d7e3c4cb1",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-015.png",
+      "source_n": 7364,
+      "source_pts": 3770368,
+      "timebase": "1/15360",
+      "showinfo_seconds": 245.466667,
+      "bytes": 65534,
+      "sha256": "8b75ba5aef9a83cd4a00204bbc91ed03aaa8a674a218adabc53ef375a7bb5836",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-016.png",
+      "source_n": 7890,
+      "source_pts": 4039680,
+      "timebase": "1/15360",
+      "showinfo_seconds": 263.0,
+      "bytes": 70379,
+      "sha256": "f5721c5f4818d20d7b62db885802ee5120e537165b5ea887751979d7db790be9",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-017.png",
+      "source_n": 8416,
+      "source_pts": 4308992,
+      "timebase": "1/15360",
+      "showinfo_seconds": 280.533333,
+      "bytes": 84644,
+      "sha256": "49796ccf5d1939b891edd08309e9171915fb27e9d570659d6f52b40ae9b37c94",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-018.png",
+      "source_n": 8942,
+      "source_pts": 4578304,
+      "timebase": "1/15360",
+      "showinfo_seconds": 298.066667,
+      "bytes": 75998,
+      "sha256": "272bf3ad2118d0500c31487c6e627ed0ba7db1f66357a922875e352ea14846b8",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-019.png",
+      "source_n": 9468,
+      "source_pts": 4847616,
+      "timebase": "1/15360",
+      "showinfo_seconds": 315.6,
+      "bytes": 77892,
+      "sha256": "dc74e8baf6e7d14c9f88e1ee48b216915b1f8c894fee1739969d0c65c56c7046",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-020.png",
+      "source_n": 9994,
+      "source_pts": 5116928,
+      "timebase": "1/15360",
+      "showinfo_seconds": 333.133333,
+      "bytes": 62373,
+      "sha256": "147e80c1e19c0323ac257c218f008d4e05bdd0dfbbdd60fd76aa95d69eb3e70a",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-021.png",
+      "source_n": 10520,
+      "source_pts": 5386240,
+      "timebase": "1/15360",
+      "showinfo_seconds": 350.666667,
+      "bytes": 66486,
+      "sha256": "29ef71da3bb332929f52630efce920c873dd3a29cee8c3262aa4935ac7672e4b",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-022.png",
+      "source_n": 11046,
+      "source_pts": 5655552,
+      "timebase": "1/15360",
+      "showinfo_seconds": 368.2,
+      "bytes": 69483,
+      "sha256": "13b04dab7ed6d7cb6a7d7b87944719c8b89f1719e1e0b41d08acc858596d945a",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-023.png",
+      "source_n": 11572,
+      "source_pts": 5924864,
+      "timebase": "1/15360",
+      "showinfo_seconds": 385.733333,
+      "bytes": 68858,
+      "sha256": "073bcd53ba1b0536ba31f4e96a5ae41487607b9243cd66f01552b4c5a715b86b",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-024.png",
+      "source_n": 12098,
+      "source_pts": 6194176,
+      "timebase": "1/15360",
+      "showinfo_seconds": 403.266667,
+      "bytes": 73593,
+      "sha256": "504f843d5caf06dbcebd419acbccc5bdd2350b63c1065c8b684d4f3bd04d6a37",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-025.png",
+      "source_n": 12624,
+      "source_pts": 6463488,
+      "timebase": "1/15360",
+      "showinfo_seconds": 420.8,
+      "bytes": 88344,
+      "sha256": "7833f686c1567760abec3b26e63a4ca4d1bae7443f3f9ed9bf6d9fde352d4042",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-026.png",
+      "source_n": 13150,
+      "source_pts": 6732800,
+      "timebase": "1/15360",
+      "showinfo_seconds": 438.333333,
+      "bytes": 72333,
+      "sha256": "25714b23b9763b7e755f5c052b8b92446c6a5ed7e3b0b8a5222e7796afe0e662",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-027.png",
+      "source_n": 13676,
+      "source_pts": 7002112,
+      "timebase": "1/15360",
+      "showinfo_seconds": 455.866667,
+      "bytes": 74495,
+      "sha256": "975a364427d11bb481cc74684a419e069ebcfbdd3fe8d0fdf588c3e0af2f127d",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-028.png",
+      "source_n": 14202,
+      "source_pts": 7271424,
+      "timebase": "1/15360",
+      "showinfo_seconds": 473.4,
+      "bytes": 95842,
+      "sha256": "a23c43207867f556119d67118a09008b651e588cb40479926854fc6e454097bf",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-029.png",
+      "source_n": 14728,
+      "source_pts": 7540736,
+      "timebase": "1/15360",
+      "showinfo_seconds": 490.933333,
+      "bytes": 67787,
+      "sha256": "297ebdd0068880bd0752d069926849d061214eb57810f2d10a89e1ffd7d87f00",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-030.png",
+      "source_n": 15254,
+      "source_pts": 7810048,
+      "timebase": "1/15360",
+      "showinfo_seconds": 508.466667,
+      "bytes": 74027,
+      "sha256": "b94cb8f2c9d6fe8c28f24e20716e8b5e385090647b37117a6529957b1f265650",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-031.png",
+      "source_n": 15780,
+      "source_pts": 8079360,
+      "timebase": "1/15360",
+      "showinfo_seconds": 526.0,
+      "bytes": 86047,
+      "sha256": "0b05dba201382c287de0d9a1c25cf6e294b071f80579f3ac58b7fff3e584b0aa",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-032.png",
+      "source_n": 16306,
+      "source_pts": 8348672,
+      "timebase": "1/15360",
+      "showinfo_seconds": 543.533333,
+      "bytes": 83026,
+      "sha256": "5724895ff2badd8d31c025d6c169092fc2290fbe7e25c3a94ee63fb417818b38",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-033.png",
+      "source_n": 16832,
+      "source_pts": 8617984,
+      "timebase": "1/15360",
+      "showinfo_seconds": 561.066667,
+      "bytes": 77993,
+      "sha256": "87a9c14968acd1df7e9d3187f6dd883d2593782e583e86974f605f9d1bd540e6",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-034.png",
+      "source_n": 17358,
+      "source_pts": 8887296,
+      "timebase": "1/15360",
+      "showinfo_seconds": 578.6,
+      "bytes": 72800,
+      "sha256": "21d0432c63f44f7b2479f6cb3a3fe9fc5dd13fa2b263d7f810185d0c59fb8dd2",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-035.png",
+      "source_n": 17884,
+      "source_pts": 9156608,
+      "timebase": "1/15360",
+      "showinfo_seconds": 596.133333,
+      "bytes": 77495,
+      "sha256": "ea72dfa3ef9f897c7d2850e196eeb90ba89c279efef58530d2d5586092b35a3f",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-036.png",
+      "source_n": 18410,
+      "source_pts": 9425920,
+      "timebase": "1/15360",
+      "showinfo_seconds": 613.666667,
+      "bytes": 90386,
+      "sha256": "7f227631bd02ba898feceaabcbec42f78fddacd5db2bb1212d5a3701413de7a2",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-037.png",
+      "source_n": 18936,
+      "source_pts": 9695232,
+      "timebase": "1/15360",
+      "showinfo_seconds": 631.2,
+      "bytes": 115837,
+      "sha256": "d7e7f432323ca168220c6a172dc88badc8673e266018b2019efd4774f61c005e",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-038.png",
+      "source_n": 19462,
+      "source_pts": 9964544,
+      "timebase": "1/15360",
+      "showinfo_seconds": 648.733333,
+      "bytes": 85505,
+      "sha256": "61931224439ffa256305678406511a6573c0ddf272ed1b3e37b7c6a71005e296",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-039.png",
+      "source_n": 19988,
+      "source_pts": 10233856,
+      "timebase": "1/15360",
+      "showinfo_seconds": 666.266667,
+      "bytes": 194931,
+      "sha256": "1dd5b94e467fc20c9a1ad11be40c35beba2a9daceb4ceb043a47e8585129e6f9",
+      "role": "scaled screening locator, not native-resolution evidence"
+    },
+    {
+      "file": "evidence/batch19-reuse-screening-r1/YT_b0XgjrWSV7k/screen-040.png",
+      "source_n": 20514,
+      "source_pts": 10503168,
+      "timebase": "1/15360",
+      "showinfo_seconds": 683.8,
+      "bytes": 174489,
+      "sha256": "5092e4b69640efe1503cb3eea586baa1e402b74d18c4ec8bfcb6636afb7f0e97",
+      "role": "scaled screening locator, not native-resolution evidence"
+    }
+  ],
+  "native_window": "not yet selected/decoded",
+  "form_acceptance": 0,
+  "template_acceptance": 0
+}

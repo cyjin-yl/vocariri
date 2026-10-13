@@ -1,0 +1,1017 @@
+{
+  "title": "Expressive applicability with coordinator corrections — 09",
+  "version": 2,
+  "scope": "Finite design-applicability checkpoint. Observations are kept separate from conditional creative recommendations. Original lyrics, audio and author intent were not reviewed; none of these records accepts a template.",
+  "inputs": {
+    "patterns": "outputs/art-direction-patterns-07.json",
+    "prior_applicability_review_preserved": "review-snapshots/context-08/art-applicability-08.json",
+    "synthesis_review": "review-snapshots/context-08/synthesis-review-08.json",
+    "retention_policy": "reference-retention-policy.json",
+    "retention_and_sampling_review": "review-snapshots/context-08/retention-and-sampling.json"
+  },
+  "counts": {
+    "existing_patterns_covered": 8,
+    "directly_source_observed_patterns": 4,
+    "captioned_or_worker_candidate_patterns": 4,
+    "context08_direct_correction_images": 3,
+    "independently_accepted_templates": 0
+  },
+  "global_limits": [
+    "The stills establish appearances only at their recorded samples. They do not establish transitions, persistence, motion curves, song sections, beat synchronization, emotional intent, audience response or author intent.",
+    "Worker-captioned visual descriptions remain explicitly labeled as candidates unless tied to a coordinator-viewed source still. Recommendations are design hypotheses for new work, not descriptions of how the source was meant to feel.",
+    "Lyrics, soundtrack, font identity and font licensing are unreviewed unless the record expressly says otherwise. Use original or separately licensed artwork and type.",
+    "Art patterns, motion observations and architecture coverage remain linked but separately counted; no motion form or accepted template is added here."
+  ],
+  "correction_provenance": [
+    {
+      "pattern_id": "ART-DIR-07-004",
+      "review": "review-snapshots/context-08/synthesis-review-08.json",
+      "finding": "The 14.25s still shows repeated composite cards with double borders, small box/icon marks, heavy Japanese text and faint offset outline echoes; generic glyph repetition omits the card and motif relationships.",
+      "review_image": "review-snapshots/context-08/tiles-14_25.png",
+      "sha256": "4fe14fe7c5cc371afdf16ae000c326acca5982245da3c8fbb92548068d672d27",
+      "identity_check": "Review PNG hash matches art-input-07/YT_ijaK647Qfc8-14.25.png original_frame_sha256; the earlier captioned response remains preserved unchanged."
+    },
+    {
+      "pattern_id": "ART-DIR-07-006",
+      "review": "review-snapshots/context-08/synthesis-review-08.json",
+      "finding": "The 74.25-labeled still has clearly serifed ECHO outlines and a larger dark serif duplicate; do not describe the letters as rounded generic/block type.",
+      "review_image": "review-snapshots/context-08/echo-74_25.png",
+      "sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7",
+      "identity_check": "The hash matches art-input-07/YT_t-VhP8PHI80-74.25.png original_frame_sha256. The image basename and legacy sheet label are not the measured source PTS."
+    },
+    {
+      "pattern_id": "ART-DIR-07-008",
+      "review": "review-snapshots/context-08/synthesis-review-08.json",
+      "finding": "The directly viewed 188s frame supports a stepped pixel face, warm keyline and offset dark block shadow over repeated character imagery. The separate upper outlined text band is not clearly supported and remains unconfirmed.",
+      "review_image": "review-snapshots/context-08/overdose-188.png",
+      "sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38",
+      "identity_check": "The hash matches art-input-07/YT_BnkhBwzBqlQ-188.00.png original_frame_sha256; the prior worker wording remains preserved as a candidate description."
+    }
+  ],
+  "measured_sampling_discrepancy": {
+    "source_id": "YT_t-VhP8PHI80",
+    "source_sha256": "b83c5f3e785cffe1830589e2736e18f7682a8badb83e3cd6e97b2ef2db67b650",
+    "legacy_jpeg": {
+      "file": "frames/YT_t-VhP8PHI80/f-000298.jpg",
+      "grid_label_seconds": 74.25,
+      "matching_native_pts_seconds": 74.3743,
+      "evidence": "sampling-audit-08/result.json"
+    },
+    "separate_png": {
+      "sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7",
+      "extraction_receipt_pts_seconds": 74.2742,
+      "identical_native_frames": [
+        {
+          "source_pts": 2227225,
+          "time_base": "1/30000",
+          "seconds": 74.24083333333333,
+          "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        },
+        {
+          "source_pts": 2228226,
+          "time_base": "1/30000",
+          "seconds": 74.2742,
+          "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        },
+        {
+          "source_pts": 2229227,
+          "time_base": "1/30000",
+          "seconds": 74.30756666666667,
+          "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        },
+        {
+          "source_pts": 2230228,
+          "time_base": "1/30000",
+          "seconds": 74.34093333333334,
+          "native_png_sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        }
+      ],
+      "evidence": "sampling-audit-09/png-time-reconciliation/result.json",
+      "unique_pts_from_image_hash": false
+    },
+    "correction": "Do not attach the JPEG mapping to the PNG or infer a unique PTS from identical pixels."
+  },
+  "retention": {
+    "policy": "reference-retention-policy.json",
+    "policy_sha256": "5be7c1fa6d161fa7b89ab3019b1e68633e4370b5423b9f19c2260ce8fa9d590d",
+    "retention_snapshot_policy_sha256": "5c68c2569a3192c188ea01d83036abada024f12b8170e46d3720bae531463570",
+    "policy_snapshot_note": "The snapshot digest verifies the preserved previous policy copy. The current policy adds sampling-audit-08 to protected roots and specifies storage/path preferences; this checkpoint follows the current policy without altering either copy.",
+    "state": "hold_until_prototype_review",
+    "reference_media_preserved": true,
+    "old_art_checkpoint_and_worker_responses_preserved": true,
+    "deletions_performed": 0,
+    "automatic_cleanup": false,
+    "backup_claim": "No independent backup or full integrity audit is claimed.",
+    "release_note": "Reference media remains excluded from public packages/examples/documentation images; original design rules may be shared only after review, and third-party asset/font redistribution needs a separate basis."
+  },
+  "records": [
+    {
+      "id": "USE-08-DOTTED-TITLE",
+      "art_pattern_id": "ART-OVERDOSE-07-001",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+        "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+        "vocal_provenance": "KOTOKO is credited in the source title; this is not relabeled VOCALOID.",
+        "evidence_level": "Coordinator directly viewed the stored-resolution 20.00s original still; static design only."
+      },
+      "evidence_refs": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-20.00.png",
+          "sha256": "ee1f8c0d613a5bba22bfc1823629d445232f57b9a2c67fd664e554369337a730",
+          "time_label": "20.00s",
+          "role": "original still; coordinator-viewed"
+        },
+        {
+          "file": "art-labeled-07/YT_BnkhBwzBqlQ-20.00.png",
+          "sha256": "0ee03a75c9c67f3b2744299cc85c798b5bf65fb2cf4fbcb34cf5a9a2ee4570cc",
+          "time_label": "20.00s",
+          "role": "annotated evidence copy"
+        },
+        {
+          "file": "outputs/art-direction-patterns-07.json#ART-OVERDOSE-07-001",
+          "role": "pattern record and direct-observation provenance"
+        }
+      ],
+      "observed_source_context": {
+        "appearance": "Two wide, tightly packed bands of oversized forward-slanted uppercase display letters with angular cuts and internal dots; broad white edging separates saturated color fills. The central illustrated character overlaps the type; small hearts and interface-like panels occupy gaps. The type is cropped by frame edges.",
+        "not_established": [
+          "typeface/custom modification",
+          "motion or dwell",
+          "audio/lyrics",
+          "author intent",
+          "viewer emotion"
+        ]
+      },
+      "conditional_recommendation": {
+        "lyric_functions": [
+          "short declaration",
+          "identity/name emphasis",
+          "repeated hook",
+          "direct address"
+        ],
+        "semantic_image_relationship": [
+          "complement a clearly protected central subject",
+          "literal title/identity label",
+          "intentional contrast or irony only if the new lyric/image context supports it"
+        ],
+        "image_scene_conditions": [
+          "recognizable central subject",
+          "safe opening between title bands",
+          "busy background whose local contrast can be managed",
+          "subject matte or explicit overlap design if text crosses the figure"
+        ],
+        "music_section_conditions": [
+          "consider for an emphatic arrival or held refrain only after separately reviewing the target song",
+          "do not align to a beat from this still"
+        ],
+        "use_when": "A short message can remain recognizable through large, partly cropped letter silhouettes while the subject stays a co-equal focal point.",
+        "avoid_when": [
+          "long or nuanced sentences",
+          "small delivery sizes that collapse the dot fill",
+          "unprotected faces/subjects",
+          "quiet literal narration unless deliberate visual contradiction is desired"
+        ],
+        "neighboring_shot_role": "A sparse predecessor can establish legibility; a following shot can retain one slant, outline or hue as a bridge, but any continuous movement must be checked at shot boundaries.",
+        "variation_levers": [
+          "band scale/crop",
+          "central subject-safe opening",
+          "slant/cut vocabulary",
+          "dot spacing",
+          "outline width and value contrast"
+        ],
+        "minimal_validation_examples": [
+          "Render a short title and a longer mixed-script phrase at full and reduced size; check counters, dot moiré and subject visibility.",
+          "Compare a protected central subject with an intentional overlap; verify that neither loses its focal role."
+        ]
+      },
+      "possible_meanings_and_alternatives": [
+        {
+          "reading": "assertive, high-energy display",
+          "strength": "low; creative hypothesis",
+          "why": "large scale, directional slant and saturated dotted bands create strong visual pressure, but no audience response or audio was measured"
+        },
+        {
+          "reading": "playful excess or deliberate irony",
+          "strength": "low; only if selected by a new author",
+          "why": "dense decorative pattern can contrast with a restrained or negative lyric"
+        },
+        {
+          "alternative": "graphic title framing or decorative texture without emotional meaning"
+        }
+      ],
+      "unresolved_context": [
+        "No source lyrics or soundtrack reviewed.",
+        "One still cannot establish animation or song-section role."
+      ],
+      "related_motion_forms": [],
+      "related_architecture_coverage": [
+        "ARCH06-OUTLINED_GLYPH_GROUP_TRANSFORM_AND_OCCLUSION",
+        "ARCH06-OVERSIZED_AND_CROPPED_DISPLAY_TYPE"
+      ],
+      "template_accepted": false
+    },
+    {
+      "id": "USE-08-EDGE-CROP-GLITCH",
+      "art_pattern_id": "ART-DIR-07-002",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+        "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+        "vocal_provenance": "KOTOKO is credited in the source title; no VOCALOID claim.",
+        "evidence_level": "One cited frame directly reviewed in checkpoint 09; other samples and temporal/lyric relationships remain pending."
+      },
+      "evidence_refs": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-68.00.png",
+          "sha256": "a51909c83dabaac17bdcd7f980fe312a09c22cddc34ddedd7585ab9e59a773c1",
+          "time_label": "68.000s",
+          "role": "captioned input frame; worker candidate"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-76.00.png",
+          "sha256": "73c8423778b3c9352098e8b8b8ea564a997584ac8fc1ad98a5e2ece943623d01",
+          "time_label": "76.000s",
+          "role": "captioned input frame; worker candidate"
+        },
+        {
+          "file": "outputs/art-batches-07/171b4d4a9109f372585d.response.txt",
+          "sha256": "224c1b87de86b5a4250f7ab8e598d92172a735786ac8180374e1fc48ee6eb641",
+          "role": "preserved raw worker response; digest refers to these raw bytes, not parsed JSON"
+        }
+      ],
+      "observed_source_context": {
+        "appearance": "Large luminous fragmented forms flank the central dark character; chromatic channel-like fringes, stepped blocks, saturated pink smaller text, dark rounded screen border and fine screen texture coexist. Static fragmentation is directly visible; temporal glitch is not established by one frame.",
+        "not_established": [
+          "complete wording or reading order",
+          "letter anatomy",
+          "same treatment across the interval",
+          "motion/transition",
+          "source emotion or intent"
+        ],
+        "appearance_before_09": "Worker captions report incomplete oversized glyphs cropped at frame edges: pink fragments amid multicolored stepped blocks at 68s, and warm red/orange/magenta fragments with small hearts at 76s. The frames differ; continuity between them is unknown."
+      },
+      "conditional_recommendation": {
+        "lyric_functions": [
+          "one or two emphatic syllables",
+          "fragmented refrain",
+          "a deliberately incomplete/interruptive text cue"
+        ],
+        "semantic_image_relationship": [
+          "complement the character as a frame-edge graphic",
+          "contrast a legible short message with surrounding visual fragmentation only by deliberate choice"
+        ],
+        "image_scene_conditions": [
+          "central subject remains readable",
+          "cropped glyph contours retain enough area to be recognized as type",
+          "stepped blocks remain distinct from the lettering"
+        ],
+        "music_section_conditions": [
+          "may suit a dense or emphatic section if the target audio and edit support it",
+          "still samples establish no beat or transition"
+        ],
+        "use_when": "A short phrase may function partly as a graphic frame and exact sentence reading is not essential.",
+        "avoid_when": [
+          "wording must be read in full",
+          "faces/important scene areas cannot tolerate overlap",
+          "pixel blocks merge with glyphs or background",
+          "the treatment is being called a verified glitch effect"
+        ],
+        "neighboring_shot_role": "Use a clean shot before/after to restore reading; do not imply the warm solid glyphs transform continuously from the pink/stepped sample.",
+        "variation_levers": [
+          "edge position/crop",
+          "exposed contour fraction",
+          "solid versus stepped fill",
+          "block count",
+          "heart/accent density"
+        ],
+        "minimal_validation_examples": [
+          "Test one short word with two crop amounts over a character image; ask whether a viewer can identify the word and face.",
+          "Test stepped blocks with and without a clear exclusion gap around letter contours."
+        ]
+      },
+      "possible_meanings_and_alternatives": [
+        {
+          "reading": "digital interference or fragmentation",
+          "strength": "low; conditional on a new context",
+          "why": "stepped colored blocks and incomplete glyphs can resemble pixel/glitch vocabulary, but no continuous glitch process was observed"
+        },
+        {
+          "reading": "visual emphasis or playful framing",
+          "strength": "low",
+          "why": "large edge-cropped shapes can function as composition even when unreadable"
+        },
+        {
+          "alternative": "ordinary decorative display lettering, partial cropping, or unrelated scene accents"
+        }
+      ],
+      "unresolved_context": [
+        "Both evidence frames and the worker account remain candidates.",
+        "No source lyrics/audio or original typeface evidence reviewed."
+      ],
+      "related_motion_forms": [],
+      "related_architecture_coverage": [
+        "ARCH06-OVERSIZED_AND_CROPPED_DISPLAY_TYPE"
+      ],
+      "template_accepted": false,
+      "coordinator_static_review_09": {
+        "pattern": "ART-DIR-07-002",
+        "file": "YT_BnkhBwzBqlQ-68.00.png",
+        "observed": "Large luminous fragmented forms flank the central dark character; chromatic channel-like fringes, stepped blocks, saturated pink smaller text, dark rounded screen border and fine screen texture coexist. Static fragmentation is directly visible; temporal glitch is not established by one frame.",
+        "architecture": "Represent multi-pass glyph treatments, grouping, texture, crop and subject overlap independently; permit deliberate character/text competition.",
+        "applicability": "Could contrast inviting small text with visual disturbance, if new lyrics and scene support that relation; static appearance alone does not establish the original song mood.",
+        "sha256": "a51909c83dabaac17bdcd7f980fe312a09c22cddc34ddedd7585ab9e59a773c1",
+        "scope": "direct static visual review only"
+      }
+    },
+    {
+      "id": "USE-08-SUNSET-GLYPH-OVERLAY",
+      "art_pattern_id": "ART-DIR-07-003",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+        "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+        "vocal_provenance": "KOTOKO is credited in the source title; no VOCALOID claim.",
+        "evidence_level": "One cited frame directly reviewed in checkpoint 09; other samples and temporal/lyric relationships remain pending."
+      },
+      "evidence_refs": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-116.00.png",
+          "sha256": "a98d274b990295e81f42e2c3b68d0d58004f836c2140e25a14723b952fd98f70",
+          "time_label": "116.000s",
+          "role": "captioned input frame; worker candidate"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-124.00.png",
+          "sha256": "d1374de11f92e8b8d5351defac1771005a010fd1b01164c9f69f9a14f7bd77f8",
+          "time_label": "124.000s",
+          "role": "captioned input frame; worker candidate"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-132.00.png",
+          "sha256": "0b2c4f3d91caaa3ad850f01ff2b583c097944ab599ec46e9d81703787aea8f06",
+          "time_label": "132.000s",
+          "role": "captioned input frame; worker candidate"
+        },
+        {
+          "file": "outputs/art-batches-07/2e3abfd4805d8fba0884.response.txt",
+          "sha256": "8b72851ab820c6bc32c6abbe78d8ed4d6754cc702c306f38b7e274580438521a",
+          "role": "preserved labeled 116/124/132s raw response; replaces wrong 60/68/76s batch citation"
+        }
+      ],
+      "observed_source_context": {
+        "appearance": "Huge black Mincho-like headline with strong thick/thin contrast and pointed/triangular terminals crosses the character. Much smaller text sits above left/right and below, organized with thin horizontal rules. Bright sunset contrasts with near-black typography. This is several levels of typographic hierarchy, not one heavy text band. Exact font identity remains unknown.",
+        "not_established": [
+          "exact wording",
+          "font identity",
+          "whether the clusters narrate or label the image",
+          "motion/duration",
+          "author intent"
+        ],
+        "appearance_before_09": "Captioned stills report heavy black Japanese text as a near-frame-wide foreground line over a centered figure and sunset/city scene at 116s; separated text clusters with more of the figure visible at 124s; and a smaller fragmented horizontal band across a close-up at 132s. These are separate samples, not a proven continuous treatment."
+      },
+      "conditional_recommendation": {
+        "lyric_functions": [
+          "short declarative line",
+          "brief repeated hook",
+          "title or label",
+          "fragmented phrase when disruption is intentional"
+        ],
+        "semantic_image_relationship": [
+          "literal narration of the scene only if words actually describe it",
+          "complementary foreground title",
+          "intentional text/scene contradiction for contrast, not inferred from the sunset"
+        ],
+        "image_scene_conditions": [
+          "figure and skyline/honeycomb imagery have a clear protected area",
+          "clusters are placed so face/gesture remains visible",
+          "high-contrast foreground type does not erase scene hierarchy"
+        ],
+        "music_section_conditions": [
+          "consider a short phrase at a verified structural emphasis or deliberate sparse break",
+          "no source audio reviewed; timestamps are not beat positions"
+        ],
+        "use_when": "Typography should visibly compete with or separate from a figure, and that hierarchy serves a new lyric/image concept.",
+        "avoid_when": [
+          "every word must remain easily readable over a busy image",
+          "overlap obscures a face or narrative gesture",
+          "small fragments are presented as verified lyrics"
+        ],
+        "neighboring_shot_role": "A less crowded preceding/following shot can restore subject clarity; a shift from clusters to a small band should be a designed cut/hold unless native frames establish more.",
+        "variation_levers": [
+          "line width and scale",
+          "cluster separation",
+          "face-safe gap",
+          "outline/edge treatment",
+          "degree of fragmentation"
+        ],
+        "minimal_validation_examples": [
+          "Compare one line across figure-overlap and face-safe placements; check reading and subject recognition.",
+          "Test one long sentence against three separated short clusters; reject the dense layout if neither words nor scene remain legible."
+        ]
+      },
+      "possible_meanings_and_alternatives": [
+        {
+          "reading": "insistence or confrontation",
+          "strength": "low; conditional",
+          "why": "large black type obscuring the figure can visually assert a message over a luminous scene"
+        },
+        {
+          "reading": "graphic texture rather than readable speech",
+          "strength": "low",
+          "why": "the 132s sample is described as fragmented and small"
+        },
+        {
+          "alternative": "decorative rhythm, title treatment, or a neutral layout choice; the sunset does not prove romance, nostalgia or song mood"
+        }
+      ],
+      "unresolved_context": [
+        "Worker-only caption evidence; three samples do not support transition timing.",
+        "Original lyric, audio, song section and meaning remain unreviewed."
+      ],
+      "related_motion_forms": [],
+      "related_architecture_coverage": [
+        "ARCH06-OVERSIZED_AND_CROPPED_DISPLAY_TYPE"
+      ],
+      "template_accepted": false,
+      "coordinator_static_review_09": {
+        "pattern": "ART-DIR-07-003",
+        "file": "YT_BnkhBwzBqlQ-116.00.png",
+        "observed": "Huge black Mincho-like headline with strong thick/thin contrast and pointed/triangular terminals crosses the character. Much smaller text sits above left/right and below, organized with thin horizontal rules. Bright sunset contrasts with near-black typography. This is several levels of typographic hierarchy, not one heavy text band. Exact font identity remains unknown.",
+        "architecture": "Independent glyph/phrase scale and font metrics, rule primitives anchored to groups, multiple baselines, and explicit overlap intent. Central words can intentionally obscure a subject; protected regions must be user/Agent authored rather than unconditional.",
+        "applicability": "Could emphasize a charged core word while preserving qualifiers in small surrounding text. Test qualifier dwell/readability so dramatic emphasis does not reverse sentence meaning.",
+        "sha256": "a98d274b990295e81f42e2c3b68d0d58004f836c2140e25a14723b952fd98f70",
+        "scope": "direct static visual review only"
+      }
+    },
+    {
+      "id": "USE-08-REPEATED-CARDS",
+      "art_pattern_id": "ART-DIR-07-004",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=ijaK647Qfc8",
+        "title": "【文字PV】太陽系デスコ【AviUtl】",
+        "vocal_provenance": "No claim about the source vocal origin is made here.",
+        "evidence_level": "The 14.25s source still was directly reviewed in context 08; one still supports layout details, not motion or complete wording."
+      },
+      "evidence_refs": [
+        {
+          "file": "art-input-07/YT_ijaK647Qfc8-14.25.png",
+          "sha256": "4fe14fe7c5cc371afdf16ae000c326acca5982245da3c8fbb92548068d672d27",
+          "time_label": "14.25s",
+          "role": "original source still; hash matches review image"
+        },
+        {
+          "file": "review-snapshots/context-08/tiles-14_25.png",
+          "sha256": "4fe14fe7c5cc371afdf16ae000c326acca5982245da3c8fbb92548068d672d27",
+          "time_label": "14.25s",
+          "role": "coordinator-viewed review PNG"
+        },
+        {
+          "file": "outputs/art-direction-patterns-07.json#ART-DIR-07-004",
+          "role": "prior worker candidate; retained unchanged"
+        }
+      ],
+      "observed_source_context": {
+        "appearance": "Repeated diagonal composite cards fill the frame. The directly viewed frame shows coral-red panels, heavy Japanese glyphs, thick rules and double borders, small boxed/icon marks, and faint offset outline echoes. Text is cropped/overlapped; exact wording and reading order are not established.",
+        "correction": "Context-08 direct review adds card units and motif relationships that the earlier generic repeated-glyph description omitted; raw worker response is unchanged.",
+        "not_established": [
+          "animation or duration",
+          "source lyrics/audio",
+          "whether all sampled text is one repeated phrase",
+          "emotion or author intent"
+        ]
+      },
+      "conditional_recommendation": {
+        "lyric_functions": [
+          "short repeated hook",
+          "enumeration",
+          "call-and-response fragments",
+          "brief rhythmic insistence"
+        ],
+        "semantic_image_relationship": [
+          "repeated cards can organize related statements",
+          "use as deliberate contrast against a sparse/quiet scene",
+          "do not assume cards literally depict the lyric"
+        ],
+        "image_scene_conditions": [
+          "can occupy the frame briefly when no face/gesture needs uninterrupted viewing",
+          "card borders, glyph outlines and small icon marks must remain separable",
+          "reduce background detail if panel edges disappear"
+        ],
+        "music_section_conditions": [
+          "may suit repeated vocal material or an intentional escalation, only after timed audio/lyrics are reviewed",
+          "a sparse successor can release density; no source beat sync inferred"
+        ],
+        "use_when": "Repeated language or a sequence of short statements is semantically meaningful and temporary density is acceptable.",
+        "avoid_when": [
+          "unique nuanced sentences that must all be read",
+          "continuous use that removes section contrast",
+          "subject-heavy shots without an explicit protected region",
+          "borders/icons that compete with glyph counters"
+        ],
+        "neighboring_shot_role": "A sparse shot afterward can act as a visual release; preserve one border or motif only if continuity serves the new sequence.",
+        "variation_levers": [
+          "card count and diagonal angle",
+          "border layers",
+          "spacing and scale",
+          "icon density",
+          "offset-outline contrast",
+          "panel dwell"
+        ],
+        "minimal_validation_examples": [
+          "Compare one repeated hook and a paragraph of unique text at target size; record reading success and face visibility.",
+          "Remove the small icons and one border layer to check whether card structure remains clear without decorative overload."
+        ]
+      },
+      "possible_meanings_and_alternatives": [
+        {
+          "reading": "pressure or information saturation",
+          "strength": "low; creative hypothesis",
+          "why": "repeated cards reduce open space and make text ubiquitous"
+        },
+        {
+          "reading": "orderly playful/pop rhythm",
+          "strength": "low",
+          "why": "regular card boundaries and repeated layout can organize the density"
+        },
+        {
+          "alternative": "a purely decorative tiled composition; coral color alone does not dictate emotion"
+        }
+      ],
+      "unresolved_context": [
+        "Only one original still directly reviewed.",
+        "Lyric meaning, audio section and card movement remain unknown."
+      ],
+      "related_motion_forms": [
+        "FORM-EXP04-TEXT-001"
+      ],
+      "related_architecture_coverage": [
+        "ARCH06-VERTICAL_AND_MIXED_DIRECTION_TYPOGRAPHY",
+        "ARCH06-MODULAR_PANELS_AND_DENSE_LAYOUT"
+      ],
+      "template_accepted": false
+    },
+    {
+      "id": "USE-08-VERTICAL-STACK",
+      "art_pattern_id": "ART-DIR-07-005",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=ijaK647Qfc8",
+        "title": "【文字PV】太陽系デスコ【AviUtl】",
+        "vocal_provenance": "No claim about the source vocal origin is made here.",
+        "evidence_level": "One cited frame directly reviewed in checkpoint 09; other samples and temporal/lyric relationships remain pending."
+      },
+      "evidence_refs": [
+        {
+          "file": "art-input-07/YT_ijaK647Qfc8-15.25.png",
+          "sha256": "18b48279c4c929b2b9385275ef20c4c46795156237ef90b41545a86c1338d7e8",
+          "time_label": "15.25s",
+          "role": "captioned source frame; worker candidate"
+        },
+        {
+          "file": "outputs/art-batches-07/5edaf3b598e0be359b6d.response.txt",
+          "sha256": "75786301695ecc9a5e40fd59cd4e4cf328a128f48205745296e5d0fc986b9472",
+          "role": "preserved raw worker response; digest refers to these raw bytes, not parsed JSON"
+        }
+      ],
+      "observed_source_context": {
+        "appearance": "Two large white outlined kanji are separated by a smaller tilted kana cluster; coral field has sparse outlined circular marks and faint texture. Visual vertical order must not automatically become linguistic reading order.",
+        "not_established": [
+          "independent visual verification",
+          "whether this follows the diagonal card frame at 14.25s",
+          "motion, duration, lyric or audio meaning"
+        ],
+        "appearance_before_09": "Worker report describes three vertically stacked groups of white, heavy angular Japanese glyphs on open coral-red; top and bottom groups are larger, the middle group smaller, with a thin dark reddish outline and sparse pale dots. Wording and faint background forms remain uncertain."
+      },
+      "conditional_recommendation": {
+        "lyric_functions": [
+          "deliberate construction of a compact word or phrase",
+          "playful separation and regrouping of graphemes"
+        ],
+        "semantic_image_relationship": [
+          "a centered stack can complement an open field",
+          "literal relation to a symbol/image only if source context supports it",
+          "a deliberate image/text contrast is an author choice"
+        ],
+        "image_scene_conditions": [
+          "open central region",
+          "three groups fit without crowding",
+          "background dots stay sparse and do not cross small glyph counters"
+        ],
+        "music_section_conditions": [
+          "consider for a held phrase or deliberately separated lyric units after audio review",
+          "no timing or meter follows from the still"
+        ],
+        "use_when": "A phrase remains recoverable despite independent visual positions and sizes of its glyph clusters.",
+        "avoid_when": [
+          "long lyrics or scripts requiring different reading direction",
+          "small output where the middle group becomes illegible",
+          "background texture that erases group gaps",
+          "assuming this is the source's confirmed design rule"
+        ],
+        "neighboring_shot_role": "A full-field or diagonal composition could precede/follow as contrast, but the sampled times do not prove such a sequence.",
+        "variation_levers": [
+          "group count",
+          "scale hierarchy",
+          "inter-group gaps",
+          "outline weight",
+          "dot count and distribution",
+          "column width"
+        ],
+        "minimal_validation_examples": [
+          "Test one three-part phrase and a single long sentence at mobile size; verify hierarchy and reading order.",
+          "Remove all dots and compare them with sparse dots to ensure marks remain subordinate."
+        ]
+      },
+      "possible_meanings_and_alternatives": [
+        {
+          "reading": "ordered emphasis or deliberate hierarchy",
+          "strength": "low; conditional",
+          "why": "reported scale differences and gaps separate text units"
+        },
+        {
+          "reading": "quiet focal isolation",
+          "strength": "low",
+          "why": "the open coral field leaves substantial negative space"
+        },
+        {
+          "alternative": "a neutral information stack or decorative layout; color does not establish emotion"
+        }
+      ],
+      "unresolved_context": [
+        "Worker-candidate evidence only; wording is not transcribed.",
+        "The relation to neighboring frames and any soundtrack is unknown."
+      ],
+      "related_motion_forms": [
+        "FORM-EXP04-TEXT-001"
+      ],
+      "related_architecture_coverage": [
+        "ARCH06-VERTICAL_AND_MIXED_DIRECTION_TYPOGRAPHY",
+        "ARCH06-MODULAR_PANELS_AND_DENSE_LAYOUT"
+      ],
+      "template_accepted": false,
+      "coordinator_static_review_09": {
+        "pattern": "ART-DIR-07-005",
+        "file": "YT_ijaK647Qfc8-15.25.png",
+        "observed": "Two large white outlined kanji are separated by a smaller tilted kana cluster; coral field has sparse outlined circular marks and faint texture. Visual vertical order must not automatically become linguistic reading order.",
+        "architecture": "Keep stable lyric token/reading order independent of glyph group position, orientation, size and reveal order.",
+        "applicability": "Works for deliberate word construction and playful grouping when the phrase remains recoverable; not a generic three-item list. Test reading recovery, especially when replacing Japanese with Latin words or other scripts.",
+        "sha256": "18b48279c4c929b2b9385275ef20c4c46795156237ef90b41545a86c1338d7e8",
+        "scope": "direct static visual review only"
+      }
+    },
+    {
+      "id": "USE-08-SERIF-ECHO",
+      "art_pattern_id": "ART-DIR-07-006",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=t-VhP8PHI80",
+        "title": "【VOCALOID】ECHO MV　作ってみた【After Effects】",
+        "vocal_provenance": "The source title labels this a VOCALOID MV; no further provenance is inferred.",
+        "evidence_level": "Coordinator directly viewed the byte-matched stored-resolution still; motion/audio remains unreviewed."
+      },
+      "evidence_refs": [
+        {
+          "file": "art-input-07/YT_t-VhP8PHI80-74.25.png",
+          "sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7",
+          "time_label": "filename 74.25s; extraction receipt 74.2742s; identical PNG pixels also occur at 74.240833, 74.307567 and 74.340933s",
+          "role": "PNG still; image content alone does not identify a unique PTS"
+        },
+        {
+          "file": "review-snapshots/context-08/echo-74_25.png",
+          "sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7",
+          "time_label": "filename 74.25s; extraction receipt 74.2742s; identical PNG pixels also occur at 74.240833, 74.307567 and 74.340933s",
+          "role": "PNG still; image content alone does not identify a unique PTS"
+        },
+        {
+          "file": "outputs/art-direction-patterns-07.json#ART-DIR-07-006",
+          "role": "prior pattern and worker label retained; time correction is additive"
+        },
+        {
+          "file": "review-snapshots/context-08/retention-and-sampling.json#sampling_audit",
+          "role": "measured source-time mapping"
+        }
+      ],
+      "observed_source_context": {
+        "appearance": "On black, a smaller light outlined serif word overlaps a much larger dark serif duplicate. Both layers have visible serifs; the rear layer is heavier/darker and cropped beyond the frame, while the foreground outline separates across the center. The visible word is the source title, not a transcribed lyric.",
+        "correction": "Visible serif anatomy is confirmed. Earlier 08 wrongly transferred the separate legacy JPEG timestamp to this PNG. Preserve the PNG extraction receipt at 74.2742s; native replay finds the same PNG bytes at four source frames. No unique timestamp follows from its hash.",
+        "not_established": [
+          "continuous title duration",
+          "motion into/out of the frame",
+          "audio/beat alignment",
+          "authorial use of echo as a metaphor"
+        ]
+      },
+      "conditional_recommendation": {
+        "lyric_functions": [
+          "a short repeated word",
+          "recollection or quoted phrase",
+          "a refrain return",
+          "an inner/outer voice distinction only when text and story warrant it"
+        ],
+        "semantic_image_relationship": [
+          "text can echo a subject, memory or repeated image if the lyric makes that link",
+          "on an empty field it may remain a purely typographic relation"
+        ],
+        "image_scene_conditions": [
+          "low-detail/dark field",
+          "sufficient value difference for both serif contours",
+          "output resolution preserves counters and serifs",
+          "avoid competing fine edges"
+        ],
+        "music_section_conditions": [
+          "a held word, phrase repeat or pause could be tested after timed audio review",
+          "this still does not establish a pause, echo effect timing, or song emotion"
+        ],
+        "use_when": "A second rendering has a semantic reason to repeat the same phrase and serif details remain readable.",
+        "avoid_when": [
+          "rapid dense syllables",
+          "busy footage with similar gray contours",
+          "default duplication on every lyric",
+          "small display sizes that merge the outlined foreground and dark duplicate"
+        ],
+        "neighboring_shot_role": "Hold the foreground word long enough to read; a later reduction to line/point is only a separate motion proposal and needs native-frame evidence.",
+        "variation_levers": [
+          "scale ratio",
+          "overlap",
+          "serif size",
+          "outline weight",
+          "rear-layer value",
+          "edge crop"
+        ],
+        "minimal_validation_examples": [
+          "Render a single word and a multiword phrase at target/reduced sizes; inspect serif/counter clarity.",
+          "Compare the duplicate as a semantic echo versus an unlabelled decorative shadow with a new image; reject duplication if it adds no readable relation."
+        ]
+      },
+      "possible_meanings_and_alternatives": [
+        {
+          "reading": "resonance, repetition or remembered presence",
+          "strength": "low; creative hypothesis",
+          "why": "the same serif word appears in two scales and visibility levels"
+        },
+        {
+          "reading": "solemn distance",
+          "strength": "low",
+          "why": "black negative space, subdued values and serif anatomy can support a restrained treatment"
+        },
+        {
+          "reading": "intrusive doubling or shadow",
+          "strength": "low",
+          "why": "a large dark duplicate can compete with the lighter foreground"
+        },
+        {
+          "alternative": "purely decorative overlap; the title does not prove the original lyric's theme"
+        }
+      ],
+      "unresolved_context": [
+        "Original lyrics/audio and continuous movement remain unreviewed.",
+        "The legacy JPEG grid discrepancy does not define this PNG timestamp. Identical held frames need extraction provenance as well as hashes."
+      ],
+      "related_motion_forms": [
+        "FORM-EXP05-TEXT-002"
+      ],
+      "related_architecture_coverage": [
+        "ARCH06-OVERSIZED_AND_CROPPED_DISPLAY_TYPE",
+        "ARCH06-MODULAR_PANELS_AND_DENSE_LAYOUT"
+      ],
+      "template_accepted": false
+    },
+    {
+      "id": "USE-08-DOOR-DIVIDER",
+      "art_pattern_id": "ART-DIR-07-007",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+        "title": "Cupid - Fifty Fifty (Motion Graphic)",
+        "vocal_provenance": "No VOCALOID or author-intent claim; the source title identifies a Fifty Fifty motion graphic.",
+        "evidence_level": "One cited frame directly reviewed in checkpoint 09; other samples and temporal/lyric relationships remain pending."
+      },
+      "evidence_refs": [
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-1.25.png",
+          "sha256": "a2ebe0747928f0f33d5f7f2c00cbb2a8a1a8a2737c0e95fc2954ae3bc913ba14",
+          "time_label": "1.25s",
+          "role": "captioned input frame; worker candidate"
+        },
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-1.75.png",
+          "sha256": "1ca497fd4989bb2da21cf193ba4f8cb3e8978a63125d2ca27a403364a85f7769",
+          "time_label": "1.75s",
+          "role": "captioned input frame; worker candidate"
+        },
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-3.00.png",
+          "sha256": "17bce07baef55ab9972f0ee383885fe692f71e79f4784a1ca9c7ab0d45915d26",
+          "time_label": "3.00s",
+          "role": "captioned input frame; worker candidate"
+        },
+        {
+          "file": "outputs/art-batches-07/7a5035ed46de285bb63f.response.txt",
+          "sha256": "5e89fbe54e1ba1370d4cdb664c2eef5e03b4e65314711fd0ff3d8d0df2eddca2",
+          "role": "preserved raw worker response; digest refers to these raw bytes, not parsed JSON"
+        }
+      ],
+      "observed_source_context": {
+        "appearance": "Blue uppercase sans-serif text straddles a dark perspective door. Pale floor, a long blue/white diagonal projected region, and grain-like shading around the base support the spatial composition. One image does not establish the door animation or a true 3D scene.",
+        "not_established": [
+          "exact lyric meaning or reading outside captioned frames",
+          "door as an intentional metaphor",
+          "motion path",
+          "audio timing"
+        ],
+        "appearance_before_09": "Worker captions report a narrow door interrupting a pale upper field/light-blue lower plane, with small blue uppercase text at 1.25s, a larger phrase split across the door at 1.75s, and a partial group to its right at 3.00s. The samples show distinct states, not a verified continuous reveal."
+      },
+      "conditional_recommendation": {
+        "lyric_functions": [
+          "short question/answer",
+          "split phrase",
+          "brief call-and-response",
+          "a word whose semantics intentionally involve entry, division or a threshold"
+        ],
+        "semantic_image_relationship": [
+          "literal text-object relation only if the new scene supports it",
+          "metaphorical barrier/threshold as a deliberate author choice",
+          "the door may instead be a neutral compositional divider"
+        ],
+        "image_scene_conditions": [
+          "strong central vertical object",
+          "spacious background",
+          "letters remain legible on each side",
+          "no essential face/gesture is obscured"
+        ],
+        "music_section_conditions": [
+          "short syllabic groups may be tested against an externally reviewed phrase",
+          "no beat, lyric timing or song-section inference from these captions"
+        ],
+        "use_when": "A visible divider can carry a clear, intentional relation to the phrase without making text unreadable.",
+        "avoid_when": [
+          "long line that cannot be split naturally",
+          "object overlaps glyphs accidentally",
+          "the scene is being assigned a threshold meaning without narrative evidence",
+          "source treated as VOCALOID without provenance"
+        ],
+        "neighboring_shot_role": "A preceding shot may show the unbroken phrase and a later one the split layout, but the sampled frames alone do not prove that progression; test cut continuity separately.",
+        "variation_levers": [
+          "object width/location",
+          "letter scale",
+          "phrase split point",
+          "gap from object",
+          "blue-to-ground contrast"
+        ],
+        "minimal_validation_examples": [
+          "Test one phrase split at a semantic word boundary and another arbitrary split; check immediate readability.",
+          "Try the same divider with neutral text to determine whether the image alone overstates a metaphor."
+        ]
+      },
+      "possible_meanings_and_alternatives": [
+        {
+          "reading": "interruption, barrier or threshold",
+          "strength": "low; conditional",
+          "why": "a door physically divides the visible text group in the reported still"
+        },
+        {
+          "reading": "spatial play or graphic alignment",
+          "strength": "low",
+          "why": "the pale open scene and blue type can be a compositional choice without narrative meaning"
+        },
+        {
+          "alternative": "ordinary word placement around a central object; no lyric or author intent inferred"
+        }
+      ],
+      "unresolved_context": [
+        "Captioned candidate only; use with provenance caveat.",
+        "No audio/lyrics reviewed; the source is not VOCALOID-labeled."
+      ],
+      "related_motion_forms": [
+        "FORM-EXP05-CUPID-TEXT-001"
+      ],
+      "related_architecture_coverage": [
+        "ARCH06-GRAPHIC_LINE_AND_TITLE_REVEAL",
+        "ARCH06-GLYPH_ASSEMBLY_LOGO_AND_FRAGMENT_COMPOSITION"
+      ],
+      "template_accepted": false,
+      "coordinator_static_review_09": {
+        "pattern": "ART-DIR-07-007",
+        "file": "YT_kiVGOS7-n_o-1.75.png",
+        "observed": "Blue uppercase sans-serif text straddles a dark perspective door. Pale floor, a long blue/white diagonal projected region, and grain-like shading around the base support the spatial composition. One image does not establish the door animation or a true 3D scene.",
+        "architecture": "Compound object relationships include divider, projected light/shadow shapes, texture and text; a 2D/2.5D reconstruction is a proposal, not source implementation evidence.",
+        "applicability": "Spatial interruption may support a chosen threshold metaphor, but it can also be neutral word/object play; retain both readings.",
+        "sha256": "1ca497fd4989bb2da21cf193ba4f8cb3e8978a63125d2ca27a403364a85f7769",
+        "scope": "direct static visual review only"
+      }
+    },
+    {
+      "id": "USE-08-PIXEL-DECLARATION",
+      "art_pattern_id": "ART-DIR-07-008",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+        "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+        "vocal_provenance": "KOTOKO is credited in the source title; this is not relabeled VOCALOID.",
+        "evidence_level": "The 188s original still was directly reviewed against the context-08 PNG; one still only."
+      },
+      "evidence_refs": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-188.00.png",
+          "sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38",
+          "time_label": "188.000s",
+          "role": "original frame; byte-identical to reviewed PNG"
+        },
+        {
+          "file": "review-snapshots/context-08/overdose-188.png",
+          "sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38",
+          "time_label": "188.000s",
+          "role": "coordinator-viewed correction image"
+        },
+        {
+          "file": "outputs/art-direction-patterns-07.json#ART-DIR-07-008",
+          "role": "prior worker candidate; preserved unchanged"
+        }
+      ],
+      "observed_source_context": {
+        "appearance": "The large lower title uses broad stepped/pixel faces in pale cyan-white, a narrow warm keyline and substantial offset dark blue-gray block shading; it crosses a dense collage with repeated character imagery. The review does not confirm a separate upper outlined text band in this frame.",
+        "correction": "Use the directly supported lower pixel-title anatomy. Keep the earlier upper-band claim explicitly unconfirmed rather than repeating it as fact.",
+        "not_established": [
+          "exact wording/font",
+          "motion/duration",
+          "upper-band behavior in other frames",
+          "audio/lyrics or author intent"
+        ]
+      },
+      "conditional_recommendation": {
+        "lyric_functions": [
+          "compact announcement",
+          "identity/title label",
+          "short slogan",
+          "brief repeated refrain"
+        ],
+        "semantic_image_relationship": [
+          "a display-like title can complement digital/collage imagery",
+          "literal game/interface meaning only if the new scene establishes it",
+          "bright design against serious imagery may be intentional contrast, not automatic irony"
+        ],
+        "image_scene_conditions": [
+          "pixel-step size survives target delivery",
+          "light face, warm keyline and dark offset shadow stay distinct over bright/dark image regions",
+          "important character face/gesture remains visible",
+          "no competing headline layer"
+        ],
+        "music_section_conditions": [
+          "short emphatic phrase or identity refrain after independent song review",
+          "no generic energetic-song mapping and no beat claim from a silent frame"
+        ],
+        "use_when": "A compact phrase benefits from looking like a deliberate display/title object over collage imagery.",
+        "avoid_when": [
+          "subtle intimate narration unless a mediated contrast is wanted",
+          "small output that blurs individual pixel steps",
+          "shadow/keyline merge into background highlights",
+          "two equally dominant text bands without a clear hierarchy"
+        ],
+        "neighboring_shot_role": "Carry one pixel unit or keyline as a visual bridge if useful; do not assume the full title persists at 196s or 204s, where the sampled source descriptions differ.",
+        "variation_levers": [
+          "pixel-grid size",
+          "face/shadow offset",
+          "keyline width/hue",
+          "tracking",
+          "cropping",
+          "collage density",
+          "secondary-line presence only when evidenced in the new design"
+        ],
+        "minimal_validation_examples": [
+          "Render a short word and mixed-script phrase at target and reduced size; inspect step rhythm, counters, and outline separation.",
+          "Compare a single title with a second subordinate line; confirm the latter does not erase hierarchy or imply unsupported source detail."
+        ]
+      },
+      "possible_meanings_and_alternatives": [
+        {
+          "reading": "digital display, retro-game or mediated address",
+          "strength": "low; creative hypothesis",
+          "why": "stepped construction and block shading resemble low-resolution display conventions"
+        },
+        {
+          "reading": "assertive headline or celebratory label",
+          "strength": "low",
+          "why": "large size and dimensional separation make the title a focal object"
+        },
+        {
+          "reading": "ironic contrast",
+          "strength": "low; requires chosen lyric/image contradiction",
+          "why": "bright title language can contrast with another context, but source emotion is unknown"
+        },
+        {
+          "alternative": "a decorative pixel title over character collage with no specific emotional claim"
+        }
+      ],
+      "unresolved_context": [
+        "Only the 188s still supports the corrected title anatomy; 196s and 204s are other sampled appearances, not a transition record.",
+        "The separate upper outlined band remains unconfirmed; no soundtrack/lyrics reviewed."
+      ],
+      "related_motion_forms": [],
+      "related_architecture_coverage": [
+        "ARCH06-OVERSIZED_AND_CROPPED_DISPLAY_TYPE"
+      ],
+      "template_accepted": false
+    }
+  ],
+  "next_validation": "Compare conditional recommendations with actual timed lyrics, audio and scene assets in future original prototypes; retain all references until the explicit scoped review conditions are met.",
+  "accepted_templates": 0,
+  "supersedes": {
+    "file": "art-applicability-08-luna-original.json",
+    "sha256": "a73cfe046f3eb4e1217becda4cf49f9ee740f52bd8f2a5d95c18ea4afc9d8bf8",
+    "original_preserved": true
+  }
+}

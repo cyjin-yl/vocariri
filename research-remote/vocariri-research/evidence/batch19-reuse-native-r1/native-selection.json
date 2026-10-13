@@ -1,0 +1,23 @@
+{
+  "authority": "parent bounded native evidence task; no form/template acceptance",
+  "windows": [
+    {
+      "id": "YT_b0XgjrWSV7k",
+      "source_n_start": 408,
+      "source_n_end_inclusive": 467,
+      "maximum_window_seconds": 2,
+      "selection_reason": "Fresh 1-second locators n390 cooking and n420 mountain title TE show the mountain-title onset; use 13.6..15.5667 seconds to include the scene boundary and emerging TEXT strokes. The full effect word and final exit may lie outside this bounded window.",
+      "context": "finished photo title demonstration at introduction, separate from later editor UI"
+    },
+    {
+      "id": "YT_3Jf_sabP4e0",
+      "source_n_start": 6030,
+      "source_n_end_inclusive": 6089,
+      "maximum_window_seconds": 2,
+      "selection_reason": "Coarse n6052 (201.7333s) lies inside this window and shows individual Earth letters arranged on an arc above a globe; inspect actual native frames for geometry and any changes without assuming continuous playback.",
+      "context": "composition viewer inside After Effects tutorial UI; operator manipulation may drive changes"
+    }
+  ],
+  "formsAcceptedIncrement": 0,
+  "templatesAcceptedIncrement": 0
+}

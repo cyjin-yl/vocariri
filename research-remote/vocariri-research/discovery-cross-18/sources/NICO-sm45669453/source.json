@@ -1,0 +1,16 @@
+{
+  "id": "NICO-sm45669453",
+  "url": "https://www.nicovideo.jp/watch/sm45669453",
+  "at_utc": "2026-10-01T07:15:11.999445+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": null,
+  "bytes": 4062204,
+  "sha256": "7197c80fcb0d32e322354d37810adea78617974c7d6707f0a57c9417cda95946",
+  "file": "sources/NICO-sm45669453/source.mp4",
+  "duration_seconds": 16,
+  "title": "【文字pv】ラグトレイン / 稲葉曇様【Aviutl】",
+  "uploader": "とくめー",
+  "extractor": "Niconico",
+  "yt_dlp_version": "2026.08.19",
+  "blocked_redirects": 0
+}

@@ -1,0 +1,291 @@
+{
+  "batches": [
+    {
+      "id": "YT_BnkhBwzBqlQ-art-0-labeled",
+      "source_id": "YT_BnkhBwzBqlQ",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "source_interval": [
+        12,
+        28
+      ],
+      "files": [
+        "art-labeled-07/YT_BnkhBwzBqlQ-12.00.png",
+        "art-labeled-07/YT_BnkhBwzBqlQ-20.00.png",
+        "art-labeled-07/YT_BnkhBwzBqlQ-28.00.png"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-12.00.png",
+          "requested_seek_seconds": 12,
+          "first_logged_pts_seconds": 12.0,
+          "sha256": "75eb3f4a587ea08523bb35c22549f42063caf8124a4c0f15f7171f1fed6a3f08",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-12.00.png",
+          "labeled_sha256": "688e19ec8c6542c7fa9bb1de55120a8bdcbbc898523dc481fd79d1a99602c07d"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-20.00.png",
+          "requested_seek_seconds": 20,
+          "first_logged_pts_seconds": 20.0,
+          "sha256": "ee1f8c0d613a5bba22bfc1823629d445232f57b9a2c67fd664e554369337a730",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-20.00.png",
+          "labeled_sha256": "0ee03a75c9c67f3b2744299cc85c798b5bf65fb2cf4fbcb34cf5a9a2ee4570cc"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-28.00.png",
+          "requested_seek_seconds": 28,
+          "first_logged_pts_seconds": 28.0,
+          "sha256": "8c34a7584a8cbc8ce8f0c586d53e6ba19ee124519203546e85800a5871b0fa34",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-28.00.png",
+          "labeled_sha256": "1e3144dca9724f13c875c20a0bbfe9a5aeb51c5d84d4c75bd073ad2082415780"
+        }
+      ],
+      "input_limits": "Captioned full frames only; preserve exact file/time association. No contact sheets, no audio and no continuous motion evidence."
+    },
+    {
+      "id": "YT_BnkhBwzBqlQ-art-1-labeled",
+      "source_id": "YT_BnkhBwzBqlQ",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "source_interval": [
+        60,
+        76
+      ],
+      "files": [
+        "art-labeled-07/YT_BnkhBwzBqlQ-60.00.png",
+        "art-labeled-07/YT_BnkhBwzBqlQ-68.00.png",
+        "art-labeled-07/YT_BnkhBwzBqlQ-76.00.png"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-60.00.png",
+          "requested_seek_seconds": 60,
+          "first_logged_pts_seconds": 60.0,
+          "sha256": "eb396d4a08572bd7dccef115ffb74e392e36fecf19e382a3f4db05d046777e10",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-60.00.png",
+          "labeled_sha256": "b7303f84e4c444ca8bd079a47ec72c2adc5d0ce237c5b3665a800ef83266c424"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-68.00.png",
+          "requested_seek_seconds": 68,
+          "first_logged_pts_seconds": 68.0,
+          "sha256": "a51909c83dabaac17bdcd7f980fe312a09c22cddc34ddedd7585ab9e59a773c1",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-68.00.png",
+          "labeled_sha256": "64ec24e69ebd07d7c588e92cd5479d545ca4667ed3d97ab9e55ac602ab13ef69"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-76.00.png",
+          "requested_seek_seconds": 76,
+          "first_logged_pts_seconds": 76.0,
+          "sha256": "73c8423778b3c9352098e8b8b8ea564a997584ac8fc1ad98a5e2ece943623d01",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-76.00.png",
+          "labeled_sha256": "d637719bc266f0eb7b17b99805d81bfa02f1e8f6d44b1a45bf48e980108a9377"
+        }
+      ],
+      "input_limits": "Captioned full frames only; preserve exact file/time association. No contact sheets, no audio and no continuous motion evidence."
+    },
+    {
+      "id": "YT_BnkhBwzBqlQ-art-2-labeled",
+      "source_id": "YT_BnkhBwzBqlQ",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "source_interval": [
+        116,
+        132
+      ],
+      "files": [
+        "art-labeled-07/YT_BnkhBwzBqlQ-116.00.png",
+        "art-labeled-07/YT_BnkhBwzBqlQ-124.00.png",
+        "art-labeled-07/YT_BnkhBwzBqlQ-132.00.png"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-116.00.png",
+          "requested_seek_seconds": 116,
+          "first_logged_pts_seconds": 116.0,
+          "sha256": "a98d274b990295e81f42e2c3b68d0d58004f836c2140e25a14723b952fd98f70",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-116.00.png",
+          "labeled_sha256": "1e8de9b2f460729b4b1b066e9a470814857b1987dc5c3f6d468e660781e74fbf"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-124.00.png",
+          "requested_seek_seconds": 124,
+          "first_logged_pts_seconds": 124.0,
+          "sha256": "d1374de11f92e8b8d5351defac1771005a010fd1b01164c9f69f9a14f7bd77f8",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-124.00.png",
+          "labeled_sha256": "82691d11e7173b8bff4f3ba5af56f2775864cc123b376ea7ec0dd06044c5db2c"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-132.00.png",
+          "requested_seek_seconds": 132,
+          "first_logged_pts_seconds": 132.0,
+          "sha256": "0b2c4f3d91caaa3ad850f01ff2b583c097944ab599ec46e9d81703787aea8f06",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-132.00.png",
+          "labeled_sha256": "c478f9080782e21fffdacc01031981aa9c75bec20d17e8def33abcc07234eb94"
+        }
+      ],
+      "input_limits": "Captioned full frames only; preserve exact file/time association. No contact sheets, no audio and no continuous motion evidence."
+    },
+    {
+      "id": "YT_BnkhBwzBqlQ-art-3-labeled",
+      "source_id": "YT_BnkhBwzBqlQ",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "source_interval": [
+        188,
+        204
+      ],
+      "files": [
+        "art-labeled-07/YT_BnkhBwzBqlQ-188.00.png",
+        "art-labeled-07/YT_BnkhBwzBqlQ-196.00.png",
+        "art-labeled-07/YT_BnkhBwzBqlQ-204.00.png"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-188.00.png",
+          "requested_seek_seconds": 188,
+          "first_logged_pts_seconds": 188.0,
+          "sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-188.00.png",
+          "labeled_sha256": "d3b7cc4cacec96e151d9242f2bc7be9d26d7687d6bfb144930594febb978422b"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-196.00.png",
+          "requested_seek_seconds": 196,
+          "first_logged_pts_seconds": 196.0,
+          "sha256": "994b4d35ab96dfc4262d2225a333eb4ae124622e95d3b8fffa27799dff70a45a",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-196.00.png",
+          "labeled_sha256": "905c31fdd27afac626182c3b95c40e1930c4075c9e0c6c0a3938934fdb3db846"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-204.00.png",
+          "requested_seek_seconds": 204,
+          "first_logged_pts_seconds": 204.0,
+          "sha256": "7e9a912e140c050cffa2b316882f2fa10740b8cbffc36f19f222087afb4b7c98",
+          "labeled_file": "art-labeled-07/YT_BnkhBwzBqlQ-204.00.png",
+          "labeled_sha256": "932829dfdf05c4d7f76f8a55db23ad53aba4b28bafbc35236ba5c942e42b197c"
+        }
+      ],
+      "input_limits": "Captioned full frames only; preserve exact file/time association. No contact sheets, no audio and no continuous motion evidence."
+    },
+    {
+      "id": "YT_t-VhP8PHI80-art-0-labeled",
+      "source_id": "YT_t-VhP8PHI80",
+      "source_url": "https://www.youtube.com/watch?v=t-VhP8PHI80",
+      "source_interval": [
+        73.5,
+        74.75
+      ],
+      "files": [
+        "art-labeled-07/YT_t-VhP8PHI80-73.50.png",
+        "art-labeled-07/YT_t-VhP8PHI80-74.25.png",
+        "art-labeled-07/YT_t-VhP8PHI80-74.75.png"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_t-VhP8PHI80-73.50.png",
+          "requested_seek_seconds": 73.5,
+          "first_logged_pts_seconds": 73.506767,
+          "sha256": "29c518f3775ebf38d4cd529799822259c3e6d651b0b969339c9bfb62300c4c35",
+          "labeled_file": "art-labeled-07/YT_t-VhP8PHI80-73.50.png",
+          "labeled_sha256": "8fdd604d7a41054f015adba90dc81612508c6fd94b47f71fa0a77832783d4a0b"
+        },
+        {
+          "file": "art-input-07/YT_t-VhP8PHI80-74.25.png",
+          "requested_seek_seconds": 74.25,
+          "first_logged_pts_seconds": 74.2742,
+          "sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7",
+          "labeled_file": "art-labeled-07/YT_t-VhP8PHI80-74.25.png",
+          "labeled_sha256": "de4202be948dd66c214ef053b860120dd062b55b9d88877a2852b58a8996f429"
+        },
+        {
+          "file": "art-input-07/YT_t-VhP8PHI80-74.75.png",
+          "requested_seek_seconds": 74.75,
+          "first_logged_pts_seconds": 74.7747,
+          "sha256": "11f79baae24c39c846081cb8766e51ee23620f2ba8719b40dafed66601394b1f",
+          "labeled_file": "art-labeled-07/YT_t-VhP8PHI80-74.75.png",
+          "labeled_sha256": "41437093e8c97a3d0b3aaa1756e94a063d1ad129f321b5d307afebbb4728bf20"
+        }
+      ],
+      "input_limits": "Captioned full frames only; preserve exact file/time association. No contact sheets, no audio and no continuous motion evidence."
+    },
+    {
+      "id": "YT_ijaK647Qfc8-art-0-labeled",
+      "source_id": "YT_ijaK647Qfc8",
+      "source_url": "https://www.youtube.com/watch?v=ijaK647Qfc8",
+      "source_interval": [
+        13.5,
+        15.25
+      ],
+      "files": [
+        "art-labeled-07/YT_ijaK647Qfc8-13.50.png",
+        "art-labeled-07/YT_ijaK647Qfc8-14.25.png",
+        "art-labeled-07/YT_ijaK647Qfc8-15.25.png"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_ijaK647Qfc8-13.50.png",
+          "requested_seek_seconds": 13.5,
+          "first_logged_pts_seconds": 13.5,
+          "sha256": "4a114dabbc9fb52d28731f00014ebc7daee09e5f68d355052b3131e07a0f7071",
+          "labeled_file": "art-labeled-07/YT_ijaK647Qfc8-13.50.png",
+          "labeled_sha256": "5b4519500f5dae285de4d0012fa03c8cc28180f6c4c1d475e1e48cdea30852fa"
+        },
+        {
+          "file": "art-input-07/YT_ijaK647Qfc8-14.25.png",
+          "requested_seek_seconds": 14.25,
+          "first_logged_pts_seconds": 14.25,
+          "sha256": "4fe14fe7c5cc371afdf16ae000c326acca5982245da3c8fbb92548068d672d27",
+          "labeled_file": "art-labeled-07/YT_ijaK647Qfc8-14.25.png",
+          "labeled_sha256": "8b8b4e1cee91ab8a7f789037c22b5f24b53a1464806c30271a881614de30a88b"
+        },
+        {
+          "file": "art-input-07/YT_ijaK647Qfc8-15.25.png",
+          "requested_seek_seconds": 15.25,
+          "first_logged_pts_seconds": 15.25,
+          "sha256": "18b48279c4c929b2b9385275ef20c4c46795156237ef90b41545a86c1338d7e8",
+          "labeled_file": "art-labeled-07/YT_ijaK647Qfc8-15.25.png",
+          "labeled_sha256": "9fc18d351d3bd336931fbe952867632cb2bf0f31a745ae3562201c3590506a4b"
+        }
+      ],
+      "input_limits": "Captioned full frames only; preserve exact file/time association. No contact sheets, no audio and no continuous motion evidence."
+    },
+    {
+      "id": "YT_kiVGOS7-n_o-art-0-labeled",
+      "source_id": "YT_kiVGOS7-n_o",
+      "source_url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+      "source_interval": [
+        1.25,
+        3.0
+      ],
+      "files": [
+        "art-labeled-07/YT_kiVGOS7-n_o-1.25.png",
+        "art-labeled-07/YT_kiVGOS7-n_o-1.75.png",
+        "art-labeled-07/YT_kiVGOS7-n_o-3.00.png"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-1.25.png",
+          "requested_seek_seconds": 1.25,
+          "first_logged_pts_seconds": 1.267933,
+          "sha256": "a2ebe0747928f0f33d5f7f2c00cbb2a8a1a8a2737c0e95fc2954ae3bc913ba14",
+          "labeled_file": "art-labeled-07/YT_kiVGOS7-n_o-1.25.png",
+          "labeled_sha256": "0c80ee37808e3aa6adaf405262c54cc2c9133c3deed10631aef566a42f06acff"
+        },
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-1.75.png",
+          "requested_seek_seconds": 1.75,
+          "first_logged_pts_seconds": 1.768433,
+          "sha256": "1ca497fd4989bb2da21cf193ba4f8cb3e8978a63125d2ca27a403364a85f7769",
+          "labeled_file": "art-labeled-07/YT_kiVGOS7-n_o-1.75.png",
+          "labeled_sha256": "625cad758eb632ff15ea1ed9093c9577e04a711216ab7fadb2ea7bf80213c661"
+        },
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-3.00.png",
+          "requested_seek_seconds": 3.0,
+          "first_logged_pts_seconds": 3.003,
+          "sha256": "17bce07baef55ab9972f0ee383885fe692f71e79f4784a1ca9c7ab0d45915d26",
+          "labeled_file": "art-labeled-07/YT_kiVGOS7-n_o-3.00.png",
+          "labeled_sha256": "f22d760e2fc9d697f18d9d3b649864281bd7ab500182654c6a20a46e4013026f"
+        }
+      ],
+      "input_limits": "Captioned full frames only; preserve exact file/time association. No contact sheets, no audio and no continuous motion evidence."
+    }
+  ]
+}

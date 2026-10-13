@@ -1,0 +1,264 @@
+{
+  "batches": [
+    {
+      "id": "YT_BnkhBwzBqlQ-art-0",
+      "source_id": "YT_BnkhBwzBqlQ",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "source_interval": [
+        12,
+        28
+      ],
+      "files": [
+        "art-input-07/YT_BnkhBwzBqlQ-12.00.png",
+        "art-input-07/YT_BnkhBwzBqlQ-20.00.png",
+        "art-input-07/YT_BnkhBwzBqlQ-28.00.png",
+        "frames/YT_BnkhBwzBqlQ/sheet-0001.jpg",
+        "frames/YT_BnkhBwzBqlQ/sheet-0002.jpg",
+        "frames/YT_BnkhBwzBqlQ/sheet-0003.jpg"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-12.00.png",
+          "requested_seek_seconds": 12,
+          "first_logged_pts_seconds": 12.0,
+          "sha256": "75eb3f4a587ea08523bb35c22549f42063caf8124a4c0f15f7171f1fed6a3f08"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-20.00.png",
+          "requested_seek_seconds": 20,
+          "first_logged_pts_seconds": 20.0,
+          "sha256": "ee1f8c0d613a5bba22bfc1823629d445232f57b9a2c67fd664e554369337a730"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-28.00.png",
+          "requested_seek_seconds": 28,
+          "first_logged_pts_seconds": 28.0,
+          "sha256": "8c34a7584a8cbc8ce8f0c586d53e6ba19ee124519203546e85800a5871b0fa34"
+        }
+      ],
+      "input_limits": "Native stored resolution, not original production resolution; still samples plus 4fps contact sheets, no audio. Exact source animation trajectories remain unknown."
+    },
+    {
+      "id": "YT_BnkhBwzBqlQ-art-1",
+      "source_id": "YT_BnkhBwzBqlQ",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "source_interval": [
+        60,
+        76
+      ],
+      "files": [
+        "art-input-07/YT_BnkhBwzBqlQ-60.00.png",
+        "art-input-07/YT_BnkhBwzBqlQ-68.00.png",
+        "art-input-07/YT_BnkhBwzBqlQ-76.00.png",
+        "frames/YT_BnkhBwzBqlQ/sheet-0007.jpg",
+        "frames/YT_BnkhBwzBqlQ/sheet-0008.jpg",
+        "frames/YT_BnkhBwzBqlQ/sheet-0009.jpg"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-60.00.png",
+          "requested_seek_seconds": 60,
+          "first_logged_pts_seconds": 60.0,
+          "sha256": "eb396d4a08572bd7dccef115ffb74e392e36fecf19e382a3f4db05d046777e10"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-68.00.png",
+          "requested_seek_seconds": 68,
+          "first_logged_pts_seconds": 68.0,
+          "sha256": "a51909c83dabaac17bdcd7f980fe312a09c22cddc34ddedd7585ab9e59a773c1"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-76.00.png",
+          "requested_seek_seconds": 76,
+          "first_logged_pts_seconds": 76.0,
+          "sha256": "73c8423778b3c9352098e8b8b8ea564a997584ac8fc1ad98a5e2ece943623d01"
+        }
+      ],
+      "input_limits": "Native stored resolution, not original production resolution; still samples plus 4fps contact sheets, no audio. Exact source animation trajectories remain unknown."
+    },
+    {
+      "id": "YT_BnkhBwzBqlQ-art-2",
+      "source_id": "YT_BnkhBwzBqlQ",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "source_interval": [
+        116,
+        132
+      ],
+      "files": [
+        "art-input-07/YT_BnkhBwzBqlQ-116.00.png",
+        "art-input-07/YT_BnkhBwzBqlQ-124.00.png",
+        "art-input-07/YT_BnkhBwzBqlQ-132.00.png",
+        "frames/YT_BnkhBwzBqlQ/sheet-0014.jpg",
+        "frames/YT_BnkhBwzBqlQ/sheet-0015.jpg",
+        "frames/YT_BnkhBwzBqlQ/sheet-0016.jpg"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-116.00.png",
+          "requested_seek_seconds": 116,
+          "first_logged_pts_seconds": 116.0,
+          "sha256": "a98d274b990295e81f42e2c3b68d0d58004f836c2140e25a14723b952fd98f70"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-124.00.png",
+          "requested_seek_seconds": 124,
+          "first_logged_pts_seconds": 124.0,
+          "sha256": "d1374de11f92e8b8d5351defac1771005a010fd1b01164c9f69f9a14f7bd77f8"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-132.00.png",
+          "requested_seek_seconds": 132,
+          "first_logged_pts_seconds": 132.0,
+          "sha256": "0b2c4f3d91caaa3ad850f01ff2b583c097944ab599ec46e9d81703787aea8f06"
+        }
+      ],
+      "input_limits": "Native stored resolution, not original production resolution; still samples plus 4fps contact sheets, no audio. Exact source animation trajectories remain unknown."
+    },
+    {
+      "id": "YT_BnkhBwzBqlQ-art-3",
+      "source_id": "YT_BnkhBwzBqlQ",
+      "source_url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "source_interval": [
+        188,
+        204
+      ],
+      "files": [
+        "art-input-07/YT_BnkhBwzBqlQ-188.00.png",
+        "art-input-07/YT_BnkhBwzBqlQ-196.00.png",
+        "art-input-07/YT_BnkhBwzBqlQ-204.00.png",
+        "frames/YT_BnkhBwzBqlQ/sheet-0023.jpg",
+        "frames/YT_BnkhBwzBqlQ/sheet-0024.jpg",
+        "frames/YT_BnkhBwzBqlQ/sheet-0025.jpg"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-188.00.png",
+          "requested_seek_seconds": 188,
+          "first_logged_pts_seconds": 188.0,
+          "sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-196.00.png",
+          "requested_seek_seconds": 196,
+          "first_logged_pts_seconds": 196.0,
+          "sha256": "994b4d35ab96dfc4262d2225a333eb4ae124622e95d3b8fffa27799dff70a45a"
+        },
+        {
+          "file": "art-input-07/YT_BnkhBwzBqlQ-204.00.png",
+          "requested_seek_seconds": 204,
+          "first_logged_pts_seconds": 204.0,
+          "sha256": "7e9a912e140c050cffa2b316882f2fa10740b8cbffc36f19f222087afb4b7c98"
+        }
+      ],
+      "input_limits": "Native stored resolution, not original production resolution; still samples plus 4fps contact sheets, no audio. Exact source animation trajectories remain unknown."
+    },
+    {
+      "id": "YT_t-VhP8PHI80-art-0",
+      "source_id": "YT_t-VhP8PHI80",
+      "source_url": "https://www.youtube.com/watch?v=t-VhP8PHI80",
+      "source_interval": [
+        73.5,
+        74.75
+      ],
+      "files": [
+        "art-input-07/YT_t-VhP8PHI80-73.50.png",
+        "art-input-07/YT_t-VhP8PHI80-74.25.png",
+        "art-input-07/YT_t-VhP8PHI80-74.75.png",
+        "frames/YT_t-VhP8PHI80/sheet-0009.jpg"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_t-VhP8PHI80-73.50.png",
+          "requested_seek_seconds": 73.5,
+          "first_logged_pts_seconds": 73.506767,
+          "sha256": "29c518f3775ebf38d4cd529799822259c3e6d651b0b969339c9bfb62300c4c35"
+        },
+        {
+          "file": "art-input-07/YT_t-VhP8PHI80-74.25.png",
+          "requested_seek_seconds": 74.25,
+          "first_logged_pts_seconds": 74.2742,
+          "sha256": "5928a7ee2fe4806116201766d74578f8f5edf70296b079ede62d2b2bf6c307b7"
+        },
+        {
+          "file": "art-input-07/YT_t-VhP8PHI80-74.75.png",
+          "requested_seek_seconds": 74.75,
+          "first_logged_pts_seconds": 74.7747,
+          "sha256": "11f79baae24c39c846081cb8766e51ee23620f2ba8719b40dafed66601394b1f"
+        }
+      ],
+      "input_limits": "Native stored resolution, not original production resolution; still samples plus 4fps contact sheets, no audio. Exact source animation trajectories remain unknown."
+    },
+    {
+      "id": "YT_ijaK647Qfc8-art-0",
+      "source_id": "YT_ijaK647Qfc8",
+      "source_url": "https://www.youtube.com/watch?v=ijaK647Qfc8",
+      "source_interval": [
+        13.5,
+        15.25
+      ],
+      "files": [
+        "art-input-07/YT_ijaK647Qfc8-13.50.png",
+        "art-input-07/YT_ijaK647Qfc8-14.25.png",
+        "art-input-07/YT_ijaK647Qfc8-15.25.png",
+        "frames/YT_ijaK647Qfc8/sheet-0001.jpg"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_ijaK647Qfc8-13.50.png",
+          "requested_seek_seconds": 13.5,
+          "first_logged_pts_seconds": 13.5,
+          "sha256": "4a114dabbc9fb52d28731f00014ebc7daee09e5f68d355052b3131e07a0f7071"
+        },
+        {
+          "file": "art-input-07/YT_ijaK647Qfc8-14.25.png",
+          "requested_seek_seconds": 14.25,
+          "first_logged_pts_seconds": 14.25,
+          "sha256": "4fe14fe7c5cc371afdf16ae000c326acca5982245da3c8fbb92548068d672d27"
+        },
+        {
+          "file": "art-input-07/YT_ijaK647Qfc8-15.25.png",
+          "requested_seek_seconds": 15.25,
+          "first_logged_pts_seconds": 15.25,
+          "sha256": "18b48279c4c929b2b9385275ef20c4c46795156237ef90b41545a86c1338d7e8"
+        }
+      ],
+      "input_limits": "Native stored resolution, not original production resolution; still samples plus 4fps contact sheets, no audio. Exact source animation trajectories remain unknown."
+    },
+    {
+      "id": "YT_kiVGOS7-n_o-art-0",
+      "source_id": "YT_kiVGOS7-n_o",
+      "source_url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+      "source_interval": [
+        1.25,
+        3.0
+      ],
+      "files": [
+        "art-input-07/YT_kiVGOS7-n_o-1.25.png",
+        "art-input-07/YT_kiVGOS7-n_o-1.75.png",
+        "art-input-07/YT_kiVGOS7-n_o-3.00.png",
+        "frames/YT_kiVGOS7-n_o/sheet-0000.jpg"
+      ],
+      "full_frame_samples": [
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-1.25.png",
+          "requested_seek_seconds": 1.25,
+          "first_logged_pts_seconds": 1.267933,
+          "sha256": "a2ebe0747928f0f33d5f7f2c00cbb2a8a1a8a2737c0e95fc2954ae3bc913ba14"
+        },
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-1.75.png",
+          "requested_seek_seconds": 1.75,
+          "first_logged_pts_seconds": 1.768433,
+          "sha256": "1ca497fd4989bb2da21cf193ba4f8cb3e8978a63125d2ca27a403364a85f7769"
+        },
+        {
+          "file": "art-input-07/YT_kiVGOS7-n_o-3.00.png",
+          "requested_seek_seconds": 3.0,
+          "first_logged_pts_seconds": 3.003,
+          "sha256": "17bce07baef55ab9972f0ee383885fe692f71e79f4784a1ca9c7ab0d45915d26"
+        }
+      ],
+      "input_limits": "Native stored resolution, not original production resolution; still samples plus 4fps contact sheets, no audio. Exact source animation trajectories remain unknown."
+    }
+  ]
+}

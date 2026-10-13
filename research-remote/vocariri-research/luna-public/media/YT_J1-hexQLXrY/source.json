@@ -1,0 +1,18 @@
+{
+  "id": "YT_J1-hexQLXrY",
+  "url": "https://www.youtube.com/watch?v=J1-hexQLXrY",
+  "at": "2026-09-24T13:18:32.848245+00:00",
+  "title": "【文字PV】人マニア 【aviutl】",
+  "uploader": "みずのひと",
+  "duration": 37,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 2357123,
+  "sha256": "ea716272ec17d7afefafa26b37bfb3e0c0fb78ed536508190152879826dfab18",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

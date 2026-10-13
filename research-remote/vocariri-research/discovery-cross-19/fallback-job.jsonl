@@ -1,0 +1,6 @@
+{"at_utc": "2026-10-02T13:10:10.858029+00:00", "model_request_made": false, "pairs": [["PVOLT-HbS1T4d1P70", "NICO-sm43449029"], ["PVOLT-lIoi2r3f5fU", "NICO-sm43086737"]], "state": "fallback_tool_job_started"}
+{"at_utc": "2026-10-02T13:10:10.878631+00:00", "id": "NICO-sm43449029", "main_documented_failed": true, "main_id": "PVOLT-HbS1T4d1P70", "main_success_or_media_present": false, "state": "paired_fallback_process_attempting"}
+{"at_utc": "2026-10-02T13:10:14.820262+00:00", "elapsed_seconds": 3.921, "id": "NICO-sm43449029", "returncode": 1, "state": "fallback_process_completed"}
+{"at_utc": "2026-10-02T13:10:14.840293+00:00", "id": "NICO-sm43086737", "main_documented_failed": true, "main_id": "PVOLT-lIoi2r3f5fU", "main_success_or_media_present": false, "state": "paired_fallback_process_attempting"}
+{"at_utc": "2026-10-02T13:10:18.430803+00:00", "elapsed_seconds": 3.571, "id": "NICO-sm43086737", "returncode": 1, "state": "fallback_process_completed"}
+{"at_utc": "2026-10-02T13:10:18.447427+00:00", "forms_increment": 0, "state": "fallback_tool_job_finished", "templates_increment": 0}

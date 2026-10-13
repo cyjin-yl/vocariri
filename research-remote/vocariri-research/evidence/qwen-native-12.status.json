@@ -1,0 +1,65 @@
+{
+  "task": "qwen-native-12",
+  "work_order": "WORK_ORDER_QWEN_12_R1.md",
+  "state": "offline_frozen_complete_pending_capacity",
+  "at": "2026-09-27T09:20:00Z",
+  "capacity_gate": {
+    "rule": "new request allowed only when fresh shared running slots <= 3/4 AND waiting queue == 0; one in-flight request per seat; no provider/model fallback; no shared service changes",
+    "last_known": "coordinator metrics 4/4 running (user-reported 2026-09-27 current turn); waiting count unknown locally",
+    "local_metric_path": "NONE_FOUND - no slot/capacity metric file exists in /workspace or [home]; models.yml and model config are forbidden to open; fresh occupancy must be supplied by coordinator between tool calls",
+    "action_on_4of4_or_waiting": "stop at this resumable checkpoint; no queued requests; no repeated polling or blind retry"
+  },
+  "client_note": "Deployed video_request.py reads protected model config without pinning endpoint/model and does not sanitize config/setup exceptions; per coordinator instruction it is NOT to be called. Waiting for reviewed bounded client + updated order from coordinator. No inference attempted.",
+  "selection_frozen": {
+    "source_id": "BV1zrbCzLEH4",
+    "source_file": "media/BV1zrbCzLEH4/source.mp4",
+    "source_bytes": 22160950,
+    "source_sha256": "9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7",
+    "source_format": "h264 High, 1280x720, 30 fps, 30 tbr, 16k tbn, duration 302.57s, yuv420p",
+    "correction": "First frozen windows (134.43/28.60/218.40) were derived from dense/BV1zrbCzLEH4 sheet labels which do NOT match source PTS (verified: those times show 心如刀割 brush scene, gold chibi scene, and credits). Dense sheet time labels are unreliable; windows re-selected from full-resolution PTS-labeled scans. dense/BV1zrbCzLEH4/*.jpg must not be used as timecoded evidence.",
+    "windows": [
+      {
+        "id": "win-a-scale",
+        "phenomenon": "(a) text shrinking or scale reversal",
+        "start_seconds": 141.941,
+        "end_seconds": 142.541,
+        "native_frames": 18,
+        "native_pts_range": "141.9410-142.5080",
+        "verified_content": "diagonal serif group 非常痛苦 on pale bg; red brush glyph 悲 enters small at 142.242 and scales up by 142.342; blur onset follows",
+        "request_mode": "video clip, all 18 native frames, no resampling"
+      },
+      {
+        "id": "win-b-bar",
+        "phenomenon": "(b) foreground rounded bar or comparable non-text occluder",
+        "start_seconds": 160.30,
+        "end_seconds": 161.50,
+        "native_frames": 36,
+        "native_pts_range": "160.3090-161.4760",
+        "verified_content": "white rounded cross/plus bars on cream textured bg scale from faint (160.3) to dominant (161.476), over small centered dark text",
+        "request_mode": "video clip, all 36 native frames, no resampling"
+      },
+      {
+        "id": "win-c-stagger",
+        "phenomenon": "(c) staggered multiword/glyph group entrance or persistence",
+        "start_seconds": 139.908,
+        "end_seconds": 140.508,
+        "native_frames": 18,
+        "native_pts_range": "139.9080-140.4740",
+        "verified_content": "diagonal serif line 將它停下来的; red brush glyphs 意(139.941) 志(139.974) 的(140.142) 力(140.209) 量(140.343) enter sequentially (意志的力量)",
+        "request_mode": "video clip, all 18 native frames, no resampling"
+      }
+    ],
+    "frozen_inputs": "evidence/qwen-native-12.inputs.json (per-frame pts_time + sha256, clip sha256/bytes/frame_count)",
+    "prompt_contract": "send media first, no prior captions/form descriptions; ask explicitly about screen-space occluders, lettering anatomy, group identity, direction of scale change, frame-indexed appearance/exit",
+    "request_settings": "reviewed bounded client (awaiting coordinator): enable_thinking=true; reasoning_effort=xhigh; no output-token/word cap; media num_frames = native frame count; no secondary resampling; stream with events receipt; endpoint/model pinned and sanitized"
+  },
+  "environment_notes": [
+    "evidence/ was owned by uid 'nobody' (mode drwxr-sr-x) and not writable by seat uid 1000(ezra); original moved to evidence-pre-r1-backup/ (content preserved: project-agents-null-original.bin) and evidence/ recreated mode 2775",
+    "ffprobe unavailable; used imageio-ffmpeg binary with showinfo for PTS extraction"
+  ],
+  "next": [
+    "Next checkpoint: coordinator delivers fresh occupancy + waiting count AND reviewed bounded client; if <=3/4 and waiting=0 run win-a then win-b then win-c sequentially, saving status after each window",
+    "If 4/4, waiting>0, or metric unavailable/stale: stop at this checkpoint; resume only after re-check",
+    "After responses: independently compare each answer vs indexed native frames (evidence/native/win-*); per-window judgment supported/partially_supported/unsupported/unknown; no accepted-form increment"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "YT_voRTkIEf7Oo",
+  "url": "https://www.youtube.com/watch?v=voRTkIEf7Oo",
+  "at": "2026-09-24T15:46:48.307479+00:00",
+  "title": "Testing",
+  "uploader": "Nohluhn",
+  "duration": 17,
+  "fps": 20,
+  "width": 320,
+  "height": 270,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 624150,
+  "sha256": "c7ba17baca3e32cdc33cd55456464d63ce570e2c713bad4f16ef22657001e5c3",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

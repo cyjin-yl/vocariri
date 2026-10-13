@@ -1,0 +1,18 @@
+{
+  "id": "YT_aS-u7iMRPHg",
+  "url": "https://www.youtube.com/watch?v=aS-u7iMRPHg",
+  "at": "2026-09-25T01:21:17.521397+00:00",
+  "title": "筆文字アニメーションPV",
+  "uploader": "青空 渚",
+  "duration": 37,
+  "fps": 30,
+  "width": 960,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 5013026,
+  "sha256": "1efc1cac8cdc396256a125d2465c2e76c8c4202a079654bf32ac4e0795c8cb84",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

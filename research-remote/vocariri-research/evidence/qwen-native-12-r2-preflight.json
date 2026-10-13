@@ -1,0 +1,49 @@
+{
+  "task": "qwen-native-12-r2",
+  "at": "2026-09-27T10:29:16.491803+00:00",
+  "decoder": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+  "checks": [
+    {
+      "what": "source",
+      "sha256_match": true,
+      "bytes": [
+        22160950,
+        22160950
+      ]
+    },
+    {
+      "what": "window win-a-scale",
+      "id": "win-a-scale",
+      "native_frames_recorded": 18,
+      "clip_bytes": [
+        236267,
+        236267
+      ],
+      "clip_sha256_match": true,
+      "native_frames_all_match": true
+    },
+    {
+      "what": "window win-b-bar",
+      "id": "win-b-bar",
+      "native_frames_recorded": 36,
+      "clip_bytes": [
+        186921,
+        186921
+      ],
+      "clip_sha256_match": true,
+      "native_frames_all_match": true
+    },
+    {
+      "what": "window win-c-stagger",
+      "id": "win-c-stagger",
+      "native_frames_recorded": 18,
+      "clip_bytes": [
+        253583,
+        253583
+      ],
+      "clip_sha256_match": true,
+      "native_frames_all_match": true
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,74 @@
+{
+  "task": "qwen-r5a-deco",
+  "work_order": "WORK_ORDER_QWEN_DECO_R5A.md",
+  "state": "offline_passing",
+  "at": "2026-09-27T14:05:00Z",
+  "source": {
+    "file": "media/BV1J8hf61EAt/source.mp4",
+    "sha256": "99e15a0cf0ccf1e65972c2adba94c2236625811764b366e7a217e0ffa27369e0",
+    "bytes": 10115798,
+    "sidecar": {"file": "media/BV1J8hf61EAt/source.json", "sha256": "86f529d7c817d7e34d72a3a9915a91919c894d26ec2f35604f4184aeaf4adea7"},
+    "stream_facts_verified": "Video: av1 (libdav1d) Main, yuv420p(tv, bt709), 1280x720, 30 fps, 30 tbr, 16k tbn; container Duration 00:02:53.65; audio aac 48kHz stereo (not used). Title/duration/fps from source.json are metadata claims, not stream facts; stream facts above read from ffmpeg -i of the retained bytes."
+  },
+  "screening": {
+    "range": "0-45 s only, 2 fps sparse index (90 frames, r5atmp/screen/s-001..s-090, sheet.jpg)",
+    "classification": "0-45 s is a continuous shot of a kinetic lyric typography sequence: flat cyan background, monochrome Miku-style girl with yellow hat (static pose), Japanese lyric glyphs entering with scale pops and single-frame appearances. No player UI, watermark, progress bar or scene cut observed in the 90 screening frames. All text is in-frame lyric typography, not UI.",
+    "candidates": "A: 17.0-19.5 s (glyph scale pop + sequential entries); B: 32.0-34.5 s (fade-in entry). A selected for richer same-glyph size trajectory plus two in-window text changes.",
+    "window_frozen": {"n_range": [519, 554], "count": 36, "duration_seconds": 1.1667, "source_pts": "276800..295467", "time_seconds": "17.300..18.467"}
+  },
+  "window_decode": {
+    "command": "ffmpeg -nostdin -hide_banner -v info -i media/BV1J8hf61EAt/source.mp4 -vf \"select='between(n,519,554)',showinfo\" -fps_mode passthrough -an -f image2 r5atmp/window/w-%03d.png (plus identical select to raw yuv420p for hashing)",
+    "decoder": "ffmpeg version 7.0.2-static (imageio_ffmpeg binary /opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2); Python 3.11.2",
+    "note": "framehash filter absent in this build ('No such filter: framehash'); decoded-frame hashes computed as MD5 of raw yuv420p bytes per frame (1280x720, 1036800 bytes each) from a single rawvideo decode",
+    "frames": 36,
+    "source_frame_indices": [519, 554],
+    "source_pts_absolute": [276800, 277333, 277867, 278400, 278933, 279467, 280000, 280533, 281067, 281600, 282133, 282667, 283200, 283733, 284267, 284800, 285333, 285867, 286400, 286933, 287467, 288000, 288533, 289067, 289600, 290133, 290667, 291200, 291733, 292267, 292800, 293333, 293867, 294400, 294933, 295467],
+    "deltas_ticks": "533/534 alternating (33.3125/33.375 ms) - NOT integer-millisecond",
+    "time_base": "1/16000",
+    "decoded_frame_md5_raw_yuv420p": {
+      "n519": "bfe1a93aeec1350873cbf9b0e9990254", "n520": "0d7c0d569f90792269ed065b90a16658", "n521": "bebb369ad88c9d5865a4fc833f7cc65b", "n522": "c40622c322ca7f63064f826037ecc6fd", "n523": "969fa5050187819d4588e2a5ead351cb", "n524": "676422e3e403d5845f49775adac4c18a", "n525": "ccc2d2becd48b60391d2d778471f1848", "n526": "776a996b29bc27da6a36cbc684231eee", "n527": "f569760689cd5219f94afd5e7818e21a", "n528": "22db3cf262a24ba2a423734c22097209", "n529": "02496f2b45761dce3a21672ac14865e6", "n530": "4fb1b12a87b3704ee0d4854a79d73679", "n531": "13204f655bd4fd65f11dc16db6c0853e", "n532": "784a633c64d6fcf85a74536bdab1960b", "n533": "aaf3137f066baa7dffa11791898fa99a", "n534": "c7ec7dfd9dc76ef2627d9b85755d5caa", "n535": "146b200e457df5775d5d355c89dec3b6", "n536": "98002bdfe9273eef7686b12a8982bffe", "n537": "db6dfd9f9ca7f2421076475342d9b914", "n538": "7cb0a096cd9fbd378adf063b2a6beca2", "n539": "129332b660997e5ead09928604530d8a", "n540": "6129ecd1b63962dc5a4e01b823d75ea5", "n541": "bb55a5f2741526282843454dd8f0af95", "n542": "aef59e912b5e8d7f3b9387d9c1b25229", "n543": "5c9f94285a7c936463cbef3aa1eea79c", "n544": "175c7c4b631ab0fdde3da4ea3efe942d", "n545": "dfce24da0ab1512fb5b9773bf57e7107", "n546": "93333ce104ab036399ebb8de18fb8c22", "n547": "21dbab045278fc4946499c11316a0da6", "n548": "7438eca6a10185a18381d67c0054d83d", "n549": "07c5bdb3c550bfef60607d44e69cfe4c", "n550": "78f2c6f2e50eb071700135a0ece8c68c", "n551": "0860fd273a173ab88275905ea6db3a9a", "n552": "eeccc1dc47e3b65823082a493ccc4ef8", "n553": "37f8f5ca4839233811c7c4fc5a70bc1b", "n554": "5954fbce015cfe2c140573b33d53d3f0"
+    }
+  },
+  "observations_frame_grounded": {
+    "read_method": "full-resolution reads: 2fps sheet (256px) for screening only; native 30fps 200px sheets for candidate choice; 400px full-resolution transition strips (n517-525, n539-556, r5atmp/window/transitions.jpg) and 960px single frames for glyph claims. Low-resolution sheet reads produced a mislabel (large glyph initially read as 'また'; full resolution shows '気') - full resolution is authoritative.",
+    "composition": "single continuous shot, no cut; flat cyan background with soft darker vertical bands at frame edges; monochrome Miku-style girl (yellow knit hat, twin tails) centered, upper-body, pose static across all 36 frames (no visible character motion)",
+    "left_vertical_column": "vertical lyric column at the left edge (small, black serif) present across the window; small warm-red accent marks (dot/dash) above column glyphs visible from n523",
+    "main_glyph_ki": {
+      "glyph": "気 (large, upper-left, overlapping the hat region)",
+      "size_trajectory": "grows from ~60% of final size at n519 (17.300s) to full size at n523 (17.433s); position fixed (no visible translation); same-glyph scale-up over ~5 frames; no intermediate opacity frames observed; mechanism (scale keyframe vs asset swap vs re-render) not inferable from appearance",
+      "hold": "full size, static, n524-n554",
+      "exit": "outside window: shrinking begins at n555 (18.500s, neighbor frame)",
+      "anatomy_observed": "black solid fill, no outline; wedge/serif terminals at stroke ends; clear thick-horizontal/thin-vertical stroke contrast; angular joints. (Family label such as Song/Ming is interpretation, not a visible fact.)"
+    },
+    "right_glyph_entries": {
+      "な": "absent at n524, fully present at n525 (17.467s) at fixed position and final small size - hard single-frame appearance (fade/sub-frame ramp not resolvable at 30fps)",
+      "く": "absent at n539, present at n540 (18.200s)",
+      "て": "absent at n539, present at n540 (18.200s)",
+      "grouping": "気 (large) + な・く・て (small, sequential, right of 気) - within-window text changes: 2 (n525, n540)"
+    },
+    "occlusion": "glyphs are the top layer over the character (気 overlaps hat; left column overlaps twin-tail edge); character midground; background flat. No rounded foreground objects in this window (unlike BV1zrbCzLEH4 window).",
+    "anchoring": "screen-space: glyphs fixed to frame layout; character static so object-anchoring not testable; no parallax",
+    "conditional_applicability": "the on-screen fragments read as '気' + 'なくて' (plus the left column); lyric-meaning/emotional fit is conditional on audio/lyric context and NOT verified here; no full-lyric transcription attempted per order"
+  },
+  "clip": {
+    "intermediate": {"file": "evidence/native/deco-ki-r5a-mid.mp4", "sha256": "9e2594a1a196bd001e753097e2a918117e3eb3ab3e66ab29261752e46ea25b38", "build": "libx264 crf12, -fps_mode passthrough, -enc_time_base filter, -video_track_timescale 16000, select n519..554, setpts=PTS-STARTPTS, no fps filter, no output -r"},
+    "final": {"file": "evidence/native/deco-ki-native-r5a.mp4", "sha256": "c719e9bba2606ff9f1780614926546ea89e217f64b3bf8781ed2f47c2c72028f", "remux": "stream copy from intermediate, -c copy -video_track_timescale 16000 -movflags +faststart"},
+    "decode_verification": "36/36 frames; integer clip pts equal to source relative pts at every index [0,533,1067,...,18667]; strictly increasing",
+    "visual_correspondence": "first/middle/last per-pair grayscale MAD 0.3379/0.3617/0.3970 (255 scale), max diff 8/15/11; lossy CRF12 re-encode (AV1 decode -> x264), pixel equality NOT claimed"
+  },
+  "receipt": {"file": "evidence/native/deco-ki-pts-r5a.json", "schema": "R3c-compatible {version:1, clip_sha256, source_sha256, source_time_base, source_pts}", "source_pts_independently_observed": "36 absolute source pts read from fresh showinfo of the source (not copied from any prior artifact)"},
+  "offline_validation": {
+    "client_module_sha256": "b93661cd6573ab1e5a95cfd7e83544b6379e23d2dec9192691618b2d89de952b",
+    "probe_video": {"decoded_frames": 36, "time_base": "1/16000", "dimensions": [1280, 720], "duration_seconds": 1.2, "pts_exact": true},
+    "validate_native_receipt": "pass on the exact final bytes + receipt",
+    "negative_control_1": "receipt copy with last source_pts +16 ticks -> rejected native_receipt_invalid",
+    "negative_control_2": "receipt copy with zeroed clip_sha256 -> rejected native_receipt_invalid",
+    "real_receipt_unaltered": true
+  },
+  "failed_attempts": [
+    "MKV intermediate (order-mandated form) cannot preserve relative native PTS with this toolchain: matroska muxer quantizes to integer ms (no timebase AVOptions in ffmpeg 7.0.2-static, verified via -h muxer=matroska); measured decoded MKV pts grid 0,33,67,...,1167 ms collapses the 533/534-tick cadence (drift up to ~240 ticks at frame 18). Preserved: r5atmp/failed-mkv/intermediate-mkv-ms-quantized.mkv + decode-pts.txt. Substituted MP4 intermediate (same CRF12 encode) which preserves exact 1/16000 ticks, then stream-copy remux to final MP4 - the R3c MKV path only preserved cadence because that source's 528/544-tick gaps were integer ms.",
+    "framehash filter unavailable in this ffmpeg build; raw-yuv MD5 per frame used instead"
+  ],
+  "later_video_prompt_proposal": "PROPOSAL ONLY (not an applied client modification): the video prompt for this window must explicitly request: (1) frame-indexed entrances/exits per glyph with native frame numbers; (2) for the large glyph, same-glyph size trajectory across frames (start/mid/end size) separately from the different-glyph size hierarchy (large main vs small trailing glyphs); (3) rounded or other foreground objects ONLY if occlusion-order evidence exists in the frames (state which layer is in front); (4) glyph grouping and sequential append behavior; (5) custom stroke/outline anatomy described as observed wedge terminals and weight contrast without an unsourced font-family label; (6) screen-space vs scene-space anchoring; (7) explicit uncertainty fields for unresolvable mechanisms (fade vs hard appearance, scale keyframe vs asset swap, accent-mark purpose).",
+  "next_independent_review": "A separate seat must independently inspect: (a) the 36 native source frames vs these observations (r5atmp/window/w-*.png, transitions.jpg); (b) final clip decode/PTS (evidence/native/deco-ki-native-r5a.mp4, sha c719e9bb...); (c) the negative-control behavior; (d) art/anatomy claims; (e) the MKV-quantization failed attempt. Only then may a separately ordered inference request proceed."
+}

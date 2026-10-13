@@ -1,0 +1,18 @@
+{
+  "id": "YT_f88hCsCboAg",
+  "url": "https://www.youtube.com/watch?v=f88hCsCboAg",
+  "at": "2026-09-24T16:10:02.149225+00:00",
+  "title": "【aviutl講座?】テキストを動かす",
+  "uploader": "みょんたろう",
+  "duration": 19,
+  "fps": 19,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 667941,
+  "sha256": "e73b0b814fcff46876430138ef53ca1cecd5a0e9d35e99a8f4a116a7ef75cb45",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

@@ -1,0 +1,100 @@
+{
+  "review_id": "PAIR-09-NATIVE-R1",
+  "status": "blocked_environment_maintenance_tmp_loss",
+  "work_order": "WORK_ORDER_LUNA_PAIR09_R1.md",
+  "pair_id": "PAIR-09",
+  "output_file": "outputs/pair-09-native-r1.json",
+  "output_sha256": "b64c64c1c63bc1a4280369f256444b9add1288e4717ffa97318b65f2900b0982",
+  "interruption": {
+    "event": "/tmp/pair09-native-r1 directory lost across environment maintenance.",
+    "coordinator_directive_followed": true,
+    "search_attempts_made": 2,
+    "failed_still_read_retries": 1,
+    "stopped_per_directive": true
+  },
+  "inputs": {
+    "triage_v3_sha256": "c2818fd262d18ade6c976b684b1335739f38caa00c6afcc015d2df5e1ead275d",
+    "eu3_source_sha256": "741e108235d9d7ff8fba60316a31bd4e31a49c1cb34fbbbd5d5e88fe46fafaff",
+    "eu3_metadata_sha256": "9a41589ab52c43cfc6e075f2b6f5862efb4af58d9f2e3ba0c6aa4176cb03def3",
+    "k72_temporal_source_sha256": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+    "k72_provenance_sidecar": null,
+    "k72_original_source_pts_offset": "unknown"
+  },
+  "decoder": {
+    "binary": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+    "version": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+    "windows": [
+      {
+        "source": "media/YT_eu3yoLa3dgs/source.mp4",
+        "proposed_interval_seconds": [
+          16.25,
+          17.25
+        ],
+        "native_time_base": "1/12288",
+        "frame_rate": "24/1",
+        "first_pts": 199680,
+        "first_pts_time": "16.25",
+        "last_pts": 211968,
+        "last_pts_time": "17.25",
+        "decoded_consecutive_frames": 25
+      },
+      {
+        "source": "temporal-input/BV1k72LYzEmV/source.mp4",
+        "proposed_interval_seconds": [
+          45.0,
+          46.0
+        ],
+        "native_time_base": "1/16000",
+        "frame_rate": "30/1",
+        "first_pts": 720000,
+        "first_pts_time": "45",
+        "last_pts": 736000,
+        "last_pts_time": "46",
+        "decoded_consecutive_frames": 31,
+        "original_source_pts_offset": "unknown"
+      }
+    ],
+    "audio_decoded": false
+  },
+  "native_visual_evidence": {
+    "montage_tile_reads_before_loss": 8,
+    "full_resolution_still_reads_before_loss": 8,
+    "full_resolution_still_reads_lost_with_tmp": 5,
+    "native_429": false,
+    "decoder_failure": false
+  },
+  "relation": "unknown",
+  "relation_reason": "Full-resolution evidence is incomplete (5 of 10 stills lost with the tmp directory). No cross-form comparison is supportable without the missing native reads.",
+  "candidate_label_check": {
+    "FORM-EXP02-TEXT-004": "Vertical column persistence is visible in the surviving stills; reading direction and replacement are not established.",
+    "FORM-K72-004": "Outlined type traversing/cropping is visible in the surviving stills; exact movement versus edits is unresolved.",
+    "labels_untrusted": true
+  },
+  "acceptance_increment": {
+    "forms": 0,
+    "templates": 0
+  },
+  "shared_ledgers_modified": false,
+  "prior_receipts_triage_and_sources_modified": false,
+  "preservation_hashes": {
+    "media/YT_eu3yoLa3dgs/source.mp4": "741e108235d9d7ff8fba60316a31bd4e31a49c1cb34fbbbd5d5e88fe46fafaff",
+    "media/YT_eu3yoLa3dgs/source.json": "9a41589ab52c43cfc6e075f2b6f5862efb4af58d9f2e3ba0c6aa4176cb03def3",
+    "temporal-input/BV1k72LYzEmV/source.mp4": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+    "outputs/text-triage-12.json": "ce1c4fae8eb3450308935cfa52cbde061a828c67c02d980ed45a3c305933a2b3",
+    "outputs/text-triage-12-v2.json": "381ab3abf16957cbbc990076ad8aae3aa773c3e00d9a1ccccf51074f02f57a8c",
+    "outputs/text-triage-12-v3.json": "c2818fd262d18ade6c976b684b1335739f38caa00c6afcc015d2df5e1ead275d",
+    "outputs/pair-01-native-r1.json": "8482dd8f57b56b0dc20955361a8c3b91e1cb6ea7d566453e277a41dde4a724a2",
+    "logs/pair-01-native-r1.status": "eca5daead2df29dec6aae2f275e68d648517332be110ecb3cc51e8d2ac0c3a84",
+    "outputs/pair-01-native-r2.json": "0ebf95a341630ecd9e6911ce049e45d59841230bd852c30e444b097d765ec963",
+    "logs/pair-01-native-r2.status": "47761c8805e06a0f797be23a708adc222eeec631252bcf81cce3f8ac8af24813",
+    "outputs/pair-02-native-r1.json": "1e8e63f4af624fd7cf320699a1dd535b2104324c473d5556ecf0428225564bb4",
+    "logs/pair-02-native-r1.status": "b67e2efbc6fa4f3d17d77dc49d615433cd3ecc559b877847eab86a97764ed38a",
+    "outputs/pair-03-native-r1.json": "547f9d7b2d6de46e7dc8b0579c3b8e271b61de39dc8a8c19f3190ee8dbaeb8ad",
+    "logs/pair-03-native-r1.status": "51a5538b596f1ce13841788cc1606d8438c49129006a94b54c464f17763fff6e",
+    "outputs/pair-07-native-r1.json": "5f188438f3f378fd81a870dc6b2bc6579613f53f531248e60b27013d6932ba5c",
+    "logs/pair-07-native-r1.status": "f22926b1a3992f87ee99d126d43f1756c9a07fa69384d8f260fa98448f1b79c2",
+    "outputs/pair-08-native-r1.json": "8d13b71493784b96010206ca016db1a612d3681aa206eeb6fe6f7be51e2dc0c6",
+    "logs/pair-08-native-r1.status": "1c6619c3b66271b482d20eb31d6f9326dc8ce1d3f2e4f598a5fd1a6fd7d83b0e"
+  },
+  "resume_point": "Resume with the authorized Luna model and scoped configuration: re-extract the 5 missing full-resolution stills (eu3 17.0/17.25; k72 45.5/45.767/46.0) and complete the visual comparison. Do not search the lost /tmp/pair09-native-r1 directory or retry failed visual reads."
+}

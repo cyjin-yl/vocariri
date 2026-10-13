@@ -1,0 +1,18 @@
+{
+  "id": "YT_yH5Ork48Vpo",
+  "url": "https://www.youtube.com/watch?v=yH5Ork48Vpo",
+  "at": "2026-09-25T01:21:10.145894+00:00",
+  "title": "【書】手書き風アニメーション",
+  "uploader": "松本朗",
+  "duration": 9,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 59024,
+  "sha256": "eb1738ab03ed710ad2480e34223d0087954b16f65abcd5add2061daf08af148f",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

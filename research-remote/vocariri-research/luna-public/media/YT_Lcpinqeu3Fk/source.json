@@ -1,0 +1,18 @@
+{
+  "id": "YT_Lcpinqeu3Fk",
+  "url": "https://www.youtube.com/watch?v=Lcpinqeu3Fk",
+  "at": "2026-09-24T16:10:20.597225+00:00",
+  "title": "IRIS OUT / 米津玄師 様",
+  "uploader": "はるきち",
+  "duration": 20,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 1691047,
+  "sha256": "865bb0384da03b4cbd3553ae881a5c84dc83b48a33e85e87e1af76733f3a4e7b",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

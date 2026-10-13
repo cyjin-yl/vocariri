@@ -1,0 +1,37 @@
+task: batch18-qwen-r1
+work_order: WORK_ORDER_QWEN_BATCH18_R1.md (sha256 3db6c80a5cf8e78e2bbf921f060aef72c9064d29b9f20ad596ba150edb66a039, verified)
+state: completed_unreviewed
+at: 2026-10-01T13:36:00Z
+increments: forms=0 finished_templates=0
+inference_made: false
+
+inputs:
+  NICO-sm45786816/source.mp4 4b4b2ab4346dd09a2a2127e1cd0b003a526ebf54e974db7604cf228b95802559 (8445617 B, 854x480 h264 30fps 1/90000, 39.33s)
+  NICO-sm45669453/source.mp4 7197c80fcb0d32e322354d37810adea78617974c7d6707f0a57c9417cda95946 (4062204 B, 854x480 h264 24fps 1/90000, 16.83s)
+  NICO-sm46320139/source.mp4 92f173f7bc7fbf524e75204c97b92b8aaaea1ff8787d39f1f477b218ec2571a4 (4481247 B, 854x480 h264 30fps 1/90000, 23.10s)
+  all three rehashed and matched before analysis; sidecars + selection.json read
+
+windows:
+  NICO-sm45786816 n300-400 (101 frames, 10.000-13.333s, pts 900000-1200000 @1/90000, delta 3000) - dare-circle pan + mincho line cuts + heart/spike deep zoom
+  NICO-sm45669453 n85-136 (52 frames, 3.542-5.667s, pts 318750-510000 @1/90000, delta 3750) - letterbox band: 'iki o->' -> 'sute[bar]te' swap + rigid rotation to vertical
+  NICO-sm46320139 n250-300 (51 frames, 8.333-10.000s, pts 750000-900000 @1/90000, delta 3000) - static purple/coral two-line marquee, line-2 slide-in at n271
+
+frame_binding:
+  rule: complete yuv420p frame = W*H*3/2 from actual dimensions = 614880 bytes (854x480); 1280x720=1382400 rule does not apply to these files
+  raw decode totals exactly matched frame_count*614880 for all 204 frames; per-frame MD5 + integer pts + PNG path in each window.json
+  first frame of each window MD5-identical to isolated eq(n,*) extraction
+  raw decode required -vsync 0 (default duplicated frames: 401 vs 101 for W1)
+
+reads:
+  sparse sheets: 6 (3 batch - misattributed, superseded; 3 individual - authoritative screening)
+  window montages: 3 (screening only)
+  full-res native: 23 + 1 single re-read (W3 n288 correction)
+  all full-res reads bound to source id + filename + source frame index + integer PTS
+
+dedup: all three patterns possibly_distinct vs retained reviewed mechanisms (deco-ki R5a; win-a-scale R4a; win-b-bar/win-c-stagger R2b name-only); no duplicate; no originality claim for the sm46320139 reconstruction (original not retained)
+
+contradictions_preserved: sparse-sheet cross-file misattribution (batch order at downscale); W3 n288 line-count misread; both corrected by single reads + motion profile; see outputs/batch18-qwen-r1.json contradictions_and_corrections
+
+boundaries: no model/video request, no inference, no download, no source modification, no service/config/seat changes, no Computer Use; evidence exclusive to evidence/batch18-qwen-r1/; prior evidence untouched
+
+next_gate: independent review of 204 frames vs hashes, 23 full-res reads, dedup verdicts, contradiction records; sm46320139 requires original-PV comparison before any originality claim

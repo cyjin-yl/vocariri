@@ -1,0 +1,21 @@
+node_modules/
+exports/
+test-results/
+research/cache/
+research/sources/
+research/reference-archive/
+# Local research evidence, frames and operator receipts. Promote reviewed rules separately.
+research/reviews/
+*.wav
+*.mp3
+*.mp4
+*.mov
+.DS_Store
+
+dist/
+src-tauri/target/
+src-tauri/gen/
+research/**/cache/
+research/**/sources/
+research/remote/seat-config.yml
+research/remote/__pycache__/

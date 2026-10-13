@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-02T14:52:06.622061+00:00",
+  "sources": [
+    {
+      "id": "YT_b0XgjrWSV7k",
+      "file": "luna-public/media/YT_b0XgjrWSV7k/source.mp4",
+      "bytes": 34515185,
+      "sha256": "7667f999dc1f4e8f9fedc1f5ae1e24e311a336f4d421cf02aa4a3138cf2ee958",
+      "sidecar_sha256": "af0e9ccdf3cabebf2c31b962d981aab9c939332f5c04296fc2059a9e3fb75d95",
+      "checked_at_utc": "2026-10-02T14:52:06.602078+00:00"
+    },
+    {
+      "id": "YT_3Jf_sabP4e0",
+      "file": "luna-public/media/YT_3Jf_sabP4e0/source.mp4",
+      "bytes": 19922877,
+      "sha256": "67af7fce3d05102a689038b1c08838b8c6cb6e5b83f0a8e9ba10c0a47bbdd3c7",
+      "sidecar_sha256": "1c4af29b86168995690207656c7c5e07a251d26043f8a7fa95653de34f58c746",
+      "checked_at_utc": "2026-10-02T14:52:06.621990+00:00"
+    }
+  ],
+  "ffmpeg_binary": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+  "ffmpeg_sha256": "e7e7fb30477f717e6f55f9180a70386c62677ef8a4d4d1a5d948f4098aa3eb99",
+  "phase": "native-r2",
+  "python": "3.11.2 (main, May 12 2026, 05:17:27) [GCC 12.2.0]",
+  "model_request_made": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "NocXEwsJGOQ",
+  "url": "https://www.youtube.com/watch?v=NocXEwsJGOQ",
+  "at": "2026-09-27T03:04:37.385486+00:00",
+  "title": "Anamanaguchi - Miku ft. Hatsune Miku (Lyric Video)",
+  "uploader": "Hatsune Miku",
+  "duration": 239,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 8940426,
+  "sha256": "02af660aa5b40b5c8cb761fceca8d7b71569ff6b311a4803c03cb99f71545f84",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

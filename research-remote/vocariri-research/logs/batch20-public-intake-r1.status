@@ -1,0 +1,19 @@
+batch20-public-intake-r1 status
+generated_at: 2026-10-03T21:38:13Z
+state: partial
+accepted_form_increment: 0
+rendered_template_increment: 0
+work_order: WORK_ORDER_QWEN_BATCH20_PUBLIC_INTAKE_R1.md sha256=8d65de45db50d946d45201449b652f75453f893a02cce4ba6f98ec60c8a9c8f5 verified
+tools: python 3.11.2, yt-dlp 2026.08.19, ffmpeg 7.0.2-static
+registry_check: all 4 IDs new; NICO-sm45243352 in cross-18 candidate-comparison (metadata only, not acquired)
+results:
+  BILI-BV1ue4y1e78R: downloaded_uninspected, 10994572 bytes, 240.5s, 852x480, aac, "world.execute(me);(同人PV)"
+  BILI-BV1VY4y1i7LC: downloaded_uninspected, 33650512 bytes, 256.4s, 852x480, aac, "AE制作孤勇者音乐播放器滚动放大高亮歌词字幕"
+  BILI-BV1SK411p7DA: downloaded_uninspected, 2638689 bytes, 46.6s, 852x480, aac, "文字变化向——AE动画"
+  NICO-sm45243352: failed_403, bot detection on m3u8 download, no partials
+summary: 3/4 downloaded, 1/4 failed (403), total 47283773 bytes
+cookies: all disabled, no browser/profile/netrc/login state
+redirects: all 0 blocked (no redirects encountered)
+network_requests: 71 lines, all signed URLs redacted
+acquisition_ledger: 8 lines (4 attempting + 3 downloaded + 1 failed)
+next: independent review; NICO-sm45243352 remains pending (403 bot detection, no retry per work order)

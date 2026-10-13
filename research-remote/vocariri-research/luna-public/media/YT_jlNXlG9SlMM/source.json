@@ -1,0 +1,18 @@
+{
+  "id": "YT_jlNXlG9SlMM",
+  "url": "https://www.youtube.com/watch?v=jlNXlG9SlMM",
+  "at": "2026-09-25T01:21:24.390342+00:00",
+  "title": "手書き文字・修作1",
+  "uploader": "rib9696",
+  "duration": 10,
+  "fps": 30,
+  "width": 854,
+  "height": 476,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 331692,
+  "sha256": "ee40545b82fc0f83b3ee35924a4cc5f07ec78ac4a8ff57e3a3f78e565bee273c",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

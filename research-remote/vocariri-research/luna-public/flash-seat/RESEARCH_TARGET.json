@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "effective_date": "2026-09-25",
+  "decision": "Research target reduced from 3000–5000 to 500–800; existing evidence is preserved.",
+  "research": {
+    "minimum": 500,
+    "upper_target": 800,
+    "unit": "distinct evidence-backed text-PV forms after deduplication and review",
+    "observations_candidates_and_scene_features_count_separately": true
+  },
+  "production": {
+    "minimum_templates_and_variants": 1000,
+    "unchanged_by_this_decision": true
+  },
+  "acceptance": [
+    "Preserve breadth across motion, lettering, composition, expressive context and architecture counterexamples.",
+    "Do not count downloads, raw model observations, MMD-only scenes or parameter permutations as distinct text forms.",
+    "Prioritize deduplication, native-frame verification and category gaps in the existing corpus; acquire additional sources where gaps remain.",
+    "500 is the minimum reviewed form target; reaching it is not automatic architecture or commercial acceptance. Continue toward 800 where review and coverage warrant it.",
+    "Keep source references until linked original prototypes are implemented and reviewed."
+  ],
+  "supersedes": "Earlier numeric research targets in work orders and plans; historical records remain historical."
+}

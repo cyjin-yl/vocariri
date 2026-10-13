@@ -1,0 +1,18 @@
+{
+  "id": "YT_JSFsIsjWINk",
+  "url": "https://www.youtube.com/watch?v=JSFsIsjWINk",
+  "at": "2026-09-24T16:04:14.822192+00:00",
+  "title": "字幕演出を刻む【Aviutl】",
+  "uploader": "らると-Ralt ch-",
+  "duration": 113,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 8497235,
+  "sha256": "ddbd394353710c0f115d26dee66f263de546d7d70fc2eab1190b3b103833dbb2",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "NICO-sm46137276",
+  "source_file": "sources/NICO-sm46137276/source.mp4",
+  "source_sha256": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87",
+  "script_sha256": "04b1c72c384a18a4b4f5f43dc3b935766e43f66819998c7efddf64cb1fda25e2",
+  "generated_utc": "2026-09-27T12:46:56.494966+00:00",
+  "ffmpeg_binary": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+  "selection_interval_seconds": 5.0,
+  "selection_filter": "select=isnan(prev_selected_t)+gte(t-prev_selected_t\\,5),scale=480:-2,showinfo",
+  "pts_scope": "PTS in the cached media file; remux may differ from platform stream",
+  "evidence_state": "sparse_frames_uninspected",
+  "frames": [
+    {
+      "file": "frame-001.jpg",
+      "frame_index": 0,
+      "cached_media_pts": 0,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 0.0,
+      "bytes": 2646,
+      "sha256": "25035462cf57edb69ccb57ef686d78e3a4bca071df70fcd299fa703880230c19"
+    },
+    {
+      "file": "frame-002.jpg",
+      "frame_index": 1,
+      "cached_media_pts": 450000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 5.0,
+      "bytes": 9259,
+      "sha256": "027bbd8f9560f72ca09c4c309c4f4288eb6221c472a37aa47a1b1f450003c5fd"
+    },
+    {
+      "file": "frame-003.jpg",
+      "frame_index": 2,
+      "cached_media_pts": 900000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 10.0,
+      "bytes": 10783,
+      "sha256": "d682fbb5ebd994b957ef89cae74da4b12ef5234b7108e7bb07427d38ec50c2ce"
+    },
+    {
+      "file": "frame-004.jpg",
+      "frame_index": 3,
+      "cached_media_pts": 1350000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 15.0,
+      "bytes": 4240,
+      "sha256": "8095f4046e133278d598b2ad16e86626c42d8d586fa638291fadecdeb5d88433"
+    }
+  ],
+  "sheets": [
+    {
+      "file": "sheet-00.jpg",
+      "bytes": 60429,
+      "sha256": "fc0da762ce548b01a8385b0dc3b8530ccc706c0228a4ce1babc8b10a77ce8bd8",
+      "frame_count": 4
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+test_fractional_fps (test_source_frame_sampler.DecoderTests.test_fractional_fps) ... ok
+test_incomplete_mapping_rejected (test_source_frame_sampler.DecoderTests.test_incomplete_mapping_rejected) ... ok
+test_nonzero_source_origin (test_source_frame_sampler.DecoderTests.test_nonzero_source_origin) ... ok
+test_sparse_variable_rate (test_source_frame_sampler.DecoderTests.test_sparse_variable_rate) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.527s
+
+OK

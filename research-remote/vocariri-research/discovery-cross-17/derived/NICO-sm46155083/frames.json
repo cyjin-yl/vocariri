@@ -1,0 +1,112 @@
+{
+  "id": "NICO-sm46155083",
+  "source_file": "sources/NICO-sm46155083/source.mp4",
+  "source_sha256": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383",
+  "script_sha256": "04b1c72c384a18a4b4f5f43dc3b935766e43f66819998c7efddf64cb1fda25e2",
+  "generated_utc": "2026-09-27T12:31:06.677226+00:00",
+  "ffmpeg_binary": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+  "selection_interval_seconds": 5.0,
+  "selection_filter": "select=isnan(prev_selected_t)+gte(t-prev_selected_t\\,5),scale=480:-2,showinfo",
+  "pts_scope": "PTS in the cached media file; remux may differ from platform stream",
+  "evidence_state": "sparse_frames_uninspected",
+  "frames": [
+    {
+      "file": "frame-001.jpg",
+      "frame_index": 0,
+      "cached_media_pts": 0,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 0.0,
+      "bytes": 13707,
+      "sha256": "59221d6d9b4aa958649483607ab94f2e96e2fa19172317fcede76876b8eab270"
+    },
+    {
+      "file": "frame-002.jpg",
+      "frame_index": 1,
+      "cached_media_pts": 450000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 5.0,
+      "bytes": 29580,
+      "sha256": "32e875d08bc203054e3c1930f1ddd7a8ed55905cdc5e9a2e52a29e372c9018c0"
+    },
+    {
+      "file": "frame-003.jpg",
+      "frame_index": 2,
+      "cached_media_pts": 900000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 10.0,
+      "bytes": 19031,
+      "sha256": "84cc3dfde8a6ced856b733750e682ac1af8744d4831f97f82dd4ca80e6ac0539"
+    },
+    {
+      "file": "frame-004.jpg",
+      "frame_index": 3,
+      "cached_media_pts": 1350000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 15.0,
+      "bytes": 23419,
+      "sha256": "c940938dc46734f31dbcb0447660d34d8fdac43df9b56f0574bad03817b2ebf0"
+    },
+    {
+      "file": "frame-005.jpg",
+      "frame_index": 4,
+      "cached_media_pts": 1800000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 20.0,
+      "bytes": 29162,
+      "sha256": "4861808eeb5f0b591b0d7e2bd719934939afb97cb554fc42a177e8020405d398"
+    },
+    {
+      "file": "frame-006.jpg",
+      "frame_index": 5,
+      "cached_media_pts": 2250000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 25.0,
+      "bytes": 26850,
+      "sha256": "b598da51967fb485594de00d92c22d6ebdcb9f1b7c56f25719da94adc794c714"
+    },
+    {
+      "file": "frame-007.jpg",
+      "frame_index": 6,
+      "cached_media_pts": 2700000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 30.0,
+      "bytes": 23542,
+      "sha256": "001e4ca9fa77e6ca351157eb2d80c3cac74c11acfcc10ce1b88804ae084769d7"
+    },
+    {
+      "file": "frame-008.jpg",
+      "frame_index": 7,
+      "cached_media_pts": 3150000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 35.0,
+      "bytes": 21078,
+      "sha256": "da2c6e3ac73ea7e7b0992cd215465abe47340233b8b3f94db5fb3fd0a081d6e1"
+    },
+    {
+      "file": "frame-009.jpg",
+      "frame_index": 8,
+      "cached_media_pts": 3600000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 40.0,
+      "bytes": 23783,
+      "sha256": "64e28fe4c51dc55742eceb653847b63d4b48d3002af1ae9fcef884d3ce5b44cd"
+    },
+    {
+      "file": "frame-010.jpg",
+      "frame_index": 9,
+      "cached_media_pts": 4050000,
+      "cached_media_time_base": "1/90000",
+      "cached_media_pts_seconds": 45.0,
+      "bytes": 19961,
+      "sha256": "2a2148bd185cb56fb8238e3dc416ee3bdb583abfb9c621fa1f75755b8ff65902"
+    }
+  ],
+  "sheets": [
+    {
+      "file": "sheet-00.jpg",
+      "bytes": 366759,
+      "sha256": "4dcec9006897c46c7fe65f0ac697c9c6a36abfdb1f9b6e6fde423a47f81f95d1",
+      "frame_count": 10
+    }
+  ]
+}

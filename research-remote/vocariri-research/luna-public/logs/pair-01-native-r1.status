@@ -1,0 +1,45 @@
+{
+  "review_id": "PAIR-01-NATIVE-R1",
+  "status": "blocked_native_video_decode_unavailable",
+  "work_order": "WORK_ORDER_LUNA_PAIR01_R1.md",
+  "pair_id": "PAIR-01",
+  "output_file": "outputs/pair-01-native-r1.json",
+  "inputs": {
+    "triage_file": "outputs/text-triage-12-v3.json",
+    "triage_sha256": "c2818fd262d18ade6c976b684b1335739f38caa00c6afcc015d2df5e1ead275d",
+    "source_media_file": "temporal-input/BV1k72LYzEmV/source.mp4",
+    "source_media_bytes": 17840270,
+    "source_media_sha256": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+    "observed_contact_sheet": "materials/BV1k72LYzEmV/sheet-0002.jpg",
+    "observed_contact_sheet_sha256": "74e8915afb5e73e4e1155f6e41386e1aea60dd484d048465932944d4ffbf7834"
+  },
+  "source_file_check": {
+    "temporal_input_directory_contents": ["source.mp4"],
+    "media_file_exists": true,
+    "media_content_identity_verified": false,
+    "reason": "The v3 record points to this retained file, but ffprobe was unavailable, so stream identity and native timing could not be checked."
+  },
+  "native_video_read": {
+    "attempted_once": true,
+    "exact_error": "Reading video requires ffprobe, which was not found on PATH. Install it (e.g. `brew install ffmpeg`) and retry.",
+    "frames_decoded": 0,
+    "native_pts_or_cadence_obtained": false,
+    "visual_input_failure": true,
+    "retries": 0
+  },
+  "contact_sheet_scope": {
+    "sheet_0002_opened": true,
+    "sheet_0006_opened": false,
+    "sheet_0007_opened": false,
+    "native_visual_review_completed": false,
+    "contact_sheet_is_not_native_frame_evidence": true
+  },
+  "relation": "unknown",
+  "acceptance_increment": {
+    "forms": 0,
+    "templates": 0
+  },
+  "shared_ledgers_modified": false,
+  "triage_v1_v2_v3_modified": false,
+  "precise_resume_point": "PAIR-01 paused before native frame extraction. Resume only when ffprobe/native video decoding is available in the existing authorized seat: validate stream identity, fps/time_base and frame PTS, then inspect consecutive frames in both proposed windows. No visual claims are made for the 54.8–55.8s window; no blind retry, tool installation, or model/provider switch was performed."
+}

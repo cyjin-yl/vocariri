@@ -1,0 +1,18 @@
+{
+  "id": "BV1H7411T73W",
+  "url": "https://www.bilibili.com/video/BV1H7411T73W/",
+  "at": "2026-09-24T01:46:35.606207+00:00",
+  "title": "【PV】无用产业 | 初音ミク",
+  "uploader": "PjdAXHD_Official",
+  "duration": 197.333,
+  "fps": 30.303,
+  "width": 1280,
+  "height": 720,
+  "extractor": "BiliBili",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 51385581,
+  "sha256": "0a1fca0b01b44cb0f162165f55c1e7321a94396bc43ff1e5dd8909d228418f6d",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

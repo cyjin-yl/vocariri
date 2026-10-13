@@ -1,0 +1,18 @@
+{
+  "id": "YT_Zkti7mm1uqc",
+  "url": "https://www.youtube.com/watch?v=Zkti7mm1uqc",
+  "at": "2026-09-24T16:09:15.842534+00:00",
+  "title": "【AviUtl】いい感じな文字PVを作るヒント！",
+  "uploader": "Zacbaran",
+  "duration": 258,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 11531175,
+  "sha256": "a2d48c3b27b45d5d654dcf0876a24f9a982764c9d955c4a89b0a0368b884c0e6",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

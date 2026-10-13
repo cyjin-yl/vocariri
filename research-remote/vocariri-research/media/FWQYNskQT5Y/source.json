@@ -1,0 +1,18 @@
+{
+  "id": "FWQYNskQT5Y",
+  "url": "https://www.youtube.com/watch?v=FWQYNskQT5Y",
+  "at": "2026-09-27T03:08:23.307849+00:00",
+  "title": "[KAN/ROM/ENG] OGYARINIZER | Lyric Video | Ponchi♪ feat. Hatsune Miku",
+  "uploader": "Starry Sekai",
+  "duration": 126,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 30973692,
+  "sha256": "3cbbb3d1effda739944422ab4a7dc66506ca90067d7d10af4e2f74f580cde09d",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

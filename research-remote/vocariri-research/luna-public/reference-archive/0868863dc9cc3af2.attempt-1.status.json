@@ -1,0 +1,16 @@
+{
+  "id": "0868863dc9cc3af2",
+  "files": {
+    "materials/YT_Gz_p4p-6k1k/sheet-0033.jpg": "2dd329ea95fda357ad39bf8029f8f4f65bb221a8ec8875dcd03e4d524fe533fc",
+    "materials/YT_Gz_p4p-6k1k/sheet-0034.jpg": "7ff70b520d7b1d75c96925411937d2fe723d8ae7c5ecedb4a8a58b1c3dba86e2",
+    "materials/YT_Gz_p4p-6k1k/sheet-0035.jpg": "5a8b58134a5634a3be6b90aa7e6b70614f59f01120b9c71a461d9c6a57082602"
+  },
+  "started_at": 1790304860.887809,
+  "state": "blocked_review_required",
+  "model": "hermes-newapi/gpt-6-luna",
+  "delivery": "user_image_attachments",
+  "attempt": 1,
+  "returncode": 1,
+  "finished_at": 1790305759.8282502,
+  "error_class": "RuntimeError"
+}

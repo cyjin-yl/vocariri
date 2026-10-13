@@ -1,0 +1,18 @@
+{
+  "id": "YT_uvWHJQhi18g",
+  "url": "https://www.youtube.com/watch?v=uvWHJQhi18g",
+  "at": "2026-09-24T06:19:16.102676+00:00",
+  "title": "Creating Cutout Collage Animation | DaVinci Resolve Fusion Tutorial",
+  "uploader": "Fusion Studios.",
+  "duration": 996,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 36208826,
+  "sha256": "4ee887c942f1377fa5d8904c309e7b9d40404ab30f1e9439197c91edc8abeb1c",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

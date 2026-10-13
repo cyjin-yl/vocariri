@@ -1,0 +1,213 @@
+{
+  "source_sha256": "2a7c8333de0b2f710a6341c2f63f70e4007475570c84a4be2f0a67cd5e9201f8",
+  "sampling_fps": 4,
+  "state": "extracted_uninspected",
+  "frame_count": 1075,
+  "sheets": [
+    {
+      "file": "sheet-0000.jpg",
+      "start": 0.0,
+      "end": 8.0,
+      "sha256": "06fd567a53637b4a583e432fe06880a7f1209f1fe3fec6af40c0a45b2e204d59"
+    },
+    {
+      "file": "sheet-0001.jpg",
+      "start": 8.0,
+      "end": 16.0,
+      "sha256": "da46d29b3ae9b054a71037306dac5feec043e65f0cfc4496ec47e3f37465eaa1"
+    },
+    {
+      "file": "sheet-0002.jpg",
+      "start": 16.0,
+      "end": 24.0,
+      "sha256": "231f6f5c078cb62ebcd4b4c07ffe613ed24c930e5850a17e11c5c7803e14ad14"
+    },
+    {
+      "file": "sheet-0003.jpg",
+      "start": 24.0,
+      "end": 32.0,
+      "sha256": "c80852f178641d7324565cc17e38535814146204d7b96c435cadb25733348126"
+    },
+    {
+      "file": "sheet-0004.jpg",
+      "start": 32.0,
+      "end": 40.0,
+      "sha256": "c889c9000d4bd4fbbcd7c469db8b40a74ddc161fcc301fd147ad805ac86a6838"
+    },
+    {
+      "file": "sheet-0005.jpg",
+      "start": 40.0,
+      "end": 48.0,
+      "sha256": "873b6e3b68099636664e7086dc7f168a5f6c82aa017bedf2b7c389533cba31fd"
+    },
+    {
+      "file": "sheet-0006.jpg",
+      "start": 48.0,
+      "end": 56.0,
+      "sha256": "f83d2ea583cc71b8aaba90000b6737f974c108920d79ea3d3376b85bd94b361a"
+    },
+    {
+      "file": "sheet-0007.jpg",
+      "start": 56.0,
+      "end": 64.0,
+      "sha256": "3d40b52e1aace010562891ade21a509ecde3d42ed8a910cd9b4f2d74c6d6fc96"
+    },
+    {
+      "file": "sheet-0008.jpg",
+      "start": 64.0,
+      "end": 72.0,
+      "sha256": "6e9a848ac68cbbc804a00fa4b50270bb9b4b8268da666cfaec9cec2c25a97fd4"
+    },
+    {
+      "file": "sheet-0009.jpg",
+      "start": 72.0,
+      "end": 80.0,
+      "sha256": "a34d879a5084ac7499fb66938668a2f6daa26028d451c824b7d7aedd43efe7f5"
+    },
+    {
+      "file": "sheet-0010.jpg",
+      "start": 80.0,
+      "end": 88.0,
+      "sha256": "2e4a6c02a9acadf73e43029df4dcb6119e47ab22de45ec019c1f3bc931cdaa81"
+    },
+    {
+      "file": "sheet-0011.jpg",
+      "start": 88.0,
+      "end": 96.0,
+      "sha256": "d2752d0e51165fb53e5231d187d03dd21926180e88bea37e9846ab5452e5591f"
+    },
+    {
+      "file": "sheet-0012.jpg",
+      "start": 96.0,
+      "end": 104.0,
+      "sha256": "f002471bc30dc66dc67b815e9349acba3e0883a698d3417939e09896acc7d1ff"
+    },
+    {
+      "file": "sheet-0013.jpg",
+      "start": 104.0,
+      "end": 112.0,
+      "sha256": "b61e942072db18d8ed8c22af7bad3eaf378ff72578a7b800ca9e0e78c3701445"
+    },
+    {
+      "file": "sheet-0014.jpg",
+      "start": 112.0,
+      "end": 120.0,
+      "sha256": "a5d7395e2934596319910f8f37278fbd6553e1e30ed0fbe8546c0d5098da2401"
+    },
+    {
+      "file": "sheet-0015.jpg",
+      "start": 120.0,
+      "end": 128.0,
+      "sha256": "2ba8ee6cac65219570fe24bdd73c2cac82592cbd22352e7871076c747c942ac9"
+    },
+    {
+      "file": "sheet-0016.jpg",
+      "start": 128.0,
+      "end": 136.0,
+      "sha256": "e65d5e8aa8e129dd7657c75f18f187784e82cde7927844dcffa8a220f804dec1"
+    },
+    {
+      "file": "sheet-0017.jpg",
+      "start": 136.0,
+      "end": 144.0,
+      "sha256": "89d460d3f7edbe74915926652eff7a72d9de91e2ba858ed43115205a6a623e17"
+    },
+    {
+      "file": "sheet-0018.jpg",
+      "start": 144.0,
+      "end": 152.0,
+      "sha256": "c2e6bcedd1f1dbebc81f04977de03d8c8db6e1cc0cb29e0174cddb97fd24f981"
+    },
+    {
+      "file": "sheet-0019.jpg",
+      "start": 152.0,
+      "end": 160.0,
+      "sha256": "b163cf56c1940c21474b1b3cd32a08a03bc00cd697d96718957e14153456fbea"
+    },
+    {
+      "file": "sheet-0020.jpg",
+      "start": 160.0,
+      "end": 168.0,
+      "sha256": "3c4ac250eddf6f157dbf401a9e9400ded835c09802af2224d2669fc6da8ed747"
+    },
+    {
+      "file": "sheet-0021.jpg",
+      "start": 168.0,
+      "end": 176.0,
+      "sha256": "777c72908a67ae4990f9a80afda2e633921fe04744fbc8cf8c34d4bdab8daaaf"
+    },
+    {
+      "file": "sheet-0022.jpg",
+      "start": 176.0,
+      "end": 184.0,
+      "sha256": "acb6ffe7b3c539a3505caeb849981ec5bbb71d942cd0c9ae6ef805502d0478a2"
+    },
+    {
+      "file": "sheet-0023.jpg",
+      "start": 184.0,
+      "end": 192.0,
+      "sha256": "d13399340f5f4f7c395f720415394da9db8d5cd1f68389aac9011ba9f15e2309"
+    },
+    {
+      "file": "sheet-0024.jpg",
+      "start": 192.0,
+      "end": 200.0,
+      "sha256": "377f2537b58517b95bfe8c5779f1c6b41523f6e58b0ee7abbd4e0b378fa2cf1b"
+    },
+    {
+      "file": "sheet-0025.jpg",
+      "start": 200.0,
+      "end": 208.0,
+      "sha256": "a96ba333ce962976658787d1789a341356ac143154c2c74660ae26b61f5a70cb"
+    },
+    {
+      "file": "sheet-0026.jpg",
+      "start": 208.0,
+      "end": 216.0,
+      "sha256": "b2432e4e2b75ae6fefca4c92111b73cba5bacc7ba7f6259a24cce0600f6bdb1e"
+    },
+    {
+      "file": "sheet-0027.jpg",
+      "start": 216.0,
+      "end": 224.0,
+      "sha256": "722e69960cc3e801d44ef0e10ae747ba8a628e8c4d28252518db5cd952991f13"
+    },
+    {
+      "file": "sheet-0028.jpg",
+      "start": 224.0,
+      "end": 232.0,
+      "sha256": "0f2fc194617f5c20280b082b11dd74d21bcad0bf9ae3895a41184caed4792b5f"
+    },
+    {
+      "file": "sheet-0029.jpg",
+      "start": 232.0,
+      "end": 240.0,
+      "sha256": "db19404787df46f95ee87bfe952ad3765f00da9f751d90a406470c37ba3f2cc4"
+    },
+    {
+      "file": "sheet-0030.jpg",
+      "start": 240.0,
+      "end": 248.0,
+      "sha256": "3953d7f55e19166443d993896b05c6a7e82ef1c0e4b0b7cfa23ec2309dd34e64"
+    },
+    {
+      "file": "sheet-0031.jpg",
+      "start": 248.0,
+      "end": 256.0,
+      "sha256": "7744d9178bcedbf94246ed8d5783139f419f968c0254092fb68d729736abb86f"
+    },
+    {
+      "file": "sheet-0032.jpg",
+      "start": 256.0,
+      "end": 264.0,
+      "sha256": "e8257d585c8130a3ddaa5c720f20458d72c62fc4fff0f05dceb5f00f7f655980"
+    },
+    {
+      "file": "sheet-0033.jpg",
+      "start": 264.0,
+      "end": 268.75,
+      "sha256": "151fe8da2d866ada2602660ac7b2454dfdc29cb1628a217f096724d0dac6d4eb"
+    }
+  ],
+  "note": "Review at source FPS for short impacts/glitches and cut boundaries."
+}

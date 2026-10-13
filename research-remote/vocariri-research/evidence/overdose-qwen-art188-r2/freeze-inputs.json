@@ -1,0 +1,47 @@
+{
+  "frozen_at": "2026-10-01T19:21:42Z",
+  "work_order": {"file": "WORK_ORDER_QWEN_OVERDOSE_ART188_R2.md", "sha256": "45c1b061941eb96210ae185479fd28f840be18d87a85796adf498d6195ec2870", "verified": true, "bytes": 6653, "lines": 104},
+  "source": {
+    "file": "luna-public/media/YT_BnkhBwzBqlQ/source.mp4",
+    "sha256": "e0507f7a86b862679fb54036ff30c557fd51e8a7c08a60bc452d088a9c4a40ac",
+    "bytes": 27088524,
+    "rehash_verified": true,
+    "url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ"
+  },
+  "sidecar": {
+    "file": "luna-public/media/YT_BnkhBwzBqlQ/source.json",
+    "sha256": "50543d5054bec9419934e5c8cd346a04d0ed3166c06d5a3d415fc4af226a0291",
+    "bytes": 573,
+    "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+    "uploader": "Aiobahn",
+    "note": "adjacent stylistic reference; do not label the singer VOCALOID (work order instruction)"
+  },
+  "tools": {
+    "ffmpeg_binary": {"path": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2", "sha256": "e7e7fb30477f717e6f55f9180a70386c62677ef8a4d4d1a5d948f4098aa3eb99", "version": "7.0.2-static (Lavf61.1.100 / Lavc61.3.100)"},
+    "python": "3.11.2 (/opt/pv-tools/bin/python)",
+    "PIL": "12.3.0",
+    "imageio_ffmpeg": "0.6.0"
+  },
+  "framehash_muxer_check": {
+    "muxers_grep": "ffmpeg -hide_banner -muxers | grep -i framehash -> 'E  framehash       Per-frame hash testing' (rc=0, MUXER AVAILABLE)",
+    "filters_grep": "ffmpeg -hide_banner -filters | grep -i framehash -> (rc=1, filter ABSENT)",
+    "conclusion": "R1's note 'framehash filter ABSENT in this build' is true for -filters only; the framehash MUXER is present and was used for this R2 decode (-f framehash -hash md5). No raw-frame fallback needed.",
+    "test_run": "full window decode with -f framehash succeeded (rc=0), 60 frames"
+  },
+  "decoder_metadata": {
+    "duration": "00:03:42.80 (222.80 s)",
+    "video": "av1 (libdav1d) Main, yuv420p(tv, bt709), 960x720, 30 fps, 30 tbr, tbn 1/15360",
+    "audio": "opus 48000 Hz stereo fltp 125 kb/s",
+    "observed_via": "ffmpeg -i during framehash decode (framehash.stderr)"
+  },
+  "screening_range": {"seconds": [184, 192], "n_range": [5520, 5759], "sampling": "select between(n,5520,5759)*not(mod(n,10)), scale 480:360, 24 frames, sheet-184-192.png (SCREENING label)", "decode": "screen/screening.log"},
+  "native_window": {"n_range": [5610, 5669], "count": 60, "seconds": "187.000-188.967", "selection_reason": "covers the actual 188-second art treatment (n5640-n5660: row of blue MMD figures + white 'ANGEL' text) with onset context (n5610-n5630 glow/blur) and exit context (n5665-n5669 figures); <= 2 seconds", "decode": "win-188/ (60 native PNGs + framehash.md5 + showinfo-window.log + window.json)"},
+  "r1_artifacts_consulted": {
+    "outputs/overdose-qwen-native-r1.json": {"sha256": "c445a3c27b6d92a116e728e265e75915616235688fee33e1ae3d53dcb90edd91", "lines": 227, "unchanged": true},
+    "logs/overdose-qwen-native-r1.status": {"sha256": "198f1ff284f1e33a51a5a186cafb8d9c793a9beabf776339a3f571c7aded22b6", "lines": 19, "unchanged": true},
+    "win-A/window.json": {"sha256": "2bb9ac7216512bd207df3d80306a0aa5c68e86fbeb7000f9899e7293be885fd6", "lines": 443},
+    "win-B/window.json": {"sha256": "e88a9344a6ed953e249e05330955279e8c5cb401a290725890db67d38c853d82", "lines": 443},
+    "win-C/window.json": {"sha256": "b8434647bbaae0bebfb241748c3ad97dd28545031ffefbc2c90a494a4e9ba80b", "lines": 443},
+    "freeze-inputs.json": {"sha256": "c28788a9bbf5f823edede77aa20931e162fed002ec903381079bb18bc7680eed", "lines": 37, "note": "claims frozen_at 2026-10-01T14:05:00Z; actual file mtime 2026-10-01 15:13:49.692Z; R1 task input recorded at 15:01:38.897Z per coordinator - see R2 correction table, old metadata preserved unchanged"}
+  }
+}

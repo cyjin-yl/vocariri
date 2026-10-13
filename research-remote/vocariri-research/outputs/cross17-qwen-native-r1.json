@@ -1,0 +1,2270 @@
+{
+  "id": "cross17-qwen-native-r1",
+  "round": "cross17-qwen-native-r1",
+  "status": "completed_unreviewed",
+  "accepted_form_increment": 0,
+  "rendered_template_increment": 0,
+  "generated_at": "2026-10-03T20:11:40Z",
+  "work_order": {
+    "file": "WORK_ORDER_QWEN_CROSS17_NATIVE_R1.md",
+    "sha256": "8b5612d8fdb39f8f1f3eac8a9a82e55f84cc964913768a2844f8c171ef4b905b",
+    "verified": true
+  },
+  "sources": {
+    "NICO-sm46137276": {
+      "title": "\u3010alightmotion/blurrr\u3011\u30a4\u30f3\u30c9\u30a2\u7cfb\u306a\u3089\u30c8\u30e9\u30c3\u30af\u30e1\u30a4\u30ab\u30fc \u6587\u5b57pv",
+      "uploader": "aki11",
+      "url": "https://www.nicovideo.jp/watch/sm46137276",
+      "codec": "h264",
+      "w": 854,
+      "h": 480,
+      "fps": 60,
+      "tbn": "1/90000",
+      "duration_s": 17,
+      "sha256": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87",
+      "native_window": {
+        "n_range": [
+          240,
+          359
+        ],
+        "pts_range": [
+          360000,
+          538500
+        ],
+        "time_range_s": [
+          4.0,
+          5.983
+        ],
+        "count": 120
+      }
+    },
+    "NICO-sm46155083": {
+      "title": "\u3010Scratch\u3067\u3011\u500b\u3005\u3005\u3005\u3005\u3005\u4eba\u3010\u6587\u5b57PV\u3011",
+      "uploader": "SINSK",
+      "url": "https://www.nicovideo.jp/watch/sm46155083",
+      "codec": "h264",
+      "w": 144,
+      "h": 256,
+      "fps": 30,
+      "tbn": "1/90000",
+      "duration_s": 46,
+      "sha256": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383",
+      "native_window": {
+        "n_range": [
+          870,
+          929
+        ],
+        "pts_range": [
+          2610000,
+          2787000
+        ],
+        "time_range_s": [
+          29.0,
+          30.967
+        ],
+        "count": 60
+      }
+    },
+    "PVOLT-C-7TIDIKc98": {
+      "title": "DECO*27 - \u30dc\u30eb\u30c6\u30c3\u30ab\u30fc feat. \u521d\u97f3\u30df\u30af",
+      "uploader": "DECO*27",
+      "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+      "codec": "av1",
+      "w": 854,
+      "h": 480,
+      "fps": 24,
+      "tbn": "1/12288",
+      "duration_s": 153,
+      "sha256": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849",
+      "native_window": {
+        "n_range": [
+          2160,
+          2207
+        ],
+        "pts_range": [
+          1105920,
+          1129984
+        ],
+        "time_range_s": [
+          90.0,
+          91.958
+        ],
+        "count": 48
+      }
+    }
+  },
+  "event_selections": [
+    {
+      "source": "NICO-sm46137276",
+      "event": "persistent caption card sequence",
+      "distinction_addressed": "persistent caption/frame vs burst/reflow",
+      "selection_rationale": "Frames n240-n359 show a sequence of persistent caption cards (\u30c0\u30d6\u30b9\u30c6\u30c3\u30d7\u2192\u3042\u3044\u3064\u2192\u30b9\u30dd\u30fc\u30c4\u2192\u30c0\u30f3\u30b9), each a large light-blue text on white with dashed border. Text changes every ~0.5s but each caption is persistent (not a burst). This is a 'persistent caption/frame' pattern, not 'burst/reflow'.",
+      "time_range_s": [
+        4.0,
+        5.983
+      ]
+    },
+    {
+      "source": "NICO-sm46155083",
+      "event": "brush-stroke character burst/reflow",
+      "distinction_addressed": "burst/reflow + glyph/group motion",
+      "selection_rationale": "Frames n870-n929 show brush-stroke characters that burst in, disappear, then new characters burst in (\u3005\u3005\u3005\u2192\u3005\u3005\u304c\u2192empty\u2192\u30a2\u30b1). This is a 'burst/reflow' pattern with 'glyph/group motion'. Characters are dynamic calligraphy-style with varying colors (blue, black, red).",
+      "time_range_s": [
+        29.0,
+        30.967
+      ]
+    },
+    {
+      "source": "PVOLT-C-7TIDIKc98",
+      "event": "border text + foreground caption + scene",
+      "distinction_addressed": "text/foreground vs scene/texture scope",
+      "selection_rationale": "Frames n2160-n2207 show a persistent scene with: (1) border text 'ARE YOU READY?' repeating around the frame edge (texture/scope), (2) foreground caption '\u3061\u3083\u3093\u3068\u899a\u609f\u3057\u3066\u304d\u3066\u3088\uff1f' with yellow '\u899a\u609f' emphasis (foreground scope), (3) night scene with two black rabbits and lightning bolt (background), (4) white grid outer texture. This clearly separates text/foreground from scene/texture scope.",
+      "time_range_s": [
+        90.0,
+        91.958
+      ]
+    }
+  ],
+  "read_log": {
+    "method": "selective native PNG reads; locator sheets used only for event finding, not for claims",
+    "frames_read": {
+      "NICO-sm46137276": [
+        {
+          "native_file": "native-n0001.png",
+          "source_n": 240,
+          "pts": 360000,
+          "time_s": 4.0,
+          "observation": "\u30c0\u30d6\u30b9\u30c6\u30c3\u30d7 outline title + circle + Alight Motion label"
+        },
+        {
+          "native_file": "native-n0017.png",
+          "source_n": 256,
+          "pts": 384000,
+          "time_s": 4.267,
+          "observation": "transition: \u3042\u3044\u3064 card + \u30d7\u30ed\u30a2\u30f3 large text"
+        },
+        {
+          "native_file": "native-n0031.png",
+          "source_n": 270,
+          "pts": 405000,
+          "time_s": 4.5,
+          "observation": "\u3042\u3044\u3064 on white card + 4F arrow + alight motion"
+        },
+        {
+          "native_file": "native-n0061.png",
+          "source_n": 300,
+          "pts": 450000,
+          "time_s": 5.0,
+          "observation": "\u3042\u3044\u3064 large light-blue on white + dashed border + altsu small"
+        },
+        {
+          "native_file": "native-n0091.png",
+          "source_n": 330,
+          "pts": 495000,
+          "time_s": 5.5,
+          "observation": "\u30b9\u30dd\u30fc\u30c4 huge light-blue, chars cut at edges + dashed lines"
+        },
+        {
+          "native_file": "native-n0120.png",
+          "source_n": 359,
+          "pts": 538500,
+          "time_s": 5.983,
+          "observation": "\u30c0\u30f3\u30b9 large light-blue, partial + dashed lines"
+        }
+      ],
+      "NICO-sm46155083": [
+        {
+          "native_file": "native-n0001.png",
+          "source_n": 870,
+          "pts": 2610000,
+          "time_s": 29.0,
+          "observation": "top caption + empty grid + bottom caption"
+        },
+        {
+          "native_file": "native-n0016.png",
+          "source_n": 885,
+          "pts": 2655000,
+          "time_s": 29.5,
+          "observation": "top caption + \u3005\u3005\u3005 brush-stroke (blue/black/red) + bottom caption"
+        },
+        {
+          "native_file": "native-n0031.png",
+          "source_n": 900,
+          "pts": 2700000,
+          "time_s": 30.0,
+          "observation": "top caption + \u3005\u3005\u304c brush-stroke (dark/red) + bottom caption"
+        },
+        {
+          "native_file": "native-n0046.png",
+          "source_n": 915,
+          "pts": 2745000,
+          "time_s": 30.5,
+          "observation": "top caption + empty grid + bottom caption (characters disappeared)"
+        },
+        {
+          "native_file": "native-n0060.png",
+          "source_n": 929,
+          "pts": 2787000,
+          "time_s": 30.967,
+          "observation": "top caption + \u30a2\u30b1 brush-stroke (blue/dark) + bottom caption (new characters)"
+        }
+      ],
+      "PVOLT-C-7TIDIKc98": [
+        {
+          "native_file": "native-n0001.png",
+          "source_n": 2160,
+          "pts": 1105920,
+          "time_s": 90.0,
+          "observation": "ARE YOU READY? border + caption \u3061\u3083\u3093\u3068\u899a\u609f\u3057\u3066\u304d\u3066\u3088\uff1f + rabbits + lightning + grid"
+        },
+        {
+          "native_file": "native-n0025.png",
+          "source_n": 2184,
+          "pts": 1116480,
+          "time_s": 91.0,
+          "observation": "same scene, slight zoom, border + caption + rabbits + lightning"
+        },
+        {
+          "native_file": "native-n0048.png",
+          "source_n": 2207,
+          "pts": 1129984,
+          "time_s": 91.958,
+          "observation": "same scene, more zoom, lightning glow effect, border + caption + rabbits"
+        }
+      ]
+    },
+    "unique_native_reads": 14,
+    "rereads": 0,
+    "derived_crop_reads": 0,
+    "all_frame_hashes": {
+      "NICO-sm46137276": [
+        {
+          "native_file": "native-n0001.png",
+          "source_n": 240,
+          "pts": 360000,
+          "timebase": "1/90000",
+          "time_s": 4.0,
+          "sha256": "6d00109d92ef29ddfee9add669e7d6eaf8ff7040fe9f67fe56f232913df2d165"
+        },
+        {
+          "native_file": "native-n0002.png",
+          "source_n": 241,
+          "pts": 361500,
+          "timebase": "1/90000",
+          "time_s": 4.016667,
+          "sha256": "286c5f0e281bec9262ebbfb58c7bed2b78633b41534a33ec824f8b08140d6d4b"
+        },
+        {
+          "native_file": "native-n0003.png",
+          "source_n": 242,
+          "pts": 363000,
+          "timebase": "1/90000",
+          "time_s": 4.033333,
+          "sha256": "e644ac90225b298adac0ac7ac643ed37ad03ab1f8fb5f58d4ace60e0dc5220a1"
+        },
+        {
+          "native_file": "native-n0004.png",
+          "source_n": 243,
+          "pts": 364500,
+          "timebase": "1/90000",
+          "time_s": 4.05,
+          "sha256": "edfa04c238f59d8e264e8f7ff8066351e604d1a0c8003bd37d6298f60913c557"
+        },
+        {
+          "native_file": "native-n0005.png",
+          "source_n": 244,
+          "pts": 366000,
+          "timebase": "1/90000",
+          "time_s": 4.066667,
+          "sha256": "d4fd9be21e4a71220f12c936388cc6a69584e6d76aa2efb84d0d0a120db55906"
+        },
+        {
+          "native_file": "native-n0006.png",
+          "source_n": 245,
+          "pts": 367500,
+          "timebase": "1/90000",
+          "time_s": 4.083333,
+          "sha256": "4f42db7e2cd268fbff406ed0e79f3dfe04aebed08326dd59f80319a0d573453a"
+        },
+        {
+          "native_file": "native-n0007.png",
+          "source_n": 246,
+          "pts": 369000,
+          "timebase": "1/90000",
+          "time_s": 4.1,
+          "sha256": "68ae08f59a7b7ed1d10cc0f2d5103cab469c9211faff0d70d8121898122d7bb5"
+        },
+        {
+          "native_file": "native-n0008.png",
+          "source_n": 247,
+          "pts": 370500,
+          "timebase": "1/90000",
+          "time_s": 4.116667,
+          "sha256": "86b51e1c76e2276d60a55d382195398cee1de023a825b0aba08c2eb32bbf9339"
+        },
+        {
+          "native_file": "native-n0009.png",
+          "source_n": 248,
+          "pts": 372000,
+          "timebase": "1/90000",
+          "time_s": 4.133333,
+          "sha256": "864cd0c4e397f9c5ba4edc80f0490109bb326b107822d1401161a15366ab7183"
+        },
+        {
+          "native_file": "native-n0010.png",
+          "source_n": 249,
+          "pts": 373500,
+          "timebase": "1/90000",
+          "time_s": 4.15,
+          "sha256": "8283c2057a85e396a417ccfc89d45282a2ecf51bf29c6ced26793735ada7513a"
+        },
+        {
+          "native_file": "native-n0011.png",
+          "source_n": 250,
+          "pts": 375000,
+          "timebase": "1/90000",
+          "time_s": 4.166667,
+          "sha256": "6e9f1dadf41fb50cee98b9b7006bcad95c333b7ce9abf782e14dcecf0354828f"
+        },
+        {
+          "native_file": "native-n0012.png",
+          "source_n": 251,
+          "pts": 376500,
+          "timebase": "1/90000",
+          "time_s": 4.183333,
+          "sha256": "1be78b50364427fdd76e62b662a93c4cf00dc6ffcf64b53a1cf26152c42f1585"
+        },
+        {
+          "native_file": "native-n0013.png",
+          "source_n": 252,
+          "pts": 378000,
+          "timebase": "1/90000",
+          "time_s": 4.2,
+          "sha256": "b82777d5717917ab27f85d6df5867e8a1837bacd58be75603a9436b2e0fd2613"
+        },
+        {
+          "native_file": "native-n0014.png",
+          "source_n": 253,
+          "pts": 379500,
+          "timebase": "1/90000",
+          "time_s": 4.216667,
+          "sha256": "b6ce0885f75b003f3781482ae3204bdbba5a7fe2800b14bb45f805ad4b3ddf57"
+        },
+        {
+          "native_file": "native-n0015.png",
+          "source_n": 254,
+          "pts": 381000,
+          "timebase": "1/90000",
+          "time_s": 4.233333,
+          "sha256": "88bc891320a52ba19e4d26863d9fca8ab78c9adf6bbabe3652b73635951470dc"
+        },
+        {
+          "native_file": "native-n0016.png",
+          "source_n": 255,
+          "pts": 382500,
+          "timebase": "1/90000",
+          "time_s": 4.25,
+          "sha256": "f95e0244a2460f13bbcf9b8f9451dbac1c007bd5d7e3392ee6e2ab0eace5401d"
+        },
+        {
+          "native_file": "native-n0017.png",
+          "source_n": 256,
+          "pts": 384000,
+          "timebase": "1/90000",
+          "time_s": 4.266667,
+          "sha256": "600c808c63cde1f70f33845d61dd45ef07a232ee768815766453ddabd1b2006d"
+        },
+        {
+          "native_file": "native-n0018.png",
+          "source_n": 257,
+          "pts": 385500,
+          "timebase": "1/90000",
+          "time_s": 4.283333,
+          "sha256": "cdfd412d5f50cf96c2a5ca185a9599af629404d23330b5f64c1eb2cdd236a140"
+        },
+        {
+          "native_file": "native-n0019.png",
+          "source_n": 258,
+          "pts": 387000,
+          "timebase": "1/90000",
+          "time_s": 4.3,
+          "sha256": "1405fe2509e55dd055e21d257a6698f591ed888bd5f12722df7e7858a4b5d28c"
+        },
+        {
+          "native_file": "native-n0020.png",
+          "source_n": 259,
+          "pts": 388500,
+          "timebase": "1/90000",
+          "time_s": 4.316667,
+          "sha256": "be496077fe039f5a57cca664d08a912505b2f9eb6b74f1a8ee64a2889330fb8d"
+        },
+        {
+          "native_file": "native-n0021.png",
+          "source_n": 260,
+          "pts": 390000,
+          "timebase": "1/90000",
+          "time_s": 4.333333,
+          "sha256": "63240ae660466bd5cecdc5d16c32ea872ce2086202a8a921ab361f0984e3ca41"
+        },
+        {
+          "native_file": "native-n0022.png",
+          "source_n": 261,
+          "pts": 391500,
+          "timebase": "1/90000",
+          "time_s": 4.35,
+          "sha256": "bd235f252160dec5e05553fec5262de3c2cbf399958066c10b76b689ffe4566b"
+        },
+        {
+          "native_file": "native-n0023.png",
+          "source_n": 262,
+          "pts": 393000,
+          "timebase": "1/90000",
+          "time_s": 4.366667,
+          "sha256": "5afb4636807869304900cde0f04bd5b7c2480efee620353ecbad2aed3390b75c"
+        },
+        {
+          "native_file": "native-n0024.png",
+          "source_n": 263,
+          "pts": 394500,
+          "timebase": "1/90000",
+          "time_s": 4.383333,
+          "sha256": "e24254d4aa5d7796755f9b60cbd66eb8f090356705a76d90cfbb9dab2b25c6a7"
+        },
+        {
+          "native_file": "native-n0025.png",
+          "source_n": 264,
+          "pts": 396000,
+          "timebase": "1/90000",
+          "time_s": 4.4,
+          "sha256": "8d9233d24319567e16d58def68005b30371be0c6d0084e16f2cacfe0aff97966"
+        },
+        {
+          "native_file": "native-n0026.png",
+          "source_n": 265,
+          "pts": 397500,
+          "timebase": "1/90000",
+          "time_s": 4.416667,
+          "sha256": "802eef2cc51789f5fc9268d3ed5015f8d7bde1e7ec886caa9af4df68edfbb465"
+        },
+        {
+          "native_file": "native-n0027.png",
+          "source_n": 266,
+          "pts": 399000,
+          "timebase": "1/90000",
+          "time_s": 4.433333,
+          "sha256": "843911aca86b9b81ee833dc80bcb6a21409f4c6e33f0cdbae64f84548593dcbf"
+        },
+        {
+          "native_file": "native-n0028.png",
+          "source_n": 267,
+          "pts": 400500,
+          "timebase": "1/90000",
+          "time_s": 4.45,
+          "sha256": "b6c73ff91139cdcaf859139c419d415c0ce4a4042b34c53b727d06e5119bfcf3"
+        },
+        {
+          "native_file": "native-n0029.png",
+          "source_n": 268,
+          "pts": 402000,
+          "timebase": "1/90000",
+          "time_s": 4.466667,
+          "sha256": "0a7c95dda4359ed7da235aa2509cd483e7d1adee6ea23c8bba4ac096630d3bfd"
+        },
+        {
+          "native_file": "native-n0030.png",
+          "source_n": 269,
+          "pts": 403500,
+          "timebase": "1/90000",
+          "time_s": 4.483333,
+          "sha256": "cd5c9dcfdfce87d8b174531d3d73711d15c80591c8aa4c62c17b176856b9ffa4"
+        },
+        {
+          "native_file": "native-n0031.png",
+          "source_n": 270,
+          "pts": 405000,
+          "timebase": "1/90000",
+          "time_s": 4.5,
+          "sha256": "0a49ff030ed84dcda2aa738b5dd7da9958e433ce225cf691a3d102a8d4174c63"
+        },
+        {
+          "native_file": "native-n0032.png",
+          "source_n": 271,
+          "pts": 406500,
+          "timebase": "1/90000",
+          "time_s": 4.516667,
+          "sha256": "0223d6598eb58f1ba225c0d26075009dc1747c7f74f7381fd714f7556f741f7d"
+        },
+        {
+          "native_file": "native-n0033.png",
+          "source_n": 272,
+          "pts": 408000,
+          "timebase": "1/90000",
+          "time_s": 4.533333,
+          "sha256": "fc96bc5fae85017a03881ea7fb9564ddac905ef508f494509f6e0eab716c89d0"
+        },
+        {
+          "native_file": "native-n0034.png",
+          "source_n": 273,
+          "pts": 409500,
+          "timebase": "1/90000",
+          "time_s": 4.55,
+          "sha256": "b1a4f901ac96802b53549900ff60e79646a9f70ee52c817d5e43101e9101fde2"
+        },
+        {
+          "native_file": "native-n0035.png",
+          "source_n": 274,
+          "pts": 411000,
+          "timebase": "1/90000",
+          "time_s": 4.566667,
+          "sha256": "d6806d68e65f91031117846de3e7951f938b475d913817705fa8abfdfcf0f3ab"
+        },
+        {
+          "native_file": "native-n0036.png",
+          "source_n": 275,
+          "pts": 412500,
+          "timebase": "1/90000",
+          "time_s": 4.583333,
+          "sha256": "b9551568eaca757f3ba931ed85eb58ba74f40b60f71ad7d5806692e28c09c40e"
+        },
+        {
+          "native_file": "native-n0037.png",
+          "source_n": 276,
+          "pts": 414000,
+          "timebase": "1/90000",
+          "time_s": 4.6,
+          "sha256": "e24a0c5c1ff092195333a438f1665b5f2d74f14f38ca460089ac155ceaf20c0f"
+        },
+        {
+          "native_file": "native-n0038.png",
+          "source_n": 277,
+          "pts": 415500,
+          "timebase": "1/90000",
+          "time_s": 4.616667,
+          "sha256": "119d6b4c46fbc9c751ae7b3132d3406376b7c3415df4a5bcfc9370617652ecc3"
+        },
+        {
+          "native_file": "native-n0039.png",
+          "source_n": 278,
+          "pts": 417000,
+          "timebase": "1/90000",
+          "time_s": 4.633333,
+          "sha256": "181d20ca334b99fb0d9100f9f3cecb6695a5e460869d6f8a2abad4592d8bab92"
+        },
+        {
+          "native_file": "native-n0040.png",
+          "source_n": 279,
+          "pts": 418500,
+          "timebase": "1/90000",
+          "time_s": 4.65,
+          "sha256": "818d13a0220fc0863e94a9592253b2e3a0db4e3ba10a678d8f0a74e24049e142"
+        },
+        {
+          "native_file": "native-n0041.png",
+          "source_n": 280,
+          "pts": 420000,
+          "timebase": "1/90000",
+          "time_s": 4.666667,
+          "sha256": "f8830a58d76a1684023637decd8ee2462c22e70cc757d831d609bf33681b6582"
+        },
+        {
+          "native_file": "native-n0042.png",
+          "source_n": 281,
+          "pts": 421500,
+          "timebase": "1/90000",
+          "time_s": 4.683333,
+          "sha256": "e56b34208dd1f67f104f9baeb28cf4a9c443d98d18f8006ab5d93191d3a44b03"
+        },
+        {
+          "native_file": "native-n0043.png",
+          "source_n": 282,
+          "pts": 423000,
+          "timebase": "1/90000",
+          "time_s": 4.7,
+          "sha256": "909abdccda467fed6a676e9c20e95f6a21aa07ca3aca1b00e82f93bc4a16ed44"
+        },
+        {
+          "native_file": "native-n0044.png",
+          "source_n": 283,
+          "pts": 424500,
+          "timebase": "1/90000",
+          "time_s": 4.716667,
+          "sha256": "21d392eddcc88ccb8085204d0e410c1d2d5d8ef6460904dd5fb8d33eb6f312c2"
+        },
+        {
+          "native_file": "native-n0045.png",
+          "source_n": 284,
+          "pts": 426000,
+          "timebase": "1/90000",
+          "time_s": 4.733333,
+          "sha256": "d8455f62fb21aefa786d46b0ae74b7d838a681eaf3f3a1cbe49222159959df05"
+        },
+        {
+          "native_file": "native-n0046.png",
+          "source_n": 285,
+          "pts": 427500,
+          "timebase": "1/90000",
+          "time_s": 4.75,
+          "sha256": "b07a69f67af94b99acc304bea0d98cb22b583d4f86e6eba1d9461c3258c61efa"
+        },
+        {
+          "native_file": "native-n0047.png",
+          "source_n": 286,
+          "pts": 429000,
+          "timebase": "1/90000",
+          "time_s": 4.766667,
+          "sha256": "73a573dfe9abc7d77b6c40186bdc4719b510a94f7473338a00cc67064f4142a4"
+        },
+        {
+          "native_file": "native-n0048.png",
+          "source_n": 287,
+          "pts": 430500,
+          "timebase": "1/90000",
+          "time_s": 4.783333,
+          "sha256": "5d73d83d6125c751da7d61a4277539923747e08315b375f43d67c3086a835bcb"
+        },
+        {
+          "native_file": "native-n0049.png",
+          "source_n": 288,
+          "pts": 432000,
+          "timebase": "1/90000",
+          "time_s": 4.8,
+          "sha256": "075f0f48c8d5a239df30a561d2235dbb7397db25b8d12fff85050378720f37d5"
+        },
+        {
+          "native_file": "native-n0050.png",
+          "source_n": 289,
+          "pts": 433500,
+          "timebase": "1/90000",
+          "time_s": 4.816667,
+          "sha256": "fde6e2d70759b6c17926eeeabc6dd8f5f70f6684497b76d69c18dca8a35ca2f2"
+        },
+        {
+          "native_file": "native-n0051.png",
+          "source_n": 290,
+          "pts": 435000,
+          "timebase": "1/90000",
+          "time_s": 4.833333,
+          "sha256": "ee7a7297552c49ed3a614b1e0d8efd73f9e53760f257021ad0f1ba48a6209a65"
+        },
+        {
+          "native_file": "native-n0052.png",
+          "source_n": 291,
+          "pts": 436500,
+          "timebase": "1/90000",
+          "time_s": 4.85,
+          "sha256": "8a9249aa4fa7089ffc54b1f836e60074d8369cdd9cc175cf155a96c6c3d87931"
+        },
+        {
+          "native_file": "native-n0053.png",
+          "source_n": 292,
+          "pts": 438000,
+          "timebase": "1/90000",
+          "time_s": 4.866667,
+          "sha256": "60d6bf69d337125fda729d2e2e27261a8227fd8c3e60f5f97b11ffbe38744c37"
+        },
+        {
+          "native_file": "native-n0054.png",
+          "source_n": 293,
+          "pts": 439500,
+          "timebase": "1/90000",
+          "time_s": 4.883333,
+          "sha256": "ab89072ec28d1fbfdb392b1d4c0214568dd54296805a216327f007d249838a5e"
+        },
+        {
+          "native_file": "native-n0055.png",
+          "source_n": 294,
+          "pts": 441000,
+          "timebase": "1/90000",
+          "time_s": 4.9,
+          "sha256": "7d1d22b7899813bddc371267139f666ea7aa6541383ff3f8695fbb570c5be56e"
+        },
+        {
+          "native_file": "native-n0056.png",
+          "source_n": 295,
+          "pts": 442500,
+          "timebase": "1/90000",
+          "time_s": 4.916667,
+          "sha256": "bf57157fa43188673c616dba0bb8643c54d7ba39dad7406ed137c3115b9f3ae8"
+        },
+        {
+          "native_file": "native-n0057.png",
+          "source_n": 296,
+          "pts": 444000,
+          "timebase": "1/90000",
+          "time_s": 4.933333,
+          "sha256": "c80baf80abbbdd916745c9c1abc2f77278986023e3e38f00687d7bd94c24d9a6"
+        },
+        {
+          "native_file": "native-n0058.png",
+          "source_n": 297,
+          "pts": 445500,
+          "timebase": "1/90000",
+          "time_s": 4.95,
+          "sha256": "16a55f624e9ec3b62ef0cbfce2e1fec5e08d43d9033aa98228acb9a7cdefa325"
+        },
+        {
+          "native_file": "native-n0059.png",
+          "source_n": 298,
+          "pts": 447000,
+          "timebase": "1/90000",
+          "time_s": 4.966667,
+          "sha256": "cd30cbf037ee2bd5ec8ccb10e738b6132814f0980d1cb763f5238f6252b2163e"
+        },
+        {
+          "native_file": "native-n0060.png",
+          "source_n": 299,
+          "pts": 448500,
+          "timebase": "1/90000",
+          "time_s": 4.983333,
+          "sha256": "acbfd313c464f955969df44e89ee391c1b568d7c7857a7b65d912cd4f4713824"
+        },
+        {
+          "native_file": "native-n0061.png",
+          "source_n": 300,
+          "pts": 450000,
+          "timebase": "1/90000",
+          "time_s": 5.0,
+          "sha256": "de86c2c90b7ef3b7ee335219396326b4c15ee06afad3987773ef4d4d7de9b89b"
+        },
+        {
+          "native_file": "native-n0062.png",
+          "source_n": 301,
+          "pts": 451500,
+          "timebase": "1/90000",
+          "time_s": 5.016667,
+          "sha256": "f7b345105aeca003124320aec43fa9d2267e0e65f11d52a27b5da0741af45b8b"
+        },
+        {
+          "native_file": "native-n0063.png",
+          "source_n": 302,
+          "pts": 453000,
+          "timebase": "1/90000",
+          "time_s": 5.033333,
+          "sha256": "80d9ffcc0391abb49750d469682874aa74e8012d972673196f022e57146f71d2"
+        },
+        {
+          "native_file": "native-n0064.png",
+          "source_n": 303,
+          "pts": 454500,
+          "timebase": "1/90000",
+          "time_s": 5.05,
+          "sha256": "5a546d5b37f80513a74d9be9a57880cc849565a26da3a63b3905cdad9227e4f8"
+        },
+        {
+          "native_file": "native-n0065.png",
+          "source_n": 304,
+          "pts": 456000,
+          "timebase": "1/90000",
+          "time_s": 5.066667,
+          "sha256": "d7d7c889fcbe444dcdfe9d290b57211eadff953c7ed4e10006ef1cf1ce80e51d"
+        },
+        {
+          "native_file": "native-n0066.png",
+          "source_n": 305,
+          "pts": 457500,
+          "timebase": "1/90000",
+          "time_s": 5.083333,
+          "sha256": "dd8470e11e1f4a022e256d925c37bb795ea0994a8ea9a340506881040f0db4b9"
+        },
+        {
+          "native_file": "native-n0067.png",
+          "source_n": 306,
+          "pts": 459000,
+          "timebase": "1/90000",
+          "time_s": 5.1,
+          "sha256": "3ec53cfac82358cc15b3fd217c323dd8418bed4c757827ac26eea778a5d4113c"
+        },
+        {
+          "native_file": "native-n0068.png",
+          "source_n": 307,
+          "pts": 460500,
+          "timebase": "1/90000",
+          "time_s": 5.116667,
+          "sha256": "99c6537f47d82988f7b7e45fb90a30a26065cd69457ee894883e42e09436819f"
+        },
+        {
+          "native_file": "native-n0069.png",
+          "source_n": 308,
+          "pts": 462000,
+          "timebase": "1/90000",
+          "time_s": 5.133333,
+          "sha256": "46f3e8369c9f851a133211502e83b61d6615fa4d585db8c5b2849454c81b5bae"
+        },
+        {
+          "native_file": "native-n0070.png",
+          "source_n": 309,
+          "pts": 463500,
+          "timebase": "1/90000",
+          "time_s": 5.15,
+          "sha256": "28db86fa6381756bcb9a3022e910d45d3ec5dbdbe9666bd8153c6d073964ecfb"
+        },
+        {
+          "native_file": "native-n0071.png",
+          "source_n": 310,
+          "pts": 465000,
+          "timebase": "1/90000",
+          "time_s": 5.166667,
+          "sha256": "967cbea63567aec1870e4c471bf2564863ade92683e01fe63eebf2dc81aa8aee"
+        },
+        {
+          "native_file": "native-n0072.png",
+          "source_n": 311,
+          "pts": 466500,
+          "timebase": "1/90000",
+          "time_s": 5.183333,
+          "sha256": "3aea78d3c48f20bc67fb8bacec2a87d04843cdcc8cb5bf8cbf8d75ca1efb6f1d"
+        },
+        {
+          "native_file": "native-n0073.png",
+          "source_n": 312,
+          "pts": 468000,
+          "timebase": "1/90000",
+          "time_s": 5.2,
+          "sha256": "f8701e603d1974705668ca5fcb3764baa793988a71865c196855a689642b180e"
+        },
+        {
+          "native_file": "native-n0074.png",
+          "source_n": 313,
+          "pts": 469500,
+          "timebase": "1/90000",
+          "time_s": 5.216667,
+          "sha256": "e087e913ee9a76188390068e7929da7e3151d5a702551cc4663c5eb7a780a2ed"
+        },
+        {
+          "native_file": "native-n0075.png",
+          "source_n": 314,
+          "pts": 471000,
+          "timebase": "1/90000",
+          "time_s": 5.233333,
+          "sha256": "8098deff9f4eac491f00702924af8301b148bf573fffab45207ee18f70fc0b64"
+        },
+        {
+          "native_file": "native-n0076.png",
+          "source_n": 315,
+          "pts": 472500,
+          "timebase": "1/90000",
+          "time_s": 5.25,
+          "sha256": "75da78fbbe4e6b1abc553b583d907d1ef9d79b626dee692b1cce6fe327828798"
+        },
+        {
+          "native_file": "native-n0077.png",
+          "source_n": 316,
+          "pts": 474000,
+          "timebase": "1/90000",
+          "time_s": 5.266667,
+          "sha256": "8b1db63bd1bd4461bdb0cf0d0f79814776e50acb621e6118d5508ba67b55398d"
+        },
+        {
+          "native_file": "native-n0078.png",
+          "source_n": 317,
+          "pts": 475500,
+          "timebase": "1/90000",
+          "time_s": 5.283333,
+          "sha256": "30c072916c4c1616d6cf915f25640509f56af03612bbb39b0acabb0e6b753330"
+        },
+        {
+          "native_file": "native-n0079.png",
+          "source_n": 318,
+          "pts": 477000,
+          "timebase": "1/90000",
+          "time_s": 5.3,
+          "sha256": "9e44df19fabf4672901effba6750969b8036500f9a7fbf8f938d12fe1f2f4acc"
+        },
+        {
+          "native_file": "native-n0080.png",
+          "source_n": 319,
+          "pts": 478500,
+          "timebase": "1/90000",
+          "time_s": 5.316667,
+          "sha256": "7554d71376e65039fadd3a79ffa04af714f902f1e46043c47f15a8d2d9c618da"
+        },
+        {
+          "native_file": "native-n0081.png",
+          "source_n": 320,
+          "pts": 480000,
+          "timebase": "1/90000",
+          "time_s": 5.333333,
+          "sha256": "15977569bf68d4ce9e39ffaeba9cd93f865a833cd6ebfa3afa3d5011b991409b"
+        },
+        {
+          "native_file": "native-n0082.png",
+          "source_n": 321,
+          "pts": 481500,
+          "timebase": "1/90000",
+          "time_s": 5.35,
+          "sha256": "8b360e0f61594cfd4e25d2f92f8c33530f65537f8f7d184d16e7899da1fb9b7a"
+        },
+        {
+          "native_file": "native-n0083.png",
+          "source_n": 322,
+          "pts": 483000,
+          "timebase": "1/90000",
+          "time_s": 5.366667,
+          "sha256": "a9bf3156cc0ad0dd000f0942e2d1a0983f8e2ed48a2cf992c8b80ca79d6866bd"
+        },
+        {
+          "native_file": "native-n0084.png",
+          "source_n": 323,
+          "pts": 484500,
+          "timebase": "1/90000",
+          "time_s": 5.383333,
+          "sha256": "7ec82979a48b1c996cf393267d875c116cb7bd35ce3969038e766fdb50ffef0e"
+        },
+        {
+          "native_file": "native-n0085.png",
+          "source_n": 324,
+          "pts": 486000,
+          "timebase": "1/90000",
+          "time_s": 5.4,
+          "sha256": "f2c517770abed73fb7e33f74bd86589e1223fe0a74500ea9475747844f2a3d77"
+        },
+        {
+          "native_file": "native-n0086.png",
+          "source_n": 325,
+          "pts": 487500,
+          "timebase": "1/90000",
+          "time_s": 5.416667,
+          "sha256": "cc3f387dfdccca5f75fe00bcb5c4b7ac095969e28eb7b31cdceccecadb9ba23a"
+        },
+        {
+          "native_file": "native-n0087.png",
+          "source_n": 326,
+          "pts": 489000,
+          "timebase": "1/90000",
+          "time_s": 5.433333,
+          "sha256": "6482e4e6b323043c24a187f6e399d170e87f438f6537e452da41e30959237a70"
+        },
+        {
+          "native_file": "native-n0088.png",
+          "source_n": 327,
+          "pts": 490500,
+          "timebase": "1/90000",
+          "time_s": 5.45,
+          "sha256": "88cfd988ed147b773488377857f71e60cc53f68668b42a7856ca83b78631fc63"
+        },
+        {
+          "native_file": "native-n0089.png",
+          "source_n": 328,
+          "pts": 492000,
+          "timebase": "1/90000",
+          "time_s": 5.466667,
+          "sha256": "5119f4a012e0c50d205b951d0d734fc44b843e9ce3291aed96a3d8420c783139"
+        },
+        {
+          "native_file": "native-n0090.png",
+          "source_n": 329,
+          "pts": 493500,
+          "timebase": "1/90000",
+          "time_s": 5.483333,
+          "sha256": "e4273c048bea1df797bc27db027fa5f58b864cee4ec85f3cdfdbc5f758852b82"
+        },
+        {
+          "native_file": "native-n0091.png",
+          "source_n": 330,
+          "pts": 495000,
+          "timebase": "1/90000",
+          "time_s": 5.5,
+          "sha256": "7349a2e9ed87388d382e9153217a1ce4cefbe67c9b2303b3d30300c6113a8106"
+        },
+        {
+          "native_file": "native-n0092.png",
+          "source_n": 331,
+          "pts": 496500,
+          "timebase": "1/90000",
+          "time_s": 5.516667,
+          "sha256": "11315608c6ee72f184856872cc89e5ba915a72bff07912a09968d6e31c7b9a49"
+        },
+        {
+          "native_file": "native-n0093.png",
+          "source_n": 332,
+          "pts": 498000,
+          "timebase": "1/90000",
+          "time_s": 5.533333,
+          "sha256": "ab2cf1b42675b67523657f9425812c3bc08b84f78c079216ede77f821e38d621"
+        },
+        {
+          "native_file": "native-n0094.png",
+          "source_n": 333,
+          "pts": 499500,
+          "timebase": "1/90000",
+          "time_s": 5.55,
+          "sha256": "2cf8e59420a9580e3853a274e035775cd0f320ab0a6c1831f52e55f74022d8e3"
+        },
+        {
+          "native_file": "native-n0095.png",
+          "source_n": 334,
+          "pts": 501000,
+          "timebase": "1/90000",
+          "time_s": 5.566667,
+          "sha256": "94a76aada1385ef9275f1c9dae8848ddc2129627a7cecd8f35b70219d0b96084"
+        },
+        {
+          "native_file": "native-n0096.png",
+          "source_n": 335,
+          "pts": 502500,
+          "timebase": "1/90000",
+          "time_s": 5.583333,
+          "sha256": "9c5331812c0c74d660a91e3538a69ef715e6f1638493b7c43c1f0b28ea8a357c"
+        },
+        {
+          "native_file": "native-n0097.png",
+          "source_n": 336,
+          "pts": 504000,
+          "timebase": "1/90000",
+          "time_s": 5.6,
+          "sha256": "c3af212b1ea4f7ba3147734d470e9bfa886bb226d9df13ea83506d10d23baf97"
+        },
+        {
+          "native_file": "native-n0098.png",
+          "source_n": 337,
+          "pts": 505500,
+          "timebase": "1/90000",
+          "time_s": 5.616667,
+          "sha256": "4fc347ac0420400a325e452265385aeb15cee9ed002789547100190de8224fbc"
+        },
+        {
+          "native_file": "native-n0099.png",
+          "source_n": 338,
+          "pts": 507000,
+          "timebase": "1/90000",
+          "time_s": 5.633333,
+          "sha256": "8217bbf89079494cf6bd05b85e56d51f9d4c956f4d9c3d4ed6e3449c7503b2bc"
+        },
+        {
+          "native_file": "native-n0100.png",
+          "source_n": 339,
+          "pts": 508500,
+          "timebase": "1/90000",
+          "time_s": 5.65,
+          "sha256": "1b5aac32619e08abec974ea29dcadadb969d3fedef1ec91378ff8dcf7f3ed6f9"
+        },
+        {
+          "native_file": "native-n0101.png",
+          "source_n": 340,
+          "pts": 510000,
+          "timebase": "1/90000",
+          "time_s": 5.666667,
+          "sha256": "6c49b3a681c65ece2600c8d8f9697e8d67018e0079fba7b114f9a848098203b1"
+        },
+        {
+          "native_file": "native-n0102.png",
+          "source_n": 341,
+          "pts": 511500,
+          "timebase": "1/90000",
+          "time_s": 5.683333,
+          "sha256": "1f6fa5ba298f40dcf9f61cc8a41037569f7b3aa089abc82b887280217353254d"
+        },
+        {
+          "native_file": "native-n0103.png",
+          "source_n": 342,
+          "pts": 513000,
+          "timebase": "1/90000",
+          "time_s": 5.7,
+          "sha256": "cd95dd94feeabdb0350ad5a6e3189661025285a25fd63e7b0a147ca16bca0a74"
+        },
+        {
+          "native_file": "native-n0104.png",
+          "source_n": 343,
+          "pts": 514500,
+          "timebase": "1/90000",
+          "time_s": 5.716667,
+          "sha256": "60db0628331b700c0103bf4115b29e452ee932a282648134e215db023f3cb703"
+        },
+        {
+          "native_file": "native-n0105.png",
+          "source_n": 344,
+          "pts": 516000,
+          "timebase": "1/90000",
+          "time_s": 5.733333,
+          "sha256": "79d6c24893bd4e96a7714e1f95d15aa88c2aea917fbfb5fe827d0e90a954f64e"
+        },
+        {
+          "native_file": "native-n0106.png",
+          "source_n": 345,
+          "pts": 517500,
+          "timebase": "1/90000",
+          "time_s": 5.75,
+          "sha256": "2a2a8da611a53fc802a5ec28987220ed5bd9a8889ecdafb274e73334a34aeec1"
+        },
+        {
+          "native_file": "native-n0107.png",
+          "source_n": 346,
+          "pts": 519000,
+          "timebase": "1/90000",
+          "time_s": 5.766667,
+          "sha256": "3adde13f540004ed32c9be4a6a826e9b696d295e4d6c7ce4ff8b39c3fc5c7c14"
+        },
+        {
+          "native_file": "native-n0108.png",
+          "source_n": 347,
+          "pts": 520500,
+          "timebase": "1/90000",
+          "time_s": 5.783333,
+          "sha256": "1d9a973f1ea64407796d1983ee35fc1e071d5d7b83025ff14adc9d44c76d192d"
+        },
+        {
+          "native_file": "native-n0109.png",
+          "source_n": 348,
+          "pts": 522000,
+          "timebase": "1/90000",
+          "time_s": 5.8,
+          "sha256": "37306448d3a04b990d657e10b6dfb9876181d58e20efbf942e433808216c9047"
+        },
+        {
+          "native_file": "native-n0110.png",
+          "source_n": 349,
+          "pts": 523500,
+          "timebase": "1/90000",
+          "time_s": 5.816667,
+          "sha256": "22838c9b191ab55accd979a1b9616df3d26bb1ea367626b3ebf58f2aa4833259"
+        },
+        {
+          "native_file": "native-n0111.png",
+          "source_n": 350,
+          "pts": 525000,
+          "timebase": "1/90000",
+          "time_s": 5.833333,
+          "sha256": "f6ef8ae3234c91e14710d985da7359a84bce458bec270bcf98cf520de15251cd"
+        },
+        {
+          "native_file": "native-n0112.png",
+          "source_n": 351,
+          "pts": 526500,
+          "timebase": "1/90000",
+          "time_s": 5.85,
+          "sha256": "cdef6cd1b1641c274904b92c6ae4ceeec34d97b1096689484f44ef6f979c4236"
+        },
+        {
+          "native_file": "native-n0113.png",
+          "source_n": 352,
+          "pts": 528000,
+          "timebase": "1/90000",
+          "time_s": 5.866667,
+          "sha256": "5ab05061e1d49e0b9db5a64d719fd28205f86d511f68f9f163834f313ac61d47"
+        },
+        {
+          "native_file": "native-n0114.png",
+          "source_n": 353,
+          "pts": 529500,
+          "timebase": "1/90000",
+          "time_s": 5.883333,
+          "sha256": "ab27a3b699802235e81b86a7c8f0147b372c31fb9017a6ed79ffa4c4562822d3"
+        },
+        {
+          "native_file": "native-n0115.png",
+          "source_n": 354,
+          "pts": 531000,
+          "timebase": "1/90000",
+          "time_s": 5.9,
+          "sha256": "5665a04f5bb9795274494985759540aeb77ea36a954895567691f70a4e2e97a1"
+        },
+        {
+          "native_file": "native-n0116.png",
+          "source_n": 355,
+          "pts": 532500,
+          "timebase": "1/90000",
+          "time_s": 5.916667,
+          "sha256": "b1887a90ad78589b9b030eec092e1e727cd22c008c0d15e4e28ffb30923867f6"
+        },
+        {
+          "native_file": "native-n0117.png",
+          "source_n": 356,
+          "pts": 534000,
+          "timebase": "1/90000",
+          "time_s": 5.933333,
+          "sha256": "a7c9a4d37db0e6133473cd8da8abb8e2aa2ae832e0002e67c86238459c108fd5"
+        },
+        {
+          "native_file": "native-n0118.png",
+          "source_n": 357,
+          "pts": 535500,
+          "timebase": "1/90000",
+          "time_s": 5.95,
+          "sha256": "d2e68a99ec0ddb1687e80bc0cb05384fa0772e235187a36eec6032343142f856"
+        },
+        {
+          "native_file": "native-n0119.png",
+          "source_n": 358,
+          "pts": 537000,
+          "timebase": "1/90000",
+          "time_s": 5.966667,
+          "sha256": "06decc844333646d039b78db1ac224ff1d54f8c9fb4bc976ce53d963db4ebb81"
+        },
+        {
+          "native_file": "native-n0120.png",
+          "source_n": 359,
+          "pts": 538500,
+          "timebase": "1/90000",
+          "time_s": 5.983333,
+          "sha256": "9fdb5e3310817541fc16210e6e602181baf3bb3f7943e56cd161ace171f39065"
+        }
+      ],
+      "NICO-sm46155083": [
+        {
+          "native_file": "native-n0001.png",
+          "source_n": 870,
+          "pts": 2610000,
+          "timebase": "1/90000",
+          "time_s": 29.0,
+          "sha256": "397750c27c80f3738e109e70d9306dbc5cd8b19cd795490b6fadce469d0592bf"
+        },
+        {
+          "native_file": "native-n0002.png",
+          "source_n": 871,
+          "pts": 2613000,
+          "timebase": "1/90000",
+          "time_s": 29.033333,
+          "sha256": "5a5de26bd34215fcfcfde584894a177dc65db3b3b6874e3fe6d1ae30c9eca1a2"
+        },
+        {
+          "native_file": "native-n0003.png",
+          "source_n": 872,
+          "pts": 2616000,
+          "timebase": "1/90000",
+          "time_s": 29.066667,
+          "sha256": "bfdabf456abfbd9eeeb803040e26e172aea66edf03060bd4075cb83877211bf6"
+        },
+        {
+          "native_file": "native-n0004.png",
+          "source_n": 873,
+          "pts": 2619000,
+          "timebase": "1/90000",
+          "time_s": 29.1,
+          "sha256": "6460026fa1e79b2950780cbf5a2bc4b841a4eed936f454cc000041eb8445bf29"
+        },
+        {
+          "native_file": "native-n0005.png",
+          "source_n": 874,
+          "pts": 2622000,
+          "timebase": "1/90000",
+          "time_s": 29.133333,
+          "sha256": "a3a0bf238cf25e256ccd325a3dcdafd1ee69988bda46a8547d308b18ce8f9221"
+        },
+        {
+          "native_file": "native-n0006.png",
+          "source_n": 875,
+          "pts": 2625000,
+          "timebase": "1/90000",
+          "time_s": 29.166667,
+          "sha256": "4a61c016f80400029dd5c774343377cf8e8bb2f727525959dddd797ed51fe52f"
+        },
+        {
+          "native_file": "native-n0007.png",
+          "source_n": 876,
+          "pts": 2628000,
+          "timebase": "1/90000",
+          "time_s": 29.2,
+          "sha256": "3d5498a2c64434a81884d0067aee80e9c03e5db74a524c064bbe56e61c9bef8d"
+        },
+        {
+          "native_file": "native-n0008.png",
+          "source_n": 877,
+          "pts": 2631000,
+          "timebase": "1/90000",
+          "time_s": 29.233333,
+          "sha256": "b6e0af40b8e3e45a78cf71113591f85ec8687102cd21acbdc8af91bdb6a85caa"
+        },
+        {
+          "native_file": "native-n0009.png",
+          "source_n": 878,
+          "pts": 2634000,
+          "timebase": "1/90000",
+          "time_s": 29.266667,
+          "sha256": "cbf123ef840895c1024a1b7d69d54e87f857fa7043a933b6c6097b5321f25244"
+        },
+        {
+          "native_file": "native-n0010.png",
+          "source_n": 879,
+          "pts": 2637000,
+          "timebase": "1/90000",
+          "time_s": 29.3,
+          "sha256": "849bf155011505313998b873dcad77619c9137633a88db5cbb62608c79ce5135"
+        },
+        {
+          "native_file": "native-n0011.png",
+          "source_n": 880,
+          "pts": 2640000,
+          "timebase": "1/90000",
+          "time_s": 29.333333,
+          "sha256": "6a63771068313e054ea6edf969fb69018bf5e76fdd57baca84c079f01a2d5f10"
+        },
+        {
+          "native_file": "native-n0012.png",
+          "source_n": 881,
+          "pts": 2643000,
+          "timebase": "1/90000",
+          "time_s": 29.366667,
+          "sha256": "52ca8d378556f187ae5d2be0dc59bad79d48e80f590b45f8c810abde0735e3c5"
+        },
+        {
+          "native_file": "native-n0013.png",
+          "source_n": 882,
+          "pts": 2646000,
+          "timebase": "1/90000",
+          "time_s": 29.4,
+          "sha256": "7759bb2ebf0e753f437d666fc81ced89356b65e51ba15cdf162e2a0cce1d34a4"
+        },
+        {
+          "native_file": "native-n0014.png",
+          "source_n": 883,
+          "pts": 2649000,
+          "timebase": "1/90000",
+          "time_s": 29.433333,
+          "sha256": "bfcd0fa1ea3c26e7b3c203cee94fddd9da5858cdd413e90ca10e1a56e7cd1f03"
+        },
+        {
+          "native_file": "native-n0015.png",
+          "source_n": 884,
+          "pts": 2652000,
+          "timebase": "1/90000",
+          "time_s": 29.466667,
+          "sha256": "f1161ca922dec5a37c4ec4a225629434ded0b24a46028387ac4d930d1ce8515b"
+        },
+        {
+          "native_file": "native-n0016.png",
+          "source_n": 885,
+          "pts": 2655000,
+          "timebase": "1/90000",
+          "time_s": 29.5,
+          "sha256": "8c474832190f5f448fb8c63aff9ac7b814b89176d71e848dc42bb9771662638d"
+        },
+        {
+          "native_file": "native-n0017.png",
+          "source_n": 886,
+          "pts": 2658000,
+          "timebase": "1/90000",
+          "time_s": 29.533333,
+          "sha256": "821533c92eeb14be8b4301f3c64dad31caefddddea106c76dc3ebad961694d3b"
+        },
+        {
+          "native_file": "native-n0018.png",
+          "source_n": 887,
+          "pts": 2661000,
+          "timebase": "1/90000",
+          "time_s": 29.566667,
+          "sha256": "4ae2704deda66855d3f1d4015452707c8bdf1d0fc20021dd2b43b2b0ba3ad976"
+        },
+        {
+          "native_file": "native-n0019.png",
+          "source_n": 888,
+          "pts": 2664000,
+          "timebase": "1/90000",
+          "time_s": 29.6,
+          "sha256": "f087dcc27831e56f76a97ab1f282f72cadde43beba0b99e23a6ef4cf01922fad"
+        },
+        {
+          "native_file": "native-n0020.png",
+          "source_n": 889,
+          "pts": 2667000,
+          "timebase": "1/90000",
+          "time_s": 29.633333,
+          "sha256": "b2947ebcb68bd9daadfd14090ff1811fdec3f88edd876aeed8ec9c7dbc21330d"
+        },
+        {
+          "native_file": "native-n0021.png",
+          "source_n": 890,
+          "pts": 2670000,
+          "timebase": "1/90000",
+          "time_s": 29.666667,
+          "sha256": "48ef2ba662fa8948cc34163cc824e4c68f7dde810fdb848ed9416fd20217868b"
+        },
+        {
+          "native_file": "native-n0022.png",
+          "source_n": 891,
+          "pts": 2673000,
+          "timebase": "1/90000",
+          "time_s": 29.7,
+          "sha256": "117efb0407425e1980ae2ffa30e4c5db64e8b9c7ed539acffda1964588b05a1f"
+        },
+        {
+          "native_file": "native-n0023.png",
+          "source_n": 892,
+          "pts": 2676000,
+          "timebase": "1/90000",
+          "time_s": 29.733333,
+          "sha256": "78bfb89536473a359d333d7829fca6edbdfbc6a39b2aa3231b3286799dde72a1"
+        },
+        {
+          "native_file": "native-n0024.png",
+          "source_n": 893,
+          "pts": 2679000,
+          "timebase": "1/90000",
+          "time_s": 29.766667,
+          "sha256": "2939d9bab41b179b6ce6c084eebc3700493fcb4f2dd61f927c201d91a42274e5"
+        },
+        {
+          "native_file": "native-n0025.png",
+          "source_n": 894,
+          "pts": 2682000,
+          "timebase": "1/90000",
+          "time_s": 29.8,
+          "sha256": "625d6fdfa51f9141d710db5499ea56ab761d4be7ee19cf91f27a4b00d81d38a8"
+        },
+        {
+          "native_file": "native-n0026.png",
+          "source_n": 895,
+          "pts": 2685000,
+          "timebase": "1/90000",
+          "time_s": 29.833333,
+          "sha256": "5d5dda1536e0e1a18ec4b628285ff1458b159eee1c604d06f8607dafc8b22ad1"
+        },
+        {
+          "native_file": "native-n0027.png",
+          "source_n": 896,
+          "pts": 2688000,
+          "timebase": "1/90000",
+          "time_s": 29.866667,
+          "sha256": "a619aac39e2b58a5318f24a293cff4390a49ecc6b24279db8ec97ddcd4924e75"
+        },
+        {
+          "native_file": "native-n0028.png",
+          "source_n": 897,
+          "pts": 2691000,
+          "timebase": "1/90000",
+          "time_s": 29.9,
+          "sha256": "7e634890eb96609a45b5fed70fd2a5f386c21884417c37ce4eaa998562116e79"
+        },
+        {
+          "native_file": "native-n0029.png",
+          "source_n": 898,
+          "pts": 2694000,
+          "timebase": "1/90000",
+          "time_s": 29.933333,
+          "sha256": "4d8f31e9e3ee73a33ad03a4ef54f989368a8e8a2872eb3423672ec33419692ce"
+        },
+        {
+          "native_file": "native-n0030.png",
+          "source_n": 899,
+          "pts": 2697000,
+          "timebase": "1/90000",
+          "time_s": 29.966667,
+          "sha256": "144344867924018e2ca42a8123c5735552e73a85115dd28bc02e1c5b4ef4c261"
+        },
+        {
+          "native_file": "native-n0031.png",
+          "source_n": 900,
+          "pts": 2700000,
+          "timebase": "1/90000",
+          "time_s": 30.0,
+          "sha256": "138eb151238011a0148f57e3e908601d74051bf9b7eaa249c023cd92c79ab612"
+        },
+        {
+          "native_file": "native-n0032.png",
+          "source_n": 901,
+          "pts": 2703000,
+          "timebase": "1/90000",
+          "time_s": 30.033333,
+          "sha256": "17694c87705972669c1911b8f348992b58fe20ba4ce0c7412f8c8539413010f0"
+        },
+        {
+          "native_file": "native-n0033.png",
+          "source_n": 902,
+          "pts": 2706000,
+          "timebase": "1/90000",
+          "time_s": 30.066667,
+          "sha256": "7b45c01ba0b5c8965589239b8a58f1b7e5d0a4f8e005d64fdac234f4f7e6da02"
+        },
+        {
+          "native_file": "native-n0034.png",
+          "source_n": 903,
+          "pts": 2709000,
+          "timebase": "1/90000",
+          "time_s": 30.1,
+          "sha256": "ffcc868e08a5252932d22488a931a644af609c56eaf2668736dd251e6b704fd6"
+        },
+        {
+          "native_file": "native-n0035.png",
+          "source_n": 904,
+          "pts": 2712000,
+          "timebase": "1/90000",
+          "time_s": 30.133333,
+          "sha256": "a0e4a172fb1a03da69ade0e0211d4a2ec095f91f87c8e54da4b372ea8f96ed98"
+        },
+        {
+          "native_file": "native-n0036.png",
+          "source_n": 905,
+          "pts": 2715000,
+          "timebase": "1/90000",
+          "time_s": 30.166667,
+          "sha256": "64ecc7bd39ffab7d97f4ebb5e750ea397eda7791c9b0db8c7f7464edd5b2500b"
+        },
+        {
+          "native_file": "native-n0037.png",
+          "source_n": 906,
+          "pts": 2718000,
+          "timebase": "1/90000",
+          "time_s": 30.2,
+          "sha256": "98a8fe2d72c04706a1f3b6a84a2fd54f0fa5a814eee0d10394b0d00ad42e35da"
+        },
+        {
+          "native_file": "native-n0038.png",
+          "source_n": 907,
+          "pts": 2721000,
+          "timebase": "1/90000",
+          "time_s": 30.233333,
+          "sha256": "5b2463e4a00d07fb25210e558092188b0693bca96434e86be4afc0ef2fd90ee0"
+        },
+        {
+          "native_file": "native-n0039.png",
+          "source_n": 908,
+          "pts": 2724000,
+          "timebase": "1/90000",
+          "time_s": 30.266667,
+          "sha256": "d6160ab3d0740469cd2a717bd5c5ef2ebe236946a6e97e580d00cca67a1239eb"
+        },
+        {
+          "native_file": "native-n0040.png",
+          "source_n": 909,
+          "pts": 2727000,
+          "timebase": "1/90000",
+          "time_s": 30.3,
+          "sha256": "16a7a593c70a098ce1cea42b373492e0b4ebdb028420bf6c07abe092f87f885e"
+        },
+        {
+          "native_file": "native-n0041.png",
+          "source_n": 910,
+          "pts": 2730000,
+          "timebase": "1/90000",
+          "time_s": 30.333333,
+          "sha256": "99eafd307240ec24fec1743105d87e5254bc3b366ba8c70ba5d32761c793e9e2"
+        },
+        {
+          "native_file": "native-n0042.png",
+          "source_n": 911,
+          "pts": 2733000,
+          "timebase": "1/90000",
+          "time_s": 30.366667,
+          "sha256": "cd8a9880e884c359205e30c802604c85ae06a9916e9fe8b39becfef60df245b1"
+        },
+        {
+          "native_file": "native-n0043.png",
+          "source_n": 912,
+          "pts": 2736000,
+          "timebase": "1/90000",
+          "time_s": 30.4,
+          "sha256": "be4f3f34a39d04e981ed6b48691104286db13ea0a947bc5d0625579305ddda53"
+        },
+        {
+          "native_file": "native-n0044.png",
+          "source_n": 913,
+          "pts": 2739000,
+          "timebase": "1/90000",
+          "time_s": 30.433333,
+          "sha256": "f68c9eac129c2edbeda6ef558050ab6bf5d8e2a9967cdb81893f5c3feb312b86"
+        },
+        {
+          "native_file": "native-n0045.png",
+          "source_n": 914,
+          "pts": 2742000,
+          "timebase": "1/90000",
+          "time_s": 30.466667,
+          "sha256": "ab3db62105ac99be09c1cdf52ee376731b5d9f303bdd5d676543f3ef8a3f11e6"
+        },
+        {
+          "native_file": "native-n0046.png",
+          "source_n": 915,
+          "pts": 2745000,
+          "timebase": "1/90000",
+          "time_s": 30.5,
+          "sha256": "5bf7c2445e9ed9a3f82105e3deae1ad444325f06d19a283bde276d591b559957"
+        },
+        {
+          "native_file": "native-n0047.png",
+          "source_n": 916,
+          "pts": 2748000,
+          "timebase": "1/90000",
+          "time_s": 30.533333,
+          "sha256": "f351abb88859fc8f5f7e9002843ce3c62142da52c3677b0bd7f381220baa1dba"
+        },
+        {
+          "native_file": "native-n0048.png",
+          "source_n": 917,
+          "pts": 2751000,
+          "timebase": "1/90000",
+          "time_s": 30.566667,
+          "sha256": "53308d622241d1bcb934073e5657f2a969816b658d4576bc7cbdc601d61f5ea8"
+        },
+        {
+          "native_file": "native-n0049.png",
+          "source_n": 918,
+          "pts": 2754000,
+          "timebase": "1/90000",
+          "time_s": 30.6,
+          "sha256": "cb4be1cb8442e3ef25dd81fd4e5282bc2f8e610268ae899ae91bbc0e0c471ab8"
+        },
+        {
+          "native_file": "native-n0050.png",
+          "source_n": 919,
+          "pts": 2757000,
+          "timebase": "1/90000",
+          "time_s": 30.633333,
+          "sha256": "0da67c07f965e985924679ae72b965d8d149fa97ca8faa4487437999a0e273ad"
+        },
+        {
+          "native_file": "native-n0051.png",
+          "source_n": 920,
+          "pts": 2760000,
+          "timebase": "1/90000",
+          "time_s": 30.666667,
+          "sha256": "af16d558ac707670747206d67736ed27adf36e4f73d5ed980d62e3bd1300f1f6"
+        },
+        {
+          "native_file": "native-n0052.png",
+          "source_n": 921,
+          "pts": 2763000,
+          "timebase": "1/90000",
+          "time_s": 30.7,
+          "sha256": "267b7ff30a3f0ca1c96b53b12e5443f5010f78f5e3a9b4047c000a6cdb26adf8"
+        },
+        {
+          "native_file": "native-n0053.png",
+          "source_n": 922,
+          "pts": 2766000,
+          "timebase": "1/90000",
+          "time_s": 30.733333,
+          "sha256": "7a2137224d09d83b9e7f321799ae1f3c4af9a6ea3992dab45edfe714ecbc4bf4"
+        },
+        {
+          "native_file": "native-n0054.png",
+          "source_n": 923,
+          "pts": 2769000,
+          "timebase": "1/90000",
+          "time_s": 30.766667,
+          "sha256": "be303edea4d43e9e7642e6155b05726291fbef986392533a2cd7cb36bb6d9ced"
+        },
+        {
+          "native_file": "native-n0055.png",
+          "source_n": 924,
+          "pts": 2772000,
+          "timebase": "1/90000",
+          "time_s": 30.8,
+          "sha256": "a15ced660b77df36e854f66a02a13ab1b3f069e84600be3305931e8b4e99ef73"
+        },
+        {
+          "native_file": "native-n0056.png",
+          "source_n": 925,
+          "pts": 2775000,
+          "timebase": "1/90000",
+          "time_s": 30.833333,
+          "sha256": "f546260d62a09d56083f04f8ac64a444d2c7bde1cf376c432fce9da639d464da"
+        },
+        {
+          "native_file": "native-n0057.png",
+          "source_n": 926,
+          "pts": 2778000,
+          "timebase": "1/90000",
+          "time_s": 30.866667,
+          "sha256": "0f7e3b3d5b1592933cd7274366c2567206bb23043106cab0454c04a22f277e8d"
+        },
+        {
+          "native_file": "native-n0058.png",
+          "source_n": 927,
+          "pts": 2781000,
+          "timebase": "1/90000",
+          "time_s": 30.9,
+          "sha256": "3d34b1a5139ccdbf4726ab12f8bdbcafe8a3a7b21021524862e6de9544188883"
+        },
+        {
+          "native_file": "native-n0059.png",
+          "source_n": 928,
+          "pts": 2784000,
+          "timebase": "1/90000",
+          "time_s": 30.933333,
+          "sha256": "4aa33ff85e509eb8ccd2f9bd2be837be2b5146cb4500e8432e3ed4d108633207"
+        },
+        {
+          "native_file": "native-n0060.png",
+          "source_n": 929,
+          "pts": 2787000,
+          "timebase": "1/90000",
+          "time_s": 30.966667,
+          "sha256": "421e31970e4d6c9eaf4d4d4d49c54855911718af26fdfc5933e3da001bd134ca"
+        }
+      ],
+      "PVOLT-C-7TIDIKc98": [
+        {
+          "native_file": "native-n0001.png",
+          "source_n": 2160,
+          "pts": 1105920,
+          "timebase": "1/12288",
+          "time_s": 90.0,
+          "sha256": "d691e8778e2f31978181e6009a0ed303d18492fa1dc8d34793d8d0d34863cb81"
+        },
+        {
+          "native_file": "native-n0002.png",
+          "source_n": 2161,
+          "pts": 1106432,
+          "timebase": "1/12288",
+          "time_s": 90.041667,
+          "sha256": "41dbff608c82d944d9127fb3eea1df442f6d254663ff334e8cb28f914dd1b2ab"
+        },
+        {
+          "native_file": "native-n0003.png",
+          "source_n": 2162,
+          "pts": 1106944,
+          "timebase": "1/12288",
+          "time_s": 90.083333,
+          "sha256": "b8040853b774ec364960d66f9e044f9790c01240b136138e8d6c8ee18263b1d2"
+        },
+        {
+          "native_file": "native-n0004.png",
+          "source_n": 2163,
+          "pts": 1107456,
+          "timebase": "1/12288",
+          "time_s": 90.125,
+          "sha256": "b3015f6e940971d8a713bcf20b38229a6d48727bb9bf9bcfe76d148430cf05d6"
+        },
+        {
+          "native_file": "native-n0005.png",
+          "source_n": 2164,
+          "pts": 1107968,
+          "timebase": "1/12288",
+          "time_s": 90.166667,
+          "sha256": "369585f7b593fa36dbb263a026fd66aadebdda386b241ea72dc1a7a8989e4bad"
+        },
+        {
+          "native_file": "native-n0006.png",
+          "source_n": 2165,
+          "pts": 1108480,
+          "timebase": "1/12288",
+          "time_s": 90.208333,
+          "sha256": "bd8f90df8bdee7bdb15401468f1553a1fe4feb5c86f7d74427758c01fa2adcec"
+        },
+        {
+          "native_file": "native-n0007.png",
+          "source_n": 2166,
+          "pts": 1108992,
+          "timebase": "1/12288",
+          "time_s": 90.25,
+          "sha256": "1348bd8bcdd12a3b83e44c7498e1599df6c22ce296949566e297bc203ba7f86c"
+        },
+        {
+          "native_file": "native-n0008.png",
+          "source_n": 2167,
+          "pts": 1109504,
+          "timebase": "1/12288",
+          "time_s": 90.291667,
+          "sha256": "863dda2e766a4668e05cf7bd8889e5ad0e33bce91ace513b0139aaae419df911"
+        },
+        {
+          "native_file": "native-n0009.png",
+          "source_n": 2168,
+          "pts": 1110016,
+          "timebase": "1/12288",
+          "time_s": 90.333333,
+          "sha256": "ecea5a39e982ee523c6fff58558062845027b8c547953c994c43c3feda62ff52"
+        },
+        {
+          "native_file": "native-n0010.png",
+          "source_n": 2169,
+          "pts": 1110528,
+          "timebase": "1/12288",
+          "time_s": 90.375,
+          "sha256": "7e7b73d16bef069f2858aa29d91ea4ef0e5e6bf37adef80667d456c3c6a24116"
+        },
+        {
+          "native_file": "native-n0011.png",
+          "source_n": 2170,
+          "pts": 1111040,
+          "timebase": "1/12288",
+          "time_s": 90.416667,
+          "sha256": "5c430f7771da4cab88236a955ee59844d78c7b26fa1cd4b905b731ad8d49f5b2"
+        },
+        {
+          "native_file": "native-n0012.png",
+          "source_n": 2171,
+          "pts": 1111552,
+          "timebase": "1/12288",
+          "time_s": 90.458333,
+          "sha256": "ba83975d61b3b4d37fd0cc68e061a8d3dd99fa73198a418fc0af4b91d7bd9d25"
+        },
+        {
+          "native_file": "native-n0013.png",
+          "source_n": 2172,
+          "pts": 1112064,
+          "timebase": "1/12288",
+          "time_s": 90.5,
+          "sha256": "17d382f759f2ce4ebf12f2b8aacbaf6ff8b39299861e50d7b29cb3828c6e8544"
+        },
+        {
+          "native_file": "native-n0014.png",
+          "source_n": 2173,
+          "pts": 1112576,
+          "timebase": "1/12288",
+          "time_s": 90.541667,
+          "sha256": "b827e6cdf99187766b6ec37c55050a22590bcca97ca56ef5a863f94847100d71"
+        },
+        {
+          "native_file": "native-n0015.png",
+          "source_n": 2174,
+          "pts": 1113088,
+          "timebase": "1/12288",
+          "time_s": 90.583333,
+          "sha256": "cce7d44cbcca8d78e40ec77da8fd9b6c0417e2c434bde1bddb3050329be5a466"
+        },
+        {
+          "native_file": "native-n0016.png",
+          "source_n": 2175,
+          "pts": 1113600,
+          "timebase": "1/12288",
+          "time_s": 90.625,
+          "sha256": "9e84294d094fa75c36db7c9477b8ede82dedf62d8d35d359f5de50f17475a74e"
+        },
+        {
+          "native_file": "native-n0017.png",
+          "source_n": 2176,
+          "pts": 1114112,
+          "timebase": "1/12288",
+          "time_s": 90.666667,
+          "sha256": "1c1f61373ed651403a71cacfd847d313cd71bd8b8a51c91c081a22106598d467"
+        },
+        {
+          "native_file": "native-n0018.png",
+          "source_n": 2177,
+          "pts": 1114624,
+          "timebase": "1/12288",
+          "time_s": 90.708333,
+          "sha256": "eea7f7ff5378af1e098d920785de9c5e6747c4ca1e5a86a9df46c7c69a5665a2"
+        },
+        {
+          "native_file": "native-n0019.png",
+          "source_n": 2178,
+          "pts": 1115136,
+          "timebase": "1/12288",
+          "time_s": 90.75,
+          "sha256": "48d403a5d1c8836b69eb6f9c9692d04b2fc816106d989fb84209d25431c590a5"
+        },
+        {
+          "native_file": "native-n0020.png",
+          "source_n": 2179,
+          "pts": 1115648,
+          "timebase": "1/12288",
+          "time_s": 90.791667,
+          "sha256": "44ee3080a35dd3ec9926713aa9d7ff41112a5b873ec01d4418ce333838d20269"
+        },
+        {
+          "native_file": "native-n0021.png",
+          "source_n": 2180,
+          "pts": 1116160,
+          "timebase": "1/12288",
+          "time_s": 90.833333,
+          "sha256": "108cd58dce1cf1e6e1b8b13e5a8e756d7e108f89141eb391c9a44caef6d77b0a"
+        },
+        {
+          "native_file": "native-n0022.png",
+          "source_n": 2181,
+          "pts": 1116672,
+          "timebase": "1/12288",
+          "time_s": 90.875,
+          "sha256": "d2bd5ca9707dd87e128b229bd0901356394346e2d7f415e435c0ad93371d0a70"
+        },
+        {
+          "native_file": "native-n0023.png",
+          "source_n": 2182,
+          "pts": 1117184,
+          "timebase": "1/12288",
+          "time_s": 90.916667,
+          "sha256": "7c59802c9e3c19cb6642f33295b67771e6edccf9bc212d30dd5a9bba3622b89c"
+        },
+        {
+          "native_file": "native-n0024.png",
+          "source_n": 2183,
+          "pts": 1117696,
+          "timebase": "1/12288",
+          "time_s": 90.958333,
+          "sha256": "ef11b36c58e996231b3e4a54c7613f6cc24fdce52c7591835d641910d216c55d"
+        },
+        {
+          "native_file": "native-n0025.png",
+          "source_n": 2184,
+          "pts": 1118208,
+          "timebase": "1/12288",
+          "time_s": 91.0,
+          "sha256": "399584d6dc09153951873b44c85653cafda45e021d583383659c12c01f43597e"
+        },
+        {
+          "native_file": "native-n0026.png",
+          "source_n": 2185,
+          "pts": 1118720,
+          "timebase": "1/12288",
+          "time_s": 91.041667,
+          "sha256": "cc5bef7c0d927258934bbcc076d47dbe00b17b220f2541c3f2db458febdcff8a"
+        },
+        {
+          "native_file": "native-n0027.png",
+          "source_n": 2186,
+          "pts": 1119232,
+          "timebase": "1/12288",
+          "time_s": 91.083333,
+          "sha256": "91f9ba1f70961221f7a9b9437a4af4afa466a023c3a555543fbdc3fb733cb8d4"
+        },
+        {
+          "native_file": "native-n0028.png",
+          "source_n": 2187,
+          "pts": 1119744,
+          "timebase": "1/12288",
+          "time_s": 91.125,
+          "sha256": "6969a796670e73a433f1a5fc598f929a884b9e163b254cfed56807fbe9c9f843"
+        },
+        {
+          "native_file": "native-n0029.png",
+          "source_n": 2188,
+          "pts": 1120256,
+          "timebase": "1/12288",
+          "time_s": 91.166667,
+          "sha256": "2f2b7eabba7e55b466e9eb19eca114da40badd5c9fca37be34386830793edcc6"
+        },
+        {
+          "native_file": "native-n0030.png",
+          "source_n": 2189,
+          "pts": 1120768,
+          "timebase": "1/12288",
+          "time_s": 91.208333,
+          "sha256": "46c3558883d6346df3b635808982fbbcdfcf4b58384380215f606109aa31e185"
+        },
+        {
+          "native_file": "native-n0031.png",
+          "source_n": 2190,
+          "pts": 1121280,
+          "timebase": "1/12288",
+          "time_s": 91.25,
+          "sha256": "d915c81dca405551f141771c6800d12208f12a3d476343830eb23a4b892a8247"
+        },
+        {
+          "native_file": "native-n0032.png",
+          "source_n": 2191,
+          "pts": 1121792,
+          "timebase": "1/12288",
+          "time_s": 91.291667,
+          "sha256": "8defdebcec7cefc61abcfa792ed7c2cebde4a3925706122a78c7cf167b527814"
+        },
+        {
+          "native_file": "native-n0033.png",
+          "source_n": 2192,
+          "pts": 1122304,
+          "timebase": "1/12288",
+          "time_s": 91.333333,
+          "sha256": "e5623361d6627f4b66490782a3e204c744f46f0c9ec4a9310166f3752f1549f9"
+        },
+        {
+          "native_file": "native-n0034.png",
+          "source_n": 2193,
+          "pts": 1122816,
+          "timebase": "1/12288",
+          "time_s": 91.375,
+          "sha256": "19f72595662352f0128bb99f24e380c8cba300c5727841428ddffb44b02f7a3d"
+        },
+        {
+          "native_file": "native-n0035.png",
+          "source_n": 2194,
+          "pts": 1123328,
+          "timebase": "1/12288",
+          "time_s": 91.416667,
+          "sha256": "e0cde64a77526aa767e16e748a921c418f8f1206d2dcb158470b06cc598e8392"
+        },
+        {
+          "native_file": "native-n0036.png",
+          "source_n": 2195,
+          "pts": 1123840,
+          "timebase": "1/12288",
+          "time_s": 91.458333,
+          "sha256": "9571d8f045f6dfd222dc9684601fad1c53721b7542575639d437b1a8deb63113"
+        },
+        {
+          "native_file": "native-n0037.png",
+          "source_n": 2196,
+          "pts": 1124352,
+          "timebase": "1/12288",
+          "time_s": 91.5,
+          "sha256": "4ffd660702dc4df50ebe047cdb23e84fb746a3e36e9f2f29cb9e5e1e19fd8e72"
+        },
+        {
+          "native_file": "native-n0038.png",
+          "source_n": 2197,
+          "pts": 1124864,
+          "timebase": "1/12288",
+          "time_s": 91.541667,
+          "sha256": "6839489a40d6f5b7f61c87bd021e19c411d163aa88a61a4b506ad0d940ce4347"
+        },
+        {
+          "native_file": "native-n0039.png",
+          "source_n": 2198,
+          "pts": 1125376,
+          "timebase": "1/12288",
+          "time_s": 91.583333,
+          "sha256": "f45da80dc3cb276bad273800270e6711b5d1671744c4671702cf3d5f1ab353ee"
+        },
+        {
+          "native_file": "native-n0040.png",
+          "source_n": 2199,
+          "pts": 1125888,
+          "timebase": "1/12288",
+          "time_s": 91.625,
+          "sha256": "8ee7a3283f095fe9d39438c893bf01b4472bc81c62e27f447b1b10c3e85cfcc6"
+        },
+        {
+          "native_file": "native-n0041.png",
+          "source_n": 2200,
+          "pts": 1126400,
+          "timebase": "1/12288",
+          "time_s": 91.666667,
+          "sha256": "6145354a98caca390f632c0c5e56b90d9de6da4494cf4561c7ce4260b16cfe1f"
+        },
+        {
+          "native_file": "native-n0042.png",
+          "source_n": 2201,
+          "pts": 1126912,
+          "timebase": "1/12288",
+          "time_s": 91.708333,
+          "sha256": "dbbd18c66eeacb9f8da4adcd9eff3adbed51614b762e37e194ca27623395beb6"
+        },
+        {
+          "native_file": "native-n0043.png",
+          "source_n": 2202,
+          "pts": 1127424,
+          "timebase": "1/12288",
+          "time_s": 91.75,
+          "sha256": "66fcade587dfa18e783f93846b572ca478099c0190f79ab4850fcd35bc4d9290"
+        },
+        {
+          "native_file": "native-n0044.png",
+          "source_n": 2203,
+          "pts": 1127936,
+          "timebase": "1/12288",
+          "time_s": 91.791667,
+          "sha256": "5fb1aaf98ea39f795f0152472d8ef04ccb6f25f62c1f0cc2d0b25aba6235900f"
+        },
+        {
+          "native_file": "native-n0045.png",
+          "source_n": 2204,
+          "pts": 1128448,
+          "timebase": "1/12288",
+          "time_s": 91.833333,
+          "sha256": "830c892ea72b64084c45c054bc0770e8c4b62e4bb4cecbaf7b4de3de8b327230"
+        },
+        {
+          "native_file": "native-n0046.png",
+          "source_n": 2205,
+          "pts": 1128960,
+          "timebase": "1/12288",
+          "time_s": 91.875,
+          "sha256": "e7638511216a6f5f407d734efb70a870b37b7bc7fad363e98471b7d59c254ad3"
+        },
+        {
+          "native_file": "native-n0047.png",
+          "source_n": 2206,
+          "pts": 1129472,
+          "timebase": "1/12288",
+          "time_s": 91.916667,
+          "sha256": "6373b14db19ae92163434112d17f3f4f9965a42e6e4837ee0ee6f9146aabc001"
+        },
+        {
+          "native_file": "native-n0048.png",
+          "source_n": 2207,
+          "pts": 1129984,
+          "timebase": "1/12288",
+          "time_s": 91.958333,
+          "sha256": "286476238fdb07793d054922049981131ea83c355ab8dedec9f79a1680295c75"
+        }
+      ]
+    }
+  },
+  "comparison_table": [
+    {
+      "dimension": "text_scope",
+      "NICO-sm46137276": "foreground caption cards (primary content)",
+      "NICO-sm46155083": "foreground brush-stroke characters (primary content) + persistent top/bottom captions",
+      "PVOLT-C-7TIDIKc98": "foreground caption + border/texture text (two scopes)"
+    },
+    {
+      "dimension": "motion_pattern",
+      "NICO-sm46137276": "persistent caption with rapid content change (~0.5s per word)",
+      "NICO-sm46155083": "burst/reflow (characters appear, disappear, new characters appear)",
+      "PVOLT-C-7TIDIKc98": "persistent scene with subtle zoom + lightning glow"
+    },
+    {
+      "dimension": "glyph_style",
+      "NICO-sm46137276": "clean sans-serif, light-blue, large, dashed border",
+      "NICO-sm46155083": "dynamic brush-stroke calligraphy, multi-color (blue/black/red)",
+      "PVOLT-C-7TIDIKc98": "rounded sans-serif, white with yellow emphasis, border text is small repeating"
+    },
+    {
+      "dimension": "background",
+      "NICO-sm46137276": "simple geometric (blue/white), minimal",
+      "NICO-sm46155083": "white grid (Scratch paper) with black borders",
+      "PVOLT-C-7TIDIKc98": "detailed night scene (rabbits, grass, lightning, sky) + white grid outer"
+    },
+    {
+      "dimension": "art_vs_motion",
+      "NICO-sm46137276": "art = clean text cards; motion = rapid content change",
+      "NICO-sm46155083": "art = brush-stroke calligraphy; motion = burst/reflow",
+      "PVOLT-C-7TIDIKc98": "art = detailed scene + text; motion = subtle zoom + glow"
+    },
+    {
+      "dimension": "mmd_vs_text",
+      "NICO-sm46137276": "text-only (no MMD/characters)",
+      "NICO-sm46155083": "text-only (no MMD/characters)",
+      "PVOLT-C-7TIDIKc98": "scene with characters (rabbits) + text (MMD/character scene is background-reference)"
+    }
+  ],
+  "constructions": [
+    {
+      "id": "C1",
+      "source": "NICO-sm46137276",
+      "name": "persistent caption card sequence",
+      "observed_pixels": "large light-blue Japanese text on white background with dashed border lines; text changes every ~0.5s; Alight Motion label at bottom; simple geometric background",
+      "proposal": {
+        "semantic_text_ids": [
+          "caption_word"
+        ],
+        "glyph_mapping": "single word per frame, all-caps or mixed, large size",
+        "instances_groups": "one caption instance per frame, no grouping",
+        "baseline_geometry": "centered, large (~60-80% frame width), dashed border rectangle around text",
+        "material_passes": [
+          "fill: light-blue solid",
+          "border: dashed blue lines",
+          "background: white solid"
+        ],
+        "masks_compositing_order": "background \u2192 dashed border \u2192 text fill \u2192 Alight Motion label",
+        "effect_scope": "per-frame (each caption is independent)",
+        "coordinate_space": "2D, centered",
+        "local_global_time": "local: 0.5s per word; global: sequential",
+        "deterministic_randomness": "none (deterministic sequence)"
+      },
+      "editable_axes": [
+        "word content",
+        "font",
+        "color",
+        "border style",
+        "background color",
+        "timing per word"
+      ],
+      "minimal_counterexample": "a single static caption (no sequence) would be too narrow; the sequence is the key feature",
+      "lyric_emotion_fit": "fits upbeat, playful, rapid-fire lyrics; each word is a beat; avoid slow/meditative lyrics (timing too fast)",
+      "image_relation": "text is primary content; background is minimal/geometric; no characters",
+      "avoid_cases": "do not use for lyrics requiring sustained readability (words change too fast); do not use for serious/meditative tone",
+      "readability_risk": "rapid content change may reduce readability if words are complex; dashed border helps frame the text"
+    },
+    {
+      "id": "C2",
+      "source": "NICO-sm46155083",
+      "name": "brush-stroke character burst/reflow",
+      "observed_pixels": "dynamic brush-stroke Japanese characters in blue/black/red; characters burst in, disappear, then new characters burst in; white grid background; persistent top/bottom captions",
+      "proposal": {
+        "semantic_text_ids": [
+          "burst_char_1",
+          "burst_char_2",
+          "burst_char_3",
+          "top_caption",
+          "bottom_caption"
+        ],
+        "glyph_mapping": "2-3 brush-stroke characters per burst, varying colors",
+        "instances_groups": "burst group (2-3 chars) + persistent captions (top/bottom)",
+        "baseline_geometry": "burst chars: large, centered on grid, varying positions; captions: small, top/bottom edges",
+        "material_passes": [
+          "fill: multi-color brush-stroke (blue/black/red)",
+          "background: white grid",
+          "captions: small white text on black"
+        ],
+        "masks_compositing_order": "black background \u2192 white grid \u2192 burst chars \u2192 top/bottom captions",
+        "effect_scope": "burst chars: per-burst (appear/disappear); captions: persistent",
+        "coordinate_space": "2D, portrait (9:16)",
+        "local_global_time": "local: ~0.5s per burst; global: sequential bursts with empty gaps",
+        "deterministic_randomness": "character positions/colors may vary per burst (semi-deterministic)"
+      },
+      "editable_axes": [
+        "character content",
+        "brush style",
+        "colors",
+        "burst timing",
+        "grid style",
+        "caption content"
+      ],
+      "minimal_counterexample": "a single static character (no burst) would be too narrow; the burst/reflow is the key feature",
+      "lyric_emotion_fit": "fits energetic, chaotic, playful lyrics; bursts match beats; avoid slow/calm lyrics (bursts too aggressive)",
+      "image_relation": "burst chars are primary content; grid is background; captions are persistent frame elements",
+      "avoid_cases": "do not use for lyrics requiring sustained single-word readability (chars change too fast); do not use for minimalist aesthetic",
+      "readability_risk": "brush-stroke style may reduce readability for complex characters; multi-color may distract; grid background provides structure"
+    },
+    {
+      "id": "C3",
+      "source": "PVOLT-C-7TIDIKc98",
+      "name": "border text + foreground caption + scene",
+      "observed_pixels": "teal rounded-rect border with 'ARE YOU READY?' repeating around edge; foreground caption '\u3061\u3083\u3093\u3068\u899a\u609f\u3057\u3066\u304d\u3066\u3088\uff1f' with yellow '\u899a\u609f'; night scene with two black rabbits + lightning bolt; white grid outer texture; lightning glow effect over time; subtle zoom",
+      "proposal": {
+        "semantic_text_ids": [
+          "border_text",
+          "caption_main",
+          "caption_emphasis"
+        ],
+        "glyph_mapping": "border: small repeating English; caption: large Japanese with emphasis word",
+        "instances_groups": "border group (repeating) + caption group (main + emphasis) + scene group (rabbits, lightning, grass, sky)",
+        "baseline_geometry": "border: around frame edge; caption: centered, large; scene: full-frame background",
+        "material_passes": [
+          "border: teal fill + white repeating text",
+          "caption: white fill + yellow emphasis",
+          "scene: detailed illustration (rabbits, grass, lightning, sky)",
+          "outer: white grid + colored dots"
+        ],
+        "masks_compositing_order": "white grid outer \u2192 scene (sky, clouds, grass, rabbits, lightning) \u2192 border (teal + text) \u2192 caption (white + yellow emphasis)",
+        "effect_scope": "border: persistent; caption: persistent; scene: persistent with subtle motion (zoom, lightning glow)",
+        "coordinate_space": "2D, landscape (16:9)",
+        "local_global_time": "all persistent; subtle motion over ~2s (zoom, glow)",
+        "deterministic_randomness": "none (persistent scene)"
+      },
+      "editable_axes": [
+        "border text content",
+        "caption content",
+        "emphasis word",
+        "scene content",
+        "border color",
+        "zoom amount",
+        "glow intensity"
+      ],
+      "minimal_counterexample": "a scene without border text would be too narrow; the border text is a key scope distinction",
+      "lyric_emotion_fit": "fits energetic, dramatic, narrative lyrics; border text adds rhythm; caption carries the message; avoid minimalist/quiet lyrics (scene too busy)",
+      "image_relation": "border text = texture/scope; caption = foreground; scene = background; grid = outer texture; four distinct scopes",
+      "avoid_cases": "do not use for lyrics requiring clean minimal background (scene too detailed); do not use for non-narrative content (scene implies story)",
+      "readability_risk": "detailed scene may reduce caption readability; border text may distract; yellow emphasis helps key word stand out"
+    }
+  ],
+  "ae_export_gaps": {
+    "C1_persistent_caption": {
+      "text_shaping_font_substitution": "AE text layer with Japanese font; dashed border = AE stroke effect or shape layer; font substitution may change glyph width",
+      "paths_masks_materials": "dashed border = mask/shape; no complex paths needed",
+      "alpha_color_blend": "solid colors, no alpha blending needed",
+      "camera_proxy_baking": "no camera; 2D layers sufficient; no baking needed",
+      "deterministic_seek_export": "deterministic (no randomness); export is straightforward",
+      "performance": "light (simple shapes, solid colors)"
+    },
+    "C2_brush_burst": {
+      "text_shaping_font_substitution": "brush-stroke style requires custom font or shape layers; font substitution will lose brush character",
+      "paths_masks_materials": "brush strokes = complex paths or pre-rendered sprites; grid = pattern fill",
+      "alpha_color_blend": "multi-color brush strokes may need alpha blending; grid is solid",
+      "camera_proxy_baking": "no camera; 2D layers; burst timing may need pre-rendered sprites for complex brush shapes",
+      "deterministic_seek_export": "semi-deterministic (character positions/colors may vary); export needs fixed seed or pre-rendered frames",
+      "performance": "moderate (complex brush shapes, multi-color)"
+    },
+    "C3_border_scene": {
+      "text_shaping_font_substitution": "border text = small repeating English (easy); caption = large Japanese (font substitution may change width); emphasis = color overlay",
+      "paths_masks_materials": "border = rounded-rect shape; scene = detailed illustration (pre-rendered or vector); grid = pattern",
+      "alpha_color_blend": "scene may need alpha blending (clouds, glow); border/caption are solid",
+      "camera_proxy_baking": "subtle zoom = AE scale effect; lightning glow = AE glow/blur effect; scene may need pre-rendered frames for complex illustration",
+      "deterministic_seek_export": "deterministic (persistent scene); export is straightforward",
+      "performance": "heavier (detailed scene, glow effects)"
+    }
+  },
+  "provenance_notes": [
+    "sm46137276 locator frame-002 (5.0s) showed '\u7389\u964d\u3067\u3059'/blue background, but native n300 (5.0s) shows '\u3042\u3044\u3064'/white background \u2014 discrepancy due to time-based vs frame-number selection; native frames are ground truth",
+    "All three sources use integer source PTS/timebase; no reset output time claimed",
+    "PNG hashes and raw framehash are recorded separately; no raw-pixel parity claimed from encoded-PNG hashes",
+    "MMD/character scenes (PVOLT rabbits) are background-reference records, not text forms",
+    "No source font/glyph/image artwork is copied into a proposed redistributable asset"
+  ],
+  "unresolved": [
+    "sm46137276: exact timing per word not precisely measured (visual estimate ~0.5s)",
+    "sm46155083: exact burst timing and character position algorithm not determined",
+    "PVOLT: exact zoom curve and glow intensity curve not measured",
+    "All three: author intent, beat alignment, and full lyrics remain unknown"
+  ]
+}

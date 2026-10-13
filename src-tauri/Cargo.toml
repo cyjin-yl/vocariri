@@ -1,0 +1,16 @@
+[package]
+name = "vocariri"
+version = "0.1.0"
+description = "VOCALOID lyric motion editor"
+authors = ["Vocariri contributors"]
+edition = "2021"
+license = "MIT"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

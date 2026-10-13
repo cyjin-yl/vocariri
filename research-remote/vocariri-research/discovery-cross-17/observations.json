@@ -1,0 +1,106 @@
+{
+  "batch_id": "discovery-cross-17",
+  "evidence_level": "direct inspection of hash-checked sparse and half-second contact sheets from cached media",
+  "counts": {
+    "completed_media_sources": 3,
+    "sparse_frame_screened_sources": 3,
+    "short_window_screened_sources": 3,
+    "full_video_reviews": 0,
+    "accepted_distinct_forms": 0,
+    "accepted_templates": 0
+  },
+  "sources": [
+    {
+      "id": "PVOLT-C-7TIDIKc98",
+      "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+      "source_sha256": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849",
+      "source_kind": "official Project Voltage linked MV",
+      "evidence_paths": ["derived/PVOLT-C-7TIDIKc98/frames.json", "sequences/PVOLT-C-7TIDIKc98/sequence.json"],
+      "visible_observations": [
+        {"pts_seconds": [7, 14], "observation": "Centered Japanese lyric lettering has pale fill and bright cyan/pink outline above a purple perspective grid and neon icons."},
+        {"pts_seconds": [28, 63, 70], "observation": "Different panels use curved border microtype, circular text around a ball motif, and pixel-like dialogue boxes with character art. These are designed elements visible in the frame, not inferred editor controls."},
+        {"pts_seconds": [89, 98], "observation": "A bold yellow word is emphasized within a pink-outlined lyric line over a lightning bolt, two dark character silhouettes, green foreground shapes and a repeated small-text border. Yellow electric flashes appear at 89–90 s; the main layout remains similar through 98 s in the sampled frames."},
+        {"pts_seconds": [98.5, 101], "observation": "The layout cuts through a static/noise field to a dark panel with angular hot-pink lettering; more lettering is visible by 100.5–101 s."}
+      ],
+      "typography": "Multiple visibly different treatments: outlined rounded Japanese lettering, bold yellow emphasis, angular hot-pink display lettering, tiny repeated border type. Exact font families unknown.",
+      "motion_evidence": "Half-second frames support electric flashing, a blurred transition frame at 91.5 s, a noisy cut near 98.5 s, and staged text appearance near 100 s. Exact curves and full-shot timing unknown.",
+      "observed_neighbor_context": "In the sampled window the emphasized line persists above dark figures and a lightning motif from 89–98 s, then a noisy cut separates the hot-pink lettering at 99.5–101 s.",
+      "conditional_applicability": {
+        "possible_emotion_or_meaning": "A charged, playful, teasing or urgent lyric beat could use a single high-contrast word and electric accent; this is a design hypothesis, not a reading of the source song.",
+        "image_relationship": "Place the stressed word above the silhouetted figures and align electric accents with the lightning shape without obscuring the figures' faces or the lyric line.",
+        "use_when": "A short, emphasized lyric can be read clearly against a busy illustrated scene and the adjacent shot can support a strong cut.",
+        "avoid_when": "A quiet or intimate phrase needs visual stillness, or the border microtype and flashes would compete with essential words.",
+        "alternative": "Keep one outlined line stable over the silhouettes with a restrained color change instead of a full electric/noise transition."
+      },
+      "unknowns": ["font identities", "editable project", "cross-platform edition identity with sm43084181", "full motion timeline", "audio/emotion fit"],
+      "accepted_form_increment": 0,
+      "accepted_template_increment": 0
+    },
+    {
+      "id": "NICO-sm46155083",
+      "url": "https://www.nicovideo.jp/watch/sm46155083",
+      "source_sha256": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383",
+      "source_kind": "public Niconico upload; title claims Scratch text-PV",
+      "evidence_paths": ["derived/NICO-sm46155083/frames.json", "sequences/NICO-sm46155083/sequence.json"],
+      "visible_observations": [
+        {"pts_seconds": [5, 10, 20, 25], "observation": "Inside a window-like rectangular composition on a square grid, text appears in a comic burst, small centered line, repeated glyph array and speech bubbles."},
+        {"pts_seconds": [27, 28.5], "observation": "The central region changes from large burst lettering to a dark circular cut while the surrounding top credit strip and bottom caption stay present."},
+        {"pts_seconds": [29.5, 31.5], "observation": "Very large overlapping Japanese characters in black, red and blue-green are cropped at the edges and intercut with a clear grid."},
+        {"pts_seconds": [32, 38], "observation": "Separated black characters, a narrow vertical pile of repeated glyphs, and further oversized colored characters follow in the sampled short window."}
+      ],
+      "typography": "Heavy black Japanese glyphs alternate with red/blue-green enlarged glyphs, small scattered text, repeated stamps and comic balloons. Exact fonts unknown.",
+      "motion_evidence": "At half-second samples the framed composition changes rapidly and sometimes clears between lettering states; exact paths, interpolation and whether the frame mimics software UI by design are unknown.",
+      "observed_neighbor_context": "A burst panel at 27–28 s gives way to a dark circular cut at 28.5 s; large overlapping characters and then scattered/stacked glyphs occupy the same gridded central region through 38 s.",
+      "conditional_applicability": {
+        "possible_emotion_or_meaning": "Comic bursts, oversized overlaps and repeated glyphs could suit a rapid, insistent or argumentative phrase; this is a conditional design use, not a source emotion finding.",
+        "image_relationship": "The grid can anchor chaotic lettering while the central word remains legible; top credits and bottom captions should not be copied as lyric design without resolving their role.",
+        "use_when": "A brief repeated word or call-and-response can tolerate quick changes between a burst, clear grid and repeated glyph cluster.",
+        "avoid_when": "Long lines, subtle imagery or accessibility demands require sustained reading time; edge-cropped glyphs can hide essential text.",
+        "alternative": "Hold the main phrase in one high-contrast grid cell and reserve a single comic burst for the stressed syllable."
+      },
+      "excluded_from_style_claim": "Persistent top credit strip and bottom caption may be video framing rather than the creative PV region.",
+      "unknowns": ["VOCALOID or other vocal-synth identity", "font identities", "editable Scratch project", "full motion timeline", "audio/emotion fit"],
+      "accepted_form_increment": 0,
+      "accepted_template_increment": 0
+    },
+    {
+      "id": "NICO-sm46137276",
+      "url": "https://www.nicovideo.jp/watch/sm46137276",
+      "source_sha256": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87",
+      "source_kind": "public Niconico upload; title claims Alight Motion/Blurrr text-PV",
+      "evidence_paths": ["derived/NICO-sm46137276/frames.json", "sequences/NICO-sm46137276/sequence.json"],
+      "visible_observations": [
+        {"pts_seconds": [4, 5.5], "observation": "White and cyan fields, thin line/circle accents and a pale outlined title give way to oversized rounded cyan Japanese glyphs, tilted and cropped by the frame."},
+        {"pts_seconds": [6, 9.5], "observation": "Large characters occupy different angles and edges across successive half-second samples, followed by lighter scattered glyphs inside a circular outline."},
+        {"pts_seconds": [10, 12], "observation": "Small cyan headings and a dotted panel gain additional words and ring graphics, then a large cyan disc/edge crop appears. An Alight Motion watermark is visibly present at the bottom."}
+      ],
+      "typography": "Rounded cyan filled glyphs, pale outlined letters, occasional small headings and thin geometric marks; exact font identities unknown.",
+      "motion_evidence": "Half-second states show changing scale, angle, cropping and additions. Specific transforms/curves are not established by these samples.",
+      "observed_neighbor_context": "Oversized tilted glyphs and line accents at 4–7 s move into scattered and ringed text at 8–9.5 s, then small headings and circular graphics accumulate at 10–12 s.",
+      "conditional_applicability": {
+        "possible_emotion_or_meaning": "An airy, playful or brisk technical feeling could use this white/cyan field and moving glyph focus; this is a design hypothesis, not a verified meaning of the source audio.",
+        "image_relationship": "The open field supports large isolated characters and circular accents; a competing portrait or detailed background would require a protected clear region.",
+        "use_when": "Short words can enter with generous whitespace and a deliberate color/scale hierarchy.",
+        "avoid_when": "Pale outlines on white or severely cropped glyphs would lower lyric readability, especially on small screens.",
+        "alternative": "Use darker cyan filled text with a steadier position and one ring accent while keeping the white field."
+      },
+      "unknowns": ["Blurrr involvement despite title claim", "VOCALOID or other vocal-synth identity", "editable project", "full motion timeline", "audio/emotion fit"],
+      "accepted_form_increment": 0,
+      "accepted_template_increment": 0
+    }
+  ],
+  "unresolved_source": {
+    "id": "NICO-sm46546276",
+    "url": "https://www.nicovideo.jp/watch/sm46546276",
+    "metadata_only": true,
+    "status": "corrected-selector acquisition timed out at 360 seconds with roughly 29 MB of partial fragments retained; no verified original or frames",
+    "title_claims_13_methods": true,
+    "verified_method_count": "unknown",
+    "accepted_form_increment": 0
+  },
+  "scope_limits": [
+    "The frame PTS are from the cached media after any yt-dlp remux, not independently verified platform-stream timestamps.",
+    "Contact sheets are evidence of sampled states, not a full continuous viewing or source construction method.",
+    "No independent acceptance of forms or templates was performed."
+  ]
+}

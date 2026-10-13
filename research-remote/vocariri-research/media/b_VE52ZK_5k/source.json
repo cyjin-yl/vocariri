@@ -1,0 +1,18 @@
+{
+  "id": "b_VE52ZK_5k",
+  "url": "https://www.youtube.com/watch?v=b_VE52ZK_5k",
+  "at": "2026-09-27T03:08:57.855656+00:00",
+  "title": "Hatsune Miku - Popipo (Lyrics)",
+  "uploader": "Audioandlyrics",
+  "duration": 179,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 6025934,
+  "sha256": "04a9b6710aca1b1b78e19b4c40567bc547e2e51187ecccbc54eccc860afbd514",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "YT_ijaK647Qfc8",
+  "url": "https://www.youtube.com/watch?v=ijaK647Qfc8",
+  "at": "2026-09-24T13:21:57.491850+00:00",
+  "title": "【文字PV】太陽系デスコ【AviUtl】",
+  "uploader": "Boizmo",
+  "duration": 20,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 5115511,
+  "sha256": "fcba8634f31eec4177d2c6bf70976c025b124918459af0b8f7427ad2a5c759a1",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

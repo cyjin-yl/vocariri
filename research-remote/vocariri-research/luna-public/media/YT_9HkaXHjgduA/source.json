@@ -1,0 +1,18 @@
+{
+  "id": "YT_9HkaXHjgduA",
+  "url": "https://www.youtube.com/watch?v=9HkaXHjgduA",
+  "at": "2026-09-24T06:16:15.075999+00:00",
+  "title": "『プロジェクトセカイ カラフルステージ！ feat. 初音ミク』ダイジェストPV",
+  "uploader": "SEGA feat. HATSUNE MIKU Project",
+  "duration": 27,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 4174075,
+  "sha256": "4c604df98c65dcf934de1d35c4410ab17103b5e19343d51c6976936e0fcbd7d5",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

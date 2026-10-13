@@ -1,0 +1,2366 @@
+{
+  "id": "batch20-qwen-native-r1",
+  "round": "batch20-qwen-native-r1",
+  "status": "completed_unreviewed",
+  "accepted_form_increment": 0,
+  "rendered_template_increment": 0,
+  "generated_at": "2026-10-04T00:39:04Z",
+  "work_order": {
+    "file": "WORK_ORDER_QWEN_BATCH20_NATIVE_R1.md",
+    "sha256": "3d4743d99b732299578b3b9ca7602c609686a3cee8f1c12582ed34d748d8f102",
+    "verified": true
+  },
+  "tools": {
+    "ffmpeg": "7.0.2-static",
+    "python": "3.11.2",
+    "evidence_dir": "evidence/batch20-qwen-native-r1"
+  },
+  "registry_check": {
+    "method": "SHA256 rehash of all 3 source.mp4 + 3 source.json; exact-ID grep across project",
+    "hashes_verified": {
+      "BILI-BV1ue4y1e78R/source.mp4": "d463ca0eb65c755dbbdeb53592ede57fe479a995ea8af70cc015520bc364100c OK",
+      "BILI-BV1VY4y1i7LC/source.mp4": "c145937c13c20f427b957100a2a0a5afcf118c5a6fd32fda4847dd7c1b7ca1c2 OK",
+      "BILI-BV1SK411p7DA/source.mp4": "97de4bc5abf7bb209a3ba1e2d2213882e1fbdcead5c59a37d89fa81907a4eaf9 OK",
+      "BILI-BV1ue4y1e78R/source.json": "760b606d912672e12e8291702ab933f5d26815b1a81dabd774d756583e5fa14d OK",
+      "BILI-BV1VY4y1i7LC/source.json": "71a5156350ae21762790e532b690fc5176dff83c88d9e71d9acd40e0713fc2d9 OK",
+      "BILI-BV1SK411p7DA/source.json": "a4674775af43caefd01af82c896c57819092c0c61c2bb34513befd61d9757ed4 OK"
+    },
+    "alias_check": "No duplicates found in prior cross-17/18/19 registries; all 3 are new BILI acquisitions from batch20 intake",
+    "conclusion": "3 distinct works, no alias conflicts"
+  },
+  "sources": {
+    "BILI-BV1ue4y1e78R": {
+      "id": "BILI-BV1ue4y1e78R",
+      "url": "https://www.bilibili.com/video/BV1ue4y1e78R/",
+      "at_utc": "2026-10-03T21:30:14.978195+00:00",
+      "state": "downloaded_uninspected",
+      "http_status": 200,
+      "bytes": 10994572,
+      "sha256": "d463ca0eb65c755dbbdeb53592ede57fe479a995ea8af70cc015520bc364100c",
+      "file": "sources/BILI-BV1ue4y1e78R/source.mp4",
+      "duration_seconds": 240.488,
+      "title": "（转载自用/中英字幕）world.execute(me);(同人PV)",
+      "uploader": "账号已注销",
+      "extractor": "BiliBili",
+      "yt_dlp_version": "2026.08.19",
+      "video_dimensions": [
+        852,
+        480
+      ],
+      "final_media_probe_duration_seconds": 240.49,
+      "final_media_probe_audio_codec": "aac",
+      "selected_request_handler": "UrllibRH",
+      "cookie_authentication_state": "disabled",
+      "blocked_redirects": 0,
+      "actual_decode": {
+        "codec": "av1 (libdav1d)",
+        "pix_fmt": "yuv420p",
+        "width": 852,
+        "height": 480,
+        "fps": 30,
+        "tbr": 30,
+        "tbn": "1/16000",
+        "duration_s": 240.49,
+        "audio": "aac LC 44100Hz stereo"
+      },
+      "native_window": {
+        "n_range": [
+          2100,
+          2159
+        ],
+        "pts_range": [
+          1120000,
+          1159472
+        ],
+        "time_range_s": [
+          70.0,
+          71.998
+        ],
+        "count": 60,
+        "fps": 30,
+        "tbn": "1/16000"
+      }
+    },
+    "BILI-BV1VY4y1i7LC": {
+      "id": "BILI-BV1VY4y1i7LC",
+      "url": "https://www.bilibili.com/video/BV1VY4y1i7LC/",
+      "at_utc": "2026-10-03T21:30:56.907710+00:00",
+      "state": "downloaded_uninspected",
+      "http_status": 200,
+      "bytes": 33650512,
+      "sha256": "c145937c13c20f427b957100a2a0a5afcf118c5a6fd32fda4847dd7c1b7ca1c2",
+      "file": "sources/BILI-BV1VY4y1i7LC/source.mp4",
+      "duration_seconds": 256.362,
+      "title": "AE制作孤勇者音乐播放器滚动放大高亮歌词字幕",
+      "uploader": "墨言雪__",
+      "extractor": "BiliBili",
+      "yt_dlp_version": "2026.08.19",
+      "video_dimensions": [
+        852,
+        480
+      ],
+      "final_media_probe_duration_seconds": 256.36,
+      "final_media_probe_audio_codec": "aac",
+      "selected_request_handler": "UrllibRH",
+      "cookie_authentication_state": "disabled",
+      "blocked_redirects": 0,
+      "actual_decode": {
+        "codec": "h264 (High)",
+        "pix_fmt": "yuv420p",
+        "width": 852,
+        "height": 480,
+        "fps": 25,
+        "tbr": 25,
+        "tbn": "1/16000",
+        "duration_s": 256.36,
+        "audio": "aac LC 48000Hz stereo"
+      },
+      "native_window": {
+        "n_range": [
+          500,
+          574
+        ],
+        "pts_range": [
+          320000,
+          366400
+        ],
+        "time_range_s": [
+          20.0,
+          22.9
+        ],
+        "count": 75,
+        "fps": 25,
+        "tbn": "1/16000"
+      }
+    },
+    "BILI-BV1SK411p7DA": {
+      "id": "BILI-BV1SK411p7DA",
+      "url": "https://www.bilibili.com/video/BV1SK411p7DA/",
+      "at_utc": "2026-10-03T21:31:23.401963+00:00",
+      "state": "downloaded_uninspected",
+      "http_status": 200,
+      "bytes": 2638689,
+      "sha256": "97de4bc5abf7bb209a3ba1e2d2213882e1fbdcead5c59a37d89fa81907a4eaf9",
+      "file": "sources/BILI-BV1SK411p7DA/source.mp4",
+      "duration_seconds": 46.591,
+      "title": "文字变化向——AE动画",
+      "uploader": "SEVENNINE祈九",
+      "extractor": "BiliBili",
+      "yt_dlp_version": "2026.08.19",
+      "video_dimensions": [
+        852,
+        480
+      ],
+      "final_media_probe_duration_seconds": 46.59,
+      "final_media_probe_audio_codec": "aac",
+      "selected_request_handler": "UrllibRH",
+      "cookie_authentication_state": "disabled",
+      "blocked_redirects": 0,
+      "actual_decode": {
+        "codec": "h264 (High)",
+        "pix_fmt": "yuv420p",
+        "width": 852,
+        "height": 480,
+        "fps": "29.97 (30000/1001)",
+        "tbr": "29.97",
+        "tbn": "1/16000",
+        "duration_s": 46.59,
+        "audio": "aac LC 48000Hz stereo"
+      },
+      "native_window": {
+        "n_range": [
+          270,
+          419
+        ],
+        "pts_range": [
+          144144,
+          231840
+        ],
+        "time_range_s": [
+          9.009,
+          14.49
+        ],
+        "count": 150,
+        "fps": "29.97",
+        "tbn": "1/16000",
+        "note": "90 primary (n270-359) + 60 extension (n360-419) for DECEPTION transition"
+      }
+    }
+  },
+  "event_selections": [
+    {
+      "source": "BILI-BV1ue4y1e78R",
+      "event": "bilingual/code glitch transition: clean shield text → glitch burst with EXECUTION/执行指令",
+      "distinction_addressed": "bilingual/code/interface relations",
+      "selection_rationale": "Frames n2100-n2159 show a transition from clean white shield with 'Though We are' text (70s) through a cyan-line transition (71s) to a colorful glitch burst with 'EXECUTION!' in red + '执行指令' in Chinese + code interface elements (Feeling Index progress bar, timestamp, glitch particles) at 72s. This demonstrates bilingual (EN+ZH) text with code/interface relations and glitch effects.",
+      "time_range_s": [
+        70.0,
+        71.998
+      ]
+    },
+    {
+      "source": "BILI-BV1VY4y1i7LC",
+      "event": "lyric scrolling with highlight in music player UI",
+      "distinction_addressed": "real lyric scrolling/highlight/overlap versus tutorial controls",
+      "selection_rationale": "Frames n500-n574 show a static music player UI (vinyl disc, anime character background, progress bar) with Chinese lyrics scrolling on the right side. Current line is bold/white, previous lines are gray. New lines appear at bottom, old lines move up. This is real lyric scrolling/highlight, not tutorial controls — the UI is the content, not a demonstration of controls.",
+      "time_range_s": [
+        20.0,
+        22.9
+      ]
+    },
+    {
+      "source": "BILI-BV1SK411p7DA",
+      "event": "shape-to-text morph: blobs/circles ↔ word glyphs with background color change",
+      "distinction_addressed": "change/shape/stroke/mask/scale distinctions",
+      "selection_rationale": "Frames n270-n419 show a clear shape-to-text morph: 5 white blobs (9s) → 'TRUST' text (10s) → 5 white circles (11s) → pink wavy line on blue (12s, DECEPTION transition) → 'SINCERE' on orange (14s). The 'change' is not a simple text swap but a morph between geometric shapes (circles/blobs) and text glyphs, with background color changing per word. This is a true shape/stroke morph, not just scale or mask.",
+      "time_range_s": [
+        9.009,
+        14.49
+      ]
+    }
+  ],
+  "read_log": {
+    "method": "selective native PNG reads; locator sheets used only for event finding, not for claims",
+    "frames_read": {
+      "BILI-BV1SK411p7DA": [
+        {
+          "file": "native-0001.png",
+          "source_n": 270,
+          "pts": 144144,
+          "time_s": 9.009,
+          "obs": "5 white blobs on yellow-green, bilibili watermark"
+        },
+        {
+          "file": "native-0030.png",
+          "source_n": 299,
+          "pts": 191488,
+          "time_s": 10.0,
+          "obs": "TRUST large white text on yellow-green"
+        },
+        {
+          "file": "native-0060.png",
+          "source_n": 329,
+          "pts": 221440,
+          "time_s": 11.0,
+          "obs": "5 white circles on yellow-green (transition)"
+        },
+        {
+          "file": "native-0075.png",
+          "source_n": 344,
+          "pts": 235904,
+          "time_s": 11.5,
+          "obs": "TRUST text on yellow-green"
+        },
+        {
+          "file": "native-0090.png",
+          "source_n": 359,
+          "pts": 250368,
+          "time_s": 12.0,
+          "obs": "TRUST text on yellow-green"
+        },
+        {
+          "file": "ext-0001.png",
+          "source_n": 360,
+          "pts": 192192,
+          "time_s": 12.012,
+          "obs": "Pink wavy line on blue (DECEPTION transition)"
+        },
+        {
+          "file": "ext-0030.png",
+          "source_n": 389,
+          "pts": 222144,
+          "time_s": 13.0,
+          "obs": "Pink/salmon wavy line on blue"
+        },
+        {
+          "file": "ext-0060.png",
+          "source_n": 419,
+          "pts": 252096,
+          "time_s": 14.0,
+          "obs": "TRUST text on yellow-green (1-frame before SINCERE per locator)"
+        }
+      ],
+      "BILI-BV1VY4y1i7LC": [
+        {
+          "file": "native-0001.png",
+          "source_n": 500,
+          "pts": 320000,
+          "time_s": 20.0,
+          "obs": "Player UI: vinyl + character + lyrics 《孤勇者》 演唱/编曲/填词 + 都是勇敢的 + 你额头的伤口... + progress 00:00:21"
+        },
+        {
+          "file": "native-0040.png",
+          "source_n": 539,
+          "pts": 345440,
+          "time_s": 21.59,
+          "obs": "Same UI, progress 00:00:20, lyrics shifted: 都是勇敢的 now bold"
+        },
+        {
+          "file": "native-0075.png",
+          "source_n": 574,
+          "pts": 366400,
+          "time_s": 22.9,
+          "obs": "Same UI, progress 00:00:22, new line: 你破旧的玩偶 你的 面具 你的自我"
+        }
+      ],
+      "BILI-BV1ue4y1e78R": [
+        {
+          "file": "native-0001.png",
+          "source_n": 2100,
+          "pts": 1120000,
+          "time_s": 70.0,
+          "obs": "Black bg + scan lines + white shield 'Though We are' + glitch W + spaced text bottom"
+        },
+        {
+          "file": "native-0030.png",
+          "source_n": 2129,
+          "pts": 1139280,
+          "time_s": 71.0,
+          "obs": "Transition: cyan lines + white band + V logo + spaced text bottom"
+        },
+        {
+          "file": "native-0060.png",
+          "source_n": 2159,
+          "pts": 1159472,
+          "time_s": 71.998,
+          "obs": "Glitch burst: EXECUTION! red + 执行指令 ZH + Feeling Index bar + timestamp + RGB particles"
+        }
+      ]
+    },
+    "unique_native_reads": 14,
+    "rereads": 0,
+    "derived_crop_reads": 0,
+    "all_frame_metadata": {
+      "BV1SK411p7DA": [
+        {
+          "n": 0,
+          "pts": 144144,
+          "pts_time": 9.009,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "EC448906"
+        },
+        {
+          "n": 1,
+          "pts": 144672,
+          "pts_time": 9.042,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E7D88580"
+        },
+        {
+          "n": 2,
+          "pts": 145216,
+          "pts_time": 9.076,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "8D2780F6"
+        },
+        {
+          "n": 3,
+          "pts": 145744,
+          "pts_time": 9.109,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "BC9D81AC"
+        },
+        {
+          "n": 4,
+          "pts": 146272,
+          "pts_time": 9.142,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "81818D05"
+        },
+        {
+          "n": 5,
+          "pts": 146816,
+          "pts_time": 9.176,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "BA0588BB"
+        },
+        {
+          "n": 6,
+          "pts": 147344,
+          "pts_time": 9.209,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "43DB867F"
+        },
+        {
+          "n": 7,
+          "pts": 147888,
+          "pts_time": 9.243,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "73E382F2"
+        },
+        {
+          "n": 8,
+          "pts": 148416,
+          "pts_time": 9.276,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "914980ED"
+        },
+        {
+          "n": 9,
+          "pts": 148944,
+          "pts_time": 9.309,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "6E5D827E"
+        },
+        {
+          "n": 10,
+          "pts": 149488,
+          "pts_time": 9.343,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "325B827C"
+        },
+        {
+          "n": 11,
+          "pts": 150016,
+          "pts_time": 9.376,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E97582C0"
+        },
+        {
+          "n": 12,
+          "pts": 150544,
+          "pts_time": 9.409,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "F0228089"
+        },
+        {
+          "n": 13,
+          "pts": 151088,
+          "pts_time": 9.443,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "361B80B9"
+        },
+        {
+          "n": 14,
+          "pts": 151616,
+          "pts_time": 9.476,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "31F380AF"
+        },
+        {
+          "n": 15,
+          "pts": 152160,
+          "pts_time": 9.51,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "2AD880BA"
+        },
+        {
+          "n": 16,
+          "pts": 152688,
+          "pts_time": 9.543,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C780809F"
+        },
+        {
+          "n": 17,
+          "pts": 153216,
+          "pts_time": 9.576,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D05161DC"
+        },
+        {
+          "n": 18,
+          "pts": 153760,
+          "pts_time": 9.61,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "5572F223"
+        },
+        {
+          "n": 19,
+          "pts": 154288,
+          "pts_time": 9.643,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "FF5C4358"
+        },
+        {
+          "n": 20,
+          "pts": 154816,
+          "pts_time": 9.676,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "4F675A4B"
+        },
+        {
+          "n": 21,
+          "pts": 155360,
+          "pts_time": 9.71,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A9825AF0"
+        },
+        {
+          "n": 22,
+          "pts": 155888,
+          "pts_time": 9.743,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "289842B5"
+        },
+        {
+          "n": 23,
+          "pts": 156416,
+          "pts_time": 9.776,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1A5205D4"
+        },
+        {
+          "n": 24,
+          "pts": 156960,
+          "pts_time": 9.81,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "2A5BB53E"
+        },
+        {
+          "n": 25,
+          "pts": 157488,
+          "pts_time": 9.843,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "43A6554D"
+        },
+        {
+          "n": 26,
+          "pts": 158032,
+          "pts_time": 9.877,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7D79EB01"
+        },
+        {
+          "n": 27,
+          "pts": 158560,
+          "pts_time": 9.91,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "F700EB4C"
+        },
+        {
+          "n": 28,
+          "pts": 159088,
+          "pts_time": 9.943,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "365D8A0C"
+        },
+        {
+          "n": 29,
+          "pts": 159632,
+          "pts_time": 9.977,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "61D5FB5C"
+        },
+        {
+          "n": 30,
+          "pts": 160160,
+          "pts_time": 10.01,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "56E8C1F1"
+        },
+        {
+          "n": 31,
+          "pts": 160688,
+          "pts_time": 10.043,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "61F0B211"
+        },
+        {
+          "n": 32,
+          "pts": 161232,
+          "pts_time": 10.077,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "933AD546"
+        },
+        {
+          "n": 33,
+          "pts": 161760,
+          "pts_time": 10.11,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "5EE1D482"
+        },
+        {
+          "n": 34,
+          "pts": 162288,
+          "pts_time": 10.143,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "3B703099"
+        },
+        {
+          "n": 35,
+          "pts": 162832,
+          "pts_time": 10.177,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E981D57F"
+        },
+        {
+          "n": 36,
+          "pts": 163360,
+          "pts_time": 10.21,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B327B93B"
+        },
+        {
+          "n": 37,
+          "pts": 163904,
+          "pts_time": 10.244,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B5DBC613"
+        },
+        {
+          "n": 38,
+          "pts": 164432,
+          "pts_time": 10.277,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C0EAF8C0"
+        },
+        {
+          "n": 39,
+          "pts": 164960,
+          "pts_time": 10.31,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "22A5F8F5"
+        },
+        {
+          "n": 40,
+          "pts": 165504,
+          "pts_time": 10.344,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1EE20BD1"
+        },
+        {
+          "n": 41,
+          "pts": 166032,
+          "pts_time": 10.377,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "8CD11BB2"
+        },
+        {
+          "n": 42,
+          "pts": 166560,
+          "pts_time": 10.41,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B7EA0C3D"
+        },
+        {
+          "n": 43,
+          "pts": 167104,
+          "pts_time": 10.444,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C479041A"
+        },
+        {
+          "n": 44,
+          "pts": 167632,
+          "pts_time": 10.477,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "6EBF1EC9"
+        },
+        {
+          "n": 45,
+          "pts": 168176,
+          "pts_time": 10.511,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "8EE41C59"
+        },
+        {
+          "n": 46,
+          "pts": 168704,
+          "pts_time": 10.544,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "46199B05"
+        },
+        {
+          "n": 47,
+          "pts": 169232,
+          "pts_time": 10.577,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "797741B4"
+        },
+        {
+          "n": 48,
+          "pts": 169776,
+          "pts_time": 10.611,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "387E0303"
+        },
+        {
+          "n": 49,
+          "pts": 170304,
+          "pts_time": 10.644,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C99BA80E"
+        },
+        {
+          "n": 50,
+          "pts": 170832,
+          "pts_time": 10.677,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C80258A9"
+        },
+        {
+          "n": 51,
+          "pts": 171376,
+          "pts_time": 10.711,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "839956F8"
+        },
+        {
+          "n": 52,
+          "pts": 171904,
+          "pts_time": 10.744,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E3C2E744"
+        },
+        {
+          "n": 53,
+          "pts": 172432,
+          "pts_time": 10.777,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7E1F8B5B"
+        },
+        {
+          "n": 54,
+          "pts": 172976,
+          "pts_time": 10.811,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "6725A752"
+        },
+        {
+          "n": 55,
+          "pts": 173504,
+          "pts_time": 10.844,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D47DA49B"
+        },
+        {
+          "n": 56,
+          "pts": 174048,
+          "pts_time": 10.878,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "84E3AAD7"
+        },
+        {
+          "n": 57,
+          "pts": 174576,
+          "pts_time": 10.911,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "5140A2E8"
+        },
+        {
+          "n": 58,
+          "pts": 175104,
+          "pts_time": 10.944,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "4FDCA838"
+        },
+        {
+          "n": 59,
+          "pts": 175648,
+          "pts_time": 10.978,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "593FA7BD"
+        },
+        {
+          "n": 60,
+          "pts": 176176,
+          "pts_time": 11.011,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B589A83B"
+        },
+        {
+          "n": 61,
+          "pts": 176704,
+          "pts_time": 11.044,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A347A3EA"
+        },
+        {
+          "n": 62,
+          "pts": 177248,
+          "pts_time": 11.078,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "FF8AA691"
+        },
+        {
+          "n": 63,
+          "pts": 177776,
+          "pts_time": 11.111,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "04FBA628"
+        },
+        {
+          "n": 64,
+          "pts": 178304,
+          "pts_time": 11.144,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "00E5A650"
+        },
+        {
+          "n": 65,
+          "pts": 178848,
+          "pts_time": 11.178,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9149A381"
+        },
+        {
+          "n": 66,
+          "pts": 179376,
+          "pts_time": 11.211,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B3FDA53E"
+        },
+        {
+          "n": 67,
+          "pts": 179920,
+          "pts_time": 11.245,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "442AA52B"
+        },
+        {
+          "n": 68,
+          "pts": 180448,
+          "pts_time": 11.278,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "36C1A536"
+        },
+        {
+          "n": 69,
+          "pts": 180976,
+          "pts_time": 11.311,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "30F9A3C7"
+        },
+        {
+          "n": 70,
+          "pts": 181520,
+          "pts_time": 11.345,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "18D6A4DE"
+        },
+        {
+          "n": 71,
+          "pts": 182048,
+          "pts_time": 11.378,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "54C3A4DA"
+        },
+        {
+          "n": 72,
+          "pts": 182576,
+          "pts_time": 11.411,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "4146A4E2"
+        },
+        {
+          "n": 73,
+          "pts": 183120,
+          "pts_time": 11.445,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "EBDEA40C"
+        },
+        {
+          "n": 74,
+          "pts": 183648,
+          "pts_time": 11.478,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "3675A409"
+        },
+        {
+          "n": 75,
+          "pts": 184192,
+          "pts_time": 11.512,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "8DEEA02C"
+        },
+        {
+          "n": 76,
+          "pts": 184720,
+          "pts_time": 11.545,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "BAC3A34F"
+        },
+        {
+          "n": 77,
+          "pts": 185248,
+          "pts_time": 11.578,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1D19A4D7"
+        },
+        {
+          "n": 78,
+          "pts": 185792,
+          "pts_time": 11.612,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D282A4A8"
+        },
+        {
+          "n": 79,
+          "pts": 186320,
+          "pts_time": 11.645,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "F259A4CA"
+        },
+        {
+          "n": 80,
+          "pts": 186848,
+          "pts_time": 11.678,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "AC32A2D5"
+        },
+        {
+          "n": 81,
+          "pts": 187392,
+          "pts_time": 11.712,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "3153A3FD"
+        },
+        {
+          "n": 82,
+          "pts": 187920,
+          "pts_time": 11.745,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "3153A3FD"
+        },
+        {
+          "n": 83,
+          "pts": 188448,
+          "pts_time": 11.778,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "3153A3FD"
+        },
+        {
+          "n": 84,
+          "pts": 188992,
+          "pts_time": 11.812,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "EF4EA375"
+        },
+        {
+          "n": 85,
+          "pts": 189520,
+          "pts_time": 11.845,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "03B6A40C"
+        },
+        {
+          "n": 86,
+          "pts": 190064,
+          "pts_time": 11.879,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "03B6A40C"
+        },
+        {
+          "n": 87,
+          "pts": 190592,
+          "pts_time": 11.912,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "3249A40D"
+        },
+        {
+          "n": 88,
+          "pts": 191120,
+          "pts_time": 11.945,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B966A38C"
+        },
+        {
+          "n": 89,
+          "pts": 191664,
+          "pts_time": 11.979,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "730EA42C"
+        }
+      ],
+      "BV1VY4y1i7LC": [
+        {
+          "n": 0,
+          "pts": 320000,
+          "pts_time": 20.0,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "DC1A587D"
+        },
+        {
+          "n": 1,
+          "pts": 320640,
+          "pts_time": 20.04,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "2CFE89ED"
+        },
+        {
+          "n": 2,
+          "pts": 321280,
+          "pts_time": 20.08,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1DB77CE9"
+        },
+        {
+          "n": 3,
+          "pts": 321920,
+          "pts_time": 20.12,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B80B9AEF"
+        },
+        {
+          "n": 4,
+          "pts": 322560,
+          "pts_time": 20.16,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B43D710D"
+        },
+        {
+          "n": 5,
+          "pts": 323200,
+          "pts_time": 20.2,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "5CB76BD9"
+        },
+        {
+          "n": 6,
+          "pts": 323840,
+          "pts_time": 20.24,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E40F4C80"
+        },
+        {
+          "n": 7,
+          "pts": 324480,
+          "pts_time": 20.28,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9964676B"
+        },
+        {
+          "n": 8,
+          "pts": 325120,
+          "pts_time": 20.32,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "339C4F68"
+        },
+        {
+          "n": 9,
+          "pts": 325760,
+          "pts_time": 20.36,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "49057ECA"
+        },
+        {
+          "n": 10,
+          "pts": 326400,
+          "pts_time": 20.4,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9F564898"
+        },
+        {
+          "n": 11,
+          "pts": 327040,
+          "pts_time": 20.44,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "0E117445"
+        },
+        {
+          "n": 12,
+          "pts": 327680,
+          "pts_time": 20.48,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "69C83D58"
+        },
+        {
+          "n": 13,
+          "pts": 328320,
+          "pts_time": 20.52,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E62F8531"
+        },
+        {
+          "n": 14,
+          "pts": 328960,
+          "pts_time": 20.56,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A50D63E7"
+        },
+        {
+          "n": 15,
+          "pts": 329600,
+          "pts_time": 20.6,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "204C8657"
+        },
+        {
+          "n": 16,
+          "pts": 330240,
+          "pts_time": 20.64,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "FC4C38D4"
+        },
+        {
+          "n": 17,
+          "pts": 330880,
+          "pts_time": 20.68,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "76C88C71"
+        },
+        {
+          "n": 18,
+          "pts": 331520,
+          "pts_time": 20.72,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D7646AE1"
+        },
+        {
+          "n": 19,
+          "pts": 332160,
+          "pts_time": 20.76,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9DBF791C"
+        },
+        {
+          "n": 20,
+          "pts": 332800,
+          "pts_time": 20.8,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "6D756AF5"
+        },
+        {
+          "n": 21,
+          "pts": 333440,
+          "pts_time": 20.84,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "90E66D3A"
+        },
+        {
+          "n": 22,
+          "pts": 334080,
+          "pts_time": 20.88,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "BCB93C6B"
+        },
+        {
+          "n": 23,
+          "pts": 334720,
+          "pts_time": 20.92,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "768F57FF"
+        },
+        {
+          "n": 24,
+          "pts": 335360,
+          "pts_time": 20.96,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "00AF39AF"
+        },
+        {
+          "n": 25,
+          "pts": 336000,
+          "pts_time": 21.0,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9E3C9191"
+        },
+        {
+          "n": 26,
+          "pts": 336640,
+          "pts_time": 21.04,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A73E7550"
+        },
+        {
+          "n": 27,
+          "pts": 337280,
+          "pts_time": 21.08,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "FF9B854A"
+        },
+        {
+          "n": 28,
+          "pts": 337920,
+          "pts_time": 21.12,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "3C2259CD"
+        },
+        {
+          "n": 29,
+          "pts": 338560,
+          "pts_time": 21.16,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E46B90DE"
+        },
+        {
+          "n": 30,
+          "pts": 339200,
+          "pts_time": 21.2,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "BA19629C"
+        },
+        {
+          "n": 31,
+          "pts": 339840,
+          "pts_time": 21.24,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "973F8F78"
+        },
+        {
+          "n": 32,
+          "pts": 340480,
+          "pts_time": 21.28,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A85B54F3"
+        },
+        {
+          "n": 33,
+          "pts": 341120,
+          "pts_time": 21.32,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A31F7A3E"
+        },
+        {
+          "n": 34,
+          "pts": 341760,
+          "pts_time": 21.36,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E55C73B0"
+        },
+        {
+          "n": 35,
+          "pts": 342400,
+          "pts_time": 21.4,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "0720826D"
+        },
+        {
+          "n": 36,
+          "pts": 343040,
+          "pts_time": 21.44,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "2E6C8CA7"
+        },
+        {
+          "n": 37,
+          "pts": 343680,
+          "pts_time": 21.48,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "6329C7E7"
+        },
+        {
+          "n": 38,
+          "pts": 344320,
+          "pts_time": 21.52,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D5C6CBC6"
+        },
+        {
+          "n": 39,
+          "pts": 344960,
+          "pts_time": 21.56,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1269B9D6"
+        },
+        {
+          "n": 40,
+          "pts": 345600,
+          "pts_time": 21.6,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E59573AF"
+        },
+        {
+          "n": 41,
+          "pts": 346240,
+          "pts_time": 21.64,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "026E9196"
+        },
+        {
+          "n": 42,
+          "pts": 346880,
+          "pts_time": 21.68,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "014894B1"
+        },
+        {
+          "n": 43,
+          "pts": 347520,
+          "pts_time": 21.72,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "5F7C99B4"
+        },
+        {
+          "n": 44,
+          "pts": 348160,
+          "pts_time": 21.76,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "CD177679"
+        },
+        {
+          "n": 45,
+          "pts": 348800,
+          "pts_time": 21.8,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A4538FB1"
+        },
+        {
+          "n": 46,
+          "pts": 349440,
+          "pts_time": 21.84,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E73D891D"
+        },
+        {
+          "n": 47,
+          "pts": 350080,
+          "pts_time": 21.88,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "30166994"
+        },
+        {
+          "n": 48,
+          "pts": 350720,
+          "pts_time": 21.92,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "62BD75AB"
+        },
+        {
+          "n": 49,
+          "pts": 351360,
+          "pts_time": 21.96,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "575B9B4F"
+        },
+        {
+          "n": 50,
+          "pts": 352000,
+          "pts_time": 22.0,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "048D641D"
+        },
+        {
+          "n": 51,
+          "pts": 352640,
+          "pts_time": 22.04,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1C4989E6"
+        },
+        {
+          "n": 52,
+          "pts": 353280,
+          "pts_time": 22.08,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "F9A0A662"
+        },
+        {
+          "n": 53,
+          "pts": 353920,
+          "pts_time": 22.12,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A6D39749"
+        },
+        {
+          "n": 54,
+          "pts": 354560,
+          "pts_time": 22.16,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "4E8D8D11"
+        },
+        {
+          "n": 55,
+          "pts": 355200,
+          "pts_time": 22.2,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "03C9CB7F"
+        },
+        {
+          "n": 56,
+          "pts": 355840,
+          "pts_time": 22.24,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1BD72A16"
+        },
+        {
+          "n": 57,
+          "pts": 356480,
+          "pts_time": 22.28,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "010E7D5C"
+        },
+        {
+          "n": 58,
+          "pts": 357120,
+          "pts_time": 22.32,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "141AEAFA"
+        },
+        {
+          "n": 59,
+          "pts": 357760,
+          "pts_time": 22.36,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "864BD067"
+        },
+        {
+          "n": 60,
+          "pts": 358400,
+          "pts_time": 22.4,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "14C817D9"
+        },
+        {
+          "n": 61,
+          "pts": 359040,
+          "pts_time": 22.44,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "BD0D06C5"
+        },
+        {
+          "n": 62,
+          "pts": 359680,
+          "pts_time": 22.48,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "8FF500F4"
+        },
+        {
+          "n": 63,
+          "pts": 360320,
+          "pts_time": 22.52,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "8BF46FEF"
+        },
+        {
+          "n": 64,
+          "pts": 360960,
+          "pts_time": 22.56,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D51AB8DC"
+        },
+        {
+          "n": 65,
+          "pts": 361600,
+          "pts_time": 22.6,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D5D1B04E"
+        },
+        {
+          "n": 66,
+          "pts": 362240,
+          "pts_time": 22.64,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "2352B719"
+        },
+        {
+          "n": 67,
+          "pts": 362880,
+          "pts_time": 22.68,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9846A29F"
+        },
+        {
+          "n": 68,
+          "pts": 363520,
+          "pts_time": 22.72,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7369AB3F"
+        },
+        {
+          "n": 69,
+          "pts": 364160,
+          "pts_time": 22.76,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "811290B6"
+        },
+        {
+          "n": 70,
+          "pts": 364800,
+          "pts_time": 22.8,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7B2D9C85"
+        },
+        {
+          "n": 71,
+          "pts": 365440,
+          "pts_time": 22.84,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1DFE8DF3"
+        },
+        {
+          "n": 72,
+          "pts": 366080,
+          "pts_time": 22.88,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "DBB29542"
+        },
+        {
+          "n": 73,
+          "pts": 366720,
+          "pts_time": 22.92,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7AC680BB"
+        },
+        {
+          "n": 74,
+          "pts": 367360,
+          "pts_time": 22.96,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "09468902"
+        }
+      ],
+      "BV1ue4y1e78R": [
+        {
+          "n": 0,
+          "pts": 1120000,
+          "pts_time": 70.0,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7EC17B77"
+        },
+        {
+          "n": 1,
+          "pts": 1120528,
+          "pts_time": 70.033,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "40327F66"
+        },
+        {
+          "n": 2,
+          "pts": 1121072,
+          "pts_time": 70.067,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "FCAE76E1"
+        },
+        {
+          "n": 3,
+          "pts": 1121600,
+          "pts_time": 70.1,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "86AC4658"
+        },
+        {
+          "n": 4,
+          "pts": 1122128,
+          "pts_time": 70.133,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C4A64626"
+        },
+        {
+          "n": 5,
+          "pts": 1122672,
+          "pts_time": 70.167,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D69F53E8"
+        },
+        {
+          "n": 6,
+          "pts": 1123200,
+          "pts_time": 70.2,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "4E6D150A"
+        },
+        {
+          "n": 7,
+          "pts": 1123728,
+          "pts_time": 70.233,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "59A515EA"
+        },
+        {
+          "n": 8,
+          "pts": 1124272,
+          "pts_time": 70.267,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "50B2B29E"
+        },
+        {
+          "n": 9,
+          "pts": 1124800,
+          "pts_time": 70.3,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "18AEB5B6"
+        },
+        {
+          "n": 10,
+          "pts": 1125328,
+          "pts_time": 70.333,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B1910D75"
+        },
+        {
+          "n": 11,
+          "pts": 1125872,
+          "pts_time": 70.367,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "6C8C67C8"
+        },
+        {
+          "n": 12,
+          "pts": 1126400,
+          "pts_time": 70.4,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "57595E62"
+        },
+        {
+          "n": 13,
+          "pts": 1126928,
+          "pts_time": 70.433,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A30C2AD6"
+        },
+        {
+          "n": 14,
+          "pts": 1127472,
+          "pts_time": 70.467,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "8A12E152"
+        },
+        {
+          "n": 15,
+          "pts": 1128000,
+          "pts_time": 70.5,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9955E349"
+        },
+        {
+          "n": 16,
+          "pts": 1128528,
+          "pts_time": 70.533,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "32C3E26A"
+        },
+        {
+          "n": 17,
+          "pts": 1129072,
+          "pts_time": 70.567,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "BFC2A104"
+        },
+        {
+          "n": 18,
+          "pts": 1129600,
+          "pts_time": 70.6,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "F298D857"
+        },
+        {
+          "n": 19,
+          "pts": 1130128,
+          "pts_time": 70.633,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "4CC27FA0"
+        },
+        {
+          "n": 20,
+          "pts": 1130672,
+          "pts_time": 70.667,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "B7BF7653"
+        },
+        {
+          "n": 21,
+          "pts": 1131200,
+          "pts_time": 70.7,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "DE4BF7DC"
+        },
+        {
+          "n": 22,
+          "pts": 1131728,
+          "pts_time": 70.733,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D4204858"
+        },
+        {
+          "n": 23,
+          "pts": 1132272,
+          "pts_time": 70.767,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A6AA48DE"
+        },
+        {
+          "n": 24,
+          "pts": 1132800,
+          "pts_time": 70.8,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A7F65010"
+        },
+        {
+          "n": 25,
+          "pts": 1133328,
+          "pts_time": 70.833,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A7F65010"
+        },
+        {
+          "n": 26,
+          "pts": 1133872,
+          "pts_time": 70.867,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9F965886"
+        },
+        {
+          "n": 27,
+          "pts": 1134400,
+          "pts_time": 70.9,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "9F965886"
+        },
+        {
+          "n": 28,
+          "pts": 1134928,
+          "pts_time": 70.933,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "8F537544"
+        },
+        {
+          "n": 29,
+          "pts": 1135472,
+          "pts_time": 70.967,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "2FD67705"
+        },
+        {
+          "n": 30,
+          "pts": 1136000,
+          "pts_time": 71.0,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "F47332FA"
+        },
+        {
+          "n": 31,
+          "pts": 1136528,
+          "pts_time": 71.033,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "518CB488"
+        },
+        {
+          "n": 32,
+          "pts": 1137072,
+          "pts_time": 71.067,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E9205A2B"
+        },
+        {
+          "n": 33,
+          "pts": 1137600,
+          "pts_time": 71.1,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D6B3D1F6"
+        },
+        {
+          "n": 34,
+          "pts": 1138128,
+          "pts_time": 71.133,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "735FE5FA"
+        },
+        {
+          "n": 35,
+          "pts": 1138672,
+          "pts_time": 71.167,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "EB3AFD75"
+        },
+        {
+          "n": 36,
+          "pts": 1139200,
+          "pts_time": 71.2,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7A0C85C8"
+        },
+        {
+          "n": 37,
+          "pts": 1139728,
+          "pts_time": 71.233,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "E1885EF8"
+        },
+        {
+          "n": 38,
+          "pts": 1140272,
+          "pts_time": 71.267,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "2842805E"
+        },
+        {
+          "n": 39,
+          "pts": 1140800,
+          "pts_time": 71.3,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7730B500"
+        },
+        {
+          "n": 40,
+          "pts": 1141328,
+          "pts_time": 71.333,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "92082379"
+        },
+        {
+          "n": 41,
+          "pts": 1141872,
+          "pts_time": 71.367,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C0B6251A"
+        },
+        {
+          "n": 42,
+          "pts": 1142400,
+          "pts_time": 71.4,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C0B6251A"
+        },
+        {
+          "n": 43,
+          "pts": 1142928,
+          "pts_time": 71.433,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "C0B6251A"
+        },
+        {
+          "n": 44,
+          "pts": 1143472,
+          "pts_time": 71.467,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "80A5F348"
+        },
+        {
+          "n": 45,
+          "pts": 1144000,
+          "pts_time": 71.5,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "52E8F4C4"
+        },
+        {
+          "n": 46,
+          "pts": 1144528,
+          "pts_time": 71.533,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "0266F4C1"
+        },
+        {
+          "n": 47,
+          "pts": 1145072,
+          "pts_time": 71.567,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "0266F4C1"
+        },
+        {
+          "n": 48,
+          "pts": 1145600,
+          "pts_time": 71.6,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "D474585A"
+        },
+        {
+          "n": 49,
+          "pts": 1146128,
+          "pts_time": 71.633,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "6D135AD0"
+        },
+        {
+          "n": 50,
+          "pts": 1146672,
+          "pts_time": 71.667,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "618EF8A6"
+        },
+        {
+          "n": 51,
+          "pts": 1147200,
+          "pts_time": 71.7,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "618EF8A6"
+        },
+        {
+          "n": 52,
+          "pts": 1147728,
+          "pts_time": 71.733,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "7E58F44D"
+        },
+        {
+          "n": 53,
+          "pts": 1148272,
+          "pts_time": 71.767,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "93E0D12E"
+        },
+        {
+          "n": 54,
+          "pts": 1148800,
+          "pts_time": 71.8,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "BDE6B022"
+        },
+        {
+          "n": 55,
+          "pts": 1149328,
+          "pts_time": 71.833,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "AEE3889A"
+        },
+        {
+          "n": 56,
+          "pts": 1149872,
+          "pts_time": 71.867,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "A9D48886"
+        },
+        {
+          "n": 57,
+          "pts": 1150400,
+          "pts_time": 71.9,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "4B50ACB2"
+        },
+        {
+          "n": 58,
+          "pts": 1150928,
+          "pts_time": 71.933,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "1212ACC0"
+        },
+        {
+          "n": 59,
+          "pts": 1151472,
+          "pts_time": 71.967,
+          "fmt": "yuv420p",
+          "size": "852x480",
+          "checksum": "92A32C81"
+        }
+      ]
+    }
+  },
+  "comparison_table": [
+    {
+      "dimension": "text_scope",
+      "BV1ue4y1e78R": "bilingual (EN+ZH) foreground text + code interface labels",
+      "BV1VY4y1i7LC": "Chinese lyric text (foreground) + UI labels (title, credits, progress)",
+      "BV1SK411p7DA": "English word glyphs (foreground, morphing with shapes)"
+    },
+    {
+      "dimension": "motion_pattern",
+      "BV1ue4y1e78R": "scene cut + glitch burst (clean → transition → glitch)",
+      "BV1VY4y1i7LC": "continuous lyric scroll (new lines appear, old fade)",
+      "BV1SK411p7DA": "shape-to-text morph (blobs ↔ glyphs) with background color change"
+    },
+    {
+      "dimension": "glyph_style",
+      "BV1ue4y1e78R": "monospace/code font, glitch-distorted, multi-color (white/red/RGB)",
+      "BV1VY4y1i7LC": "clean sans-serif Chinese, white (current) / gray (previous)",
+      "BV1SK411p7DA": "bold sans-serif English, white, large; morphs to geometric shapes"
+    },
+    {
+      "dimension": "background",
+      "BV1ue4y1e78R": "black with scan lines; glitch particles (RGB) during burst",
+      "BV1VY4y1i7LC": "dark anime character (hooded, smiling) + vinyl disc",
+      "BV1SK411p7DA": "solid color (yellow-green → blue → orange), changes per word"
+    },
+    {
+      "dimension": "art_vs_motion",
+      "BV1ue4y1e78R": "art = glitch aesthetic + bilingual text; motion = scene cut + particle burst",
+      "BV1VY4y1i7LC": "art = music player UI + character; motion = lyric scroll + highlight shift",
+      "BV1SK411p7DA": "art = word glyphs + geometric shapes; motion = morph between shapes and text"
+    },
+    {
+      "dimension": "mmd_vs_text",
+      "BV1ue4y1e78R": "text-only + interface elements (no MMD/characters)",
+      "BV1VY4y1i7LC": "text + character scene (anime character is background-reference)",
+      "BV1SK411p7DA": "text-only + geometric shapes (no MMD/characters)"
+    }
+  ],
+  "constructions": [
+    {
+      "id": "C1",
+      "source": "BILI-BV1ue4y1e78R",
+      "name": "bilingual/code glitch burst",
+      "observed_pixels": "black bg with scan lines; white shield with 'Though We are' (clean) → cyan transition lines → RGB glitch particles + 'EXECUTION!' red + '执行指令' ZH + 'Feeling Index' progress bar + timestamp; monospace/code font",
+      "proposal": {
+        "semantic_text_ids": [
+          "en_main",
+          "zh_main",
+          "en_label",
+          "zh_label",
+          "timestamp",
+          "spaced_credits"
+        ],
+        "glyph_mapping": "EN: monospace/code font, glitch-distorted; ZH: clean sans-serif; labels: small monospace",
+        "instances_groups": "main text group (EN+ZH) + interface group (progress bar, timestamp, labels) + particle group (RGB glitch)",
+        "baseline_geometry": "main text: centered, large; labels: small, positioned around main; particles: full-frame scatter",
+        "material_passes": [
+          "bg: black + vertical scan lines",
+          "shield: white hexagon (clean state)",
+          "glitch: RGB particle scatter + text distortion",
+          "text: white/red fill + monospace font",
+          "interface: progress bar + timestamp"
+        ],
+        "masks_compositing_order": "bg → scan lines → shield (clean) / particles (glitch) → main text → interface elements → spaced credits",
+        "effect_scope": "per-scene (clean vs glitch are distinct states); particles are full-frame",
+        "coordinate_space": "2D, landscape (16:9)",
+        "local_global_time": "local: scene cut at ~1s; global: sequential scenes",
+        "deterministic_randomness": "particle positions are semi-random (glitch effect); text content is deterministic"
+      },
+      "editable_axes": [
+        "EN text content",
+        "ZH text content",
+        "font (EN/ZH)",
+        "glitch intensity",
+        "particle density/color",
+        "shield shape",
+        "progress bar value",
+        "timestamp format",
+        "bg color/scan lines"
+      ],
+      "minimal_counterexample": "a single static bilingual text (no glitch, no interface) would be too narrow; the glitch + interface combination is the key feature",
+      "lyric_emotion_fit": "fits energetic, digital, futuristic lyrics; glitch implies disruption/error; bilingual adds cultural layer; avoid calm/organic lyrics (glitch too aggressive)",
+      "image_relation": "text is primary content; interface elements frame the text; particles add motion/energy; no characters/MMD",
+      "avoid_cases": "do not use for minimalist/clean aesthetic (glitch too busy); do not use for non-digital themes (code interface implies tech)",
+      "readability_risk": "glitch distortion reduces readability; RGB particles may obscure text; monospace font is readable but small labels may be hard to see"
+    },
+    {
+      "id": "C2",
+      "source": "BILI-BV1VY4y1i7LC",
+      "name": "lyric scroll with highlight in player UI",
+      "observed_pixels": "dark anime character bg + vinyl disc (left) + Chinese lyrics (right); current line bold/white, previous lines gray; new lines appear at bottom; progress bar with song title + time; bilibili watermark",
+      "proposal": {
+        "semantic_text_ids": [
+          "song_title",
+          "credit_singer",
+          "credit_arranger",
+          "credit_lyricist",
+          "lyric_line_1",
+          "lyric_line_2",
+          "lyric_line_3",
+          "progress_label",
+          "progress_time",
+          "watermark"
+        ],
+        "glyph_mapping": "Chinese sans-serif; title: large; credits: medium; lyrics: medium; progress: small",
+        "instances_groups": "lyric group (scrolling lines) + UI group (title, credits, progress, watermark) + scene group (character, vinyl)",
+        "baseline_geometry": "lyrics: right-aligned, vertical stack; UI: fixed positions (title top, credits below, progress bottom-left); scene: full-frame bg",
+        "material_passes": [
+          "bg: dark anime character",
+          "vinyl: purple/blue disc with gold center",
+          "lyrics: white (current) / gray (previous) fill",
+          "UI labels: white fill, small",
+          "progress bar: red/white dots"
+        ],
+        "masks_compositing_order": "bg character → vinyl disc → lyric lines (gray→white) → UI labels → progress bar → watermark",
+        "effect_scope": "lyrics: per-line (highlight shifts); UI: persistent; scene: persistent",
+        "coordinate_space": "2D, landscape (16:9)",
+        "local_global_time": "lyrics: continuous scroll (~1 line per 2-3s); UI: persistent; scene: persistent",
+        "deterministic_randomness": "none (deterministic scroll)"
+      },
+      "editable_axes": [
+        "lyric content",
+        "font",
+        "highlight color",
+        "fade color",
+        "scroll speed",
+        "vinyl design",
+        "character bg",
+        "progress bar style",
+        "credit content",
+        "watermark"
+      ],
+      "minimal_counterexample": "a static lyric card (no scroll, no highlight) would be too narrow; the scroll + highlight is the key feature",
+      "lyric_emotion_fit": "fits narrative, emotional, song lyrics; scroll implies progression; highlight implies emotional emphasis; avoid rapid-fire/abstract lyrics (scroll too slow)",
+      "image_relation": "lyrics are primary content; UI frames the lyrics; character scene is background-reference; vinyl is decorative",
+      "avoid_cases": "do not use for non-lyric content (scroll implies song); do not use for multi-language lyrics without adaptation (ZH-specific layout)",
+      "readability_risk": "gray previous lines may be hard to read on dark bg; small progress text may be hard to see; character bg may reduce contrast"
+    },
+    {
+      "id": "C3",
+      "source": "BILI-BV1SK411p7DA",
+      "name": "shape-to-text morph with color change",
+      "observed_pixels": "solid color bg (yellow-green/blue/orange); 5 white blobs/circles morph to word glyphs (TRUST/SINCERE); wavy line transition; bilibili watermark",
+      "proposal": {
+        "semantic_text_ids": [
+          "word_1",
+          "word_2",
+          "word_3",
+          "watermark"
+        ],
+        "glyph_mapping": "bold sans-serif English, white, large; shapes: geometric (circles/blobs/wavy lines)",
+        "instances_groups": "word group (one word per state) + shape group (transition shapes) + bg group (solid color)",
+        "baseline_geometry": "word: centered, large (~60% frame width); shapes: centered, 5 elements; bg: full-frame solid",
+        "material_passes": [
+          "bg: solid color (changes per word)",
+          "shapes: white fill, geometric",
+          "word: white fill, bold sans-serif",
+          "watermark: small, top-right"
+        ],
+        "masks_compositing_order": "bg → shapes (transition) / word (display) → watermark",
+        "effect_scope": "per-word (each word has its own bg color + morph sequence)",
+        "coordinate_space": "2D, landscape (16:9)",
+        "local_global_time": "per-word: ~2-4s (morph in → display → morph out); global: sequential words",
+        "deterministic_randomness": "shape positions may vary per morph (semi-deterministic)"
+      },
+      "editable_axes": [
+        "word content",
+        "font",
+        "bg color per word",
+        "shape type (circles/blobs/wavy)",
+        "shape count",
+        "morph timing",
+        "word display duration",
+        "watermark"
+      ],
+      "minimal_counterexample": "a static word on solid bg (no morph, no shape) would be too narrow; the shape-to-text morph is the key feature",
+      "lyric_emotion_fit": "fits conceptual, word-based content; morph implies transformation; color change implies emotional shift; avoid narrative/lyric content (word-based, not sentence-based)",
+      "image_relation": "words are primary content; shapes are transition elements; bg color is emotional indicator; no characters/MMD",
+      "avoid_cases": "do not use for sentence-based lyrics (word-only); do not use for multi-language content (EN-only in observation)",
+      "readability_risk": "morph transitions may reduce readability during shape state; solid bg provides high contrast for white text"
+    }
+  ],
+  "ae_export_gaps": {
+    "C1_bilingual_glitch": {
+      "text_shaping_font_substitution": "EN monospace + ZH sans-serif; font substitution changes glyph width/spacing; glitch distortion requires per-glyph offset",
+      "paths_masks_materials": "shield = shape layer; particles = scattered small shapes; progress bar = shape + fill",
+      "alpha_color_blend": "RGB particles need alpha blending; scan lines are semi-transparent",
+      "camera_proxy_baking": "no camera; 2D layers; particle scatter may need pre-rendered frames for complex patterns",
+      "deterministic_seek_export": "semi-deterministic (particle positions); export needs fixed seed or pre-rendered frames",
+      "performance": "moderate (particles, glitch effects)"
+    },
+    "C2_lyric_scroll": {
+      "text_shaping_font_substitution": "ZH sans-serif; font substitution changes character width; scroll timing must match lyric rhythm",
+      "paths_masks_materials": "vinyl = circular shape; progress bar = shape + fill; no complex paths",
+      "alpha_color_blend": "gray→white highlight is color shift, not alpha; character bg is opaque",
+      "camera_proxy_baking": "no camera; 2D layers; scroll is simple y-offset animation",
+      "deterministic_seek_export": "deterministic (fixed scroll speed); export is straightforward",
+      "performance": "light (simple text scroll, static UI)"
+    },
+    "C3_shape_morph": {
+      "text_shaping_font_substitution": "bold sans-serif EN; font substitution changes glyph shape; morph requires matching shape topology",
+      "paths_masks_materials": "shapes = geometric paths (circles/blobs); morph = path interpolation; bg = solid fill",
+      "alpha_color_blend": "all opaque; no alpha blending needed",
+      "camera_proxy_baking": "no camera; 2D layers; morph may need pre-rendered frames for complex path interpolation",
+      "deterministic_seek_export": "deterministic (fixed morph curve); export is straightforward",
+      "performance": "moderate (path morphing, color changes)"
+    }
+  },
+  "provenance_notes": [
+    "All 3 sources use integer source PTS with tbn 1/16000; no reset output time claimed",
+    "PNG hashes (md5) and raw-plane checksums (from showinfo) are recorded separately; no raw-pixel parity claimed from encoded-PNG hashes",
+    "BV1SK411p7DA: 1-frame discrepancy between ext-0060 (n419, TRUST) and locator tile 8 (n420, SINCERE) — rapid cut at frame boundary",
+    "BV1VY4y1i7LC: progress bar time (00:00:20-22) does not match video time (20-23s) — progress bar is part of the animation, not synced to video clock",
+    "BV1ue4y1e78R: bilibili watermark '祈九超甜呐や' present in all frames; intentional interface artwork",
+    "MMD/character scenes (BV1VY4y1i7LC anime character) are background-reference records, not text forms",
+    "No source font/glyph/image artwork is copied into a proposed redistributable asset"
+  ],
+  "unresolved": [
+    "BV1ue4y1e78R: exact glitch particle algorithm and text distortion curve not measured",
+    "BV1VY4y1i7LC: exact scroll speed and highlight transition curve not measured",
+    "BV1SK411p7DA: exact morph path interpolation curve not measured; shape topology matching algorithm unknown",
+    "All 3: author intent, beat alignment, and full lyrics remain unknown",
+    "BV1SK411p7DA: 1-frame discrepancy at n419/n420 boundary (TRUST vs SINCERE) unresolved"
+  ]
+}

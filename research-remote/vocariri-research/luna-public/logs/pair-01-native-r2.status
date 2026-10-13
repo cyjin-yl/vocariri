@@ -1,0 +1,63 @@
+{
+  "review_id": "PAIR-01-NATIVE-R2",
+  "status": "completed_native_visual_pair_review_unaccepted",
+  "pair_id": "PAIR-01",
+  "work_order": "WORK_ORDER_LUNA_PAIR01_R1.md",
+  "amendment": "FFMPEG_NATIVE_PTS_AMENDMENT.md",
+  "output_file": "outputs/pair-01-native-r2.json",
+  "output_sha256": "0ebf95a341630ecd9e6911ce049e45d59841230bd852c30e444b097d765ec963",
+  "input_hashes": {
+    "triage_v3_sha256": "c2818fd262d18ade6c976b684b1335739f38caa00c6afcc015d2df5e1ead275d",
+    "source_media_sha256": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+    "r1_json_preserved_sha256": "8482dd8f57b56b0dc20955361a8c3b91e1cb6ea7d566453e277a41dde4a724a2",
+    "r1_status_preserved_sha256": "eca5daead2df29dec6aae2f275e68d648517332be110ecb3cc51e8d2ac0c3a84"
+  },
+  "decoder": {
+    "binary": "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+    "version": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+    "source_time_base": "1/16000",
+    "source_frame_rate": "30/1",
+    "showinfo_selected_frames": 61,
+    "showinfo_pts_ranges": [
+      {
+        "window": [
+          18.3,
+          19.3
+        ],
+        "first_pts": 292800,
+        "first_pts_time": "18.3",
+        "last_pts": 308800,
+        "last_pts_time": "19.3",
+        "frames": 31
+      },
+      {
+        "window": [
+          54.8,
+          55.8
+        ],
+        "first_pts": 876800,
+        "first_pts_time": "54.8",
+        "last_pts": 892272,
+        "last_pts_time": "55.767",
+        "frames": 30
+      }
+    ]
+  },
+  "visual_input": {
+    "native_image_reads_succeeded": 8,
+    "429": false,
+    "native_frame_sha256_count": 61,
+    "tile_image_count": 8
+  },
+  "relation": "possibly_distinct",
+  "relation_confidence": "moderate, limited by a mismatch between the second candidate label and the bounded excerpt",
+  "candidate_label_discrepancy": "The second candidate’s “frame-filling cropped display type” description is not supported by the reviewed 54.8–55.8s excerpt, which has a title line across the top of a character close-up. The broader cited interval extends beyond this window; no replacement interval or form was selected.",
+  "replacement_selected": false,
+  "acceptance_increment": {
+    "forms": 0,
+    "templates": 0
+  },
+  "shared_ledgers_modified": false,
+  "r1_preserved": true,
+  "precise_resume_point": "PAIR-01 R2 native review is complete with relation possibly_distinct and acceptance still pending. Candidate 2’s frame-filling label is not supported by the reviewed 54.8–55.8s excerpt; no replacement was selected. There was no visual 429; eight native frame-tile reads succeeded. No further native action is required for this bounded review."
+}

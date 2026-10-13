@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-09-27T12:53:54.160426+00:00",
+  "mode": "offline; container network disabled",
+  "source_count": 3,
+  "source_ids": [
+    "NICO-sm46137276",
+    "NICO-sm46155083",
+    "PVOLT-C-7TIDIKc98"
+  ],
+  "acquisition_rows": 14,
+  "failed_attempts": 4,
+  "replayed_sparse_count": 36,
+  "replayed_sequence_count": 65,
+  "accepted_forms": 0,
+  "accepted_templates": 0,
+  "errors": []
+}

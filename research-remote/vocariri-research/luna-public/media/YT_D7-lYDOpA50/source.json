@@ -1,0 +1,18 @@
+{
+  "id": "YT_D7-lYDOpA50",
+  "url": "https://www.youtube.com/watch?v=D7-lYDOpA50",
+  "at": "2026-09-24T10:10:43.482360+00:00",
+  "title": "SHIAWASE FOR YOU! / いよわ feat. 初音ミク",
+  "uploader": "Hatsune Miku",
+  "duration": 203,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 16906122,
+  "sha256": "4b382eea1ef35a4035197ad55d515862727b5301a7e9eba52b06e71181158edd",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

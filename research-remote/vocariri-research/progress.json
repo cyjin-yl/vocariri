@@ -1,0 +1,98 @@
+{
+  "at": "2026-09-27T12:12:00Z",
+  "counts": {
+    "discovered": 93,
+    "downloaded": 49,
+    "screened": 36,
+    "video_inspected": 0,
+    "observations": 334,
+    "unique_families": null
+  },
+  "counts_note": "unique_families deferred to synthesis; dedupe of ~100+ family labels pending",
+  "per_source_observations": {
+    "BV1EW411q7cP": 9,
+    "BV12x411c7mQ": 13,
+    "BV1sM4y1L73t": 14,
+    "BV1J8hf61EAt": 7,
+    "BV1qMeb6FEVG": 9,
+    "BV1uJ411879Y": 21,
+    "BV1wsgQ65E9o": 18,
+    "CsYDv5Cf0yo": 8,
+    "xbFFa8xR_Kc": 12,
+    "BV1k72LYzEmV": 24,
+    "BV1H7411T73W": 23,
+    "BV1zrbCzLEH4": 32,
+    "9-3RLq9jF20": 3,
+    "UrSOYGEDSs8": 3,
+    "bVXATN0Qh-I": 10,
+    "kiVGOS7-n_o": 3,
+    "lzVhGnMV4QY": 18,
+    "rMzVIp7yd5k": 4,
+    "xZovFQSkCPo": 11,
+    "xnuP27VrO40": 17,
+    "16kTqBUh8mM": 1,
+    "DW6MykaSh6U": 1,
+    "FOMWS5pChuA": 1,
+    "G-YNNJIe2Vk": 2,
+    "Gm72U0KcKE8": 2,
+    "H85vk6q9BYA": 2,
+    "TzH5BsJj81Y": 3,
+    "WGvtliE1298": 1,
+    "aejbTf8Y0_0": 2,
+    "jonfGl7kh10": 1,
+    "rVCo24E8bU0": 1,
+    "dQhMNN2Ku0Q": 6,
+    "ax5bndrPga4": 2,
+    "VR3NL1Zvx5o": 3,
+    "8Gu7Mtq4Hvw": 6,
+    "FWQYNskQT5Y": 6,
+    "bTiPATKqf-w": 3,
+    "NocXEwsJGOQ": 4,
+    "Mqps4anhz0Q": 5,
+    "cQKGUgOfD8U": 1
+  },
+  "unscreened_downloads": [
+    "zR1hzhJVMnY",
+    "b_VE52ZK_5k",
+    "NIqm73xsias",
+    "duPJqfKiA78",
+    "Mqps4anhz0Q",
+    "cQKGUgOfD8U",
+    "Hl2M5Ozz3uk",
+    "Q_QEPrkwZ-Q",
+    "wC1iW6hBfuI",
+    "gh9YSQ-Dvdw"
+  ],
+  "in_flight_downloads": "seed-run-03 (queue-03.json, 31 items) running async no-deadline; 49 dirs extracted so far",
+  "video_input_verification": {
+    "state": "REJECTED_visual_mismatch",
+    "consequence": "All temporal evidence remains 4fps contact-sheet screening; no continuous-motion claims. Do not bulk-run video_request.py until gateway media transport fixed.",
+    "reported_to_parent": true
+  },
+  "failed_downloads": [
+    "lPaVcS8ei6s (youtube: video unavailable)",
+    "P502HuM4WF0 (ValueError during extract)"
+  ],
+  "next": [
+    "PAUSED per WORK_ORDER_QWEN_12 (revised goal 500-800 reviewed text forms); resume after reading it",
+    "Continue cQKGUgOfD8U sheets 1-30 when resumed",
+    "Unscreened: Hl2M5Ozz3uk, Q_QEPrkwZ-Q, wC1iW6hBfuI, gh9YSQ-Dvdw, zR1hzhJVMnY, b_VE52ZK_5k, NIqm73xsias + queue-03 dirs"
+  ],
+  "new_queue03_dirs": [
+    "4vLwhXY0ZRw",
+    "7WJIQNaeMCg",
+    "FR8--dY91AQ",
+    "UahA-6QYfC0",
+    "azcqvnQJiGk",
+    "j-vreBrqaUk",
+    "j83lVheSa-g",
+    "lQRVCHXRf2E",
+    "tC_p4mz5xfE",
+    "twDzKHIJW7M"
+  ],
+  "partial": {
+    "source": "cQKGUgOfD8U",
+    "sheets_read": "0 of 31",
+    "obs_written": 1
+  }
+}

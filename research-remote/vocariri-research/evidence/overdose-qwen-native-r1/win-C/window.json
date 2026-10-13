@@ -1,0 +1,444 @@
+{
+ "id": "win-C",
+ "window_n": [
+  3500,
+  3559
+ ],
+ "count": 60,
+ "timebase": "1/15360",
+ "fps": 30,
+ "pts_first": 1792000,
+ "pts_last": 1822208,
+ "pts_deltas_unique": [
+  512
+ ],
+ "frame_bytes": 1036800,
+ "dimension": [
+  960,
+  720
+ ],
+ "pix_fmt": "yuv420p",
+ "frames": {
+  "3500": {
+   "source_n": 3500,
+   "md5": "e0c11db95de6dd40c53ab3255fade264",
+   "pts_15360": 1792000,
+   "pts_time": 116.66666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0001.png"
+  },
+  "3501": {
+   "source_n": 3501,
+   "md5": "bada97c3a54e2121003f183e75fe0bcc",
+   "pts_15360": 1792512,
+   "pts_time": 116.7,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0002.png"
+  },
+  "3502": {
+   "source_n": 3502,
+   "md5": "d42a0ff347129f3618d67f5967681fcf",
+   "pts_15360": 1793024,
+   "pts_time": 116.73333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0003.png"
+  },
+  "3503": {
+   "source_n": 3503,
+   "md5": "0222f5f1c6e6f18ff77b2fcfb99028c4",
+   "pts_15360": 1793536,
+   "pts_time": 116.76666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0004.png"
+  },
+  "3504": {
+   "source_n": 3504,
+   "md5": "9dc8b8bfbffdfacb878930575da58c43",
+   "pts_15360": 1794048,
+   "pts_time": 116.8,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0005.png"
+  },
+  "3505": {
+   "source_n": 3505,
+   "md5": "a92cd2b9d9b264d3569eb2f1771b5aac",
+   "pts_15360": 1794560,
+   "pts_time": 116.83333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0006.png"
+  },
+  "3506": {
+   "source_n": 3506,
+   "md5": "9d845f5de7de9a8b7fb54b7375c1c389",
+   "pts_15360": 1795072,
+   "pts_time": 116.86666666666666,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0007.png"
+  },
+  "3507": {
+   "source_n": 3507,
+   "md5": "f26d810011412a65427ab835f3f4fbd4",
+   "pts_15360": 1795584,
+   "pts_time": 116.9,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0008.png"
+  },
+  "3508": {
+   "source_n": 3508,
+   "md5": "1e45a0608a6f66b9aeace2c6586dc207",
+   "pts_15360": 1796096,
+   "pts_time": 116.93333333333334,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0009.png"
+  },
+  "3509": {
+   "source_n": 3509,
+   "md5": "88f1ae09bb1cb0b93bce52068cb11c06",
+   "pts_15360": 1796608,
+   "pts_time": 116.96666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0010.png"
+  },
+  "3510": {
+   "source_n": 3510,
+   "md5": "0861c628ea165cbe1ff63733f4db4373",
+   "pts_15360": 1797120,
+   "pts_time": 117.0,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0011.png"
+  },
+  "3511": {
+   "source_n": 3511,
+   "md5": "0becaa7a29a33db489f5f637911dcf92",
+   "pts_15360": 1797632,
+   "pts_time": 117.03333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0012.png"
+  },
+  "3512": {
+   "source_n": 3512,
+   "md5": "be5f4f5da4a926e57aa2fcb15d0f631d",
+   "pts_15360": 1798144,
+   "pts_time": 117.06666666666666,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0013.png"
+  },
+  "3513": {
+   "source_n": 3513,
+   "md5": "5e71e4cf1476fd7aa8cc343751c464ad",
+   "pts_15360": 1798656,
+   "pts_time": 117.1,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0014.png"
+  },
+  "3514": {
+   "source_n": 3514,
+   "md5": "7a614489f434567807b1123b432560a7",
+   "pts_15360": 1799168,
+   "pts_time": 117.13333333333334,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0015.png"
+  },
+  "3515": {
+   "source_n": 3515,
+   "md5": "e080c4600d7062e7e74e568e838235e0",
+   "pts_15360": 1799680,
+   "pts_time": 117.16666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0016.png"
+  },
+  "3516": {
+   "source_n": 3516,
+   "md5": "46d21971ce28b72849568a587df4ed9f",
+   "pts_15360": 1800192,
+   "pts_time": 117.2,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0017.png"
+  },
+  "3517": {
+   "source_n": 3517,
+   "md5": "d9121569c3d0e841c15e098573bc641e",
+   "pts_15360": 1800704,
+   "pts_time": 117.23333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0018.png"
+  },
+  "3518": {
+   "source_n": 3518,
+   "md5": "a5d83c51f693b8afa8e6f137bbc961bb",
+   "pts_15360": 1801216,
+   "pts_time": 117.26666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0019.png"
+  },
+  "3519": {
+   "source_n": 3519,
+   "md5": "a81098be83ffbe9d382110b2f6befe35",
+   "pts_15360": 1801728,
+   "pts_time": 117.3,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0020.png"
+  },
+  "3520": {
+   "source_n": 3520,
+   "md5": "c841f65dbde7774d2ff35b5865e3975e",
+   "pts_15360": 1802240,
+   "pts_time": 117.33333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0021.png"
+  },
+  "3521": {
+   "source_n": 3521,
+   "md5": "50e0fe762ec0e74f773c9070e1b25544",
+   "pts_15360": 1802752,
+   "pts_time": 117.36666666666666,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0022.png"
+  },
+  "3522": {
+   "source_n": 3522,
+   "md5": "e5812bc1e37132446936eec57a919f85",
+   "pts_15360": 1803264,
+   "pts_time": 117.4,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0023.png"
+  },
+  "3523": {
+   "source_n": 3523,
+   "md5": "382f954f6bc58e148990da2868f7f0a0",
+   "pts_15360": 1803776,
+   "pts_time": 117.43333333333334,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0024.png"
+  },
+  "3524": {
+   "source_n": 3524,
+   "md5": "7cf9bda6b8f75fa3a643af3e5cd07955",
+   "pts_15360": 1804288,
+   "pts_time": 117.46666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0025.png"
+  },
+  "3525": {
+   "source_n": 3525,
+   "md5": "d7954a5f43272e394d0de71e2e210dec",
+   "pts_15360": 1804800,
+   "pts_time": 117.5,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0026.png"
+  },
+  "3526": {
+   "source_n": 3526,
+   "md5": "c024d140e2756abe335719cd3e97562f",
+   "pts_15360": 1805312,
+   "pts_time": 117.53333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0027.png"
+  },
+  "3527": {
+   "source_n": 3527,
+   "md5": "311282ad7ad0fb1e0a33cd73d67c77d0",
+   "pts_15360": 1805824,
+   "pts_time": 117.56666666666666,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0028.png"
+  },
+  "3528": {
+   "source_n": 3528,
+   "md5": "e9be7c7ca9632c175e49b7bf991ec431",
+   "pts_15360": 1806336,
+   "pts_time": 117.6,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0029.png"
+  },
+  "3529": {
+   "source_n": 3529,
+   "md5": "482cc066a40f935f3fed7cd4a9c05811",
+   "pts_15360": 1806848,
+   "pts_time": 117.63333333333334,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0030.png"
+  },
+  "3530": {
+   "source_n": 3530,
+   "md5": "2062e0e1d56027e4a08f080e468323a5",
+   "pts_15360": 1807360,
+   "pts_time": 117.66666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0031.png"
+  },
+  "3531": {
+   "source_n": 3531,
+   "md5": "362a9f9b2334a96bf0c11ff88de75ee6",
+   "pts_15360": 1807872,
+   "pts_time": 117.7,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0032.png"
+  },
+  "3532": {
+   "source_n": 3532,
+   "md5": "07903e0168b04e31583b44ca6e6b0454",
+   "pts_15360": 1808384,
+   "pts_time": 117.73333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0033.png"
+  },
+  "3533": {
+   "source_n": 3533,
+   "md5": "fb101ee08a3fcfbeac6502dd56566af3",
+   "pts_15360": 1808896,
+   "pts_time": 117.76666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0034.png"
+  },
+  "3534": {
+   "source_n": 3534,
+   "md5": "9399a8357ca98d48631a04c87e72fd46",
+   "pts_15360": 1809408,
+   "pts_time": 117.8,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0035.png"
+  },
+  "3535": {
+   "source_n": 3535,
+   "md5": "3eb4269285d5a8baf9684c81a78cd251",
+   "pts_15360": 1809920,
+   "pts_time": 117.83333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0036.png"
+  },
+  "3536": {
+   "source_n": 3536,
+   "md5": "de7b3298c9892564ddb3cf9a59503206",
+   "pts_15360": 1810432,
+   "pts_time": 117.86666666666666,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0037.png"
+  },
+  "3537": {
+   "source_n": 3537,
+   "md5": "0b64a3d0607af0158ab806c69a1ddfe8",
+   "pts_15360": 1810944,
+   "pts_time": 117.9,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0038.png"
+  },
+  "3538": {
+   "source_n": 3538,
+   "md5": "45adaa1f628bedc662c21bed2ab2252b",
+   "pts_15360": 1811456,
+   "pts_time": 117.93333333333334,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0039.png"
+  },
+  "3539": {
+   "source_n": 3539,
+   "md5": "d4a4fa44689634f016461eae0ace213f",
+   "pts_15360": 1811968,
+   "pts_time": 117.96666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0040.png"
+  },
+  "3540": {
+   "source_n": 3540,
+   "md5": "0c86e1123dab4ef2ff7eefba8ff29c71",
+   "pts_15360": 1812480,
+   "pts_time": 118.0,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0041.png"
+  },
+  "3541": {
+   "source_n": 3541,
+   "md5": "128891d7442e69ec4a6a6710c2f0d130",
+   "pts_15360": 1812992,
+   "pts_time": 118.03333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0042.png"
+  },
+  "3542": {
+   "source_n": 3542,
+   "md5": "18ac8bcd59675899e9d489ba7a47f817",
+   "pts_15360": 1813504,
+   "pts_time": 118.06666666666666,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0043.png"
+  },
+  "3543": {
+   "source_n": 3543,
+   "md5": "8f0099b6386cfe61142bfe0c817988b7",
+   "pts_15360": 1814016,
+   "pts_time": 118.1,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0044.png"
+  },
+  "3544": {
+   "source_n": 3544,
+   "md5": "482b9b4e777527642e004999a67bf5d9",
+   "pts_15360": 1814528,
+   "pts_time": 118.13333333333334,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0045.png"
+  },
+  "3545": {
+   "source_n": 3545,
+   "md5": "3e38838cee4c373ceb8b8d925dce64e5",
+   "pts_15360": 1815040,
+   "pts_time": 118.16666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0046.png"
+  },
+  "3546": {
+   "source_n": 3546,
+   "md5": "8898e0b75139b36e70c7674dccce5cce",
+   "pts_15360": 1815552,
+   "pts_time": 118.2,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0047.png"
+  },
+  "3547": {
+   "source_n": 3547,
+   "md5": "ccafa370b320a87314c1a98c631c8156",
+   "pts_15360": 1816064,
+   "pts_time": 118.23333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0048.png"
+  },
+  "3548": {
+   "source_n": 3548,
+   "md5": "6db5f651fada652f45e0ece707570bc1",
+   "pts_15360": 1816576,
+   "pts_time": 118.26666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0049.png"
+  },
+  "3549": {
+   "source_n": 3549,
+   "md5": "f3119d23cc76dc552e6a82e1e4d1c249",
+   "pts_15360": 1817088,
+   "pts_time": 118.3,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0050.png"
+  },
+  "3550": {
+   "source_n": 3550,
+   "md5": "668f0e26d7ee63091f2b8690eb53df6b",
+   "pts_15360": 1817600,
+   "pts_time": 118.33333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0051.png"
+  },
+  "3551": {
+   "source_n": 3551,
+   "md5": "258999c65039fef59a5b6fc9f043352f",
+   "pts_15360": 1818112,
+   "pts_time": 118.36666666666666,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0052.png"
+  },
+  "3552": {
+   "source_n": 3552,
+   "md5": "2e265522af4dd414c60d9aa1404f6f0b",
+   "pts_15360": 1818624,
+   "pts_time": 118.4,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0053.png"
+  },
+  "3553": {
+   "source_n": 3553,
+   "md5": "683dd07518a9ed9904f5a509cdb4cd24",
+   "pts_15360": 1819136,
+   "pts_time": 118.43333333333334,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0054.png"
+  },
+  "3554": {
+   "source_n": 3554,
+   "md5": "7e51bdbc5ec27722fe85ce8c4211798c",
+   "pts_15360": 1819648,
+   "pts_time": 118.46666666666667,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0055.png"
+  },
+  "3555": {
+   "source_n": 3555,
+   "md5": "9ac575950801f8bd6a8ca0679fc6d9dd",
+   "pts_15360": 1820160,
+   "pts_time": 118.5,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0056.png"
+  },
+  "3556": {
+   "source_n": 3556,
+   "md5": "333633182e23b069f4fd9717dce150f2",
+   "pts_15360": 1820672,
+   "pts_time": 118.53333333333333,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0057.png"
+  },
+  "3557": {
+   "source_n": 3557,
+   "md5": "670876f2c76acc6119e4810c7bf7928c",
+   "pts_15360": 1821184,
+   "pts_time": 118.56666666666666,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0058.png"
+  },
+  "3558": {
+   "source_n": 3558,
+   "md5": "8161057d6a206d4b3af0673ae0fe7f70",
+   "pts_15360": 1821696,
+   "pts_time": 118.6,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0059.png"
+  },
+  "3559": {
+   "source_n": 3559,
+   "md5": "1290e00320ce4615f209950ab4a9880d",
+   "pts_15360": 1822208,
+   "pts_time": 118.63333333333334,
+   "png": "evidence/overdose-qwen-native-r1/win-C/native-n0060.png"
+  }
+ },
+ "note": "framehash filter absent in ffmpeg 7.0.2-static; raw-yuv420p MD5 of complete 1036800-byte frames; -vsync 0 required"
+}

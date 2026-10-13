@@ -1,0 +1,19 @@
+{
+  "source_sha256": "c12f1a8f5dfb033ff39d460e0b9476dccc1bbaba7582a4b283094048b35e6a71",
+  "sampling_fps": 4,
+  "sampling_method": "first_source_frame_in_occupied_bucket",
+  "source_frame_mapping": "source-frames.json",
+  "timestamp_domain": "source_video_pts_preserved_with_copyts",
+  "state": "extracted_uninspected",
+  "frame_count": 4,
+  "sheets": [
+    {
+      "file": "sheet-0000.jpg",
+      "start": 0.0,
+      "end": 0.767,
+      "time_range_kind": "selected_source_pts_inclusive",
+      "sha256": "2fe58fcbf9da479d5169f9bc2aac3f4a46f2b14f1b70d32835dd917db2861d58"
+    }
+  ],
+  "note": "Labels are selected source PTS, not a synthetic 4fps grid. Review at source FPS for impacts/glitches; resolve audio/video origins before synchronization."
+}

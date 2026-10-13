@@ -1,0 +1,16 @@
+{
+  "id": "NICO-sm46320139",
+  "url": "https://www.nicovideo.jp/watch/sm46320139",
+  "at_utc": "2026-10-01T07:16:38.832087+00:00",
+  "state": "downloaded_uninspected",
+  "http_status": null,
+  "bytes": 4481247,
+  "sha256": "92f173f7bc7fbf524e75204c97b92b8aaaea1ff8787d39f1f477b218ec2571a4",
+  "file": "sources/NICO-sm46320139/source.mp4",
+  "duration_seconds": 23,
+  "title": "【文字PV?】ライアーダンサー文字だけ再現してみた",
+  "uploader": "さいほうへいき",
+  "extractor": "Niconico",
+  "yt_dlp_version": "2026.08.19",
+  "blocked_redirects": 0
+}

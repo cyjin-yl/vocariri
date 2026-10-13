@@ -1,0 +1,776 @@
+{
+  "id": "overdose-qwen-art188-r3",
+  "round": "art188-r3",
+  "status": "completed_unreviewed",
+  "accepted_form_increment": 0,
+  "rendered_template_increment": 0,
+  "generated_at": "2026-10-02T14:53:29Z",
+  "work_order": {
+    "file": "WORK_ORDER_QWEN_OVERDOSE_ART188_R3.md",
+    "sha256": "03b2465b16a8fbfbdd6989cfc0ff77b18da624dcfef0956e1e9ac95a66b187e9",
+    "verified": true
+  },
+  "source": {
+    "file": "luna-public/media/YT_BnkhBwzBqlQ/source.mp4",
+    "sha256": "e0507f7a86b862679fb54036ff30c557fd51e8a7c08a60bc452d088a9c4a40ac",
+    "bytes": 27088524,
+    "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+    "fps": 30,
+    "width": 960,
+    "height": 720,
+    "timebase": "1/15360"
+  },
+  "r2_reuse": {
+    "native_window": "evidence/overdose-qwen-art188-r2/win-188/",
+    "frames_reused": 60,
+    "source_n_range": [
+      5610,
+      5669
+    ],
+    "pts_range": [
+      2872320,
+      2902528
+    ],
+    "time_range_s": [
+      187.0,
+      188.966667
+    ],
+    "no_re_extraction": true,
+    "framehash_note": "framehash.md5 uses output-time pts (0,512,...) from the muxer; source pts must come from showinfo-window.log mapping (source n = 5610 + counter, pts = 2872320 + counter*512). All 60 framehash md5 values are unique (no duplicate frames in this window)."
+  },
+  "read_log": {
+    "method": "one original PNG per image-tool call; screening sheet not used as locator for claims",
+    "unique_native_reads": 60,
+    "rereads": 0,
+    "derived_crop_reads": 0,
+    "frames": [
+      {
+        "native_file": "native-n0001.png",
+        "source_n": 5610,
+        "pts": 2872320,
+        "timebase": "1/15360",
+        "time_s": 187.0,
+        "sha256": "4a61eaddb590e5a83dc4c69b43811fcfd31e142148fbc31e949f10331d2b597d"
+      },
+      {
+        "native_file": "native-n0002.png",
+        "source_n": 5611,
+        "pts": 2872832,
+        "timebase": "1/15360",
+        "time_s": 187.033333,
+        "sha256": "7f3489ab233878e580de6ececd31ee6ac94fd166cdfab398ebad2b3af94add85"
+      },
+      {
+        "native_file": "native-n0003.png",
+        "source_n": 5612,
+        "pts": 2873344,
+        "timebase": "1/15360",
+        "time_s": 187.066667,
+        "sha256": "7d70a59d40e4c33cf9f9480d0eae57867339e622829727d0dd2a56eea74cd25e"
+      },
+      {
+        "native_file": "native-n0004.png",
+        "source_n": 5613,
+        "pts": 2873856,
+        "timebase": "1/15360",
+        "time_s": 187.1,
+        "sha256": "19d4b8c325c704bcc643686234d8ec0ae32b1427e7a43121e70f09771726c782"
+      },
+      {
+        "native_file": "native-n0005.png",
+        "source_n": 5614,
+        "pts": 2874368,
+        "timebase": "1/15360",
+        "time_s": 187.133333,
+        "sha256": "a4c08e8a2cb742bfe3767917d7046b316a3ca0216b3d728346cc5b1e579ac2ee"
+      },
+      {
+        "native_file": "native-n0006.png",
+        "source_n": 5615,
+        "pts": 2874880,
+        "timebase": "1/15360",
+        "time_s": 187.166667,
+        "sha256": "00a8dccbd102381d3518ff02aa86f4a580f8f4b1eb44a6982b70c7fbaa67e832"
+      },
+      {
+        "native_file": "native-n0007.png",
+        "source_n": 5616,
+        "pts": 2875392,
+        "timebase": "1/15360",
+        "time_s": 187.2,
+        "sha256": "502d2ae63222a0d040f6ec6f4800150655171d043f0a8808ef70f6f6c3ffce69"
+      },
+      {
+        "native_file": "native-n0008.png",
+        "source_n": 5617,
+        "pts": 2875904,
+        "timebase": "1/15360",
+        "time_s": 187.233333,
+        "sha256": "85bd6112642e786cec0f2082e2fc46681f8f6207a8a9cdeb9b9597e6cdee39d6"
+      },
+      {
+        "native_file": "native-n0009.png",
+        "source_n": 5618,
+        "pts": 2876416,
+        "timebase": "1/15360",
+        "time_s": 187.266667,
+        "sha256": "c26bfe7e3ac05e0cbcc511a08324be3d2517fb4f8f8f296ebef03ae878d72c2d"
+      },
+      {
+        "native_file": "native-n0010.png",
+        "source_n": 5619,
+        "pts": 2876928,
+        "timebase": "1/15360",
+        "time_s": 187.3,
+        "sha256": "d8dc56c5201a6d109cfdb15eae25c43ab424ccc65e590543eb4cf8826991dab8"
+      },
+      {
+        "native_file": "native-n0011.png",
+        "source_n": 5620,
+        "pts": 2877440,
+        "timebase": "1/15360",
+        "time_s": 187.333333,
+        "sha256": "50d85d6398fde7aab1e8626aba86a2dbdee732d575072902c4b5394483089d65"
+      },
+      {
+        "native_file": "native-n0012.png",
+        "source_n": 5621,
+        "pts": 2877952,
+        "timebase": "1/15360",
+        "time_s": 187.366667,
+        "sha256": "58ad586ddba6133d690d943cd369003756f0c5d8d16412dc5b86c97fed057f29"
+      },
+      {
+        "native_file": "native-n0013.png",
+        "source_n": 5622,
+        "pts": 2878464,
+        "timebase": "1/15360",
+        "time_s": 187.4,
+        "sha256": "77e7a335b3f284fc8f14d892676f4815f7bc3896afec41beed0f407b85393a3a"
+      },
+      {
+        "native_file": "native-n0014.png",
+        "source_n": 5623,
+        "pts": 2878976,
+        "timebase": "1/15360",
+        "time_s": 187.433333,
+        "sha256": "df31474028e43df2cd5586af8b4484ee38109a7fe8dc74f72089a9ad8d465501"
+      },
+      {
+        "native_file": "native-n0015.png",
+        "source_n": 5624,
+        "pts": 2879488,
+        "timebase": "1/15360",
+        "time_s": 187.466667,
+        "sha256": "72f5d643925b7f528044eaaf314d36d8b5f47159a925c389711e5f018e24099e"
+      },
+      {
+        "native_file": "native-n0016.png",
+        "source_n": 5625,
+        "pts": 2880000,
+        "timebase": "1/15360",
+        "time_s": 187.5,
+        "sha256": "6655ab7af85db268680854816287dc048d494af30890abf037fe30424e186935"
+      },
+      {
+        "native_file": "native-n0017.png",
+        "source_n": 5626,
+        "pts": 2880512,
+        "timebase": "1/15360",
+        "time_s": 187.533333,
+        "sha256": "2b5f7fda73e45ab3070eac91fde7eded1cc72c34c821e30ccd7189c92f6d907c"
+      },
+      {
+        "native_file": "native-n0018.png",
+        "source_n": 5627,
+        "pts": 2881024,
+        "timebase": "1/15360",
+        "time_s": 187.566667,
+        "sha256": "89b2fc6d164e5a6f7bf772eb5dbe348f91fe76de2e22e531fdc0dbae980f3317"
+      },
+      {
+        "native_file": "native-n0019.png",
+        "source_n": 5628,
+        "pts": 2881536,
+        "timebase": "1/15360",
+        "time_s": 187.6,
+        "sha256": "19c57e24ea028a8e8e95ca04509ea0ab57db797b103ee16b7329a48b37cace6a"
+      },
+      {
+        "native_file": "native-n0020.png",
+        "source_n": 5629,
+        "pts": 2882048,
+        "timebase": "1/15360",
+        "time_s": 187.633333,
+        "sha256": "b70f764d467973b0667e4a3de15eb2576d746feac0253839236f39be399ca48c"
+      },
+      {
+        "native_file": "native-n0021.png",
+        "source_n": 5630,
+        "pts": 2882560,
+        "timebase": "1/15360",
+        "time_s": 187.666667,
+        "sha256": "29895e55848407a3d82fc7ef9ff111dc6222a387e8dbae6c1ec2afe22c47a019"
+      },
+      {
+        "native_file": "native-n0022.png",
+        "source_n": 5631,
+        "pts": 2883072,
+        "timebase": "1/15360",
+        "time_s": 187.7,
+        "sha256": "9d3eecde9e6d9fcd69b52d6710ce70ebb47c221de3fb766e719f6b65b862bd37"
+      },
+      {
+        "native_file": "native-n0023.png",
+        "source_n": 5632,
+        "pts": 2883584,
+        "timebase": "1/15360",
+        "time_s": 187.733333,
+        "sha256": "dc6a136de8a608a3f1182fa8dd2c5ea3454585f97305d9c39c9aa5857ca27afd"
+      },
+      {
+        "native_file": "native-n0024.png",
+        "source_n": 5633,
+        "pts": 2884096,
+        "timebase": "1/15360",
+        "time_s": 187.766667,
+        "sha256": "af57e624e40cf879efa7df024455d86d69797139be7bcf0f858fac3e25cb57dd"
+      },
+      {
+        "native_file": "native-n0025.png",
+        "source_n": 5634,
+        "pts": 2884608,
+        "timebase": "1/15360",
+        "time_s": 187.8,
+        "sha256": "d53a689c09c45337df40e732916f7fdf2fa30a48e5cb1da4ea28d0bc6b3b5fb2"
+      },
+      {
+        "native_file": "native-n0026.png",
+        "source_n": 5635,
+        "pts": 2885120,
+        "timebase": "1/15360",
+        "time_s": 187.833333,
+        "sha256": "bee0b3fd3f7afce8b2d4b7ce2aa7b4c54da1f5a14f66775eef53087d27d6db01"
+      },
+      {
+        "native_file": "native-n0027.png",
+        "source_n": 5636,
+        "pts": 2885632,
+        "timebase": "1/15360",
+        "time_s": 187.866667,
+        "sha256": "cfd6eed1be0e58842f9ab1aad66d7abac9556a1f5bef34ed1965c2c9f222b36c"
+      },
+      {
+        "native_file": "native-n0028.png",
+        "source_n": 5637,
+        "pts": 2886144,
+        "timebase": "1/15360",
+        "time_s": 187.9,
+        "sha256": "0358d6ad1c8a51c7ad679baadd7aa2d0176bc871cfd5ed805f0a831cba5d819b"
+      },
+      {
+        "native_file": "native-n0029.png",
+        "source_n": 5638,
+        "pts": 2886656,
+        "timebase": "1/15360",
+        "time_s": 187.933333,
+        "sha256": "f45fdd6e4bee8ab362e7c16f7177f1fe17659532230c1f43c349b59aa9a72e23"
+      },
+      {
+        "native_file": "native-n0030.png",
+        "source_n": 5639,
+        "pts": 2887168,
+        "timebase": "1/15360",
+        "time_s": 187.966667,
+        "sha256": "df7becef7b5bf4a12e7517e7acd8a5802aa457c92869c9c4d4207313230f5224"
+      },
+      {
+        "native_file": "native-n0031.png",
+        "source_n": 5640,
+        "pts": 2887680,
+        "timebase": "1/15360",
+        "time_s": 188.0,
+        "sha256": "ac0b816e4cef9e3b5e36845ea66ae2993cde56a1fae8d4b6661671feb1a0fd38"
+      },
+      {
+        "native_file": "native-n0032.png",
+        "source_n": 5641,
+        "pts": 2888192,
+        "timebase": "1/15360",
+        "time_s": 188.033333,
+        "sha256": "ba5124aabab914ccb19fed416fc20a4c96ada53de3f9c7cb0b8697f2e11b4627"
+      },
+      {
+        "native_file": "native-n0033.png",
+        "source_n": 5642,
+        "pts": 2888704,
+        "timebase": "1/15360",
+        "time_s": 188.066667,
+        "sha256": "a17c77b08f4d01c705329dfa231de728a3df6cd66ac51d04d52fa6d61bd23b1a"
+      },
+      {
+        "native_file": "native-n0034.png",
+        "source_n": 5643,
+        "pts": 2889216,
+        "timebase": "1/15360",
+        "time_s": 188.1,
+        "sha256": "49f5759b67a46985964868cf17656b30cae8adee3ed7a5ecafc6e4d7bae2cd97"
+      },
+      {
+        "native_file": "native-n0035.png",
+        "source_n": 5644,
+        "pts": 2889728,
+        "timebase": "1/15360",
+        "time_s": 188.133333,
+        "sha256": "88457863b024f71063485ce9da7718d15e87be73a2fecc9fd59710a8be35c616"
+      },
+      {
+        "native_file": "native-n0036.png",
+        "source_n": 5645,
+        "pts": 2890240,
+        "timebase": "1/15360",
+        "time_s": 188.166667,
+        "sha256": "fef0d18bebab1b26af54921e8c5e1ceb168f8249ac5cc969800ecdbea66a5da3"
+      },
+      {
+        "native_file": "native-n0037.png",
+        "source_n": 5646,
+        "pts": 2890752,
+        "timebase": "1/15360",
+        "time_s": 188.2,
+        "sha256": "803974c8a264b1a3d8bd5e1187950db088519c7c56742890b6947956dbc55d41"
+      },
+      {
+        "native_file": "native-n0038.png",
+        "source_n": 5647,
+        "pts": 2891264,
+        "timebase": "1/15360",
+        "time_s": 188.233333,
+        "sha256": "5d8aa058f79fc1f4895c6509444bb7bd7a96d3192f03ee4268654ebefa4f051f"
+      },
+      {
+        "native_file": "native-n0039.png",
+        "source_n": 5648,
+        "pts": 2891776,
+        "timebase": "1/15360",
+        "time_s": 188.266667,
+        "sha256": "7e37c20b95dab9c5fceaafa7637385322b187703eee014f6e670a4bd59888f80"
+      },
+      {
+        "native_file": "native-n0040.png",
+        "source_n": 5649,
+        "pts": 2892288,
+        "timebase": "1/15360",
+        "time_s": 188.3,
+        "sha256": "7d73d2dfc44dd347f5dcb5c2d8cd1f3fa25121b9c9071067dd9772d850e47882"
+      },
+      {
+        "native_file": "native-n0041.png",
+        "source_n": 5650,
+        "pts": 2892800,
+        "timebase": "1/15360",
+        "time_s": 188.333333,
+        "sha256": "215c110e27d18bff7f335bb9a68956034e81565fe249360231de6dcef5b9ebe6"
+      },
+      {
+        "native_file": "native-n0042.png",
+        "source_n": 5651,
+        "pts": 2893312,
+        "timebase": "1/15360",
+        "time_s": 188.366667,
+        "sha256": "a0c673637cdc80470d605d1ad7732644f182bd7eb9792667d9170f02a2b08346"
+      },
+      {
+        "native_file": "native-n0043.png",
+        "source_n": 5652,
+        "pts": 2893824,
+        "timebase": "1/15360",
+        "time_s": 188.4,
+        "sha256": "2706933bec1786aeb2c9057af94c7d41a0fbf6332e7154751d0862c312b72c7d"
+      },
+      {
+        "native_file": "native-n0044.png",
+        "source_n": 5653,
+        "pts": 2894336,
+        "timebase": "1/15360",
+        "time_s": 188.433333,
+        "sha256": "46bedc4eeb6a199da1cb844e593c6e127674ea24b60eb4697074688910fb8772"
+      },
+      {
+        "native_file": "native-n0045.png",
+        "source_n": 5654,
+        "pts": 2894848,
+        "timebase": "1/15360",
+        "time_s": 188.466667,
+        "sha256": "debab23deedb204c87a4fe9b4d68743d8e347016dc140dc69083d22c78ccae8a"
+      },
+      {
+        "native_file": "native-n0046.png",
+        "source_n": 5655,
+        "pts": 2895360,
+        "timebase": "1/15360",
+        "time_s": 188.5,
+        "sha256": "d107516283cdfd6bc3ef7a59c99a5931a6d4857c2d5d643d75440413c1112b02"
+      },
+      {
+        "native_file": "native-n0047.png",
+        "source_n": 5656,
+        "pts": 2895872,
+        "timebase": "1/15360",
+        "time_s": 188.533333,
+        "sha256": "e72bb4bff3e50e4c236a167765a2417e7f6f578afff6fb6d920bb97d02bbea8a"
+      },
+      {
+        "native_file": "native-n0048.png",
+        "source_n": 5657,
+        "pts": 2896384,
+        "timebase": "1/15360",
+        "time_s": 188.566667,
+        "sha256": "5a38c5a6fe5b5fcb02827ea90d967f01aa3412ca0dcaa71e62985b28e0eeeca3"
+      },
+      {
+        "native_file": "native-n0049.png",
+        "source_n": 5658,
+        "pts": 2896896,
+        "timebase": "1/15360",
+        "time_s": 188.6,
+        "sha256": "43e9dbb8778db55377e1764cfc1a4dcc07bbd2bdc25bd7fd2977989e89120dec"
+      },
+      {
+        "native_file": "native-n0050.png",
+        "source_n": 5659,
+        "pts": 2897408,
+        "timebase": "1/15360",
+        "time_s": 188.633333,
+        "sha256": "d33706e0f091aa15456856d24b5101b0b102e6623787bde3ab250d3e030360e9"
+      },
+      {
+        "native_file": "native-n0051.png",
+        "source_n": 5660,
+        "pts": 2897920,
+        "timebase": "1/15360",
+        "time_s": 188.666667,
+        "sha256": "5664602622631d5445038ed259916383fc370d9a769114953f5788a8c73be692"
+      },
+      {
+        "native_file": "native-n0052.png",
+        "source_n": 5661,
+        "pts": 2898432,
+        "timebase": "1/15360",
+        "time_s": 188.7,
+        "sha256": "d232f4ae303f48233938e3226b3667f87480a610d7ba815795c3915e7c7bc96e"
+      },
+      {
+        "native_file": "native-n0053.png",
+        "source_n": 5662,
+        "pts": 2898944,
+        "timebase": "1/15360",
+        "time_s": 188.733333,
+        "sha256": "9c385a7d716c426f01117c9759db023f9ff0d6623747d4232ee9094cfa98bd1f"
+      },
+      {
+        "native_file": "native-n0054.png",
+        "source_n": 5663,
+        "pts": 2899456,
+        "timebase": "1/15360",
+        "time_s": 188.766667,
+        "sha256": "70450fd0b08412aaab1b71ebbe266a9ac90475784afe0016fc5e28367f49f68b"
+      },
+      {
+        "native_file": "native-n0055.png",
+        "source_n": 5664,
+        "pts": 2899968,
+        "timebase": "1/15360",
+        "time_s": 188.8,
+        "sha256": "de642953c23b615ec2ccc9af113d55ab6aad0658881bcc8951843e00ffaf0995"
+      },
+      {
+        "native_file": "native-n0056.png",
+        "source_n": 5665,
+        "pts": 2900480,
+        "timebase": "1/15360",
+        "time_s": 188.833333,
+        "sha256": "c9ffb13ac771c02d90bdbb0c777ca3de0bcee81fc9addc4c0174a3d9f65e989b"
+      },
+      {
+        "native_file": "native-n0057.png",
+        "source_n": 5666,
+        "pts": 2900992,
+        "timebase": "1/15360",
+        "time_s": 188.866667,
+        "sha256": "7a7c036bc1bd322101729441557294a71969e9318d790b8f77523221b6cdabe4"
+      },
+      {
+        "native_file": "native-n0058.png",
+        "source_n": 5667,
+        "pts": 2901504,
+        "timebase": "1/15360",
+        "time_s": 188.9,
+        "sha256": "686f090b8017d45734622f196d820e4347c4767bc906881fd335f4e899da40f1"
+      },
+      {
+        "native_file": "native-n0059.png",
+        "source_n": 5668,
+        "pts": 2902016,
+        "timebase": "1/15360",
+        "time_s": 188.933333,
+        "sha256": "60abbd097865092e23002f72cdcdae23f9a3ffe14b051d48b2b1512f50ebd5f6"
+      },
+      {
+        "native_file": "native-n0060.png",
+        "source_n": 5669,
+        "pts": 2902528,
+        "timebase": "1/15360",
+        "time_s": 188.966667,
+        "sha256": "43b6baf328a8b4fa042ed81f6ecb34325a45c1c28fb2a8c48d97ebb855837f55"
+      }
+    ]
+  },
+  "scene_structure": {
+    "shot_A": {
+      "label": "glitch dance row + ANGEL text",
+      "frames": "n5610-n5664 (187.0-188.8s)",
+      "subphases": [
+        {
+          "frames": "n5610-n5612",
+          "time_s": "187.0-187.07",
+          "desc": "onset: single MMD figure (woman, headband) heavily distorted with neon pink/green/cyan chroma-edge glow, pixel block noise; glow/blur onset"
+        },
+        {
+          "frames": "n5613-n5616",
+          "time_s": "187.1-187.2",
+          "desc": "exposure dip: same layout, mean drops 155->65 (iskey:1 at n5613); heavily pixelated dark horizontal bands, figure barely visible"
+        },
+        {
+          "frames": "n5617-n5622",
+          "time_s": "187.23-187.4",
+          "desc": "row of 5-7 MMD figures emerges through glitch; white/pale costumes, pink background, row of hearts at top; figures mirrored left-right"
+        },
+        {
+          "frames": "n5623-n5625",
+          "time_s": "187.43-187.5",
+          "desc": "text ANGEL appears in large pixel font across center; color flicker: red-pink -> yellow-green (white outline, dark shadow offset) -> rainbow CA"
+        },
+        {
+          "frames": "n5626-n5649",
+          "time_s": "187.53-188.3",
+          "desc": "main ANGEL scene: 4 MMD characters (blonde, green/mint outfits) dancing in row; ANGEL text overlaid center; text color cycles per-frame (green->dark purple->rainbow->white/orange->green/white->white/silver->yellow-green->white); text jitters (n5647); hearts float above heads; purple/blue pixelated city background"
+        },
+        {
+          "frames": "n5650-n5652",
+          "time_s": "188.33-188.4",
+          "desc": "text ANGEL absent; 5-6 figures in green/mint outfits, shy pose (hand over mouth); background spiral decorations"
+        },
+        {
+          "frames": "n5653-n5658",
+          "time_s": "188.43-188.6",
+          "desc": "brightness spike: scene overexposed (mean 158), white overlay, pink/purple tint; faces partially visible through white wash"
+        },
+        {
+          "frames": "n5659-n5660",
+          "time_s": "188.63-188.67",
+          "desc": "clearer: 4 blonde MMD girls in white/mint sailor uniforms, blue eyes, dancing; glitch decreasing"
+        },
+        {
+          "frames": "n5661-n5664",
+          "time_s": "188.7-188.8",
+          "desc": "transition: new layout (legs top, gray band center, row of faces bottom); heavy vertical glitch bands; block fragmentation; central dark silhouette with arms raised"
+        }
+      ]
+    },
+    "shot_B": {
+      "label": "inverted purple-head character + tiled collage",
+      "frames": "n5665-n5669 (188.83-188.97s)",
+      "desc": "figure with purple/spherical head (green face pattern), orange/red torso, teal legs; oscillates upside-down (n5665,5666,5668,5669) and upright (n5667); chaotic tiled collage background (hearts, gift shop, pink/green/blue pixel noise); RGB split on tiles"
+    },
+    "cut": "explicit cut between shot A and shot B at n5664/n5665; no cross-fade"
+  },
+  "typography": {
+    "text_content": "ANGEL (5 uppercase letters, all caps)",
+    "legibility": "readable in most frames; n5623 (red, heavy pixelation) and n5627 (dark purple) are low-contrast/uncertain; n5650-n5652 text absent",
+    "script_hierarchy": "single word, dominant size (~40% frame width, ~15% frame height), no secondary text in this window",
+    "glyph_anatomy": {
+      "A": "triangular top, thick diagonal strokes, horizontal bar near bottom; small triangular counter",
+      "N": "two vertical strokes + diagonal; no counter",
+      "G": "rounded C-shape with bar/notch at right; partial counter",
+      "E": "three horizontal bars + vertical stem; no counter",
+      "L": "vertical stem + bottom horizontal; no counter"
+    },
+    "stroke_contrast": "minimal - uniformly thick (heavy display/block font); no thin/thick modulation",
+    "joins_terminals": "square/block terminals; no serifs; joins are 90-degree mitered",
+    "counters": "small, mostly filled; A has small triangular counter; G has partial counter; N/E/L have no counters",
+    "spacing": "tight; letters nearly touching; no kerning visible",
+    "fill": "flat per-frame discrete color (no within-frame gradient except rainbow phase); color cycles per-frame: white/orange, green, teal, yellow-green, purple, rainbow, dark",
+    "outline": "white or dark stroke, varies per-frame; present in most frames",
+    "shadow_extrusion": "n5624 shows dark drop-shadow offset (bottom-right); no continuous extrusion",
+    "internal_texture": "horizontal segment stripes (ladder pattern) visible in white phase (n5630, n5640, n5660); pixel block noise in glitch frames",
+    "channel_offsets": "strong RGB split (chromatic aberration) on many frames, especially n5625, n5649, and glitch frames",
+    "appearance_mechanism": "per-frame discrete opacity (1/0) - text appears n5623, disappears n5650, absent through n5669; not a fade",
+    "position_jitter": "slight horizontal/vertical jitter (n5647: text shifts right, A partially clipped at left edge)"
+  },
+  "material_composition": {
+    "figures": "4-7 MMD-style characters in a row; mirrored left-right around center; dance poses change every 1-2 frames (high tempo); blonde hair, green/mint/white outfits, blue eyes (n5659+); pink hair in earlier frames (n5620)",
+    "hearts": "small pixel hearts floating above figures' heads; pink/teal; present in n5618-n5646",
+    "background": "purple/blue pixelated city silhouette (night); spiral decorations (n5650-52); tiled collage in shot B",
+    "letterbox": "black bars left/right (content is ~16:9 within 960x720 4:3 frame)",
+    "bg_fg_order": "text in front of figures; hearts in front of figures; text above figures' heads",
+    "empty_space": "background city provides negative space; figures occupy center-lower; text occupies center-upper"
+  },
+  "static_artistic_variation": [
+    "text color cycle (discrete per-frame, not smooth)",
+    "text opacity on/off (discrete)",
+    "text position jitter (small, per-frame)",
+    "figure pose changes (per-frame dance)",
+    "exposure dip (n5613-16)",
+    "brightness spike/flash (n5653-58)",
+    "glitch intensity varies (CA amount, block size, displacement)",
+    "hearts bob/flicker",
+    "character orientation oscillation (shot B: upside-down vs upright)"
+  ],
+  "constructions": [
+    {
+      "id": "C1",
+      "name": "mirrored figure row",
+      "observed_pixels": "4-7 MMD characters in a row, mirrored left-right, dancing, poses change every 1-2 frames",
+      "proposal": "single figure layer (2D rig or per-frame sprite) + mirror duplicate (flip left half to generate right half); pose driven by keyframe track; spacing/offset editable",
+      "editable_axes": [
+        "figure count",
+        "pose keyframes",
+        "mirror on/off",
+        "spacing",
+        "figure content (sprite/rig)"
+      ],
+      "lyric_emotion_fit": "fits upbeat, playful, group-affection lines (dancing row + hearts); avoid slow/melancholic lines (motion tempo too high)",
+      "reading_risks": "figure motion may distract from text if text is in the same region; mirror symmetry may read as 'copy-paste' if figure poses are identical",
+      "image_relation": "figures are behind text; hearts are in front of figures; text is above figures' heads",
+      "transition": "explicit cut to shot B; no cross-fade; flash (n5653-58) is a transition device"
+    },
+    {
+      "id": "C2",
+      "name": "ANGEL text",
+      "observed_pixels": "5-letter all-caps pixel/block font, ~40% frame width, centered; per-frame discrete color cycle; per-frame opacity on/off; slight jitter; white/dark outline; internal ladder stripes; drop shadow (n5624); glow; RGB split",
+      "proposal": "text layer with block/pixel display font (or vector glyph artwork); fill = keyframed solid color (per-frame discrete, not gradient); outline = stroke pass (keyframed); internal stripes = horizontal-line mask/overlay clipped to text; drop shadow = offset duplicate behind (dark); glow = blur + additive layer behind; CA = RGB channel offset (keyframed); appearance = per-frame opacity keyframes (1/0); jitter = small random positional offsets",
+      "editable_axes": [
+        "word content",
+        "font/glyph artwork",
+        "color cycle sequence",
+        "glow intensity",
+        "CA offset amount",
+        "opacity pattern",
+        "jitter amplitude",
+        "outline color/width",
+        "shadow offset/opacity"
+      ],
+      "lyric_emotion_fit": "short single-word lyric (ANGEL) fits compliment/affection/electronic themes; color flicker fits high-energy/fast-tempo sections; avoid long text (only short words fit the size); avoid slow lines (flicker is too high-energy)",
+      "reading_risks": "text flickers and disappears - for sustained lyric readability, pin color cycle to high-contrast state (white on dark); rainbow/CA phases reduce legibility; tight spacing may make letters run together at small sizes",
+      "image_relation": "text is in front of figures, above figures' heads; text does not occlude faces",
+      "transition": "text appears n5623 (hard in, no fade), disappears n5650 (hard out); flash (n5653-58) precedes text absence"
+    },
+    {
+      "id": "C3",
+      "name": "global glitch pass",
+      "observed_pixels": "pixel block noise, strong RGB split, block displacement (datamosh-like), exposure dip (n5613-16), brightness spike (n5653-58), vertical glitch bands (n5663-64)",
+      "proposal": "pixelation = downscale + upscale (nearest) with keyframed block size; CA = RGB channel offset (keyframed); block displacement = slice displacement (approximate datamosh; not native in most 2D tools - may require pre-rendered sprites or plugin); exposure dip = per-frame brightness keyframes; flash = white overlay opacity (keyframed); vertical bands = keyframed mask/strip displacement",
+      "editable_axes": [
+        "block size",
+        "CA offset amount",
+        "displacement strength",
+        "flash timing/opacity",
+        "exposure keyframes",
+        "vertical band width/offset"
+      ],
+      "lyric_emotion_fit": "fits electronic/digital/internet themes (title: INTERNET OVERDOSE); glitch intensity can track energy (high glitch = high energy); avoid for intimate/quiet passages (glitch is too aggressive)",
+      "reading_risks": "heavy glitch reduces text legibility (n5623, n5625); exposure dip (n5613-16) makes scene nearly unreadable; flash (n5653-58) washes out details",
+      "image_relation": "glitch pass is global (applied to all layers); it is continuous across the shot A/B cut (both shots have CA + block noise) - provides continuity",
+      "transition": "glitch is the shared continuity device across the cut; it does not transition, it persists"
+    },
+    {
+      "id": "C4",
+      "name": "tiled collage background (shot B)",
+      "observed_pixels": "grid of tiles (3x3+), each tile = crop from a source image; per-tile RGB split, hue shift; hearts, gift shop, pink/green/blue pixel noise",
+      "proposal": "grid of tile layers (3x3+), each tile = a crop from a source image; per-tile: RGB split (keyframed), hue shift (keyframed); tile content is editable (swap crops); grid size editable",
+      "editable_axes": [
+        "tile grid size",
+        "tile content (crops)",
+        "per-tile hue offset",
+        "per-tile CA amount",
+        "tile borders/gaps"
+      ],
+      "lyric_emotion_fit": "fits chaotic/overloaded/internet-surfing themes; avoid for calm/ordered passages",
+      "reading_risks": "high visual noise - text over this background needs strong contrast (white + dark outline); tile content may distract",
+      "image_relation": "tiles are background; character is in front; tiles do not move (static grid) while character oscillates",
+      "transition": "explicit cut from shot A; no cross-fade"
+    },
+    {
+      "id": "C5",
+      "name": "inverted character (shot B)",
+      "observed_pixels": "figure with purple/spherical head (green face pattern), orange/red torso, teal legs; oscillates upside-down (n5665,5666,5668,5669) and upright (n5667)",
+      "proposal": "single character layer (2D rig or sprite); rotation keyframed 0/180 degrees (oscillation); pose keyframed; character content editable",
+      "editable_axes": [
+        "character content",
+        "rotation phase (0/180)",
+        "pose keyframes",
+        "oscillation frequency"
+      ],
+      "lyric_emotion_fit": "fits playful/absurd/upside-down themes; inversion is a comic device; avoid for serious/grounded passages",
+      "reading_risks": "inversion may confuse if the character's identity is important; oscillation frequency should match tempo",
+      "image_relation": "character is in front of tiled collage; character is centered",
+      "transition": "explicit cut from shot A; no cross-fade"
+    },
+    {
+      "id": "C6",
+      "name": "heart layer",
+      "observed_pixels": "small pixel hearts floating above figures' heads; pink/teal; present n5618-n5646; bob/flicker",
+      "proposal": "small pixel heart sprite, instanced above each figure's head; per-instance: vertical bobbing (sine wave), opacity flicker; heart count, bob amplitude/frequency, color editable",
+      "editable_axes": [
+        "heart count",
+        "bob amplitude",
+        "bob frequency",
+        "opacity flicker rate",
+        "heart color",
+        "heart size"
+      ],
+      "lyric_emotion_fit": "fits affection/playful/romantic lines; hearts are a universal 'love' symbol; avoid for non-affectionate passages",
+      "reading_risks": "hearts may clutter the space above figures if too many; bob frequency should not conflict with text flicker",
+      "image_relation": "hearts are in front of figures, above figures' heads; hearts do not occlude text",
+      "transition": "hearts present in shot A, absent in shot B (explicit cut)"
+    }
+  ],
+  "continuity": {
+    "text": "ANGEL text is only in shot A; absent in shot B - explicit cut; no text continuity across the cut",
+    "scene": "background city (A) vs tiled collage (B) - explicit cut; no scene continuity",
+    "texture_noise": "glitch pass (CA + block noise) is continuous across the cut - both shots have the same global glitch; this is the shared continuity device",
+    "camera": "no clear camera movement within shot A (fixed framing); the re-layout at n5661-64 is a cut/transition, not a camera move; shot B has no camera movement"
+  },
+  "ae_export_gaps": {
+    "editable_text_shaping": "AE text layer + block font is fine; internal ladder stripes require a mask/overlay (not native to AE text); vector glyph artwork is editable in AE (shape layers)",
+    "masks_materials": "per-frame discrete color cycle = keyframed solid colors (AE supports); horizontal-line mask clipped to text = AE mask + track matte (doable, not one-click); drop shadow = AE drop shadow effect (native)",
+    "effects_alpha_color": "glow = AE blur + additive blend (doable); flash = white layer opacity (doable); pixelation = downscale + upscale (doable, but quality depends on interpolation setting); CA = AE channel offset / RGB split (doable); datamosh-style block displacement = NOT native in AE (requires plugin or pre-rendered sprites)",
+    "camera_coordinate": "fixed framing, no camera - no AE camera needed; 2D layer positioning is sufficient",
+    "runtime_parity": "UNTESTED - proposed recipes are visual approximations; per-frame pixel match to source is not guaranteed; each recipe step needs validation in the target tool",
+    "native_support_baking_proxy": "NOT ASSUMED - each recipe step must be validated in the target tool; no silent assumption of native support, baking, or proxy fallback"
+  },
+  "counterexamples": [
+    "n5650-n5652: text absent - if a recipe assumes continuous text, it fails here",
+    "n5613-n5616: exposure dip - if a recipe assumes constant exposure, it fails here",
+    "n5653-n5658: brightness spike - if a recipe assumes no flash, it fails here",
+    "n5665-n5669: shot B has no text - if a recipe assumes text in all shots, it fails here",
+    "n5667: character upright (not inverted) - if a recipe assumes constant inversion in shot B, it fails here"
+  ],
+  "unresolved_evidence": [
+    "exact color cycle sequence is not fully deterministic (per-frame observation, no source data for the cycle algorithm)",
+    "jitter amplitude/frequency is not precisely measured (visual estimate only)",
+    "figure pose keyframes are not extracted (visual observation only, no skeleton data)",
+    "tile content in shot B is not identified (no source image for the tiles)",
+    "heart bob frequency is not precisely measured (visual estimate only)",
+    "the 'ladder stripes' in the text are not confirmed to be a separate mask layer (may be part of the font glyph artwork)"
+  ],
+  "notes": [
+    "All 60 frames were read individually; no screening montage was used for claims",
+    "The framehash.md5 uses output-time pts (muxer), not source pts; source pts come from showinfo-window.log",
+    "All 60 framehash md5 values are unique (no duplicate frames in this window)",
+    "The text 'ANGEL' is the only readable text in this window; no other glyphs were identified",
+    "The figures are MMD-style 3D characters; an appearance suggesting 3D may have an original 2D construction; this does not establish the author's software, graph, or use of MMD",
+    "Scene/person repetition or dance remains useful scene reference and never counts alone as a text-animation form"
+  ]
+}

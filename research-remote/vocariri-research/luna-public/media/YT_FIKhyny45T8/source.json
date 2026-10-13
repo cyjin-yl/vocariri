@@ -1,0 +1,18 @@
+{
+  "id": "YT_FIKhyny45T8",
+  "url": "https://www.youtube.com/watch?v=FIKhyny45T8",
+  "at": "2026-09-24T16:02:48.113315+00:00",
+  "title": "【Aviutl】文字登場を移動と拡大で作ろう",
+  "uploader": "Venicck",
+  "duration": 50,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 3443720,
+  "sha256": "96ffa1132459b3600f1fb1a714fee5b754dbcae1c638afd90c644eead8ac8008",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

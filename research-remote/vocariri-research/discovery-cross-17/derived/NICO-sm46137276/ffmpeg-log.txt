@@ -1,0 +1,48 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/work/sources/NICO-sm46137276/source.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Duration: 00:00:16.98, start: 0.000000, bitrate: 2191 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 854x480 [SAR 1:1 DAR 427:240], 1918 kb/s, 60 fps, 60 tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : ETI ISO Video Media Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : Elemental H.264
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 259 kb/s (default)
+      Metadata:
+        handler_name    : ETI ISO Audio Media Handler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+[swscaler @ 0x708fb4017780] deprecated pixel format used, make sure you did set range correctly
+[Parsed_showinfo_2 @ 0x708fb4011000] config in time_base: 1/90000, frame_rate: 60/1
+[Parsed_showinfo_2 @ 0x708fb4011000] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_2 @ 0x708fb4011000] n:   0 pts:      0 pts_time:0       duration:   1500 duration_time:0.0166667 fmt:yuvj420p cl:left sar:1281/1280 s:480x270 i:P iskey:1 type:I checksum:58043193 plane_checksum:[062F9BF7 B2DF4F12 5AB0467B] mean:[254 128 128] stdev:[8.6 0.4 0.6]
+[Parsed_showinfo_2 @ 0x708fb4011000]   side data - H.26[45] User Data Unregistered SEI message: UUID=8fbb6c74-7c3e-4f78-9f07-8cb35d3c177e
+[Parsed_showinfo_2 @ 0x708fb4011000] User Data=456c656d656e74616c20566964656f20456e67696e6528746d29207777772e656c656d656e74616c746563686e6f6c6f676965732e636f6d
+[Parsed_showinfo_2 @ 0x708fb4011000] 
+[Parsed_showinfo_2 @ 0x708fb4011000] color_range:pc color_space:unknown color_primaries:bt709 color_trc:bt709
+Output #0, image2, to '/work/derived/NICO-sm46137276/frame-%03d.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Stream #0:0(und): Video: mjpeg, yuvj420p(pc, unknown/bt709/bt709, progressive), 480x270 [SAR 1281:1280 DAR 427:240], q=2-31, 200 kb/s, 60 fps, 60 tbn (default)
+      Metadata:
+        handler_name    : ETI ISO Video Media Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.3.100 mjpeg
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[Parsed_showinfo_2 @ 0x708fb4011000] n:   1 pts: 450000 pts_time:5       duration:   1500 duration_time:0.0166667 fmt:yuvj420p cl:left sar:1281/1280 s:480x270 i:P iskey:0 type:B checksum:6E7937E0 plane_checksum:[E67D1037 FB536570 1ABDC22A] mean:[249 130 125] stdev:[18.0 6.0 10.7]
+[Parsed_showinfo_2 @ 0x708fb4011000] color_range:pc color_space:unknown color_primaries:bt709 color_trc:bt709
+frame=    1 fps=0.0 q=3.0 size=N/A time=00:00:00.01 bitrate=N/A speed=0.0333x    
+[Parsed_showinfo_2 @ 0x708fb4011000] n:   2 pts: 900000 pts_time:10      duration:   1500 duration_time:0.0166667 fmt:yuvj420p cl:left sar:1281/1280 s:480x270 i:P iskey:0 type:B checksum:A4CE73B0 plane_checksum:[E90FA398 2F3D6469 54B56BA0] mean:[247 130 124] stdev:[23.2 6.6 12.7]
+[Parsed_showinfo_2 @ 0x708fb4011000] color_range:pc color_space:unknown color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x708fb4011000] n:   3 pts:1350000 pts_time:15      duration:   1500 duration_time:0.0166667 fmt:yuvj420p cl:left sar:1281/1280 s:480x270 i:P iskey:0 type:I checksum:075FE283 plane_checksum:[076B2C5A CC3F926E 646C23BB] mean:[204 155 81] stdev:[8.1 2.9 5.2]
+[Parsed_showinfo_2 @ 0x708fb4011000] color_range:pc color_space:unknown color_primaries:bt709 color_trc:bt709
+[out#0/image2 @ 0x1ed22d40] video:26KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    4 fps=0.0 q=3.0 Lsize=N/A time=00:00:15.01 bitrate=N/A speed=15.8x    

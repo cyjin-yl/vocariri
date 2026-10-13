@@ -1,0 +1,18 @@
+{
+  "id": "YT_UoptEaMrnok",
+  "url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+  "at": "2026-09-24T06:14:38.286638+00:00",
+  "title": "Worlders feat. 初音ミク / じん【Official MV】",
+  "uploader": "じん OFFICIAL YOUTUBE CHANNEL",
+  "duration": 287,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 26143527,
+  "sha256": "cc9484b9100469aebaf12c23197d5380fb8479d8ecdc8293af02652db471db35",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

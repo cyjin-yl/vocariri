@@ -1,0 +1,48 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/workspace/media/YT_t-VhP8PHI80/source.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Duration: 00:01:22.04, start: 0.000000, bitrate: 1444 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1322 kb/s, 29.97 fps, 29.97 tbr, 30k tbn (default)
+      Metadata:
+        handler_name    : ISO Media file produced by Google Inc.
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 115 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+[Parsed_showinfo_1 @ 0x7e5c30003640] config in time_base: 1/30000, frame_rate: 30000/1001
+[Parsed_showinfo_1 @ 0x7e5c30003640] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 0x7e5c30003640] n:   0 pts:2226224 pts_time:74.207467 duration:   1001 duration_time:0.0333667 fmt:yuv420p cl:left sar:1/1 s:1280x720 i:P iskey:0 type:B checksum:C9248EDB plane_checksum:[B65E5A0F 00931A5E 96DA1A6E] mean:[25 128 128] stdev:[25.1 0.0 0.0]
+[Parsed_showinfo_1 @ 0x7e5c30003640] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+Output #0, image2, to '/workspace/sampling-audit-09/png-time-reconciliation/n-%03d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn (default)
+      Metadata:
+        handler_name    : ISO Media file produced by Google Inc.
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.3.100 png
+[Parsed_showinfo_1 @ 0x7e5c30003640] n:   1 pts:2227225 pts_time:74.240833 duration:   1001 duration_time:0.0333667 fmt:yuv420p cl:left sar:1/1 s:1280x720 i:P iskey:0 type:P checksum:F22E8ECB plane_checksum:[660759FF 00931A5E 96DA1A6E] mean:[25 128 128] stdev:[25.1 0.0 0.0]
+[Parsed_showinfo_1 @ 0x7e5c30003640] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 0x7e5c30003640] n:   2 pts:2228226 pts_time:74.2742 duration:   1001 duration_time:0.0333667 fmt:yuv420p cl:left sar:1/1 s:1280x720 i:P iskey:0 type:B checksum:F22E8ECB plane_checksum:[660759FF 00931A5E 96DA1A6E] mean:[25 128 128] stdev:[25.1 0.0 0.0]
+[Parsed_showinfo_1 @ 0x7e5c30003640] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 0x7e5c30003640] n:   3 pts:2229227 pts_time:74.307567 duration:   1001 duration_time:0.0333667 fmt:yuv420p cl:left sar:1/1 s:1280x720 i:P iskey:0 type:B checksum:F22E8ECB plane_checksum:[660759FF 00931A5E 96DA1A6E] mean:[25 128 128] stdev:[25.1 0.0 0.0]
+[Parsed_showinfo_1 @ 0x7e5c30003640] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 0x7e5c30003640] n:   4 pts:2230228 pts_time:74.340933 duration:   1001 duration_time:0.0333667 fmt:yuv420p cl:left sar:1/1 s:1280x720 i:P iskey:0 type:P checksum:F22E8ECB plane_checksum:[660759FF 00931A5E 96DA1A6E] mean:[25 128 128] stdev:[25.1 0.0 0.0]
+[Parsed_showinfo_1 @ 0x7e5c30003640] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 0x7e5c30003640] n:   5 pts:2231229 pts_time:74.3743 duration:   1001 duration_time:0.0333667 fmt:yuv420p cl:left sar:1/1 s:1280x720 i:P iskey:1 type:I checksum:3305A3CF plane_checksum:[ED836F13 00931A5E 00931A5E] mean:[19 128 128] stdev:[10.2 0.0 0.0]
+[Parsed_showinfo_1 @ 0x7e5c30003640] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_1 @ 0x7e5c30003640] n:   6 pts:2232230 pts_time:74.407667 duration:   1001 duration_time:0.0333667 fmt:yuv420p cl:left sar:1/1 s:1280x720 i:P iskey:0 type:B checksum:8D1B0280 plane_checksum:[3892CDB5 00931A5E 00931A5E] mean:[19 128 128] stdev:[9.9 0.0 0.0]
+[Parsed_showinfo_1 @ 0x7e5c30003640] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    
+[out#0/image2 @ 0x32fa9a40] video:566KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    7 fps=1.5 q=-0.0 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x    

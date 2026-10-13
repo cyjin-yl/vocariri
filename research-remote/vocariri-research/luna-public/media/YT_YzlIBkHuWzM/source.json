@@ -1,0 +1,18 @@
+{
+  "id": "YT_YzlIBkHuWzM",
+  "url": "https://www.youtube.com/watch?v=YzlIBkHuWzM",
+  "at": "2026-09-24T15:50:35.109976+00:00",
+  "title": "【AviUtl】なめらかなモーションの作り方！(文字PV向け)",
+  "uploader": "Zacbaran",
+  "duration": 733,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 40217764,
+  "sha256": "975c4d9a6b30806d9d59cef1e6268c37f27831a1fb3e0c0bb21befb438d8648f",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

@@ -1,0 +1,69 @@
+{
+  "model": "hermes-newapi-free/z-ai/glm-5.3-flash",
+  "snapshot": "inputs/ frozen 2026-09-25 snapshot; checksums verified against inputs/manifest.json",
+  "checks_performed": [
+    "Manifest key/count inspection before assumptions: 4 ledger/config files + 4 images, all sha256 verified",
+    "RESEARCH_TARGET.json read: 500-800 distinct evidence-backed reviewed text-PV forms target; 1000+ templates/variants separate requirement",
+    "Visual routing probe: all 4 images (control, a, b, c) decoded from actual pixels by the configured model; outputs/visual-probe.json saved with per-file colors/shapes/text/location, uncertainties, and accessibility confirmation",
+    "Control image correctly excluded as non-PV (synthetic shapes + 'PV 731' label)",
+    "Candidate audit of all 54 ledger forms in checkpoints of 8, saved after each group (outputs/form-audit.jsonl, 54 rows)",
+    "Text-domain vs scene-only separation: 15 scene_feature forms excluded from text-form counts (explicitly flagged), background relationships preserved",
+    "Cited observation ID tracing: every cited ID resolved against inputs/observations.jsonl (621 unique rows, 0 duplicates); 272 distinct observation IDs cited across forms; 0 dangling references",
+    "Cross-form comparison of mechanism, target objects, hierarchy, temporal relationships and composition; color/font/duration/amplitude changes not treated as distinct-form proof",
+    "Architecture coverage (13 mechanism families) and production requirements (PR06-01 example read) cross-checked against the audit",
+    "Reference retention policy respected: no cleanup, references/ symlinks untouched"
+  ],
+  "candidate_count": {
+    "total_forms_in_ledger": 54,
+    "audited": 54,
+    "text_form_candidates": 38,
+    "scene_feature_candidates": 15,
+    "note": "production-requirements-06.json reports 53 candidate forms (38 text + 15 scene); forms.jsonl contains 54 rows including FORM-EXP04-TEXT-002 added post-checkpoint per architecture-coverage post_checkpoint_form_additions",
+    "candidate_text_form_instances": 203
+  },
+  "references": {
+    "observation_rows_in_ledger": 621,
+    "distinct_observation_ids_cited_by_forms": 272,
+    "dangling_observation_references": 0,
+    "unresolved_source_time_conflicts": "not detected in this audit pass; extraction labels do not identify unique native PTS (static evidence only)"
+  },
+  "proposal_counts": {
+    "likely_distinct": 50,
+    "potential_duplicate": 2,
+    "needs_native_review": 1,
+    "unsupported_form_label": 0,
+    "by_domain": {
+      "text_form": {"likely_distinct": 35, "potential_duplicate": 2, "needs_native_review": 1},
+      "scene_feature": {"likely_distinct": 15}
+    }
+  },
+  "duplicate_candidates": [
+    {"form_id": "FORM-H7411-004", "reason": "Rapid pose/shot-size montage may be a variant of framing alternation (FORM-H7411-002 / FORM-EXP02-SCENE-001); the ledger itself flags a merge if full review shows the same repeated structure."},
+    {"form_id": "FORM-EXP02-TEXT-011", "reason": "Wordmark component-spacing candidate is the weakest distinctness in the wordmark family; may be spacing variants of FORM-EXP02-TEXT-010 / FORM-EXP02-TEXT-005."}
+  ],
+  "native_review_candidates": [
+    {"form_id": "FORM-K72-005", "rank": 1, "reason": "Broadest umbrella (45 instances, cross-source). High architectural importance: candidate for sub-splitting into overshoot/traversal/contraction sub-mechanisms that the ledger elsewhere separates."},
+    {"form_id": "FORM-RBZ-001", "rank": 2, "reason": "32 instances; size-contrast instances and diagonal placements may be two sub-families; needs native-frame verification."},
+    {"form_id": "FORM-EXP02-TEXT-001", "rank": 3, "reason": "38 instances, most-instanced text family; dim/fade gaps vs cut transitions need native frames."},
+    {"form_id": "FORM-K72-009", "rank": 4, "reason": "Only form in ARCH06-FOREGROUND_BAR_OCCLUSION_AND_VERTICAL_REFLOW; single-interval support; easing/timing sample-bounded."},
+    {"form_id": "FORM-K72-004", "rank": 5, "reason": "Text-traversal-over-character; a.png visual probe corroborates the overlap relation but path dynamics need native frames."}
+  ],
+  "unreviewed_items": "All 54 forms are proposals from existing textual/static evidence; 0 independently accepted forms; 0 accepted templates. Native-frame temporal review pending for all.",
+  "visual_probe_summary": {
+    "images_accessible": true,
+    "control_is_pv_sample": false,
+    "pv_frames_described": 3,
+    "corroborations": {
+      "a.png_116s": "oversized glyph-over-character overlap (supports FORM-K72-004 plausibility)",
+      "b.png_15.25s": "compact centered vertical grouping with sparse dots (supports FORM-EXP04-TEXT-001 end state, same source ijaK647Qfc8)",
+      "c.png_1.75s": "object-integrated wordmark (A|SIGN door); nearest candidates TEXT-005/TEXT-010, no exact existing form match; logged as potential new-form lead pending coordinator acceptance artifact"
+    }
+  },
+  "research_target_status": {
+    "target": "500-800 distinct reviewed text-PV forms",
+    "current_text_form_candidates": 38,
+    "gap": "Corpus remains far below target; native review and dedup precede acquisition per RESEARCH_TARGET acceptance criteria",
+    "production_templates_variants_minimum": 1000,
+    "production_templates_variants_current": "not assessed in this audit (separate product requirement)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "source_sha256": "48792f26461b2664a336a5bae3e112666e1dedaba7e30b06efa01c1e1e3d428e",
+  "sampling_fps": 4,
+  "state": "extracted_uninspected",
+  "frame_count": 45,
+  "sheets": [
+    {
+      "file": "sheet-0000.jpg",
+      "start": 0.0,
+      "end": 8.0,
+      "sha256": "393c8f6e6c690cd55078ed595b83daf58ed7379c8320de7ed4d4338321737519"
+    },
+    {
+      "file": "sheet-0001.jpg",
+      "start": 8.0,
+      "end": 11,
+      "sha256": "a211b48436c43167c3301ad3499fb88a55aa05e33d6e462b955583ce653dffa9"
+    }
+  ],
+  "note": "Review at source FPS for short impacts/glitches and cut boundaries."
+}

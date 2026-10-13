@@ -1,0 +1,19 @@
+{
+  "experiment": "prompt-sampling-05",
+  "reference": "research/reviews/temporal-01.json",
+  "baseline": "Previously preserved original-prompt responses, default 8 requested frames",
+  "max_tokens": 650,
+  "temperature": 0,
+  "structured_prompt": "Analyze this as a reference for reconstructing a 2D typography animation, not as a scene caption. Inspect the sequence in temporal order. First assign stable IDs to text groups, decorative foreground objects, frames/panels and background. Then compare their visible states across time. For each change identify: which element changes; approximate interval; start and end position/size; whether earlier text persists while later text enters; which objects pass in front of others. Explicitly distinguish occlusion/reveal from fading, scaling from clipping, vertical typesetting from rotated horizontal text, and object motion from shared camera motion. Inspect intermediate states for staggered entrances, reversals, overshoot/settling and a transition object continuing across a cut. These are questions to check, NOT assertions that these effects exist. Return concise JSON with keys layers, phases, continuity, unknowns. Each phase has interval, visible_change, evidence, alternatives. Use unknown when sampling cannot establish an action. Do not invent easing curves, read text that is not legible, quote lyrics, or propose AE implementation. No reference answer is provided. Fit the response within 650 tokens.",
+  "variants": [
+    {"id": "structured-8", "prompt": "structured", "num_frames": 8},
+    {"id": "original-32", "prompt": "original", "num_frames": 32},
+    {"id": "structured-32", "prompt": "structured", "num_frames": 32}
+  ],
+  "limits": [
+    "Requested frame count is not proof of actual model-visible frame count.",
+    "Inspect sampling implementation and token counts before interpreting comparisons.",
+    "Three clips are diagnostic cases, not an estimate of corpus-wide quality.",
+    "Score against frozen reference observations; preserve truncation and failures."
+  ]
+}

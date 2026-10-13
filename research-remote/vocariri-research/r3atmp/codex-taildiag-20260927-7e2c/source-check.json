@@ -1,0 +1,52 @@
+{
+  "ffmpeg_version": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+  "source_sha256": "9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7",
+  "r3a_sha256": "2c350b3886619f0492119abb474a98e078ae6181e6597ffedaf270ea256fdc59",
+  "source_pts": [
+    2271056,
+    2271584,
+    2272128,
+    2272656,
+    2273184,
+    2273728,
+    2274256,
+    2274800,
+    2275328,
+    2275856,
+    2276400,
+    2276928,
+    2277456,
+    2278000,
+    2278528,
+    2279056,
+    2279600,
+    2280128
+  ],
+  "source_time_base": "1/16000",
+  "source_scan": {
+    "argv": [
+      "/opt/pv-tools/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+      "-nostdin",
+      "-hide_banner",
+      "-loglevel",
+      "info",
+      "-i",
+      "/workspace/media/BV1zrbCzLEH4/source.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=between(n\\,4258\\,4275),showinfo",
+      "-fps_mode",
+      "passthrough",
+      "-an",
+      "-sn",
+      "-dn",
+      "-f",
+      "null",
+      "-"
+    ],
+    "returncode": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "c0d049d4c7a255be31e51862e312eff2c50b8e84e8b7f8c891cb090cded2c70b"
+  }
+}

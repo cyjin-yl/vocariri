@@ -1,0 +1,20 @@
+cross17-qwen-native-r1 status
+generated_at: 2026-10-03T20:12:36Z
+state: completed_unreviewed
+accepted_form_increment: 0
+rendered_template_increment: 0
+work_order: WORK_ORDER_QWEN_CROSS17_NATIVE_R1.md sha256=8b5612d8fdb39f8f1f3eac8a9a82e55f84cc964913768a2844f8c171ef4b905b verified
+sources: 3 verified (NICO-sm46137276, NICO-sm46155083, PVOLT-C-7TIDIKc98) - all mp4+json hashes OK
+native_windows:
+  NICO-sm46137276: n240-359, pts 360000-538500, 4.0-5.983s, 120 frames, 60fps, 1/90000
+  NICO-sm46155083: n870-929, pts 2610000-2787000, 29.0-30.967s, 60 frames, 30fps, 1/90000
+  PVOLT-C-7TIDIKc98: n2160-2207, pts 1105920-1129984, 90.0-91.958s, 48 frames, 24fps, 1/12288
+events:
+  sm46137276: persistent caption card sequence (persistent caption/frame vs burst/reflow)
+  sm46155083: brush-stroke character burst/reflow (burst/reflow + glyph/group motion)
+  PVOLT: border text + foreground caption + scene (text/foreground vs scene/texture scope)
+reads: 14 unique native reads, 0 rereads, 0 derived crop reads
+constructions: C1 persistent caption card, C2 brush-stroke burst/reflow, C3 border+caption+scene
+ae_gaps: recorded per construction (text shaping, paths/masks, alpha/blend, camera/proxy, seek/export, performance)
+provenance: sm46137276 locator vs native discrepancy noted (time-based vs frame-number select); native is ground truth
+next: independent review and dedup of accepted-form increment 0 / rendered-template increment 0

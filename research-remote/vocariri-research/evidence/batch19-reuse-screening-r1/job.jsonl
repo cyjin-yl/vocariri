@@ -1,0 +1,6 @@
+{"state": "offline_screening_started", "model_request_made": false, "at": "2026-10-02T13:41:39.849953+00:00"}
+{"state": "screening_decode_started", "id": "YT_b0XgjrWSV7k", "duration_seconds": 700.46, "nominal_fps_for_grid_only": 30.0, "frame_index_step": 526, "at": "2026-10-02T13:41:40.400045+00:00"}
+{"state": "screening_done_unviewed", "id": "YT_b0XgjrWSV7k", "count": 40, "media_bytes": 34515185, "at": "2026-10-02T13:41:56.292599+00:00"}
+{"state": "screening_decode_started", "id": "YT_3Jf_sabP4e0", "duration_seconds": 473.46, "nominal_fps_for_grid_only": 30.0, "frame_index_step": 356, "at": "2026-10-02T13:41:56.598947+00:00"}
+{"state": "screening_done_unviewed", "id": "YT_3Jf_sabP4e0", "count": 40, "media_bytes": 19922877, "at": "2026-10-02T13:42:08.155333+00:00"}
+{"state": "offline_screening_finished", "next": "View locator sheets, choose true effect demonstration apart from tutorial UI, then decode separate native motion window.", "at": "2026-10-02T13:42:08.155493+00:00"}

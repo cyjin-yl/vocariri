@@ -1,0 +1,150 @@
+"""Run bounded image-attached Luna analysis in the foreground of a tmux pane.
+
+Images are user-message attachments, avoiding tool-result image delivery problems.
+Raw responses are retained; parsed observations remain unreviewed candidates.
+"""
+import hashlib
+import json
+import subprocess
+import sys
+import time
+from pathlib import Path
+from visual_queue import plan_batches
+
+root = Path.cwd()
+out = root / "outputs" / "visual-batches"
+out.mkdir(parents=True, exist_ok=True)
+batches, inventory = plan_batches(root)
+print(json.dumps(inventory), flush=True)
+if '--dry-run' in sys.argv:
+    raise SystemExit(0)
+prompt = """Actually inspect all attached contact sheets as public VOCALOID PV evidence.
+Return ONLY JSON with keys input_observed, sheets, observations, unknowns.
+input_observed MUST be a JSON boolean true or false, not a description string.
+sheets: list of {file, visible_summary}; observations: list of at most 15 records
+with {source_id, source_url, sheet_files, time_range_seconds, time_uncertainty,
+visible_evidence, typography, layout, layers, motion_changes, entry_hold_exit,
+camera_vs_object_uncertainty, continuity, candidate_form, proposed_ae_implementation,
+confidence, scope, companion_typography}. scope is typography or pv_scene_feature
+(use irrelevant only for material unrelated to PV design, never merely for 3D).
+Retain character-only 3D/MMD choreography as PV scene evidence. Record visible
+camera/framing changes, character screen-space motion and occupancy, depth/occlusion,
+negative space, background complexity, cuts and palette. Mark inferred 3D mechanisms
+and between-frame trajectories uncertain. companion_typography must separate visible
+text from proposed overlays: placement opportunities, occlusion constraints, camera
+coupling, readable intervals and reusable composition relationships. Preserve meaningful
+scene features even when no text is present. Count these separately from text-animation
+forms; they support future typography over 3D MMD dance footage.
+Do not claim pixel access unless you can actually see these images.
+Each sheet is normally 32 samples at 4 fps, zero-indexed, so sheet N starts at N*8s.
+Use visible time labels when present; keep intervals approximate. These are silent
+stills: exact easing, intermediate frames, beat sync and audio emotion are unknown.
+Separate observations from implementation proposals. Do not invent motion to fill
+a quota or count color/font/duration/amplitude changes as distinct motion forms.
+Use the supplied source URL mapping; source_id is the folder name.
+Report static/insufficient evidence honestly. Do not transcribe long lyrics.
+Also return art_patterns separately from motion observations. For each visible art
+pattern, cite exact sheet files and displayed approximate interval, and record letter
+anatomy/category (including visible serifs/slant), stroke/fill/outline, texture, palette,
+spacing, grouping, hierarchy, decorations and subject/background relationships.
+Separate observed design from aesthetic interpretation and original implementation
+proposals. Include conditional applicability to lyric functions and imagery, possible
+emotion/meaning with reasons and alternative readings, suitable/unsuitable contexts,
+and neighboring-shot roles. Audio and original lyric semantics are unknown here;
+never claim original author intent, musical section or exact beat from silent sheets.
+If a font detail is too small, mark needs_detail_review instead of guessing. Intentional
+PV pixel/window/chat motifs are art; distinguish them from incidental tutorial controls.
+A tutorial's demonstrated design may be a useful template reference even without
+VOCALOID characters. Keep tutorial chrome/CTA separate from the demonstrated artwork.
+Reference images and sheets are retained under a prototype-review hold; do not propose
+cleaning them up because they are called cache. Displayed 4fps labels are sampling-grid
+labels and may differ from selected source-frame PTS; use native evidence for precision.
+Attached files in order:
+"""
+
+for batch_number, files in enumerate(batches, 1):
+    hashes = {p.relative_to(root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+              for p in files}
+    source_urls = {}
+    for file in files:
+        source_id = file.parent.name
+        metadata = root / "media" / source_id / "source.json"
+        if metadata.exists():
+            source_urls[source_id] = json.loads(metadata.read_text())["url"]
+        elif source_id.startswith("BV"):
+            source_urls[source_id] = "https://www.bilibili.com/video/" + source_id
+        else:
+            raise ValueError(f"Missing source URL for {source_id}")
+    batch_id = hashlib.sha256(json.dumps(hashes, sort_keys=True).encode()).hexdigest()[:16]
+    status_path = out / (batch_id + ".status.json")
+    previous = None
+    if status_path.exists():
+        previous = json.loads(status_path.read_text())
+        if previous.get("state") == "response_received_unreviewed":
+            continue
+        if previous.get("state") != "retry_authorized":
+            raise SystemExit(f"Reconcile prior incomplete batch {batch_id} before retry")
+    attempt = previous.get("attempt", 1) + 1 if previous else 1
+    record = {"id": batch_id, "files": hashes, "started_at": time.time(),
+              "state": "requesting", "model": "hermes-newapi/gpt-6-luna",
+              "delivery": "user_image_attachments", "attempt": attempt,
+              "prompt_template_sha256": hashlib.sha256(prompt.encode()).hexdigest(),
+              "analysis_contract": "motion_art_applicability_08"}
+    if previous:
+        record["prior_attempt"] = previous
+    status_path.write_text(json.dumps(record, indent=2))
+    print(f"Batch {batch_number}/{len(batches)}: {', '.join(hashes)}", flush=True)
+    command = ["omp", "--config", "seat-config.yml", "--model",
+               "hermes-newapi/gpt-6-luna", "--thinking", "high", "--no-skills",
+               "--no-rules", "--no-tools", "--no-title", "--no-session",
+               "--system-prompt", "You are a visual analyst, not a coding agent. "
+               "The attached images and user prompt contain the entire task. "
+               "No tools are available. Analyze the images and return the requested "
+               "JSON now; do not announce plans, inspect a workspace, or defer the answer.",
+               "--max-time", "10m", "-p"]
+    command += ["@" + str(p.relative_to(root)) for p in files]
+    command += [prompt + "\n".join(hashes)
+                + "\nSource URLs (data): " + json.dumps(source_urls)]
+    suffix = "" if attempt == 1 else f".attempt-{attempt}"
+    raw_path = out / (batch_id + suffix + ".response.txt")
+    try:
+        process = subprocess.Popen(command, stdout=subprocess.PIPE,
+                                   stderr=subprocess.STDOUT, text=True)
+        with raw_path.open("x", encoding="utf-8") as raw:
+            for line in process.stdout:
+                print(line, end="", flush=True)
+                raw.write(line)
+                raw.flush()
+        code = process.wait()
+        record.update(returncode=code, finished_at=time.time())
+        content = raw_path.read_text(encoding="utf-8")
+        if code:
+            raise RuntimeError("Agent process failed; see retained response")
+        decoder = json.JSONDecoder()
+        parsed = None
+        for pos, character in enumerate(content):
+            if character != "{":
+                continue
+            try:
+                candidate, _ = decoder.raw_decode(content[pos:])
+            except json.JSONDecodeError:
+                continue
+            if isinstance(candidate, dict) and "input_observed" in candidate:
+                parsed = candidate
+                break
+        if parsed is None or parsed.get("input_observed") is not True:
+            raise ValueError("Missing grounded structured response; review required")
+        observations = parsed.get("observations")
+        if not isinstance(observations, list) or len(observations) > 15:
+            raise ValueError("Observation schema or batch limit failed")
+        (out / (batch_id + ".json")).write_text(
+            json.dumps(parsed, ensure_ascii=False, indent=2), encoding="utf-8")
+        record.update(state="response_received_unreviewed",
+                      candidate_observations=len(observations))
+    except (Exception, KeyboardInterrupt) as error:
+        record.update(state="blocked_review_required", error_class=type(error).__name__)
+        status_path.write_text(json.dumps(record, indent=2))
+        raise SystemExit(f"Stopped at {batch_id}; checkpoint saved")
+    status_path.write_text(json.dumps(record, indent=2))
+    print(f"Checkpoint {batch_id}: {len(observations)} unreviewed observations", flush=True)
+print("All queued contact-sheet batches processed; semantic and visual review remain.", flush=True)

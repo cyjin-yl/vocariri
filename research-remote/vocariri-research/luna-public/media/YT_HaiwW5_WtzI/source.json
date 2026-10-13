@@ -1,0 +1,18 @@
+{
+  "id": "YT_HaiwW5_WtzI",
+  "url": "https://www.youtube.com/watch?v=HaiwW5_WtzI",
+  "at": "2026-09-24T13:20:57.696372+00:00",
+  "title": "【文字PV】熱異常【AviUtl】",
+  "uploader": "Tamiya",
+  "duration": 13,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 2135984,
+  "sha256": "6a2504ba10f80cd327d8fc3eb9cc9379d8f9d0ac1b2ff484861dfe20e2697de4",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

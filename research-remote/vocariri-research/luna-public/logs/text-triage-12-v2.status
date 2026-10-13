@@ -1,0 +1,94 @@
+{
+  "audit_id": "TEXT-TRIAGE-12",
+  "status": "completed_text_only_triage_visual_review_pending",
+  "work_order_sha256": "b7e8845f007c6958711781b3a7006ea82c9011f4742139a8c6fcfd7c2a8566b5",
+  "output_file": "outputs/text-triage-12.json",
+  "baseline_counts": {
+    "candidate_forms": 57,
+    "text_forms": 42,
+    "scene_forms": 15,
+    "active_observations": 624,
+    "observation_ledger_rows": 641,
+    "independently_accepted_forms": 0,
+    "accepted_templates": 0
+  },
+  "completed_pair_count": 12,
+  "pairs_target": 12,
+  "completed_pairs": [
+    "PAIR-01",
+    "PAIR-02",
+    "PAIR-03",
+    "PAIR-04",
+    "PAIR-05",
+    "PAIR-06",
+    "PAIR-07",
+    "PAIR-08",
+    "PAIR-09",
+    "PAIR-10",
+    "PAIR-11",
+    "PAIR-12"
+  ],
+  "next_pair_id": null,
+  "mechanism_families_covered": 12,
+  "image_video_reads_this_task": 0,
+  "qwen_requests_submitted": 0,
+  "shared_ledgers_modified": false,
+  "accepted_form_increment": 0,
+  "accepted_template_increment": 0,
+  "quota_note": "A prior visual audit stopped on 429; this triage is text-only and makes no visual claims.",
+  "exact_next_step": "Visual review is the next step, not pair construction: follow ordered queue PAIR-01, PAIR-03, PAIR-07, PAIR-02, PAIR-08, PAIR-04, PAIR-09, PAIR-12, PAIR-05, PAIR-06, PAIR-11, PAIR-10. Inspect proposed 0.6–1.5s windows at native cadence, collect source PTS/time_base where available, and review timed lyrics/audio only if separately authorized. No Qwen request was made.",
+  "selected_unique_form_count": 21,
+  "mechanism_families": 12,
+  "mechanism_family_names": [
+    "angled phrase groups and scattered glyph fragments",
+    "centered title hold, overlay and fade exit",
+    "central interruption and letter assembly",
+    "circular glyph grouping and adjacent curved rule",
+    "geometric mask and text reflow",
+    "glyph-group scale and foreground occlusion",
+    "large-word scaling versus contraction-to-point",
+    "modular lyric cards and technical interface panels",
+    "object-anchored text and interface panels",
+    "outlined scale sequence and interrupted persistent wordmark",
+    "side typography and tilted text-window separation",
+    "vertical overlay and character-overlap type"
+  ],
+  "relation_counts": {
+    "possibly_distinct": 8,
+    "unknown": 3,
+    "possible_duplicate": 1
+  },
+  "exact_next_visual_gate": "Use the ordered review_queue exactly as stored: PAIR-01, PAIR-03, PAIR-07, PAIR-02, PAIR-08, PAIR-04, PAIR-09, PAIR-12, PAIR-05, PAIR-06, PAIR-11, PAIR-10. For each proposed 0.6–1.5s window, inspect before/during/after at native cadence, record source PTS/time_base where present, and review timed lyrics/audio only if separately authorized. This triage performed no visual/native reads or Qwen requests; existing ffprobe and prior 429 blocks still apply. Do not switch models/providers.",
+  "stop_point": "Text-only pair triage complete; native/visual review remains pending under the existing 429/ffprobe constraints.",
+  "version": 2,
+  "ordered_next_visual_queue": [
+    "PAIR-01",
+    "PAIR-03",
+    "PAIR-07",
+    "PAIR-02",
+    "PAIR-08",
+    "PAIR-04",
+    "PAIR-09",
+    "PAIR-12",
+    "PAIR-05",
+    "PAIR-06",
+    "PAIR-11",
+    "PAIR-10"
+  ],
+  "link_validation": {
+    "pairs": 12,
+    "valid_pairs": 12,
+    "broken_references": 0,
+    "validation_source": "independent review reported by user"
+  },
+  "original_status_file_preserved": {
+    "file": "logs/text-triage-12.status",
+    "sha256": "3ace9165ca8267915b521047276a8e76c1708aa742e4f94b7d579ad38e5d2f43"
+  },
+  "original_audit_file_preserved": {
+    "file": "outputs/text-triage-12.json",
+    "sha256": "ce1c4fae8eb3450308935cfa52cbde061a828c67c02d980ed45a3c305933a2b3"
+  },
+  "visual_review_performed": false,
+  "native_frame_review_pending": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "YT_MxVyO8XJq8s",
+  "url": "https://www.youtube.com/watch?v=MxVyO8XJq8s",
+  "at": "2026-09-24T15:36:01.159114+00:00",
+  "title": "ROT FOR CLOUT (Motion Graphics)",
+  "uploader": "ilyx",
+  "duration": 29,
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 4263579,
+  "sha256": "38861c679a796eb563ef2ff453bc7f41c69d52c61b222a5e3353530ab1fc5d87",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

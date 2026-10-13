@@ -1,0 +1,18 @@
+{
+  "id": "BV12x411c7mQ",
+  "url": "https://www.bilibili.com/video/BV12x411c7mQ/",
+  "at": "2026-09-25T19:20:59.831539+00:00",
+  "title": "【初音ミク】「イキたいの。」【PV付き】（修正版）",
+  "uploader": "911",
+  "duration": 254.746,
+  "fps": 30.303,
+  "width": 512,
+  "height": 384,
+  "extractor": "BiliBili",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 7056792,
+  "sha256": "8e6d4bc1e934b96db1f4fc6ce4e1c812c5a9b2d1013eae1e9fdb79556991979e",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-09-25T02:00:59.435706+00:00",
+  "files": [
+    {
+      "path": "observations.jsonl",
+      "sha256": "07448963b3b102fb4e17d3371c90bd950f450f133e959697ef317b8c06fe2e60",
+      "bytes": 2225530
+    },
+    {
+      "path": "forms.jsonl",
+      "sha256": "5b91591c8afef51959a6f45c53ab60991648c3b3a2629212e38c0ca161199621",
+      "bytes": 104502
+    },
+    {
+      "path": "production-requirements-05.json",
+      "sha256": "607ca6d37a2209b4369d0d1058a75f04f276deb0bb724fd36aa292c89035aa4e",
+      "bytes": 35602
+    },
+    {
+      "path": "parent-temporal-review-01.json",
+      "sha256": "3abea66c65509d5cbf36bebf9413cb28108913ed76b4438b4138f67c89a19c91",
+      "bytes": 6141
+    }
+  ],
+  "missing": [
+    "production-requirements-06.json",
+    "requirements-reconciliation-06.json"
+  ],
+  "snapshot_consistency": "Per-file immutable byte copies; capture does not claim cross-file transactional consistency."
+}

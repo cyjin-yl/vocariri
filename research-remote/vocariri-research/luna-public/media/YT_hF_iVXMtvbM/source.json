@@ -1,0 +1,18 @@
+{
+  "id": "YT_hF_iVXMtvbM",
+  "url": "https://www.youtube.com/watch?v=hF_iVXMtvbM",
+  "at": "2026-09-24T16:15:54.346717+00:00",
+  "title": "Transform Your Text with Kinetic Motion!",
+  "uploader": "Masd*Lab ",
+  "duration": 322,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 16746922,
+  "sha256": "c8cd8a5cfe76a78b5222a9954587f99b71642029ceec2ec8015c5fcabeb9f202",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}

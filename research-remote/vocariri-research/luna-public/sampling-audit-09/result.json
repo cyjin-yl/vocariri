@@ -1,0 +1,31 @@
+{
+  "real_source_sha256": "b83c5f3e785cffe1830589e2736e18f7682a8badb83e3cd6e97b2ef2db67b650",
+  "real_source_selected_frames": 328,
+  "near_legacy_discrepancy": [
+    {
+      "file": "f-000297.jpg",
+      "source_pts": 2220218,
+      "source_pts_seconds": 74.00726666666667,
+      "source_bucket": 296,
+      "sha256": "dc68309c493f6e24ca0b3baae0cc53e0e0c599f15932866d0b2a03f98c3dff83"
+    },
+    {
+      "file": "f-000298.jpg",
+      "source_pts": 2228226,
+      "source_pts_seconds": 74.2742,
+      "source_bucket": 297,
+      "sha256": "641c258ce9ddb089a0e0ed70997340c0a8ed56f42d4fb759ca5715b5be2f6dde"
+    },
+    {
+      "file": "f-000299.jpg",
+      "source_pts": 2235233,
+      "source_pts_seconds": 74.50776666666667,
+      "source_bucket": 298,
+      "sha256": "02329b0df110f8b57be44d1a9434827bb3a58a2d8b99bd14fe53e333b9ded527"
+    }
+  ],
+  "ingestion_fixture": "passed",
+  "cached_extraction_byte_preservation": "passed",
+  "source_time_mapping_sha256": "3838d08e7640dc32b14995bef3d3b3dd2dfddd03ca6a2e753a1a282e8e275832",
+  "legacy_extractions_modified": false
+}

@@ -1,0 +1,237 @@
+{
+  "source_sha256": "9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7",
+  "sampling_fps": 4,
+  "state": "extracted_uninspected",
+  "frame_count": 1210,
+  "sheets": [
+    {
+      "file": "sheet-0000.jpg",
+      "start": 0.0,
+      "end": 8.0,
+      "sha256": "da087c977eb47b3d7760d41e64c77fb57d9d49895897d43852e2262692bebb1f"
+    },
+    {
+      "file": "sheet-0001.jpg",
+      "start": 8.0,
+      "end": 16.0,
+      "sha256": "64c2864432bfc75d686aa15135f66d2a9d5204e1442c4e6a62587f5271c4eef5"
+    },
+    {
+      "file": "sheet-0002.jpg",
+      "start": 16.0,
+      "end": 24.0,
+      "sha256": "ba29ab758788eff4913aab648a334a0ea816e84f1650c7f7d3f3d3149e083211"
+    },
+    {
+      "file": "sheet-0003.jpg",
+      "start": 24.0,
+      "end": 32.0,
+      "sha256": "1ab5ba897697c93a038b767c33825964b66bd6db590e5020a04f2ce07ec763f4"
+    },
+    {
+      "file": "sheet-0004.jpg",
+      "start": 32.0,
+      "end": 40.0,
+      "sha256": "51303e4f6011e0df253ef58fe41dd611f90fce70d042cfabdce601fd42c8d044"
+    },
+    {
+      "file": "sheet-0005.jpg",
+      "start": 40.0,
+      "end": 48.0,
+      "sha256": "89017bb04aa0bd7f4ccc4d476206360d1ff63263fd68d03914cbea974d53152c"
+    },
+    {
+      "file": "sheet-0006.jpg",
+      "start": 48.0,
+      "end": 56.0,
+      "sha256": "1903de362d92ae34dfd13670170f1c0957d0fb97560eaa4bde1a845767560e36"
+    },
+    {
+      "file": "sheet-0007.jpg",
+      "start": 56.0,
+      "end": 64.0,
+      "sha256": "ebe27ccc515964c03ef1d78c5506221994fd88b948827e359cdb1677045363c5"
+    },
+    {
+      "file": "sheet-0008.jpg",
+      "start": 64.0,
+      "end": 72.0,
+      "sha256": "4a76bcf1aa8be523f07d4230e0560424d9dedf83b0c9d315701a225efd54a6b6"
+    },
+    {
+      "file": "sheet-0009.jpg",
+      "start": 72.0,
+      "end": 80.0,
+      "sha256": "6691b3f8f93eba87da6ec57540054d4867843735f5fc05595b033aa771060a69"
+    },
+    {
+      "file": "sheet-0010.jpg",
+      "start": 80.0,
+      "end": 88.0,
+      "sha256": "d49bfed1e13fb2c5dc8546758255e782df77fb32a8b8dab27fc3a00c4837e9e9"
+    },
+    {
+      "file": "sheet-0011.jpg",
+      "start": 88.0,
+      "end": 96.0,
+      "sha256": "ce42eabffd584dfa4356c76acb8f3631dc75a0679b7079ab94c1b0179203ae5e"
+    },
+    {
+      "file": "sheet-0012.jpg",
+      "start": 96.0,
+      "end": 104.0,
+      "sha256": "5ee1ed9a137af8fbce2a29943aabc5da7ed22163d7bf284bffd0853e64a17113"
+    },
+    {
+      "file": "sheet-0013.jpg",
+      "start": 104.0,
+      "end": 112.0,
+      "sha256": "8db48401a8065e85c6b89fa4a34f0a30c72297e2f28aa830519c661ead89b527"
+    },
+    {
+      "file": "sheet-0014.jpg",
+      "start": 112.0,
+      "end": 120.0,
+      "sha256": "4d7b8ef11009bb215f6fbf660f32ad55c8d3c33ee0f58b3a261848f91a8bc77f"
+    },
+    {
+      "file": "sheet-0015.jpg",
+      "start": 120.0,
+      "end": 128.0,
+      "sha256": "48ec652d6171ea09f9d1b6e076bdb97d245b8b59559689bdbd0a86f1982d123f"
+    },
+    {
+      "file": "sheet-0016.jpg",
+      "start": 128.0,
+      "end": 136.0,
+      "sha256": "824d1f0abc50761de03ce5cdab54e39779d433852320aded39c8b91c65a08233"
+    },
+    {
+      "file": "sheet-0017.jpg",
+      "start": 136.0,
+      "end": 144.0,
+      "sha256": "a8ed9e44cd1bf07bc1142eab83ad7fe4dd0d3fbf534b6fb85502abe8fe8a50ce"
+    },
+    {
+      "file": "sheet-0018.jpg",
+      "start": 144.0,
+      "end": 152.0,
+      "sha256": "0543192aed9a06cdb9f2386232f0419336e40bcaec74346678b4196a2ed57aff"
+    },
+    {
+      "file": "sheet-0019.jpg",
+      "start": 152.0,
+      "end": 160.0,
+      "sha256": "850cf4c3412939cde581aa6227d2251283cff6076ec0249f539dcb2d2707a6d2"
+    },
+    {
+      "file": "sheet-0020.jpg",
+      "start": 160.0,
+      "end": 168.0,
+      "sha256": "c653c64e66c598f9165c3c2de6dd1457e4c0c8bfe10002631c080d325bd7e8e9"
+    },
+    {
+      "file": "sheet-0021.jpg",
+      "start": 168.0,
+      "end": 176.0,
+      "sha256": "f4bec2dc7fbb955b6b152617d1fb356eaba1fc76d8060a6d2ea3f1e2e1612947"
+    },
+    {
+      "file": "sheet-0022.jpg",
+      "start": 176.0,
+      "end": 184.0,
+      "sha256": "a632f76d179637631e7dd493cce921e6e6ccfd36d784fa5d7f2266eb6ab95317"
+    },
+    {
+      "file": "sheet-0023.jpg",
+      "start": 184.0,
+      "end": 192.0,
+      "sha256": "cb664dfdea384ea8a4afbabda9af5a8513e19f1c6b30d49f651bf72248ca78fe"
+    },
+    {
+      "file": "sheet-0024.jpg",
+      "start": 192.0,
+      "end": 200.0,
+      "sha256": "005ef3627452be6a8c74510776fe489353c5d5d328e261d587aa8bf94b82fb69"
+    },
+    {
+      "file": "sheet-0025.jpg",
+      "start": 200.0,
+      "end": 208.0,
+      "sha256": "f693ac2671ea432006181fed248a2c9b225ab5001316d798c6191bad9f1db317"
+    },
+    {
+      "file": "sheet-0026.jpg",
+      "start": 208.0,
+      "end": 216.0,
+      "sha256": "342ea16cae73a8e06eece983c9d1933e36754c3c1f9bb3fb8090530b5dbe3fb6"
+    },
+    {
+      "file": "sheet-0027.jpg",
+      "start": 216.0,
+      "end": 224.0,
+      "sha256": "d8a6e9baff72a263ecbc736e4bf30bda7c7291338d84afe64e79dd467e2becac"
+    },
+    {
+      "file": "sheet-0028.jpg",
+      "start": 224.0,
+      "end": 232.0,
+      "sha256": "b41f1c1b08acf6c90580b58c124be69595b806b7633e8111e6c156ce6b4a3bf1"
+    },
+    {
+      "file": "sheet-0029.jpg",
+      "start": 232.0,
+      "end": 240.0,
+      "sha256": "92c3db91917db2ea8c3739c9508ca52c2dd6f14ea0369530d9e3cad511dad23d"
+    },
+    {
+      "file": "sheet-0030.jpg",
+      "start": 240.0,
+      "end": 248.0,
+      "sha256": "01ba613dd618bb1e1abb33e89dba8418f5271c9a3d5213345ff114e869a61f11"
+    },
+    {
+      "file": "sheet-0031.jpg",
+      "start": 248.0,
+      "end": 256.0,
+      "sha256": "790df9986dbf3e9341d2bd1edaf240fde4ea1ac846a4bb2b6da28a2f981e851e"
+    },
+    {
+      "file": "sheet-0032.jpg",
+      "start": 256.0,
+      "end": 264.0,
+      "sha256": "ecaf2dc21adc91583c5829e5adca15d1a257b5c85d0bf6fe7a0ece5727042080"
+    },
+    {
+      "file": "sheet-0033.jpg",
+      "start": 264.0,
+      "end": 272.0,
+      "sha256": "e1066c7709b305a1a913658b9438fc9c0e7bb54c98234399fb6b30979db52c5f"
+    },
+    {
+      "file": "sheet-0034.jpg",
+      "start": 272.0,
+      "end": 280.0,
+      "sha256": "d961985c1d17f84670f18996eb66946fdd5360a7d84b916f8d7f52f96996608c"
+    },
+    {
+      "file": "sheet-0035.jpg",
+      "start": 280.0,
+      "end": 288.0,
+      "sha256": "65a4274da0e2d7d3065b0ad0acb045fa47db403188512bb052828f1da374376b"
+    },
+    {
+      "file": "sheet-0036.jpg",
+      "start": 288.0,
+      "end": 296.0,
+      "sha256": "fa9d290b0e5ba66c0b9856060041ce77a277e0df0c25ca8d7533f3ab1bfa0f03"
+    },
+    {
+      "file": "sheet-0037.jpg",
+      "start": 296.0,
+      "end": 302.5,
+      "sha256": "52f62621aa6ab0c5d3717a420a1d6d8f6f363d3c50f632aec9c07d554d398c24"
+    }
+  ],
+  "note": "Review at source FPS for short impacts/glitches and cut boundaries."
+}

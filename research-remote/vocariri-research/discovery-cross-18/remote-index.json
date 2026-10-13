@@ -1,0 +1,2868 @@
+{
+  "checked_utc": "2026-09-27T13:55:03.764932+00:00",
+  "metadata_count": 139,
+  "metadata": [
+    {
+      "id": "16kTqBUh8mM",
+      "title": "How To Master Text Animation In After Effects (Under 1 Minutes)",
+      "url": "https://www.youtube.com/watch?v=16kTqBUh8mM",
+      "sha256": "bcca61a0873f2094cafd5fb2cb514e813406989d1572c30a5f5e370edd63365b",
+      "path": "media/16kTqBUh8mM/source.json"
+    },
+    {
+      "id": "4vLwhXY0ZRw",
+      "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial Kinetic Typography #4",
+      "url": "https://www.youtube.com/watch?v=4vLwhXY0ZRw",
+      "sha256": "c089ee0537710949b80b1c808b8a5c911e7ab31a70c5c62ac53474f801519f87",
+      "path": "media/4vLwhXY0ZRw/source.json"
+    },
+    {
+      "id": "7WJIQNaeMCg",
+      "title": "How to make Text Animation Like Nikovax for AMV editing on Alight motion & Node video 📱",
+      "url": "https://www.youtube.com/watch?v=7WJIQNaeMCg",
+      "sha256": "313573ea41d70dfbb4df55d3b69efb1f4f2890a066ae98c013fec4d03b18529e",
+      "path": "media/7WJIQNaeMCg/source.json"
+    },
+    {
+      "id": "8Gu7Mtq4Hvw",
+      "title": "Hatsune Miku - Vegetable Juice (Po Pi Po) with English lyrics",
+      "url": "https://www.youtube.com/watch?v=8Gu7Mtq4Hvw",
+      "sha256": "6180b14f2e318f1d96b939b3f7f0259e7d82d3b34bc7f47c968031b575843d65",
+      "path": "media/8Gu7Mtq4Hvw/source.json"
+    },
+    {
+      "id": "9-3RLq9jF20",
+      "title": "Darling, I - Typography",
+      "url": "https://www.youtube.com/watch?v=9-3RLq9jF20",
+      "sha256": "341faf4529b06914902945004efaa99303e4b8d139d756e0c49134e5232c7f38",
+      "path": "media/9-3RLq9jF20/source.json"
+    },
+    {
+      "id": "BV12x411c7mQ",
+      "title": "【初音ミク】「イキたいの。」【PV付き】（修正版）",
+      "url": "https://www.bilibili.com/video/BV12x411c7mQ/",
+      "sha256": "8e6d4bc1e934b96db1f4fc6ce4e1c812c5a9b2d1013eae1e9fdb79556991979e",
+      "path": "media/BV12x411c7mQ/source.json"
+    },
+    {
+      "id": "BV1EW411q7cP",
+      "title": "【初音ミク】血痕记念日【黒澤まどか】",
+      "url": "https://www.bilibili.com/video/BV1EW411q7cP/",
+      "sha256": "ed44c3b01608b0f0832bfd549eb891f719cbe8d8d274cf4a11960ab18df64a4b",
+      "path": "media/BV1EW411q7cP/source.json"
+    },
+    {
+      "id": "BV1H7411T73W",
+      "title": "【PV】无用产业 | 初音ミク",
+      "url": "https://www.bilibili.com/video/BV1H7411T73W/",
+      "sha256": "0a1fca0b01b44cb0f162165f55c1e7321a94396bc43ff1e5dd8909d228418f6d",
+      "path": "media/BV1H7411T73W/source.json"
+    },
+    {
+      "id": "BV1J8hf61EAt",
+      "title": "DECO*27 - 状態異常彼女 feat. 初音ミク",
+      "url": "https://www.bilibili.com/video/BV1J8hf61EAt/",
+      "sha256": "99e15a0cf0ccf1e65972c2adba94c2236625811764b366e7a217e0ffa27369e0",
+      "path": "media/BV1J8hf61EAt/source.json"
+    },
+    {
+      "id": "BV1k72LYzEmV",
+      "title": "【エスプリ企划】スキスキハンター♡ feat.初音ミク 官方文字PV",
+      "url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+      "sha256": "d2090406e885894972edcc0a89db5471254e23b61f0fee32d5b92d7a413f7453",
+      "path": "media/BV1k72LYzEmV/source.json"
+    },
+    {
+      "id": "BV1qMeb6FEVG",
+      "title": "【中文字幕】周末/しゅうまつ 初音ミク・雨衣【カイネ】",
+      "url": "https://www.bilibili.com/video/BV1qMeb6FEVG/",
+      "sha256": "29418940ae2e4863b5ba0c160c84ea329c5cafb58d883f0894b7b1480cad441d",
+      "path": "media/BV1qMeb6FEVG/source.json"
+    },
+    {
+      "id": "BV1sM4y1L73t",
+      "title": "【とあ/初音ミク】ツギハギスタッカート拼凑的断音PV【老物补档】",
+      "url": "https://www.bilibili.com/video/BV1sM4y1L73t/",
+      "sha256": "9df4716e654f9db94de6e8ab582be43460ccee8beb02253b4886623b8211e410",
+      "path": "media/BV1sM4y1L73t/source.json"
+    },
+    {
+      "id": "BV1uJ411879Y",
+      "title": "原版《神的随波逐流》中文字幕【初音ミク、鏡音リン、GUMI】 神のまにまに 随神之侧",
+      "url": "https://www.bilibili.com/video/BV1uJ411879Y/",
+      "sha256": "26f5e0903b9fac7fd75dd451be42677ab44095943ba4db6286bb3847c2c93627",
+      "path": "media/BV1uJ411879Y/source.json"
+    },
+    {
+      "id": "BV1wsgQ65E9o",
+      "title": "【中文字幕】表情符号/Emoji 鏡音リン【Fanmade MV】",
+      "url": "https://www.bilibili.com/video/BV1wsgQ65E9o/",
+      "sha256": "b854c1390a7d8bb087764133f19521b9c65c0fa96d33f89e1c24dc41cb47629b",
+      "path": "media/BV1wsgQ65E9o/source.json"
+    },
+    {
+      "id": "BV1zrbCzLEH4",
+      "title": "【4K 60帧】初音未来的消失MV 中日双语版 p01 中文版",
+      "url": "https://www.bilibili.com/video/BV1zrbCzLEH4/",
+      "sha256": "9ab2c3cf22f64965ba76642c7fbb8d5fc8e760e51349d31692305a2f43ee84d7",
+      "path": "media/BV1zrbCzLEH4/source.json"
+    },
+    {
+      "id": "CsYDv5Cf0yo",
+      "title": "ANOTHER CUP // Kasane Teto (Original Song)",
+      "url": "https://www.youtube.com/watch?v=CsYDv5Cf0yo",
+      "sha256": "8ba971b34d7b2f25cab08927bba927acfb88b61894bbe3d6cd1f3e25f3c185f8",
+      "path": "media/CsYDv5Cf0yo/source.json"
+    },
+    {
+      "id": "DW6MykaSh6U",
+      "title": "Kinetic Type Project ECHO [Vocaloid Gumi]",
+      "url": "https://www.youtube.com/watch?v=DW6MykaSh6U",
+      "sha256": "279ea80a190351fe2c7238cb365eb58ef746bfddbfb2c4ccc33ffbff2f359451",
+      "path": "media/DW6MykaSh6U/source.json"
+    },
+    {
+      "id": "FOMWS5pChuA",
+      "title": "Maroon 5 - Maps - Kinetic Typography - Lyric Video",
+      "url": "https://www.youtube.com/watch?v=FOMWS5pChuA",
+      "sha256": "2459f222f55466077ed5f5da55e3b50c8205eefd6f1e99d4891e7d62f94de6f9",
+      "path": "media/FOMWS5pChuA/source.json"
+    },
+    {
+      "id": "FR8--dY91AQ",
+      "title": "Apple lyrics animation tutorial in after effect",
+      "url": "https://www.youtube.com/watch?v=FR8--dY91AQ",
+      "sha256": "e17c5708898b2f277019931c7f4168ce175ccd92d7f679d9010b8c4bc0a19bd7",
+      "path": "media/FR8--dY91AQ/source.json"
+    },
+    {
+      "id": "FWQYNskQT5Y",
+      "title": "[KAN/ROM/ENG] OGYARINIZER | Lyric Video | Ponchi♪ feat. Hatsune Miku",
+      "url": "https://www.youtube.com/watch?v=FWQYNskQT5Y",
+      "sha256": "3cbbb3d1effda739944422ab4a7dc66506ca90067d7d10af4e2f74f580cde09d",
+      "path": "media/FWQYNskQT5Y/source.json"
+    },
+    {
+      "id": "G-YNNJIe2Vk",
+      "title": "Hide and Seek (Vocaloid) 🍓 English ver by Lizz Robinett",
+      "url": "https://www.youtube.com/watch?v=G-YNNJIe2Vk",
+      "sha256": "f3cc803d51203e399c4aa633e8b3d01d1e3db24b44b7483cca28361f7778e7bd",
+      "path": "media/G-YNNJIe2Vk/source.json"
+    },
+    {
+      "id": "Gm72U0KcKE8",
+      "title": "Hide and Seek (by Lizz Robinett) - Kinetic Typography (IAT 100)",
+      "url": "https://www.youtube.com/watch?v=Gm72U0KcKE8",
+      "sha256": "0b9c40c223ef4925ba6e90a6c1aeda9ddb5bab6e45487ca6e76fc1237a9c1d30",
+      "path": "media/Gm72U0KcKE8/source.json"
+    },
+    {
+      "id": "H85vk6q9BYA",
+      "title": "The Weeknd - Blinding Lights (Animated Kinetic Typography Lyric Video)",
+      "url": "https://www.youtube.com/watch?v=H85vk6q9BYA",
+      "sha256": "5d0e69ecf99a253fb3ee97819722adfe89fcbeff483a898b72f45ae9049849d3",
+      "path": "media/H85vk6q9BYA/source.json"
+    },
+    {
+      "id": "Hl2M5Ozz3uk",
+      "title": "New Way Out [♪ Lemon Demon Kinetic Typography Music Video ♪]",
+      "url": "https://www.youtube.com/watch?v=Hl2M5Ozz3uk",
+      "sha256": "cf60a520a0ab56606f0bfd0cb700dd5e05e338217be5af19db6d392bfbaba13c",
+      "path": "media/Hl2M5Ozz3uk/source.json"
+    },
+    {
+      "id": "Mqps4anhz0Q",
+      "title": "[1080P Full風] 千本桜 Senbonzakura \"One Thousand Cherry Trees\"- 初音ミク Hatsune Miku DIVA English Romaji",
+      "url": "https://www.youtube.com/watch?v=Mqps4anhz0Q",
+      "sha256": "7a1621321f313a994922d3f2838e86418d67c23656a7007dfd5d9dc0a730255e",
+      "path": "media/Mqps4anhz0Q/source.json"
+    },
+    {
+      "id": "NIqm73xsias",
+      "title": "Hatsune Miku - Rolling Girl PV (English Subs)",
+      "url": "https://www.youtube.com/watch?v=NIqm73xsias",
+      "sha256": "99771c34b450f992c0b5b726ff781b659c24699f56b0cfbd1b4d9ed8515803f8",
+      "path": "media/NIqm73xsias/source.json"
+    },
+    {
+      "id": "NocXEwsJGOQ",
+      "title": "Anamanaguchi - Miku ft. Hatsune Miku (Lyric Video)",
+      "url": "https://www.youtube.com/watch?v=NocXEwsJGOQ",
+      "sha256": "02af660aa5b40b5c8cb761fceca8d7b71569ff6b311a4803c03cb99f71545f84",
+      "path": "media/NocXEwsJGOQ/source.json"
+    },
+    {
+      "id": "Q_QEPrkwZ-Q",
+      "title": "【Vocaloid Original】Copycat【GUMI English】",
+      "url": "https://www.youtube.com/watch?v=Q_QEPrkwZ-Q",
+      "sha256": "79a46ade482e33001481e59fbf9b03df79bad15b9c7e0157550a9acab50b80b0",
+      "path": "media/Q_QEPrkwZ-Q/source.json"
+    },
+    {
+      "id": "TzH5BsJj81Y",
+      "title": "アクマバライ feat. 雨衣, Gemini, ミク / “Exorcist” ft. Ui, Gemini (TTS), Miku",
+      "url": "https://www.youtube.com/watch?v=TzH5BsJj81Y",
+      "sha256": "9baaf94733c94395b83672c9f996209e78f3549f0188bc089ad0e0185ec07cb2",
+      "path": "media/TzH5BsJj81Y/source.json"
+    },
+    {
+      "id": "UahA-6QYfC0",
+      "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial | Kinetic Typography",
+      "url": "https://www.youtube.com/watch?v=UahA-6QYfC0",
+      "sha256": "fb7f465797d18573a3869a3f90842619beb3fda8a5f70d3d62e958bc5376ebad",
+      "path": "media/UahA-6QYfC0/source.json"
+    },
+    {
+      "id": "UrSOYGEDSs8",
+      "title": "Your Idol - Saja Boys (lyric video/ kinetic typography)",
+      "url": "https://www.youtube.com/watch?v=UrSOYGEDSs8",
+      "sha256": "8908c5647bf544b3911a6dedb9f92b994e60ba5f7b7e64b594691e11680d3de5",
+      "path": "media/UrSOYGEDSs8/source.json"
+    },
+    {
+      "id": "VR3NL1Zvx5o",
+      "title": "How To Master Text Animation In Davinci Resolve (Under 1 Minute)",
+      "url": "https://www.youtube.com/watch?v=VR3NL1Zvx5o",
+      "sha256": "c5777ce13281723a0bf522a8524d57923f8fb8311ea8c7abc8a161b05590fdc6",
+      "path": "media/VR3NL1Zvx5o/source.json"
+    },
+    {
+      "id": "WGvtliE1298",
+      "title": "End Of Beginning - Amv Typography | After Effects Projects File",
+      "url": "https://www.youtube.com/watch?v=WGvtliE1298",
+      "sha256": "a1a90779654641018d64da92688b7d87cafe384337dc577606584ff66b800c6a",
+      "path": "media/WGvtliE1298/source.json"
+    },
+    {
+      "id": "aejbTf8Y0_0",
+      "title": "Billie Eilish - COPYCAT (Animated Lyrics)",
+      "url": "https://www.youtube.com/watch?v=aejbTf8Y0_0",
+      "sha256": "4f2bcf83463def86b29d9c4c5b97690d521246215ecb038e5c4453dc13818749",
+      "path": "media/aejbTf8Y0_0/source.json"
+    },
+    {
+      "id": "ax5bndrPga4",
+      "title": "Apple Business Essential Ads ( Alight Motion )",
+      "url": "https://www.youtube.com/watch?v=ax5bndrPga4",
+      "sha256": "d65772980144140dc9b4ab1280fefb2b7e87e4d3802e133cde6dc8922213e7d5",
+      "path": "media/ax5bndrPga4/source.json"
+    },
+    {
+      "id": "azcqvnQJiGk",
+      "title": "UNIQUE TEXT ANIMATION TUTORIAL / After Effects AMV Tutorial (Any skill level)",
+      "url": "https://www.youtube.com/watch?v=azcqvnQJiGk",
+      "sha256": "a7953d44bd58744a4da61c680dbe6bfceb23e7263164e43f49fc404149dbe537",
+      "path": "media/azcqvnQJiGk/source.json"
+    },
+    {
+      "id": "bTiPATKqf-w",
+      "title": "【MARETU】Even Though I Loved You - English Subtitles feat. Hatsune Miku",
+      "url": "https://www.youtube.com/watch?v=bTiPATKqf-w",
+      "sha256": "717718e60a360b7149de00a1275baaf1764ea2ad58f950fb10df302d8271abd8",
+      "path": "media/bTiPATKqf-w/source.json"
+    },
+    {
+      "id": "bVXATN0Qh-I",
+      "title": "Hozier – Eat Your Young | Kinetic Typography Animation (Motion Design)",
+      "url": "https://www.youtube.com/watch?v=bVXATN0Qh-I",
+      "sha256": "335476b535cf83a1db53d8a8a6f383536e14b45ee4bb12d4686fc80353fd1a46",
+      "path": "media/bVXATN0Qh-I/source.json"
+    },
+    {
+      "id": "b_VE52ZK_5k",
+      "title": "Hatsune Miku - Popipo (Lyrics)",
+      "url": "https://www.youtube.com/watch?v=b_VE52ZK_5k",
+      "sha256": "04a9b6710aca1b1b78e19b4c40567bc547e2e51187ecccbc54eccc860afbd514",
+      "path": "media/b_VE52ZK_5k/source.json"
+    },
+    {
+      "id": "cQKGUgOfD8U",
+      "title": "【VOCALOID Original】ECHO【Gumi English】",
+      "url": "https://www.youtube.com/watch?v=cQKGUgOfD8U",
+      "sha256": "e8759ebc6071524ce20285e60f596479f24e9edff2efbb8b009d6cea6ff18f63",
+      "path": "media/cQKGUgOfD8U/source.json"
+    },
+    {
+      "id": "dQhMNN2Ku0Q",
+      "title": "3D Camera Typography Tunnel | After Effects Tutorial",
+      "url": "https://www.youtube.com/watch?v=dQhMNN2Ku0Q",
+      "sha256": "b487191062cf104e99475f233e42c3d2d68f352649c758a6771d64587a4657bc",
+      "path": "media/dQhMNN2Ku0Q/source.json"
+    },
+    {
+      "id": "duPJqfKiA78",
+      "title": "Hatsune Miku ~ Triple Baka - Full Song (English Subtitles v2) [LamazeP - REUPLOAD w/subtitles added]",
+      "url": "https://www.youtube.com/watch?v=duPJqfKiA78",
+      "sha256": "bc22857c2c47cce53377e1442d248c9ba8abefe3ad127fa6b3f37811e9838a94",
+      "path": "media/duPJqfKiA78/source.json"
+    },
+    {
+      "id": "gh9YSQ-Dvdw",
+      "title": "[VOCALOID] Megurine Luka Just Be Friends [Japanese Romanji English Lyrics]",
+      "url": "https://www.youtube.com/watch?v=gh9YSQ-Dvdw",
+      "sha256": "555ebb5a12ba0e0769e5868174d0b1b5fb62023b70979883f6fe7e6c4c4ea4db",
+      "path": "media/gh9YSQ-Dvdw/source.json"
+    },
+    {
+      "id": "j-vreBrqaUk",
+      "title": "How To Make Text Animation Like Nikovax On Alight Motion | Nikovax Text Tutorial | AMV TUTORIAL !",
+      "url": "https://www.youtube.com/watch?v=j-vreBrqaUk",
+      "sha256": "16384740e68f57b04b2431e42dca96df8d060a8159e94830f04e653bfd732a66",
+      "path": "media/j-vreBrqaUk/source.json"
+    },
+    {
+      "id": "j83lVheSa-g",
+      "title": "How To Make Text Animation Like @Nikovaxx For Amv Edits In Alight motion!",
+      "url": "https://www.youtube.com/watch?v=j83lVheSa-g",
+      "sha256": "2b73a6f3eeb5c3e28ca902a5b8b65f34fdd915b8b61a54b163dc8cd6ef239d4b",
+      "path": "media/j83lVheSa-g/source.json"
+    },
+    {
+      "id": "jonfGl7kh10",
+      "title": "Text Behind Character - After Effects Tutorial AMV",
+      "url": "https://www.youtube.com/watch?v=jonfGl7kh10",
+      "sha256": "02c857cea1332a86232d78ae5144d948bb2fa808c7d1c95191f76b77adc97350",
+      "path": "media/jonfGl7kh10/source.json"
+    },
+    {
+      "id": "kiVGOS7-n_o",
+      "title": "Cupid - Fifty Fifty (Motion Graphic)",
+      "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+      "sha256": "ade3322b694a1de37fa7dac48cf0f34e51d14d1b3f01595e7a9c9cd54dc21f58",
+      "path": "media/kiVGOS7-n_o/source.json"
+    },
+    {
+      "id": "lQRVCHXRf2E",
+      "title": "BTS - Butter / Kinetic Typography [ Motion MV / Lyrics / 키네틱 타이포그래피 ]",
+      "url": "https://www.youtube.com/watch?v=lQRVCHXRf2E",
+      "sha256": "b30c923c0e4e86f6555b5f11d8e35be5de0c0647fe9435391109759b45121d9d",
+      "path": "media/lQRVCHXRf2E/source.json"
+    },
+    {
+      "id": "lzVhGnMV4QY",
+      "title": "Cool Text for AMV and Lyrics -  After Effects Tutorial| Arsacre| 2021",
+      "url": "https://www.youtube.com/watch?v=lzVhGnMV4QY",
+      "sha256": "7b420af45746a287d139a200fc25bddd5f7d9dfb21e8387aebd45e0dceb76951",
+      "path": "media/lzVhGnMV4QY/source.json"
+    },
+    {
+      "id": "rMzVIp7yd5k",
+      "title": "Brat lyrics tutorial - After Effects",
+      "url": "https://www.youtube.com/watch?v=rMzVIp7yd5k",
+      "sha256": "94863ada5d168dbfcd94a289aab0d1b0a20363c7bc60def207e2418a4239a4c7",
+      "path": "media/rMzVIp7yd5k/source.json"
+    },
+    {
+      "id": "rVCo24E8bU0",
+      "title": "Karaoke Text Animation in Adobe After Effects (2 Minute Tutorial)",
+      "url": "https://www.youtube.com/watch?v=rVCo24E8bU0",
+      "sha256": "493c545c5d858dfde42bcded20690889e9c0b12b17c958ca68e8b9c0d426e181",
+      "path": "media/rVCo24E8bU0/source.json"
+    },
+    {
+      "id": "tC_p4mz5xfE",
+      "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial | Kinetic Typography",
+      "url": "https://www.youtube.com/watch?v=tC_p4mz5xfE",
+      "sha256": "4c8f5b3c30016ff680ae100c3d55dfacc24af331b2c31f96a10a97263bee843e",
+      "path": "media/tC_p4mz5xfE/source.json"
+    },
+    {
+      "id": "twDzKHIJW7M",
+      "title": "3D Movement Camera - Typography AMV || CapCut AMV Tutorial",
+      "url": "https://www.youtube.com/watch?v=twDzKHIJW7M",
+      "sha256": "fd611a4dcd8592e2e63f87688f0eba4ccc06323f7e83dc143f11e2456df238e3",
+      "path": "media/twDzKHIJW7M/source.json"
+    },
+    {
+      "id": "wC1iW6hBfuI",
+      "title": "[VOCALOID] Hatsune Miku Rolling Girl [Japanese Romanji English Lyrics]",
+      "url": "https://www.youtube.com/watch?v=wC1iW6hBfuI",
+      "sha256": "cac609935c4c704cf6ff098c4524074c04e53beaba20f090f0092bd48c04e596",
+      "path": "media/wC1iW6hBfuI/source.json"
+    },
+    {
+      "id": "xZovFQSkCPo",
+      "title": "Gumi Vocaloid - ECHO【Typography】",
+      "url": "https://www.youtube.com/watch?v=xZovFQSkCPo",
+      "sha256": "be529b813a78b3be27625fba5b0b73feb7d4a5d2c26adecb89ffd8ee96486e78",
+      "path": "media/xZovFQSkCPo/source.json"
+    },
+    {
+      "id": "xbFFa8xR_Kc",
+      "title": "Bright Purity - NU:Carnival | Kinetic Typography",
+      "url": "https://www.youtube.com/watch?v=xbFFa8xR_Kc",
+      "sha256": "a27be29e7bbf4567bbfbeb3a1e0d7203673a6ef9bd4e3c3de67f4957ef3fbfed",
+      "path": "media/xbFFa8xR_Kc/source.json"
+    },
+    {
+      "id": "xnuP27VrO40",
+      "title": "BASIC TYPOGRAPHY | After effects AMV TEXT TUTORIAL for ADVANCED editors",
+      "url": "https://www.youtube.com/watch?v=xnuP27VrO40",
+      "sha256": "91c18167c790baccd8016d904e37ac0d921b9c916d133789dc965e2372fa9a1a",
+      "path": "media/xnuP27VrO40/source.json"
+    },
+    {
+      "id": "zR1hzhJVMnY",
+      "title": "tommy. - eat your heart ft. Hatsune Miku (Lyric Video)",
+      "url": "https://www.youtube.com/watch?v=zR1hzhJVMnY",
+      "sha256": "f550ccf60ad2efebecf884359213bc3b3bd651125d7a884af7ae6363d8da8917",
+      "path": "media/zR1hzhJVMnY/source.json"
+    },
+    {
+      "id": "YT_-R-EylAiS1A",
+      "title": "「自主制作MV」パノプティコン",
+      "url": "https://www.youtube.com/watch?v=-R-EylAiS1A",
+      "sha256": "61132892a1b1e33e830e30a64bf992a46844da1265bd149565c85712964fece4",
+      "path": "luna-public/media/YT_-R-EylAiS1A/source.json"
+    },
+    {
+      "id": "YT_-yL3l-Jyz8M",
+      "title": "【Motion Graphics】vividn hop",
+      "url": "https://www.youtube.com/watch?v=-yL3l-Jyz8M",
+      "sha256": "d904b62388e3b2dac8392d8f5c1a6e9e5f3028918b7ab14f024325a7a832313f",
+      "path": "luna-public/media/YT_-yL3l-Jyz8M/source.json"
+    },
+    {
+      "id": "YT_1yVBID6GKi4",
+      "title": "Text Spacing Animation in After Effects | Text Tracking Animation / Kerning Animation // Typography",
+      "url": "https://www.youtube.com/watch?v=1yVBID6GKi4",
+      "sha256": "b776e8f204f8f9fab8eb5c22b52fa3229852d8d23aef266beec983d52ce17340",
+      "path": "luna-public/media/YT_1yVBID6GKi4/source.json"
+    },
+    {
+      "id": "YT_2-nnN-18zkA",
+      "title": "【MMDモーション＆PVキット配布中】メズマライザー　MMDフルトレース",
+      "url": "https://www.youtube.com/watch?v=2-nnN-18zkA",
+      "sha256": "929693e68335b20cf4c9f086e1181cc4bd3a039f436f5cfbd496d310da3e9709",
+      "path": "luna-public/media/YT_2-nnN-18zkA/source.json"
+    },
+    {
+      "id": "YT_3Jf_sabP4e0",
+      "title": "How to Animate Text Along a Path In After Effects",
+      "url": "https://www.youtube.com/watch?v=3Jf_sabP4e0",
+      "sha256": "67af7fce3d05102a689038b1c08838b8c6cb6e5b83f0a8e9ba10c0a47bbdd3c7",
+      "path": "luna-public/media/YT_3Jf_sabP4e0/source.json"
+    },
+    {
+      "id": "YT_4vLwhXY0ZRw",
+      "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial Kinetic Typography #4",
+      "url": "https://www.youtube.com/watch?v=4vLwhXY0ZRw",
+      "sha256": "c089ee0537710949b80b1c808b8a5c911e7ab31a70c5c62ac53474f801519f87",
+      "path": "luna-public/media/YT_4vLwhXY0ZRw/source.json"
+    },
+    {
+      "id": "YT_6pWq_YmOuOY",
+      "title": "YOASOBI - Idol (Lyrics)",
+      "url": "https://www.youtube.com/watch?v=6pWq_YmOuOY",
+      "sha256": "f8df1bccd6602650b5bd5f37e1e3d8f222a3bfb4a5697d18e613a51b84c79cd4",
+      "path": "luna-public/media/YT_6pWq_YmOuOY/source.json"
+    },
+    {
+      "id": "YT_8JBgDUYrkMY",
+      "title": "初心者がやりがちな文字PVあるある",
+      "url": "https://www.youtube.com/watch?v=8JBgDUYrkMY",
+      "sha256": "0aeaedc8d9137a779f51689e2d526f592661fd513576b2c5e6a6ddd6168fc53b",
+      "path": "luna-public/media/YT_8JBgDUYrkMY/source.json"
+    },
+    {
+      "id": "YT_9HkaXHjgduA",
+      "title": "『プロジェクトセカイ カラフルステージ！ feat. 初音ミク』ダイジェストPV",
+      "url": "https://www.youtube.com/watch?v=9HkaXHjgduA",
+      "sha256": "4c604df98c65dcf934de1d35c4410ab17103b5e19343d51c6976936e0fcbd7d5",
+      "path": "luna-public/media/YT_9HkaXHjgduA/source.json"
+    },
+    {
+      "id": "YT_B9nRkikNqbw",
+      "title": "[MMD] SAWTOWNE - Confessions of a Rotten Girl / ft. Hatsune Miku [Official Motion DL]",
+      "url": "https://www.youtube.com/watch?v=B9nRkikNqbw",
+      "sha256": "4a05def8891f08d962ef5c830352ea7d247b664e62f83f9d5b633f375769018c",
+      "path": "luna-public/media/YT_B9nRkikNqbw/source.json"
+    },
+    {
+      "id": "YT_BnkhBwzBqlQ",
+      "title": "Aiobahn +81 feat. KOTOKO - INTERNET OVERDOSE (Official Music Video) [Theme for NEEDY GIRL OVERDOSE]",
+      "url": "https://www.youtube.com/watch?v=BnkhBwzBqlQ",
+      "sha256": "e0507f7a86b862679fb54036ff30c557fd51e8a7c08a60bc452d088a9c4a40ac",
+      "path": "luna-public/media/YT_BnkhBwzBqlQ/source.json"
+    },
+    {
+      "id": "YT_CBE1PkDRONc",
+      "title": "Motion Typography Smooth Animation in CapCut - CapCut Tutorial",
+      "url": "https://www.youtube.com/watch?v=CBE1PkDRONc",
+      "sha256": "bad5c75d36b4f3bbc973cb4de67a98224a68e49fb283c17fb2f9b22fbcc75d48",
+      "path": "luna-public/media/YT_CBE1PkDRONc/source.json"
+    },
+    {
+      "id": "YT_CN9QZ_Fn5_o",
+      "title": "203 文字が順に描かれるアニメーション！Vlog風！ブルブル揺れる！【アフターエフェクト】",
+      "url": "https://www.youtube.com/watch?v=CN9QZ_Fn5_o",
+      "sha256": "e1d6bc19b40eba0bd133d96d16750d0a7d42dfa3e4eaa7ea83bbf1ef6b162147",
+      "path": "luna-public/media/YT_CN9QZ_Fn5_o/source.json"
+    },
+    {
+      "id": "YT_D7-lYDOpA50",
+      "title": "SHIAWASE FOR YOU! / いよわ feat. 初音ミク",
+      "url": "https://www.youtube.com/watch?v=D7-lYDOpA50",
+      "sha256": "4b382eea1ef35a4035197ad55d515862727b5301a7e9eba52b06e71181158edd",
+      "path": "luna-public/media/YT_D7-lYDOpA50/source.json"
+    },
+    {
+      "id": "YT_D8iljVedezU",
+      "title": "【AviUtl】文字PVの作り方！　プロによる有料級のメイキング＆解説【はるきち／だろ講】",
+      "url": "https://www.youtube.com/watch?v=D8iljVedezU",
+      "sha256": "6af487739ee6a83fe88015d1476e6e4b5513925d92c16d90a53ce88c5d976abf",
+      "path": "luna-public/media/YT_D8iljVedezU/source.json"
+    },
+    {
+      "id": "YT_FIKhyny45T8",
+      "title": "【Aviutl】文字登場を移動と拡大で作ろう",
+      "url": "https://www.youtube.com/watch?v=FIKhyny45T8",
+      "sha256": "96ffa1132459b3600f1fb1a714fee5b754dbcae1c638afd90c644eead8ac8008",
+      "path": "luna-public/media/YT_FIKhyny45T8/source.json"
+    },
+    {
+      "id": "YT_G_NYcAeTmOs",
+      "title": "√Bestmadsofalltime ▪ Alice (Motion Graphics)",
+      "url": "https://www.youtube.com/watch?v=G_NYcAeTmOs",
+      "sha256": "157dfeb7d98187500ce38931f7f8c1f9c242cab0e50848b0b613a428b65eb12a",
+      "path": "luna-public/media/YT_G_NYcAeTmOs/source.json"
+    },
+    {
+      "id": "YT_Gz_p4p-6k1k",
+      "title": "Endless Title Animations with This Effect! (After Effects Tutorial)",
+      "url": "https://www.youtube.com/watch?v=Gz_p4p-6k1k",
+      "sha256": "7a4d37812bbeb25bd4d7cfde76d96b459254a45eaad967ab9e0e503fd1c0075c",
+      "path": "luna-public/media/YT_Gz_p4p-6k1k/source.json"
+    },
+    {
+      "id": "YT_HaiwW5_WtzI",
+      "title": "【文字PV】熱異常【AviUtl】",
+      "url": "https://www.youtube.com/watch?v=HaiwW5_WtzI",
+      "sha256": "6a2504ba10f80cd327d8fc3eb9cc9379d8f9d0ac1b2ff484861dfe20e2697de4",
+      "path": "luna-public/media/YT_HaiwW5_WtzI/source.json"
+    },
+    {
+      "id": "YT_J1-hexQLXrY",
+      "title": "【文字PV】人マニア 【aviutl】",
+      "url": "https://www.youtube.com/watch?v=J1-hexQLXrY",
+      "sha256": "ea716272ec17d7afefafa26b37bfb3e0c0fb78ed536508190152879826dfab18",
+      "path": "luna-public/media/YT_J1-hexQLXrY/source.json"
+    },
+    {
+      "id": "YT_JPblL7tjj8M",
+      "title": "Motion Graphics - \"Future Dads\" music video",
+      "url": "https://www.youtube.com/watch?v=JPblL7tjj8M",
+      "sha256": "48792f26461b2664a336a5bae3e112666e1dedaba7e30b06efa01c1e1e3d428e",
+      "path": "luna-public/media/YT_JPblL7tjj8M/source.json"
+    },
+    {
+      "id": "YT_JSFsIsjWINk",
+      "title": "字幕演出を刻む【Aviutl】",
+      "url": "https://www.youtube.com/watch?v=JSFsIsjWINk",
+      "sha256": "ddbd394353710c0f115d26dee66f263de546d7d70fc2eab1190b3b103833dbb2",
+      "path": "luna-public/media/YT_JSFsIsjWINk/source.json"
+    },
+    {
+      "id": "YT_KgL0IAAl_Oo",
+      "title": "ダーリンダンス / かいりきベア　【文字PV・モーショングラフィックス】",
+      "url": "https://www.youtube.com/watch?v=KgL0IAAl_Oo",
+      "sha256": "258e5b8bc503ff2aac4b68dcbe83c2855460f244ec89b467f7282e3be5151804",
+      "path": "luna-public/media/YT_KgL0IAAl_Oo/source.json"
+    },
+    {
+      "id": "YT_KlTNKOnfXFk",
+      "title": "Static ft. Hatsune Miku",
+      "url": "https://www.youtube.com/watch?v=KlTNKOnfXFk",
+      "sha256": "5f0c4fa343129ed767c8bb03b535dfc7a0f21bff8f0a762de655f56c2bdba074",
+      "path": "luna-public/media/YT_KlTNKOnfXFk/source.json"
+    },
+    {
+      "id": "YT_Lcpinqeu3Fk",
+      "title": "IRIS OUT / 米津玄師 様",
+      "url": "https://www.youtube.com/watch?v=Lcpinqeu3Fk",
+      "sha256": "865bb0384da03b4cbd3553ae881a5c84dc83b48a33e85e87e1af76733f3a4e7b",
+      "path": "luna-public/media/YT_Lcpinqeu3Fk/source.json"
+    },
+    {
+      "id": "YT_MxVyO8XJq8s",
+      "title": "ROT FOR CLOUT (Motion Graphics)",
+      "url": "https://www.youtube.com/watch?v=MxVyO8XJq8s",
+      "sha256": "38861c679a796eb563ef2ff453bc7f41c69d52c61b222a5e3353530ab1fc5d87",
+      "path": "luna-public/media/YT_MxVyO8XJq8s/source.json"
+    },
+    {
+      "id": "YT_N1t9-Tnwqeo",
+      "title": "【MMDモーション配布中】オブソミート　MMDトレース(ラスサビのみ)",
+      "url": "https://www.youtube.com/watch?v=N1t9-Tnwqeo",
+      "sha256": "959c94d71887d30c784c24d83cf0db4d1fab5f125dc00f04ae363d411d4f8600",
+      "path": "luna-public/media/YT_N1t9-Tnwqeo/source.json"
+    },
+    {
+      "id": "YT_N6TkZKytwI4",
+      "title": "【文字PV】スーサイドパレヱド / ユリイ・カノン【Aviutl】",
+      "url": "https://www.youtube.com/watch?v=N6TkZKytwI4",
+      "sha256": "c50c3003b0c72bbc527443269cd8174d7cc9c7d8753bb191a23043f38cf8dc42",
+      "path": "luna-public/media/YT_N6TkZKytwI4/source.json"
+    },
+    {
+      "id": "YT_Q9R8esFltPk",
+      "title": "30秒で分かる！文字PVが一瞬で最強になるお手軽技8選【AfterEffects】【KERU】【劣等上等】",
+      "url": "https://www.youtube.com/watch?v=Q9R8esFltPk",
+      "sha256": "77e8ad9b814a945c16112c1a03fe54b07d0d10ac64cb16630fd1c829b79fd043",
+      "path": "luna-public/media/YT_Q9R8esFltPk/source.json"
+    },
+    {
+      "id": "YT_RyOeEwwYB04",
+      "title": "動画編集でペンで描いた手描き文字を入れる方法【CupCut・TikTok動画】",
+      "url": "https://www.youtube.com/watch?v=RyOeEwwYB04",
+      "sha256": "37f2c329cdd8e5b9ec7d8a6019a064d0fbf243feff908d40a31bdb95135aafd1",
+      "path": "luna-public/media/YT_RyOeEwwYB04/source.json"
+    },
+    {
+      "id": "YT_S_COVyj_TVQ",
+      "title": "how to use MMD's camera! MMD School Tutorial 6",
+      "url": "https://www.youtube.com/watch?v=S_COVyj_TVQ",
+      "sha256": "b3d3d8c15234faba815e650ea8c660905159d598a39f6504cf09945beba6cda1",
+      "path": "luna-public/media/YT_S_COVyj_TVQ/source.json"
+    },
+    {
+      "id": "YT_Shgr6TkJTDI",
+      "title": "Typography Motion Graphics Animation in CapCut - CapCut Tutorial",
+      "url": "https://www.youtube.com/watch?v=Shgr6TkJTDI",
+      "sha256": "356389871956999d682a3eb841e72befcb34becfcc34e5a3103be489e4f0b541",
+      "path": "luna-public/media/YT_Shgr6TkJTDI/source.json"
+    },
+    {
+      "id": "YT_TGOqXNiqpqc",
+      "title": "A collection of techniques for Text PV / Vocaloid MV Video Artist's using AfterEffects 2024",
+      "url": "https://www.youtube.com/watch?v=TGOqXNiqpqc",
+      "sha256": "85fc3d91a04e06759514c4486368bc3831a3c3fcf7ebf1562b8970c118e3d151",
+      "path": "luna-public/media/YT_TGOqXNiqpqc/source.json"
+    },
+    {
+      "id": "YT_UoptEaMrnok",
+      "title": "Worlders feat. 初音ミク / じん【Official MV】",
+      "url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+      "sha256": "cc9484b9100469aebaf12c23197d5380fb8479d8ecdc8293af02652db471db35",
+      "path": "luna-public/media/YT_UoptEaMrnok/source.json"
+    },
+    {
+      "id": "YT_VR3NL1Zvx5o",
+      "title": "How To Master Text Animation In Davinci Resolve (Under 1 Minute)",
+      "url": "https://www.youtube.com/watch?v=VR3NL1Zvx5o",
+      "sha256": "c5777ce13281723a0bf522a8524d57923f8fb8311ea8c7abc8a161b05590fdc6",
+      "path": "luna-public/media/YT_VR3NL1Zvx5o/source.json"
+    },
+    {
+      "id": "YT_VYLFsXPBVpE",
+      "title": "【モーショングラフィックス】ロータスイーター【YMM4】#文字PV #モーショングラフィックス #ボカロ",
+      "url": "https://www.youtube.com/watch?v=VYLFsXPBVpE",
+      "sha256": "00968ca7af99e45ce0bb2f24ec05e2c2263921e3cbd17e06adb17078689eeb38",
+      "path": "luna-public/media/YT_VYLFsXPBVpE/source.json"
+    },
+    {
+      "id": "YT_YzlIBkHuWzM",
+      "title": "【AviUtl】なめらかなモーションの作り方！(文字PV向け)",
+      "url": "https://www.youtube.com/watch?v=YzlIBkHuWzM",
+      "sha256": "975c4d9a6b30806d9d59cef1e6268c37f27831a1fb3e0c0bb21befb438d8648f",
+      "path": "luna-public/media/YT_YzlIBkHuWzM/source.json"
+    },
+    {
+      "id": "YT_Zkti7mm1uqc",
+      "title": "【AviUtl】いい感じな文字PVを作るヒント！",
+      "url": "https://www.youtube.com/watch?v=Zkti7mm1uqc",
+      "sha256": "a2d48c3b27b45d5d654dcf0876a24f9a982764c9d955c4a89b0a0368b884c0e6",
+      "path": "luna-public/media/YT_Zkti7mm1uqc/source.json"
+    },
+    {
+      "id": "YT__AIgv0EsOE4",
+      "title": "文字pv - 神っぽいな / AviUtl",
+      "url": "https://www.youtube.com/watch?v=_AIgv0EsOE4",
+      "sha256": "8a87276f37e191d7ffe2434c0e056dde55cf8eabf28882f79588677c467f7957",
+      "path": "luna-public/media/YT__AIgv0EsOE4/source.json"
+    },
+    {
+      "id": "YT__Fs6u3ieie8",
+      "title": "After Effects Type Animators Tutorial - create kinetic type animations - Sean Frangella",
+      "url": "https://www.youtube.com/watch?v=_Fs6u3ieie8",
+      "sha256": "747bb2430f6df8608c5218ea3bb38d33a9400d5bb734007988817baccab7c146",
+      "path": "luna-public/media/YT__Fs6u3ieie8/source.json"
+    },
+    {
+      "id": "YT_aS-u7iMRPHg",
+      "title": "筆文字アニメーションPV",
+      "url": "https://www.youtube.com/watch?v=aS-u7iMRPHg",
+      "sha256": "1efc1cac8cdc396256a125d2465c2e76c8c4202a079654bf32ac4e0795c8cb84",
+      "path": "luna-public/media/YT_aS-u7iMRPHg/source.json"
+    },
+    {
+      "id": "YT_aWZUS59HVsQ",
+      "title": "Variable Font Kinetic Type Animation | After Effects Tutorial",
+      "url": "https://www.youtube.com/watch?v=aWZUS59HVsQ",
+      "sha256": "93b522504a11a2e32a3ca3beab55fdccaca81909e40daf5bb26e3fe2ece47745",
+      "path": "luna-public/media/YT_aWZUS59HVsQ/source.json"
+    },
+    {
+      "id": "YT_b0XgjrWSV7k",
+      "title": "手書き風 アニメーションで動画編集の幅がもっと広がる！PowerPointで楽々作成！｜フィモーラ",
+      "url": "https://www.youtube.com/watch?v=b0XgjrWSV7k",
+      "sha256": "7667f999dc1f4e8f9fedc1f5ae1e24e311a336f4d421cf02aa4a3138cf2ee958",
+      "path": "luna-public/media/YT_b0XgjrWSV7k/source.json"
+    },
+    {
+      "id": "YT_bVXATN0Qh-I",
+      "title": "Hozier – Eat Your Young | Kinetic Typography Animation (Motion Design)",
+      "url": "https://www.youtube.com/watch?v=bVXATN0Qh-I",
+      "sha256": "335476b535cf83a1db53d8a8a6f383536e14b45ee4bb12d4686fc80353fd1a46",
+      "path": "luna-public/media/YT_bVXATN0Qh-I/source.json"
+    },
+    {
+      "id": "YT_dywes88_Rn0",
+      "title": "IMAWANOKIWA/いよわ 様【文字PV】【Aviutl】",
+      "url": "https://www.youtube.com/watch?v=dywes88_Rn0",
+      "sha256": "3b0be67c39f8e53ff548d5c2729fb768a166e96218d67acb0da37cbf43cb4f67",
+      "path": "luna-public/media/YT_dywes88_Rn0/source.json"
+    },
+    {
+      "id": "YT_eDo_K1VLfKQ",
+      "title": "【YMM4】たぶん終わり/いよわ【文字PV】#YMM4 #文字pv #編集初心者 #モーショングラフィックス",
+      "url": "https://www.youtube.com/watch?v=eDo_K1VLfKQ",
+      "sha256": "648857927e69c9d56ac4a62a046fde1f25230b551cea721c9e75dc0d1419dd16",
+      "path": "luna-public/media/YT_eDo_K1VLfKQ/source.json"
+    },
+    {
+      "id": "YT_eu3yoLa3dgs",
+      "title": "傀儡のうつつ / 初音ミク",
+      "url": "https://www.youtube.com/watch?v=eu3yoLa3dgs",
+      "sha256": "741e108235d9d7ff8fba60316a31bd4e31a49c1cb34fbbbd5d5e88fe46fafaff",
+      "path": "luna-public/media/YT_eu3yoLa3dgs/source.json"
+    },
+    {
+      "id": "YT_f88hCsCboAg",
+      "title": "【aviutl講座?】テキストを動かす",
+      "url": "https://www.youtube.com/watch?v=f88hCsCboAg",
+      "sha256": "e73b0b814fcff46876430138ef53ca1cecd5a0e9d35e99a8f4a116a7ef75cb45",
+      "path": "luna-public/media/YT_f88hCsCboAg/source.json"
+    },
+    {
+      "id": "YT_g8sh7xPV97A",
+      "title": "【YMM4】キドアイラク/Task【文字PV】#YMM4 #文字pv #編集初心者 #モーショングラフィックス",
+      "url": "https://www.youtube.com/watch?v=g8sh7xPV97A",
+      "sha256": "6a398738088fdfbb74d3e02cc67d0f5dda7e41704441e3474d463fa4c2e85b86",
+      "path": "luna-public/media/YT_g8sh7xPV97A/source.json"
+    },
+    {
+      "id": "YT_hF_iVXMtvbM",
+      "title": "Transform Your Text with Kinetic Motion!",
+      "url": "https://www.youtube.com/watch?v=hF_iVXMtvbM",
+      "sha256": "c8cd8a5cfe76a78b5222a9954587f99b71642029ceec2ec8015c5fcabeb9f202",
+      "path": "luna-public/media/YT_hF_iVXMtvbM/source.json"
+    },
+    {
+      "id": "YT_ijaK647Qfc8",
+      "title": "【文字PV】太陽系デスコ【AviUtl】",
+      "url": "https://www.youtube.com/watch?v=ijaK647Qfc8",
+      "sha256": "fcba8634f31eec4177d2c6bf70976c025b124918459af0b8f7427ad2a5c759a1",
+      "path": "luna-public/media/YT_ijaK647Qfc8/source.json"
+    },
+    {
+      "id": "YT_jTx1R2L3HBA",
+      "title": "アニメーション筆",
+      "url": "https://www.youtube.com/watch?v=jTx1R2L3HBA",
+      "sha256": "c3d992d144ca75e87ae3c33c6e6c8d66141a31fafc868b8164f2df9db7f127e5",
+      "path": "luna-public/media/YT_jTx1R2L3HBA/source.json"
+    },
+    {
+      "id": "YT_jlNXlG9SlMM",
+      "title": "手書き文字・修作1",
+      "url": "https://www.youtube.com/watch?v=jlNXlG9SlMM",
+      "sha256": "ee40545b82fc0f83b3ee35924a4cc5f07ec78ac4a8ff57e3a3f78e565bee273c",
+      "path": "luna-public/media/YT_jlNXlG9SlMM/source.json"
+    },
+    {
+      "id": "YT_kiVGOS7-n_o",
+      "title": "Cupid - Fifty Fifty (Motion Graphic)",
+      "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+      "sha256": "ade3322b694a1de37fa7dac48cf0f34e51d14d1b3f01595e7a9c9cd54dc21f58",
+      "path": "luna-public/media/YT_kiVGOS7-n_o/source.json"
+    },
+    {
+      "id": "YT_l5fBaLAj1ds",
+      "title": "Animated Typography 2 | Motion Graphics After Effects Tutorial",
+      "url": "https://www.youtube.com/watch?v=l5fBaLAj1ds",
+      "sha256": "e7c897d444ef8697c644fbab1e883b753b6f69177cfbae99497f4fa1dc530103",
+      "path": "luna-public/media/YT_l5fBaLAj1ds/source.json"
+    },
+    {
+      "id": "YT_lou68BiWaio",
+      "title": "テキスト編集【#Figma 07】cssのデータも作れます",
+      "url": "https://www.youtube.com/watch?v=lou68BiWaio",
+      "sha256": "51cd689fcb5397e36269267194c3510558a497cf5b398411784039c86887ae90",
+      "path": "luna-public/media/YT_lou68BiWaio/source.json"
+    },
+    {
+      "id": "YT_lp1dP49o5qY",
+      "title": "【MMD】 SnowMix♪ -Game Ver- (Motion Public DL)",
+      "url": "https://www.youtube.com/watch?v=lp1dP49o5qY",
+      "sha256": "a14c551126588de1f3e86e4c926943268c34a0a23bf7c3c9eb18be9a5a014f9d",
+      "path": "luna-public/media/YT_lp1dP49o5qY/source.json"
+    },
+    {
+      "id": "YT_lwVOrLUXWKg",
+      "title": "マーシャルマキシマイザー【オリジナルMV】作ってみた　： After effects",
+      "url": "https://www.youtube.com/watch?v=lwVOrLUXWKg",
+      "sha256": "74a09fcb2f06db364874ed7d890f3fba2f5aec7f451f7c05845cb73186e113b1",
+      "path": "luna-public/media/YT_lwVOrLUXWKg/source.json"
+    },
+    {
+      "id": "YT_o1gg6HnUnYI",
+      "title": "Move Any Object or Text Along Path In Alight Motion - Beginner Tutorial",
+      "url": "https://www.youtube.com/watch?v=o1gg6HnUnYI",
+      "sha256": "66290201c062e810368419bac279f96c4fe415ffcc28f75cb1a8228196ba9ba1",
+      "path": "luna-public/media/YT_o1gg6HnUnYI/source.json"
+    },
+    {
+      "id": "YT_oklD91_Bipk",
+      "title": "手書き文字動画",
+      "url": "https://www.youtube.com/watch?v=oklD91_Bipk",
+      "sha256": "266a67155ff499ed333ab0baf9670a311eebd514765bab8fecb23cdbb93bba1b",
+      "path": "luna-public/media/YT_oklD91_Bipk/source.json"
+    },
+    {
+      "id": "YT_oxODHegJn8I",
+      "title": "【VOCALOID】グッバイ宣言  MV　作ってみた【After Effects】",
+      "url": "https://www.youtube.com/watch?v=oxODHegJn8I",
+      "sha256": "24b202ed0bc5f164fcc2e717284531319b8aa586539429b8038ef5efb62a7bcf",
+      "path": "luna-public/media/YT_oxODHegJn8I/source.json"
+    },
+    {
+      "id": "YT_plt7dPp2RiM",
+      "title": "After Effectsを使った手書き風アニメーション",
+      "url": "https://www.youtube.com/watch?v=plt7dPp2RiM",
+      "sha256": "432839e48eacc4fcaf9fd4281bb39226e859ed461f8b728d50abe3a661433d0d",
+      "path": "luna-public/media/YT_plt7dPp2RiM/source.json"
+    },
+    {
+      "id": "YT_r2gFzs_e69s",
+      "title": "After Effects Variable Fonts Tutorial: Animate Weight, Width & Slant Text",
+      "url": "https://www.youtube.com/watch?v=r2gFzs_e69s",
+      "sha256": "fdd6ccc594861d8eb582f380d6b29d5be0f46dbb28768caf8890c7bd170b124d",
+      "path": "luna-public/media/YT_r2gFzs_e69s/source.json"
+    },
+    {
+      "id": "YT_sAsnVjliMw8",
+      "title": "【Project Sekai】Seimeisei Syndrome / Birthright Syndrome [EXPERT Lv. 29] FULL COMBO",
+      "url": "https://www.youtube.com/watch?v=sAsnVjliMw8",
+      "sha256": "e70a158ce894b40c11eb923c6f5b214a09826dfd3966dfcd96b48085d220d101",
+      "path": "luna-public/media/YT_sAsnVjliMw8/source.json"
+    },
+    {
+      "id": "YT_sUs_xMD-CCo",
+      "title": "AfterEffectsで文字PV･ボカロMV 動画師のテクニック集",
+      "url": "https://www.youtube.com/watch?v=sUs_xMD-CCo",
+      "sha256": "55f2eb5cd5c208a15e5878eef6057ef1cba5e121c5afd0e13205a135b1a4749b",
+      "path": "luna-public/media/YT_sUs_xMD-CCo/source.json"
+    },
+    {
+      "id": "YT_t-VhP8PHI80",
+      "title": "【VOCALOID】ECHO  MV　作ってみた【After Effects】",
+      "url": "https://www.youtube.com/watch?v=t-VhP8PHI80",
+      "sha256": "b83c5f3e785cffe1830589e2736e18f7682a8badb83e3cd6e97b2ef2db67b650",
+      "path": "luna-public/media/YT_t-VhP8PHI80/source.json"
+    },
+    {
+      "id": "YT_t7W-g5LYSQ8",
+      "title": "Figma - デザインシステム入門4 - タイポグラフィ、テキストスタイル、体系的なデザイン／山本麻美",
+      "url": "https://www.youtube.com/watch?v=t7W-g5LYSQ8",
+      "sha256": "1512273b0d216f8953c7c087a28b862b5cc0b96b86c5abb84ad6b8095ccea7a1",
+      "path": "luna-public/media/YT_t7W-g5LYSQ8/source.json"
+    },
+    {
+      "id": "YT_tI_wn9J-MMA",
+      "title": "Umineko motion graphics 8 HQ ver2.0 [English sub, no lyrics 1080]",
+      "url": "https://www.youtube.com/watch?v=tI_wn9J-MMA",
+      "sha256": "50e5481da478b5699b0e4d15b740dcc94831f92af053e3f2a842653093ef5ecc",
+      "path": "luna-public/media/YT_tI_wn9J-MMA/source.json"
+    },
+    {
+      "id": "YT_tS8BgCebrJY",
+      "title": "アイディスマイル 文字PV [AE]",
+      "url": "https://www.youtube.com/watch?v=tS8BgCebrJY",
+      "sha256": "20ea8c58e44bd09117159f55707ad9e609a592051db253c26db713de9fcc85f3",
+      "path": "luna-public/media/YT_tS8BgCebrJY/source.json"
+    },
+    {
+      "id": "YT_uvWHJQhi18g",
+      "title": "Creating Cutout Collage Animation | DaVinci Resolve Fusion Tutorial",
+      "url": "https://www.youtube.com/watch?v=uvWHJQhi18g",
+      "sha256": "4ee887c942f1377fa5d8904c309e7b9d40404ab30f1e9439197c91edc8abeb1c",
+      "path": "luna-public/media/YT_uvWHJQhi18g/source.json"
+    },
+    {
+      "id": "YT_vSiDs0se6Ss",
+      "title": "【文字PV】まにまに / r-906【Aviutl】",
+      "url": "https://www.youtube.com/watch?v=vSiDs0se6Ss",
+      "sha256": "2a7c8333de0b2f710a6341c2f63f70e4007475570c84a4be2f0a67cd5e9201f8",
+      "path": "luna-public/media/YT_vSiDs0se6Ss/source.json"
+    },
+    {
+      "id": "YT_voRTkIEf7Oo",
+      "title": "Testing",
+      "url": "https://www.youtube.com/watch?v=voRTkIEf7Oo",
+      "sha256": "c7ba17baca3e32cdc33cd55456464d63ce570e2c713bad4f16ef22657001e5c3",
+      "path": "luna-public/media/YT_voRTkIEf7Oo/source.json"
+    },
+    {
+      "id": "YT_w8beF3Bf0oc",
+      "title": "[MMD Studio] 💗 YENA「STAR! (feat. Hatsune Miku)」🌟 | Motion DL 💫  {Dance Practice}",
+      "url": "https://www.youtube.com/watch?v=w8beF3Bf0oc",
+      "sha256": "30861872fd722b4fce2d57054c763477b73e229bda8dd25c67e270a04eaea4c1",
+      "path": "luna-public/media/YT_w8beF3Bf0oc/source.json"
+    },
+    {
+      "id": "YT_wCb9qYugU0U",
+      "title": "SPIRIT",
+      "url": "https://www.youtube.com/watch?v=wCb9qYugU0U",
+      "sha256": "7a22de95517d7cc80f3245e17cc66c39845e650582aa1347e1a9541c6d23168d",
+      "path": "luna-public/media/YT_wCb9qYugU0U/source.json"
+    },
+    {
+      "id": "YT_wkE3d0sMAaI",
+      "title": "【文字PV】パノプティコン【限界映像大会＃92】",
+      "url": "https://www.youtube.com/watch?v=wkE3d0sMAaI",
+      "sha256": "1a0577e87f20b6c02648a0fdf5236194ed2e8529b57e0fd819a267a6d0a487fa",
+      "path": "luna-public/media/YT_wkE3d0sMAaI/source.json"
+    },
+    {
+      "id": "YT_x9J9Jnrg2ow",
+      "title": "アフターエフェクトで手書き文字",
+      "url": "https://www.youtube.com/watch?v=x9J9Jnrg2ow",
+      "sha256": "db0fa1ee38162719fa3f7d554767dff3ab502c65acb37ef12d06a750ab8e2437",
+      "path": "luna-public/media/YT_x9J9Jnrg2ow/source.json"
+    },
+    {
+      "id": "YT_xZovFQSkCPo",
+      "title": "Gumi Vocaloid - ECHO【Typography】",
+      "url": "https://www.youtube.com/watch?v=xZovFQSkCPo",
+      "sha256": "be529b813a78b3be27625fba5b0b73feb7d4a5d2c26adecb89ffd8ee96486e78",
+      "path": "luna-public/media/YT_xZovFQSkCPo/source.json"
+    },
+    {
+      "id": "YT_yH5Ork48Vpo",
+      "title": "【書】手書き風アニメーション",
+      "url": "https://www.youtube.com/watch?v=yH5Ork48Vpo",
+      "sha256": "eb1738ab03ed710ad2480e34223d0087954b16f65abcd5add2061daf08af148f",
+      "path": "luna-public/media/YT_yH5Ork48Vpo/source.json"
+    },
+    {
+      "id": "NICO-sm46137276",
+      "title": "【alightmotion/blurrr】インドア系ならトラックメイカー 文字pv",
+      "url": "https://www.nicovideo.jp/watch/sm46137276",
+      "sha256": "7851e067fd09aa2a1eb1944e45cac63e3eb5f5755af31a065efe4b0c7785ac87",
+      "path": "discovery-cross-17/sources/NICO-sm46137276/source.json"
+    },
+    {
+      "id": "NICO-sm46155083",
+      "title": "【Scratchで】個々々々々々人【文字PV】",
+      "url": "https://www.nicovideo.jp/watch/sm46155083",
+      "sha256": "5e4032ec049a04759d390fe30c905bcfe443e0bc640bf5c7bfd87dd7be46a383",
+      "path": "discovery-cross-17/sources/NICO-sm46155083/source.json"
+    },
+    {
+      "id": "PVOLT-C-7TIDIKc98",
+      "title": "DECO*27 - ボルテッカー feat. 初音ミク",
+      "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+      "sha256": "abc95bd4de542c67c276d5ea8c92e34a579c348441f559e9d35badd5b47cb849",
+      "path": "discovery-cross-17/sources/PVOLT-C-7TIDIKc98/source.json"
+    }
+  ],
+  "ledgers": [
+    {
+      "path": "acquisition.jsonl",
+      "rows": 159,
+      "sha256": "e75ba7c3aee93c8fbb33119443596887253150ca6387b3dc135cda218d305025",
+      "entries": [
+        {
+          "id": "BV1H7411T73W",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1H7411T73W/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1H7411T73W",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1H7411T73W/",
+          "state": "failed"
+        },
+        {
+          "id": "BV1k72LYzEmV",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1k72LYzEmV",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+          "state": "failed"
+        },
+        {
+          "id": "BV1zrbCzLEH4",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1zrbCzLEH4/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1zrbCzLEH4",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1zrbCzLEH4/",
+          "state": "failed"
+        },
+        {
+          "id": "BV1H7411T73W",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1H7411T73W/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1H7411T73W",
+          "title": "【PV】无用产业 | 初音ミク",
+          "url": "https://www.bilibili.com/video/BV1H7411T73W/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV1k72LYzEmV",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1k72LYzEmV",
+          "title": "【エスプリ企划】スキスキハンター♡ feat.初音ミク 官方文字PV",
+          "url": "https://www.bilibili.com/video/BV1k72LYzEmV/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV1zrbCzLEH4",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1zrbCzLEH4/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1zrbCzLEH4",
+          "title": "【4K 60帧】初音未来的消失MV 中日双语版 p01 中文版",
+          "url": "https://www.bilibili.com/video/BV1zrbCzLEH4/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV1EW411q7cP",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1EW411q7cP/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1EW411q7cP",
+          "title": "【初音ミク】血痕记念日【黒澤まどか】",
+          "url": "https://www.bilibili.com/video/BV1EW411q7cP/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV12x411c7mQ",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV12x411c7mQ/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV12x411c7mQ",
+          "title": "【初音ミク】「イキたいの。」【PV付き】（修正版）",
+          "url": "https://www.bilibili.com/video/BV12x411c7mQ/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV1sM4y1L73t",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1sM4y1L73t/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1sM4y1L73t",
+          "title": "【とあ/初音ミク】ツギハギスタッカート拼凑的断音PV【老物补档】",
+          "url": "https://www.bilibili.com/video/BV1sM4y1L73t/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV1wsgQ65E9o",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1wsgQ65E9o/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1wsgQ65E9o",
+          "title": "【中文字幕】表情符号/Emoji 鏡音リン【Fanmade MV】",
+          "url": "https://www.bilibili.com/video/BV1wsgQ65E9o/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV1J8hf61EAt",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1J8hf61EAt/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1J8hf61EAt",
+          "title": "DECO*27 - 状態異常彼女 feat. 初音ミク",
+          "url": "https://www.bilibili.com/video/BV1J8hf61EAt/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV1qMeb6FEVG",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1qMeb6FEVG/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1qMeb6FEVG",
+          "title": "【中文字幕】周末/しゅうまつ 初音ミク・雨衣【カイネ】",
+          "url": "https://www.bilibili.com/video/BV1qMeb6FEVG/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "BV1uJ411879Y",
+          "title": null,
+          "url": "https://www.bilibili.com/video/BV1uJ411879Y/",
+          "state": "attempting"
+        },
+        {
+          "id": "BV1uJ411879Y",
+          "title": "原版《神的随波逐流》中文字幕【初音ミク、鏡音リン、GUMI】 神のまにまに 随神之侧",
+          "url": "https://www.bilibili.com/video/BV1uJ411879Y/",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "xbFFa8xR_Kc",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=xbFFa8xR_Kc",
+          "state": "attempting"
+        },
+        {
+          "id": "xbFFa8xR_Kc",
+          "title": "Bright Purity - NU:Carnival | Kinetic Typography",
+          "url": "https://www.youtube.com/watch?v=xbFFa8xR_Kc",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "lPaVcS8ei6s",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=lPaVcS8ei6s",
+          "state": "attempting"
+        },
+        {
+          "id": "lPaVcS8ei6s",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=lPaVcS8ei6s",
+          "state": "failed"
+        },
+        {
+          "id": "Hl2M5Ozz3uk",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=Hl2M5Ozz3uk",
+          "state": "attempting"
+        },
+        {
+          "id": "Hl2M5Ozz3uk",
+          "title": "New Way Out [♪ Lemon Demon Kinetic Typography Music Video ♪]",
+          "url": "https://www.youtube.com/watch?v=Hl2M5Ozz3uk",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "DW6MykaSh6U",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=DW6MykaSh6U",
+          "state": "attempting"
+        },
+        {
+          "id": "DW6MykaSh6U",
+          "title": "Kinetic Type Project ECHO [Vocaloid Gumi]",
+          "url": "https://www.youtube.com/watch?v=DW6MykaSh6U",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "G-YNNJIe2Vk",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=G-YNNJIe2Vk",
+          "state": "attempting"
+        },
+        {
+          "id": "G-YNNJIe2Vk",
+          "title": "Hide and Seek (Vocaloid) 🍓 English ver by Lizz Robinett",
+          "url": "https://www.youtube.com/watch?v=G-YNNJIe2Vk",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "Gm72U0KcKE8",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=Gm72U0KcKE8",
+          "state": "attempting"
+        },
+        {
+          "id": "Gm72U0KcKE8",
+          "title": "Hide and Seek (by Lizz Robinett) - Kinetic Typography (IAT 100)",
+          "url": "https://www.youtube.com/watch?v=Gm72U0KcKE8",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "lQRVCHXRf2E",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=lQRVCHXRf2E",
+          "state": "attempting"
+        },
+        {
+          "id": "lQRVCHXRf2E",
+          "title": "BTS - Butter / Kinetic Typography [ Motion MV / Lyrics / 키네틱 타이포그래피 ]",
+          "url": "https://www.youtube.com/watch?v=lQRVCHXRf2E",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "aejbTf8Y0_0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=aejbTf8Y0_0",
+          "state": "attempting"
+        },
+        {
+          "id": "aejbTf8Y0_0",
+          "title": "Billie Eilish - COPYCAT (Animated Lyrics)",
+          "url": "https://www.youtube.com/watch?v=aejbTf8Y0_0",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "xZovFQSkCPo",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=xZovFQSkCPo",
+          "state": "attempting"
+        },
+        {
+          "id": "xZovFQSkCPo",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=xZovFQSkCPo",
+          "state": "failed"
+        },
+        {
+          "id": "TzH5BsJj81Y",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=TzH5BsJj81Y",
+          "state": "attempting"
+        },
+        {
+          "id": "TzH5BsJj81Y",
+          "title": "アクマバライ feat. 雨衣, Gemini, ミク / “Exorcist” ft. Ui, Gemini (TTS), Miku",
+          "url": "https://www.youtube.com/watch?v=TzH5BsJj81Y",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "CsYDv5Cf0yo",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=CsYDv5Cf0yo",
+          "state": "attempting"
+        },
+        {
+          "id": "CsYDv5Cf0yo",
+          "title": "ANOTHER CUP // Kasane Teto (Original Song)",
+          "url": "https://www.youtube.com/watch?v=CsYDv5Cf0yo",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "cQKGUgOfD8U",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=cQKGUgOfD8U",
+          "state": "attempting"
+        },
+        {
+          "id": "cQKGUgOfD8U",
+          "title": "【VOCALOID Original】ECHO【Gumi English】",
+          "url": "https://www.youtube.com/watch?v=cQKGUgOfD8U",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "rVCo24E8bU0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=rVCo24E8bU0",
+          "state": "attempting"
+        },
+        {
+          "id": "rVCo24E8bU0",
+          "title": "Karaoke Text Animation in Adobe After Effects (2 Minute Tutorial)",
+          "url": "https://www.youtube.com/watch?v=rVCo24E8bU0",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "xnuP27VrO40",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=xnuP27VrO40",
+          "state": "attempting"
+        },
+        {
+          "id": "xnuP27VrO40",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=xnuP27VrO40",
+          "state": "failed"
+        },
+        {
+          "id": "16kTqBUh8mM",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=16kTqBUh8mM",
+          "state": "attempting"
+        },
+        {
+          "id": "16kTqBUh8mM",
+          "title": "How To Master Text Animation In After Effects (Under 1 Minutes)",
+          "url": "https://www.youtube.com/watch?v=16kTqBUh8mM",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "WGvtliE1298",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=WGvtliE1298",
+          "state": "attempting"
+        },
+        {
+          "id": "WGvtliE1298",
+          "title": "End Of Beginning - Amv Typography | After Effects Projects File",
+          "url": "https://www.youtube.com/watch?v=WGvtliE1298",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "rMzVIp7yd5k",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=rMzVIp7yd5k",
+          "state": "attempting"
+        },
+        {
+          "id": "rMzVIp7yd5k",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=rMzVIp7yd5k",
+          "state": "failed"
+        },
+        {
+          "id": "lzVhGnMV4QY",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=lzVhGnMV4QY",
+          "state": "attempting"
+        },
+        {
+          "id": "lzVhGnMV4QY",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=lzVhGnMV4QY",
+          "state": "failed"
+        },
+        {
+          "id": "jonfGl7kh10",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=jonfGl7kh10",
+          "state": "attempting"
+        },
+        {
+          "id": "jonfGl7kh10",
+          "title": "Text Behind Character - After Effects Tutorial AMV",
+          "url": "https://www.youtube.com/watch?v=jonfGl7kh10",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "dQhMNN2Ku0Q",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=dQhMNN2Ku0Q",
+          "state": "attempting"
+        },
+        {
+          "id": "dQhMNN2Ku0Q",
+          "title": "3D Camera Typography Tunnel | After Effects Tutorial",
+          "url": "https://www.youtube.com/watch?v=dQhMNN2Ku0Q",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "9-3RLq9jF20",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=9-3RLq9jF20",
+          "state": "attempting"
+        },
+        {
+          "id": "9-3RLq9jF20",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=9-3RLq9jF20",
+          "state": "failed"
+        },
+        {
+          "id": "UrSOYGEDSs8",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=UrSOYGEDSs8",
+          "state": "attempting"
+        },
+        {
+          "id": "UrSOYGEDSs8",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=UrSOYGEDSs8",
+          "state": "failed"
+        },
+        {
+          "id": "FOMWS5pChuA",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=FOMWS5pChuA",
+          "state": "attempting"
+        },
+        {
+          "id": "FOMWS5pChuA",
+          "title": "Maroon 5 - Maps - Kinetic Typography - Lyric Video",
+          "url": "https://www.youtube.com/watch?v=FOMWS5pChuA",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "bVXATN0Qh-I",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=bVXATN0Qh-I",
+          "state": "attempting"
+        },
+        {
+          "id": "bVXATN0Qh-I",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=bVXATN0Qh-I",
+          "state": "failed"
+        },
+        {
+          "id": "H85vk6q9BYA",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=H85vk6q9BYA",
+          "state": "attempting"
+        },
+        {
+          "id": "H85vk6q9BYA",
+          "title": "The Weeknd - Blinding Lights (Animated Kinetic Typography Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=H85vk6q9BYA",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "kiVGOS7-n_o",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+          "state": "attempting"
+        },
+        {
+          "id": "kiVGOS7-n_o",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+          "state": "failed"
+        },
+        {
+          "id": "9-3RLq9jF20",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=9-3RLq9jF20",
+          "state": "attempting"
+        },
+        {
+          "id": "9-3RLq9jF20",
+          "title": "Darling, I - Typography",
+          "url": "https://www.youtube.com/watch?v=9-3RLq9jF20",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "UrSOYGEDSs8",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=UrSOYGEDSs8",
+          "state": "attempting"
+        },
+        {
+          "id": "UrSOYGEDSs8",
+          "title": "Your Idol - Saja Boys (lyric video/ kinetic typography)",
+          "url": "https://www.youtube.com/watch?v=UrSOYGEDSs8",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "bVXATN0Qh-I",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=bVXATN0Qh-I",
+          "state": "attempting"
+        },
+        {
+          "id": "bVXATN0Qh-I",
+          "title": "Hozier – Eat Your Young | Kinetic Typography Animation (Motion Design)",
+          "url": "https://www.youtube.com/watch?v=bVXATN0Qh-I",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "kiVGOS7-n_o",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+          "state": "attempting"
+        },
+        {
+          "id": "kiVGOS7-n_o",
+          "title": "Cupid - Fifty Fifty (Motion Graphic)",
+          "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "lzVhGnMV4QY",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=lzVhGnMV4QY",
+          "state": "attempting"
+        },
+        {
+          "id": "lzVhGnMV4QY",
+          "title": "Cool Text for AMV and Lyrics -  After Effects Tutorial| Arsacre| 2021",
+          "url": "https://www.youtube.com/watch?v=lzVhGnMV4QY",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "rMzVIp7yd5k",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=rMzVIp7yd5k",
+          "state": "attempting"
+        },
+        {
+          "id": "rMzVIp7yd5k",
+          "title": "Brat lyrics tutorial - After Effects",
+          "url": "https://www.youtube.com/watch?v=rMzVIp7yd5k",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "xZovFQSkCPo",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=xZovFQSkCPo",
+          "state": "attempting"
+        },
+        {
+          "id": "xZovFQSkCPo",
+          "title": "Gumi Vocaloid - ECHO【Typography】",
+          "url": "https://www.youtube.com/watch?v=xZovFQSkCPo",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "xnuP27VrO40",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=xnuP27VrO40",
+          "state": "attempting"
+        },
+        {
+          "id": "xnuP27VrO40",
+          "title": "BASIC TYPOGRAPHY | After effects AMV TEXT TUTORIAL for ADVANCED editors",
+          "url": "https://www.youtube.com/watch?v=xnuP27VrO40",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "ax5bndrPga4",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=ax5bndrPga4",
+          "state": "attempting"
+        },
+        {
+          "id": "ax5bndrPga4",
+          "title": "Apple Business Essential Ads ( Alight Motion )",
+          "url": "https://www.youtube.com/watch?v=ax5bndrPga4",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "VR3NL1Zvx5o",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=VR3NL1Zvx5o",
+          "state": "attempting"
+        },
+        {
+          "id": "VR3NL1Zvx5o",
+          "title": "How To Master Text Animation In Davinci Resolve (Under 1 Minute)",
+          "url": "https://www.youtube.com/watch?v=VR3NL1Zvx5o",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "P502HuM4WF0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=P502HuM4WF0",
+          "state": "attempting"
+        },
+        {
+          "id": "P502HuM4WF0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=P502HuM4WF0",
+          "state": "failed"
+        },
+        {
+          "id": "gh9YSQ-Dvdw",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=gh9YSQ-Dvdw",
+          "state": "attempting"
+        },
+        {
+          "id": "gh9YSQ-Dvdw",
+          "title": "[VOCALOID] Megurine Luka Just Be Friends [Japanese Romanji English Lyrics]",
+          "url": "https://www.youtube.com/watch?v=gh9YSQ-Dvdw",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "Q_QEPrkwZ-Q",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=Q_QEPrkwZ-Q",
+          "state": "attempting"
+        },
+        {
+          "id": "Q_QEPrkwZ-Q",
+          "title": "【Vocaloid Original】Copycat【GUMI English】",
+          "url": "https://www.youtube.com/watch?v=Q_QEPrkwZ-Q",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "Mqps4anhz0Q",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=Mqps4anhz0Q",
+          "state": "attempting"
+        },
+        {
+          "id": "Mqps4anhz0Q",
+          "title": "[1080P Full風] 千本桜 Senbonzakura \"One Thousand Cherry Trees\"- 初音ミク Hatsune Miku DIVA English Romaji",
+          "url": "https://www.youtube.com/watch?v=Mqps4anhz0Q",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "JJ84pKYJ114",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=JJ84pKYJ114",
+          "state": "attempting"
+        },
+        {
+          "id": "P502HuM4WF0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=P502HuM4WF0",
+          "state": "attempting"
+        },
+        {
+          "id": "P502HuM4WF0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=P502HuM4WF0",
+          "state": "failed"
+        },
+        {
+          "id": "JJ84pKYJ114",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=JJ84pKYJ114",
+          "state": "attempting"
+        },
+        {
+          "id": "JJ84pKYJ114",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=JJ84pKYJ114",
+          "state": "failed"
+        },
+        {
+          "id": "3SPwzkFmEX0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=3SPwzkFmEX0",
+          "state": "attempting"
+        },
+        {
+          "id": "3SPwzkFmEX0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=3SPwzkFmEX0",
+          "state": "failed"
+        },
+        {
+          "id": "wC1iW6hBfuI",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=wC1iW6hBfuI",
+          "state": "attempting"
+        },
+        {
+          "id": "wC1iW6hBfuI",
+          "title": "[VOCALOID] Hatsune Miku Rolling Girl [Japanese Romanji English Lyrics]",
+          "url": "https://www.youtube.com/watch?v=wC1iW6hBfuI",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "NocXEwsJGOQ",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=NocXEwsJGOQ",
+          "state": "attempting"
+        },
+        {
+          "id": "NocXEwsJGOQ",
+          "title": "Anamanaguchi - Miku ft. Hatsune Miku (Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=NocXEwsJGOQ",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "zR1hzhJVMnY",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=zR1hzhJVMnY",
+          "state": "attempting"
+        },
+        {
+          "id": "zR1hzhJVMnY",
+          "title": "tommy. - eat your heart ft. Hatsune Miku (Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=zR1hzhJVMnY",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "NIqm73xsias",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=NIqm73xsias",
+          "state": "attempting"
+        },
+        {
+          "id": "NIqm73xsias",
+          "title": "Hatsune Miku - Rolling Girl PV (English Subs)",
+          "url": "https://www.youtube.com/watch?v=NIqm73xsias",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "bTiPATKqf-w",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=bTiPATKqf-w",
+          "state": "attempting"
+        },
+        {
+          "id": "bTiPATKqf-w",
+          "title": "【MARETU】Even Though I Loved You - English Subtitles feat. Hatsune Miku",
+          "url": "https://www.youtube.com/watch?v=bTiPATKqf-w",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "duPJqfKiA78",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=duPJqfKiA78",
+          "state": "attempting"
+        },
+        {
+          "id": "duPJqfKiA78",
+          "title": "Hatsune Miku ~ Triple Baka - Full Song (English Subtitles v2) [LamazeP - REUPLOAD w/subtitles added]",
+          "url": "https://www.youtube.com/watch?v=duPJqfKiA78",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "8Gu7Mtq4Hvw",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=8Gu7Mtq4Hvw",
+          "state": "attempting"
+        },
+        {
+          "id": "8Gu7Mtq4Hvw",
+          "title": "Hatsune Miku - Vegetable Juice (Po Pi Po) with English lyrics",
+          "url": "https://www.youtube.com/watch?v=8Gu7Mtq4Hvw",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "FWQYNskQT5Y",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=FWQYNskQT5Y",
+          "state": "attempting"
+        },
+        {
+          "id": "FWQYNskQT5Y",
+          "title": "[KAN/ROM/ENG] OGYARINIZER | Lyric Video | Ponchi♪ feat. Hatsune Miku",
+          "url": "https://www.youtube.com/watch?v=FWQYNskQT5Y",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "b_VE52ZK_5k",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=b_VE52ZK_5k",
+          "state": "attempting"
+        },
+        {
+          "id": "b_VE52ZK_5k",
+          "title": "Hatsune Miku - Popipo (Lyrics)",
+          "url": "https://www.youtube.com/watch?v=b_VE52ZK_5k",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "FR8--dY91AQ",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=FR8--dY91AQ",
+          "state": "attempting"
+        },
+        {
+          "id": "FR8--dY91AQ",
+          "title": "Apple lyrics animation tutorial in after effect",
+          "url": "https://www.youtube.com/watch?v=FR8--dY91AQ",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "DVnOD8TsAwQ",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=DVnOD8TsAwQ",
+          "state": "attempting"
+        },
+        {
+          "id": "DVnOD8TsAwQ",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=DVnOD8TsAwQ",
+          "state": "failed"
+        },
+        {
+          "id": "cumF26fTp2E",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=cumF26fTp2E",
+          "state": "attempting"
+        },
+        {
+          "id": "cumF26fTp2E",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=cumF26fTp2E",
+          "state": "failed"
+        },
+        {
+          "id": "4vLwhXY0ZRw",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=4vLwhXY0ZRw",
+          "state": "attempting"
+        },
+        {
+          "id": "4vLwhXY0ZRw",
+          "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial Kinetic Typography #4",
+          "url": "https://www.youtube.com/watch?v=4vLwhXY0ZRw",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "UtfN-t0QHbs",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=UtfN-t0QHbs",
+          "state": "attempting"
+        },
+        {
+          "id": "UtfN-t0QHbs",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=UtfN-t0QHbs",
+          "state": "failed"
+        },
+        {
+          "id": "UahA-6QYfC0",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=UahA-6QYfC0",
+          "state": "attempting"
+        },
+        {
+          "id": "UahA-6QYfC0",
+          "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial | Kinetic Typography",
+          "url": "https://www.youtube.com/watch?v=UahA-6QYfC0",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "tC_p4mz5xfE",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=tC_p4mz5xfE",
+          "state": "attempting"
+        },
+        {
+          "id": "tC_p4mz5xfE",
+          "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial | Kinetic Typography",
+          "url": "https://www.youtube.com/watch?v=tC_p4mz5xfE",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "j-vreBrqaUk",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=j-vreBrqaUk",
+          "state": "attempting"
+        },
+        {
+          "id": "j-vreBrqaUk",
+          "title": "How To Make Text Animation Like Nikovax On Alight Motion | Nikovax Text Tutorial | AMV TUTORIAL !",
+          "url": "https://www.youtube.com/watch?v=j-vreBrqaUk",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "7WJIQNaeMCg",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=7WJIQNaeMCg",
+          "state": "attempting"
+        },
+        {
+          "id": "7WJIQNaeMCg",
+          "title": "How to make Text Animation Like Nikovax for AMV editing on Alight motion & Node video 📱",
+          "url": "https://www.youtube.com/watch?v=7WJIQNaeMCg",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "twDzKHIJW7M",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=twDzKHIJW7M",
+          "state": "attempting"
+        },
+        {
+          "id": "twDzKHIJW7M",
+          "title": "3D Movement Camera - Typography AMV || CapCut AMV Tutorial",
+          "url": "https://www.youtube.com/watch?v=twDzKHIJW7M",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "azcqvnQJiGk",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=azcqvnQJiGk",
+          "state": "attempting"
+        },
+        {
+          "id": "azcqvnQJiGk",
+          "title": "UNIQUE TEXT ANIMATION TUTORIAL / After Effects AMV Tutorial (Any skill level)",
+          "url": "https://www.youtube.com/watch?v=azcqvnQJiGk",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "j83lVheSa-g",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=j83lVheSa-g",
+          "state": "attempting"
+        },
+        {
+          "id": "j83lVheSa-g",
+          "title": "How To Make Text Animation Like @Nikovaxx For Amv Edits In Alight motion!",
+          "url": "https://www.youtube.com/watch?v=j83lVheSa-g",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "gHHgXar927A",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=gHHgXar927A",
+          "state": "attempting"
+        },
+        {
+          "id": "gHHgXar927A",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=gHHgXar927A",
+          "state": "failed"
+        },
+        {
+          "id": "cz6jUXs8J8I",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=cz6jUXs8J8I",
+          "state": "attempting"
+        },
+        {
+          "id": "cz6jUXs8J8I",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=cz6jUXs8J8I",
+          "state": "failed"
+        }
+      ]
+    },
+    {
+      "path": "discovery.jsonl",
+      "rows": 138,
+      "sha256": "e57b598e0d5a451c58c534b41ea1ef4945f7256fad694634c6ba5ba7f16f2ec2",
+      "entries": [
+        {
+          "id": "113242399707363",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av113242399707363",
+          "state": "discovered"
+        },
+        {
+          "id": "117298190882373",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av117298190882373",
+          "state": "discovered"
+        },
+        {
+          "id": "82980",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av82980",
+          "state": "discovered"
+        },
+        {
+          "id": "355528",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av355528",
+          "state": "discovered"
+        },
+        {
+          "id": "116362206844143",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av116362206844143",
+          "state": "discovered"
+        },
+        {
+          "id": "209866811",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av209866811",
+          "state": "discovered"
+        },
+        {
+          "id": "995888183",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av995888183",
+          "state": "discovered"
+        },
+        {
+          "id": "1124226",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1124226",
+          "state": "discovered"
+        },
+        {
+          "id": "384974506",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av384974506",
+          "state": "discovered"
+        },
+        {
+          "id": "5300800",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av5300800",
+          "state": "discovered"
+        },
+        {
+          "id": "270867568",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av270867568",
+          "state": "discovered"
+        },
+        {
+          "id": "1153032589",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1153032589",
+          "state": "discovered"
+        },
+        {
+          "id": "2961713",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av2961713",
+          "state": "discovered"
+        },
+        {
+          "id": "2231425",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av2231425",
+          "state": "discovered"
+        },
+        {
+          "id": "329212183",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av329212183",
+          "state": "discovered"
+        },
+        {
+          "id": "250811709",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av250811709",
+          "state": "discovered"
+        },
+        {
+          "id": "74698381",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av74698381",
+          "state": "discovered"
+        },
+        {
+          "id": "43460472",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av43460472",
+          "state": "discovered"
+        },
+        {
+          "id": "117171288018187",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av117171288018187",
+          "state": "discovered"
+        },
+        {
+          "id": "413248708",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av413248708",
+          "state": "discovered"
+        },
+        {
+          "id": "1201903",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1201903",
+          "state": "discovered"
+        },
+        {
+          "id": "117121006765798",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av117121006765798",
+          "state": "discovered"
+        },
+        {
+          "id": "1755996189",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1755996189",
+          "state": "discovered"
+        },
+        {
+          "id": "113524978490107",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av113524978490107",
+          "state": "discovered"
+        },
+        {
+          "id": "kiVGOS7-n_o",
+          "title": "Cupid - Fifty Fifty (Motion Graphic)",
+          "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+          "state": "discovered"
+        },
+        {
+          "id": "Hl2M5Ozz3uk",
+          "title": "New Way Out [♪ Lemon Demon Kinetic Typography Music Video ♪]",
+          "url": "https://www.youtube.com/watch?v=Hl2M5Ozz3uk",
+          "state": "discovered"
+        },
+        {
+          "id": "DW6MykaSh6U",
+          "title": "Kinetic Type Project ECHO [Vocaloid Gumi]",
+          "url": "https://www.youtube.com/watch?v=DW6MykaSh6U",
+          "state": "discovered"
+        },
+        {
+          "id": "G-YNNJIe2Vk",
+          "title": "Hide and Seek (Vocaloid) 🍓 English ver by Lizz Robinett",
+          "url": "https://www.youtube.com/watch?v=G-YNNJIe2Vk",
+          "state": "discovered"
+        },
+        {
+          "id": "Gm72U0KcKE8",
+          "title": "Hide and Seek (by Lizz Robinett) - Kinetic Typography (IAT 100)",
+          "url": "https://www.youtube.com/watch?v=Gm72U0KcKE8",
+          "state": "discovered"
+        },
+        {
+          "id": "lQRVCHXRf2E",
+          "title": "BTS - Butter / Kinetic Typography [ Motion MV / Lyrics / 키네틱 타이포그래피 ]",
+          "url": "https://www.youtube.com/watch?v=lQRVCHXRf2E",
+          "state": "discovered"
+        },
+        {
+          "id": "aejbTf8Y0_0",
+          "title": "Billie Eilish - COPYCAT (Animated Lyrics)",
+          "url": "https://www.youtube.com/watch?v=aejbTf8Y0_0",
+          "state": "discovered"
+        },
+        {
+          "id": "xZovFQSkCPo",
+          "title": "Gumi Vocaloid - ECHO【Typography】",
+          "url": "https://www.youtube.com/watch?v=xZovFQSkCPo",
+          "state": "discovered"
+        },
+        {
+          "id": "rVCo24E8bU0",
+          "title": "Karaoke Text Animation in Adobe After Effects (2 Minute Tutorial)",
+          "url": "https://www.youtube.com/watch?v=rVCo24E8bU0",
+          "state": "discovered"
+        },
+        {
+          "id": "xnuP27VrO40",
+          "title": "BASIC TYPOGRAPHY | After effects AMV TEXT TUTORIAL for ADVANCED editors",
+          "url": "https://www.youtube.com/watch?v=xnuP27VrO40",
+          "state": "discovered"
+        },
+        {
+          "id": "16kTqBUh8mM",
+          "title": "How To Master Text Animation In After Effects (Under 1 Minutes)",
+          "url": "https://www.youtube.com/watch?v=16kTqBUh8mM",
+          "state": "discovered"
+        },
+        {
+          "id": "rMzVIp7yd5k",
+          "title": "Brat lyrics tutorial - After Effects",
+          "url": "https://www.youtube.com/watch?v=rMzVIp7yd5k",
+          "state": "discovered"
+        },
+        {
+          "id": "WGvtliE1298",
+          "title": "End Of Beginning - Amv Typography | After Effects Projects File",
+          "url": "https://www.youtube.com/watch?v=WGvtliE1298",
+          "state": "discovered"
+        },
+        {
+          "id": "lzVhGnMV4QY",
+          "title": "Cool Text for AMV and Lyrics -  After Effects Tutorial| Arsacre| 2021",
+          "url": "https://www.youtube.com/watch?v=lzVhGnMV4QY",
+          "state": "discovered"
+        },
+        {
+          "id": "dQhMNN2Ku0Q",
+          "title": "3D Camera Typography Tunnel | After Effects Tutorial",
+          "url": "https://www.youtube.com/watch?v=dQhMNN2Ku0Q",
+          "state": "discovered"
+        },
+        {
+          "id": "jonfGl7kh10",
+          "title": "Text Behind Character - After Effects Tutorial AMV",
+          "url": "https://www.youtube.com/watch?v=jonfGl7kh10",
+          "state": "discovered"
+        },
+        {
+          "id": "426193277",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av426193277",
+          "state": "discovered"
+        },
+        {
+          "id": "117297201092373",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av117297201092373",
+          "state": "discovered"
+        },
+        {
+          "id": "364078912",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av364078912",
+          "state": "discovered"
+        },
+        {
+          "id": "362880469",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av362880469",
+          "state": "discovered"
+        },
+        {
+          "id": "881215464",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av881215464",
+          "state": "discovered"
+        },
+        {
+          "id": "541992262",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av541992262",
+          "state": "discovered"
+        },
+        {
+          "id": "73585",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av73585",
+          "state": "discovered"
+        },
+        {
+          "id": "626004489",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av626004489",
+          "state": "discovered"
+        },
+        {
+          "id": "9-3RLq9jF20",
+          "title": "Darling, I - Typography",
+          "url": "https://www.youtube.com/watch?v=9-3RLq9jF20",
+          "state": "discovered"
+        },
+        {
+          "id": "UrSOYGEDSs8",
+          "title": "Your Idol - Saja Boys (lyric video/ kinetic typography)",
+          "url": "https://www.youtube.com/watch?v=UrSOYGEDSs8",
+          "state": "discovered"
+        },
+        {
+          "id": "FOMWS5pChuA",
+          "title": "Maroon 5 - Maps - Kinetic Typography - Lyric Video",
+          "url": "https://www.youtube.com/watch?v=FOMWS5pChuA",
+          "state": "discovered"
+        },
+        {
+          "id": "H85vk6q9BYA",
+          "title": "The Weeknd - Blinding Lights (Animated Kinetic Typography Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=H85vk6q9BYA",
+          "state": "discovered"
+        },
+        {
+          "id": "bVXATN0Qh-I",
+          "title": "Hozier – Eat Your Young | Kinetic Typography Animation (Motion Design)",
+          "url": "https://www.youtube.com/watch?v=bVXATN0Qh-I",
+          "state": "discovered"
+        },
+        {
+          "id": "ax5bndrPga4",
+          "title": "Apple Business Essential Ads ( Alight Motion )",
+          "url": "https://www.youtube.com/watch?v=ax5bndrPga4",
+          "state": "discovered"
+        },
+        {
+          "id": "VR3NL1Zvx5o",
+          "title": "How To Master Text Animation In Davinci Resolve (Under 1 Minute)",
+          "url": "https://www.youtube.com/watch?v=VR3NL1Zvx5o",
+          "state": "discovered"
+        },
+        {
+          "id": "7052914",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av7052914",
+          "state": "discovered"
+        },
+        {
+          "id": "82980",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av82980",
+          "state": "discovered"
+        },
+        {
+          "id": "1642171",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1642171",
+          "state": "discovered"
+        },
+        {
+          "id": "355528",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av355528",
+          "state": "discovered"
+        },
+        {
+          "id": "63453",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av63453",
+          "state": "discovered"
+        },
+        {
+          "id": "113242399707363",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av113242399707363",
+          "state": "discovered"
+        },
+        {
+          "id": "1124226",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1124226",
+          "state": "discovered"
+        },
+        {
+          "id": "113221461675856",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av113221461675856",
+          "state": "discovered"
+        },
+        {
+          "id": "5300800",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av5300800",
+          "state": "discovered"
+        },
+        {
+          "id": "5870133",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av5870133",
+          "state": "discovered"
+        },
+        {
+          "id": "1790816",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1790816",
+          "state": "discovered"
+        },
+        {
+          "id": "336361",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av336361",
+          "state": "discovered"
+        },
+        {
+          "id": "117241081235084",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av117241081235084",
+          "state": "discovered"
+        },
+        {
+          "id": "270867568",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av270867568",
+          "state": "discovered"
+        },
+        {
+          "id": "1153032589",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1153032589",
+          "state": "discovered"
+        },
+        {
+          "id": "731327958",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av731327958",
+          "state": "discovered"
+        },
+        {
+          "id": "Hl2M5Ozz3uk",
+          "title": "New Way Out [♪ Lemon Demon Kinetic Typography Music Video ♪]",
+          "url": "https://www.youtube.com/watch?v=Hl2M5Ozz3uk",
+          "state": "discovered"
+        },
+        {
+          "id": "DW6MykaSh6U",
+          "title": "Kinetic Type Project ECHO [Vocaloid Gumi]",
+          "url": "https://www.youtube.com/watch?v=DW6MykaSh6U",
+          "state": "discovered"
+        },
+        {
+          "id": "kiVGOS7-n_o",
+          "title": "Cupid - Fifty Fifty (Motion Graphic)",
+          "url": "https://www.youtube.com/watch?v=kiVGOS7-n_o",
+          "state": "discovered"
+        },
+        {
+          "id": "TzH5BsJj81Y",
+          "title": "\"Exorcist\" ft. Ui, Gemini (TTS), Miku",
+          "url": "https://www.youtube.com/watch?v=TzH5BsJj81Y",
+          "state": "discovered"
+        },
+        {
+          "id": "G-YNNJIe2Vk",
+          "title": "Hide and Seek (Vocaloid) 🍓 English ver by Lizz Robinett",
+          "url": "https://www.youtube.com/watch?v=G-YNNJIe2Vk",
+          "state": "discovered"
+        },
+        {
+          "id": "Gm72U0KcKE8",
+          "title": "Hide and Seek (by Lizz Robinett) - Kinetic Typography (IAT 100)",
+          "url": "https://www.youtube.com/watch?v=Gm72U0KcKE8",
+          "state": "discovered"
+        },
+        {
+          "id": "CsYDv5Cf0yo",
+          "title": "ANOTHER CUP // Kasane Teto (Original Song)",
+          "url": "https://www.youtube.com/watch?v=CsYDv5Cf0yo",
+          "state": "discovered"
+        },
+        {
+          "id": "cQKGUgOfD8U",
+          "title": "【VOCALOID Original】ECHO【Gumi English】",
+          "url": "https://www.youtube.com/watch?v=cQKGUgOfD8U",
+          "state": "discovered"
+        },
+        {
+          "id": "rVCo24E8bU0",
+          "title": "Karaoke Text Animation in Adobe After Effects (2 Minute Tutorial)",
+          "url": "https://www.youtube.com/watch?v=rVCo24E8bU0",
+          "state": "discovered"
+        },
+        {
+          "id": "xnuP27VrO40",
+          "title": "BASIC TYPOGRAPHY | After effects AMV TEXT TUTORIAL for ADVANCED editors",
+          "url": "https://www.youtube.com/watch?v=xnuP27VrO40",
+          "state": "discovered"
+        },
+        {
+          "id": "16kTqBUh8mM",
+          "title": "How To Master Text Animation In After Effects (Under 1 Minutes)",
+          "url": "https://www.youtube.com/watch?v=16kTqBUh8mM",
+          "state": "discovered"
+        },
+        {
+          "id": "WGvtliE1298",
+          "title": "End Of Beginning - Amv Typography | After Effects Projects File",
+          "url": "https://www.youtube.com/watch?v=WGvtliE1298",
+          "state": "discovered"
+        },
+        {
+          "id": "rMzVIp7yd5k",
+          "title": "Brat lyrics tutorial - After Effects",
+          "url": "https://www.youtube.com/watch?v=rMzVIp7yd5k",
+          "state": "discovered"
+        },
+        {
+          "id": "lzVhGnMV4QY",
+          "title": "Cool Text for AMV and Lyrics -  After Effects Tutorial| Arsacre| 2021",
+          "url": "https://www.youtube.com/watch?v=lzVhGnMV4QY",
+          "state": "discovered"
+        },
+        {
+          "id": "jonfGl7kh10",
+          "title": "Text Behind Character - After Effects Tutorial AMV",
+          "url": "https://www.youtube.com/watch?v=jonfGl7kh10",
+          "state": "discovered"
+        },
+        {
+          "id": "dQhMNN2Ku0Q",
+          "title": "3D Camera Typography Tunnel | After Effects Tutorial",
+          "url": "https://www.youtube.com/watch?v=dQhMNN2Ku0Q",
+          "state": "discovered"
+        },
+        {
+          "id": "9-3RLq9jF20",
+          "title": "Darling, I - Typography",
+          "url": "https://www.youtube.com/watch?v=9-3RLq9jF20",
+          "state": "discovered"
+        },
+        {
+          "id": "UrSOYGEDSs8",
+          "title": "Your Idol - Saja Boys (lyric video/ kinetic typography)",
+          "url": "https://www.youtube.com/watch?v=UrSOYGEDSs8",
+          "state": "discovered"
+        },
+        {
+          "id": "FOMWS5pChuA",
+          "title": "Maroon 5 - Maps - Kinetic Typography - Lyric Video",
+          "url": "https://www.youtube.com/watch?v=FOMWS5pChuA",
+          "state": "discovered"
+        },
+        {
+          "id": "bVXATN0Qh-I",
+          "title": "Hozier – Eat Your Young | Kinetic Typography Animation (Motion Design)",
+          "url": "https://www.youtube.com/watch?v=bVXATN0Qh-I",
+          "state": "discovered"
+        },
+        {
+          "id": "H85vk6q9BYA",
+          "title": "The Weeknd - Blinding Lights (Animated Kinetic Typography Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=H85vk6q9BYA",
+          "state": "discovered"
+        },
+        {
+          "id": "P502HuM4WF0",
+          "title": "Create AMAZING Lyric Videos in After Effects with typography!",
+          "url": "https://www.youtube.com/watch?v=P502HuM4WF0",
+          "state": "discovered"
+        },
+        {
+          "id": "116583649317070",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av116583649317070",
+          "state": "discovered"
+        },
+        {
+          "id": "117303878358545",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av117303878358545",
+          "state": "discovered"
+        },
+        {
+          "id": "11491210",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av11491210",
+          "state": "discovered"
+        },
+        {
+          "id": "117081764792718",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av117081764792718",
+          "state": "discovered"
+        },
+        {
+          "id": "117326796232313",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av117326796232313",
+          "state": "discovered"
+        },
+        {
+          "id": "2231425",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av2231425",
+          "state": "discovered"
+        },
+        {
+          "id": "210474246",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av210474246",
+          "state": "discovered"
+        },
+        {
+          "id": "115792016314452",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av115792016314452",
+          "state": "discovered"
+        },
+        {
+          "id": "314028208",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av314028208",
+          "state": "discovered"
+        },
+        {
+          "id": "357565519",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av357565519",
+          "state": "discovered"
+        },
+        {
+          "id": "952765045",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av952765045",
+          "state": "discovered"
+        },
+        {
+          "id": "113288939572301",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av113288939572301",
+          "state": "discovered"
+        },
+        {
+          "id": "114415395411258",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av114415395411258",
+          "state": "discovered"
+        },
+        {
+          "id": "1500725382",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av1500725382",
+          "state": "discovered"
+        },
+        {
+          "id": "116000439671339",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av116000439671339",
+          "state": "discovered"
+        },
+        {
+          "id": "910115858",
+          "title": "",
+          "url": "http://www.bilibili.com/video/av910115858",
+          "state": "discovered"
+        },
+        {
+          "id": "gh9YSQ-Dvdw",
+          "title": "[VOCALOID] Megurine Luka Just Be Friends [Japanese Romanji English Lyrics]",
+          "url": "https://www.youtube.com/watch?v=gh9YSQ-Dvdw",
+          "state": "discovered"
+        },
+        {
+          "id": "Q_QEPrkwZ-Q",
+          "title": "【Vocaloid Original】Copycat【GUMI English】",
+          "url": "https://www.youtube.com/watch?v=Q_QEPrkwZ-Q",
+          "state": "discovered"
+        },
+        {
+          "id": "Mqps4anhz0Q",
+          "title": "[1080P Full風] 千本桜 Senbonzakura \"One Thousand Cherry Trees\"- 初音ミク Hatsune Miku DIVA English Romaji",
+          "url": "https://www.youtube.com/watch?v=Mqps4anhz0Q",
+          "state": "discovered"
+        },
+        {
+          "id": "JJ84pKYJ114",
+          "title": "[VOCALOID] Hatsune Miku GUMI MATRYOSHKA [Japanese Romanji English Lyrics]",
+          "url": "https://www.youtube.com/watch?v=JJ84pKYJ114",
+          "state": "discovered"
+        },
+        {
+          "id": "3SPwzkFmEX0",
+          "title": "Kikuo-Aishite,Aishite,Aishite  [Japanese,Romaji,English]",
+          "url": "https://www.youtube.com/watch?v=3SPwzkFmEX0",
+          "state": "discovered"
+        },
+        {
+          "id": "wC1iW6hBfuI",
+          "title": "[VOCALOID] Hatsune Miku Rolling Girl [Japanese Romanji English Lyrics]",
+          "url": "https://www.youtube.com/watch?v=wC1iW6hBfuI",
+          "state": "discovered"
+        },
+        {
+          "id": "NocXEwsJGOQ",
+          "title": "Anamanaguchi - Miku ft. Hatsune Miku (Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=NocXEwsJGOQ",
+          "state": "discovered"
+        },
+        {
+          "id": "zR1hzhJVMnY",
+          "title": "tommy. - eat your heart ft. Hatsune Miku (Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=zR1hzhJVMnY",
+          "state": "discovered"
+        },
+        {
+          "id": "NIqm73xsias",
+          "title": "Hatsune Miku - Rolling Girl PV (English Subs)",
+          "url": "https://www.youtube.com/watch?v=NIqm73xsias",
+          "state": "discovered"
+        },
+        {
+          "id": "bTiPATKqf-w",
+          "title": "【MARETU】Even Though I Loved You - English Subtitles feat. Hatsune Miku",
+          "url": "https://www.youtube.com/watch?v=bTiPATKqf-w",
+          "state": "discovered"
+        },
+        {
+          "id": "duPJqfKiA78",
+          "title": "Hatsune Miku ~ Triple Baka - Full Song (English Subtitles v2) [LamazeP - REUPLOAD w/subtitles added]",
+          "url": "https://www.youtube.com/watch?v=duPJqfKiA78",
+          "state": "discovered"
+        },
+        {
+          "id": "8Gu7Mtq4Hvw",
+          "title": "Hatsune Miku - Vegetable Juice (Po Pi Po) with English lyrics",
+          "url": "https://www.youtube.com/watch?v=8Gu7Mtq4Hvw",
+          "state": "discovered"
+        },
+        {
+          "id": "FWQYNskQT5Y",
+          "title": "[KAN/ROM/ENG] OGYARINIZER | Lyric Video | Ponchi♪ feat. Hatsune Miku",
+          "url": "https://www.youtube.com/watch?v=FWQYNskQT5Y",
+          "state": "discovered"
+        },
+        {
+          "id": "b_VE52ZK_5k",
+          "title": "Hatsune Miku - Popipo (Lyrics)",
+          "url": "https://www.youtube.com/watch?v=b_VE52ZK_5k",
+          "state": "discovered"
+        },
+        {
+          "id": "FR8--dY91AQ",
+          "title": "Apple lyrics animation tutorial in after effect",
+          "url": "https://www.youtube.com/watch?v=FR8--dY91AQ",
+          "state": "discovered"
+        },
+        {
+          "id": "DVnOD8TsAwQ",
+          "title": "Boom Clap Kinetic Typography MV",
+          "url": "https://www.youtube.com/watch?v=DVnOD8TsAwQ",
+          "state": "discovered"
+        },
+        {
+          "id": "P502HuM4WF0",
+          "title": "Create AMAZING Lyric Videos in After Effects with typography!",
+          "url": "https://www.youtube.com/watch?v=P502HuM4WF0",
+          "state": "discovered"
+        },
+        {
+          "id": "cumF26fTp2E",
+          "title": "Lyrics Kinetic Typography Animation in After Effects - After Effects Tutorial | Motion Graphics Text",
+          "url": "https://www.youtube.com/watch?v=cumF26fTp2E",
+          "state": "discovered"
+        },
+        {
+          "id": "4vLwhXY0ZRw",
+          "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial Kinetic Typography #4",
+          "url": "https://www.youtube.com/watch?v=4vLwhXY0ZRw",
+          "state": "discovered"
+        },
+        {
+          "id": "UtfN-t0QHbs",
+          "title": "Lyric Video Tutorial (Kinetic Typography)",
+          "url": "https://www.youtube.com/watch?v=UtfN-t0QHbs",
+          "state": "discovered"
+        },
+        {
+          "id": "UahA-6QYfC0",
+          "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial | Kinetic Typography",
+          "url": "https://www.youtube.com/watch?v=UahA-6QYfC0",
+          "state": "discovered"
+        },
+        {
+          "id": "tC_p4mz5xfE",
+          "title": "Typography Motion Graphics Animation in After Effects - After Effects Tutorial | Kinetic Typography",
+          "url": "https://www.youtube.com/watch?v=tC_p4mz5xfE",
+          "state": "discovered"
+        },
+        {
+          "id": "j-vreBrqaUk",
+          "title": "How To Make Text Animation Like Nikovax On Alight Motion | Nikovax Text Tutorial | AMV TUTORIAL !",
+          "url": "https://www.youtube.com/watch?v=j-vreBrqaUk",
+          "state": "discovered"
+        },
+        {
+          "id": "7WJIQNaeMCg",
+          "title": "How to make Text Animation Like Nikovax for AMV editing on Alight motion & Node video 📱",
+          "url": "https://www.youtube.com/watch?v=7WJIQNaeMCg",
+          "state": "discovered"
+        },
+        {
+          "id": "twDzKHIJW7M",
+          "title": "3D Movement Camera - Typography AMV || CapCut AMV Tutorial",
+          "url": "https://www.youtube.com/watch?v=twDzKHIJW7M",
+          "state": "discovered"
+        },
+        {
+          "id": "azcqvnQJiGk",
+          "title": "UNIQUE TEXT ANIMATION TUTORIAL / After Effects AMV Tutorial (Any skill level)",
+          "url": "https://www.youtube.com/watch?v=azcqvnQJiGk",
+          "state": "discovered"
+        },
+        {
+          "id": "j83lVheSa-g",
+          "title": "How To Make Text Animation Like @Nikovaxx For Amv Edits In Alight motion!",
+          "url": "https://www.youtube.com/watch?v=j83lVheSa-g",
+          "state": "discovered"
+        },
+        {
+          "id": "gHHgXar927A",
+          "title": "3D Text Tutorial | After Effects AMV Tutorial (Element 3D)",
+          "url": "https://www.youtube.com/watch?v=gHHgXar927A",
+          "state": "discovered"
+        },
+        {
+          "id": "cz6jUXs8J8I",
+          "title": "3D Typography - After Effects AMV Tutorial || (+Project file)",
+          "url": "https://www.youtube.com/watch?v=cz6jUXs8J8I",
+          "state": "discovered"
+        }
+      ]
+    },
+    {
+      "path": "discovery-cross-17/acquisition.jsonl",
+      "rows": 14,
+      "sha256": "2b7ddae81f8aa1331e1991d378b3354b3f0d2a740b0095269b3851beac451774",
+      "entries": [
+        {
+          "id": "NICO-sm46546276",
+          "title": null,
+          "url": "https://www.nicovideo.jp/watch/sm46546276",
+          "state": "attempting"
+        },
+        {
+          "id": "NICO-sm46546276",
+          "title": null,
+          "url": "https://www.nicovideo.jp/watch/sm46546276",
+          "state": "failed"
+        },
+        {
+          "id": "NICO-sm46155083",
+          "title": null,
+          "url": "https://www.nicovideo.jp/watch/sm46155083",
+          "state": "attempting"
+        },
+        {
+          "id": "NICO-sm46155083",
+          "title": null,
+          "url": "https://www.nicovideo.jp/watch/sm46155083",
+          "state": "failed"
+        },
+        {
+          "id": "PVOLT-C-7TIDIKc98",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+          "state": "attempting"
+        },
+        {
+          "id": "PVOLT-C-7TIDIKc98",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+          "state": "failed"
+        },
+        {
+          "id": "PVOLT-C-7TIDIKc98",
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+          "state": "attempting"
+        },
+        {
+          "id": "PVOLT-C-7TIDIKc98",
+          "title": "DECO*27 - ボルテッカー feat. 初音ミク",
+          "url": "https://www.youtube.com/watch?v=C-7TIDIKc98",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "NICO-sm46546276",
+          "title": null,
+          "url": "https://www.nicovideo.jp/watch/sm46546276",
+          "state": "attempting"
+        },
+        {
+          "id": "NICO-sm46546276",
+          "title": null,
+          "url": "https://www.nicovideo.jp/watch/sm46546276",
+          "state": "failed"
+        },
+        {
+          "id": "NICO-sm46155083",
+          "title": null,
+          "url": "https://www.nicovideo.jp/watch/sm46155083",
+          "state": "attempting"
+        },
+        {
+          "id": "NICO-sm46155083",
+          "title": "【Scratchで】個々々々々々人【文字PV】",
+          "url": "https://www.nicovideo.jp/watch/sm46155083",
+          "state": "downloaded_uninspected"
+        },
+        {
+          "id": "NICO-sm46137276",
+          "title": null,
+          "url": "https://www.nicovideo.jp/watch/sm46137276",
+          "state": "attempting"
+        },
+        {
+          "id": "NICO-sm46137276",
+          "title": "【alightmotion/blurrr】インドア系ならトラックメイカー 文字pv",
+          "url": "https://www.nicovideo.jp/watch/sm46137276",
+          "state": "downloaded_uninspected"
+        }
+      ]
+    }
+  ]
+}

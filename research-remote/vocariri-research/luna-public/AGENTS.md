@@ -1,0 +1,6 @@
+Read WORK_ORDER.md. Work only on public motion-design research in this workspace.
+
+Read WORK_ORDER_REFERENCE_CONTEXT_08.md and reference-retention-policy.json. Reference frames/sheets are protected art archives until prototype review; do not clean them. Record expressive lyric-and-image applicability alongside design and architecture.
+
+
+Current quantitative research target: read RESEARCH_TARGET.json. It supersedes earlier numeric work orders; preserve historical evidence.

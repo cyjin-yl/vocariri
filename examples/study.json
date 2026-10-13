@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "title": "Vocariri motion study",
+  "width": 960,
+  "height": 540,
+  "fps": 12,
+  "duration": 5,
+  "font": "sans-serif",
+  "fontSize": 100,
+  "color": "#f3eee5",
+  "background": "#151515",
+  "layout": "diagonal",
+  "retention": "line",
+  "tracking": 14,
+  "seed": 1,
+  "tokens": [
+    {
+      "id": "l0-w0",
+      "line": 0,
+      "text": "声",
+      "start": 0.2,
+      "end": 0.6,
+      "explicitEnd": false,
+      "preset": "rise-sharp-1-lift"
+    },
+    {
+      "id": "l0-w1",
+      "line": 0,
+      "text": "が",
+      "start": 0.6000000000000001,
+      "end": 1,
+      "explicitEnd": false,
+      "preset": "rise-sharp-1-lift"
+    },
+    {
+      "id": "l0-w2",
+      "line": 0,
+      "text": "夜",
+      "start": 1,
+      "end": 1.4,
+      "explicitEnd": false,
+      "preset": "rise-sharp-1-lift"
+    },
+    {
+      "id": "l0-w3",
+      "line": 0,
+      "text": "を",
+      "start": 1.4000000000000001,
+      "end": 1.8000000000000003,
+      "explicitEnd": false,
+      "preset": "rise-sharp-1-lift"
+    },
+    {
+      "id": "l0-w4",
+      "line": 0,
+      "text": "越",
+      "start": 1.8,
+      "end": 2.2,
+      "explicitEnd": false,
+      "preset": "rise-sharp-1-lift"
+    },
+    {
+      "id": "l0-w5",
+      "line": 0,
+      "text": "え",
+      "start": 2.2,
+      "end": 2.6,
+      "explicitEnd": false,
+      "preset": "rise-sharp-1-lift"
+    },
+    {
+      "id": "l0-w6",
+      "line": 0,
+      "text": "る",
+      "start": 2.6000000000000005,
+      "end": 4.8,
+      "explicitEnd": false,
+      "preset": "rise-sharp-1-lift"
+    }
+  ],
+  "camera": [
+    {
+      "time": 0,
+      "x": 0,
+      "y": 0,
+      "zoom": 1,
+      "rotation": 0
+    },
+    {
+      "time": 4.8,
+      "x": 25,
+      "y": 0,
+      "zoom": 1.1,
+      "rotation": 3
+    }
+  ],
+  "link": "smooth",
+  "customTracks": {}
+}

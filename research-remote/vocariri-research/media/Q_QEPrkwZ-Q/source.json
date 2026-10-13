@@ -1,0 +1,18 @@
+{
+  "id": "Q_QEPrkwZ-Q",
+  "url": "https://www.youtube.com/watch?v=Q_QEPrkwZ-Q",
+  "at": "2026-09-27T02:52:56.029590+00:00",
+  "title": "【Vocaloid Original】Copycat【GUMI English】",
+  "uploader": "VocaCircus",
+  "duration": 285,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "extractor": "Youtube",
+  "license": null,
+  "file": "source.mp4",
+  "bytes": 15135700,
+  "sha256": "79a46ade482e33001481e59fbf9b03df79bad15b9c7e0157550a9acab50b80b0",
+  "state": "downloaded_uninspected",
+  "yt_dlp_version": "2026.08.19"
+}
